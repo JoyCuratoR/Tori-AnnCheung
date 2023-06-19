@@ -22,20 +22,28 @@ h1, h2, h3, h4, h5, h6 {
   color: orange;
 }
 
- /* Add any styling you want for the navigation bar */
+      /* Add any styling you want for the navigation bar */
         .navbar {
-            background-color: #f2f2f2;
+            background-color: #439775;
             overflow: hidden;
+            text-align: center; /* Center the navigation links */
         }
 
         /* Style the navigation bar links */
         .navbar a {
-            float: left;
-            display: block;
+            display: inline-block; /* Display links in a row */
             color: black;
             text-align: center;
             padding: 14px 16px;
             text-decoration: none;
+            font-weight: bold; /* Make the font bold */
+            transition: background-color 0.3s; /* Add transition for hover effect */
+        }
+
+        /* Style the navigation bar links when hovered */
+        .navbar a:hover {
+            background-color: #55a6a2; /* Change background color on hover */
+            color: white; /* Change text color on hover */
         }
     </style>
 	
