@@ -108,17 +108,17 @@
 	<h3 style="text-align: center;">Continuously learning, building, sharing & teaching</h3>
 	
 	<!-- Sort by bar -->
-    <div id="sort-bar" style="text-align: center; margin-bottom: 10px;">
-        <button class="tag" onclick="filterByTag('all')">All</button>
-        <button class="tag" onclick="filterByTag('cybersecurity')">Cybersecurity</button>
-        <button class="tag" onclick="filterByTag('project')">Project</button>
-		<button class="tag" onclick="filterByTag('tutorial')">Tutorial</button>
-		<input type="text" id="search-bar" placeholder="Search..." style="font-style: italic; color: #999;">
-	</div>
-	
+<div id="sort-bar" style="text-align: center; margin-bottom: 10px;">
+    <button class="tag" onclick="filterByTag('all')">All</button>
+    <button class="tag" onclick="filterByTag('cybersecurity')">Cybersecurity</button>
+    <button class="tag" onclick="filterByTag('project')">Project</button>
+    <button class="tag" onclick="filterByTag('tutorial')">Tutorial</button>
+    <input type="text" id="search-bar" placeholder="Search..." style="font-style: italic; color: #999;">
+</div>
 
-    <!-- Example title card linking to a new page -->
-   <div class="title-card" style="text-align: center;">
+
+<!-- Example title card linking to a new page -->
+<div class="title-card" style="text-align: center;">
     <h2>Article Title</h2>
     <p>Article description or summary.</p>
     <p>Published: </p>
@@ -154,11 +154,12 @@
         <!-- Add more tags as needed -->
     </div>
 </div>
-    <!-- Add more title cards as needed -->
+
+<!-- Add more title cards as needed -->
 
 
 <!-- Javascript for the sorting to work -->
-	<script>
+<script>
     function filterByTag(tag) {
         // Get all the title cards
         const titleCards = document.getElementsByClassName('title-card');
