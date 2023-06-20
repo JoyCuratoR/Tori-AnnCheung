@@ -78,29 +78,6 @@
 .section-5 {
   background-color: #ff00ff; /* Replace with your desired hex code */
 }
-
-<script>
-	// Add event listeners to update section backgrounds when the page loads and when the hash changes
-window.addEventListener('DOMContentLoaded', updateSectionBackground);
-window.addEventListener('hashchange', updateSectionBackground);
-
-// Function to update section backgrounds based on the hash in the URL
-function updateSectionBackground() {
-  var hash = window.location.hash.substr(1); // Remove the "#" from the hash
-  
-  // Remove existing background classes from all sections
-  var sections = document.getElementsByTagName('section');
-  for (var i = 0; i < sections.length; i++) {
-    sections[i].classList.remove('section-1', 'section-2', 'section-3', 'section-4', 'section-5');
-  }
-  
-  // Add the appropriate background class to the section with the matching ID
-  var targetSection = document.getElementById(hash);
-  if (targetSection) {
-    targetSection.classList.add('section-' + hash);
-  }
-}
-</script>
     </style>
   </head>
   
@@ -196,3 +173,26 @@ function updateSectionBackground() {
 <div>
 	<p> Made with HTML and CSS, hosted by GitHub Pages.</p>
 </div>
+
+<script>
+	// Add event listeners to update section backgrounds when the page loads and when the hash changes
+window.addEventListener('DOMContentLoaded', updateSectionBackground);
+window.addEventListener('hashchange', updateSectionBackground);
+
+// Function to update section backgrounds based on the hash in the URL
+function updateSectionBackground() {
+  var hash = window.location.hash.substr(1); // Remove the "#" from the hash
+  
+  // Remove existing background classes from all sections
+  var sections = document.getElementsByTagName('section');
+  for (var i = 0; i < sections.length; i++) {
+    sections[i].classList.remove('section-1', 'section-2', 'section-3', 'section-4', 'section-5');
+  }
+  
+  // Add the appropriate background class to the section with the matching ID
+  var targetSection = document.getElementById(hash);
+  if (targetSection) {
+    targetSection.classList.add('section-' + hash);
+  }
+}
+</script>
