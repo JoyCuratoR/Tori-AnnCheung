@@ -81,6 +81,34 @@
         <button class="tag" onclick="filterByTag('project')">Project</button>
 		<button class="tag" onclick="filterByTag('tutorial')">Tutorial</button>
 	</div>
+	
+	<!-- Javascript for the sorting to work -->
+	<script>
+    function filterByTag(tag) {
+        // Get all the title cards
+        const titleCards = document.getElementsByClassName('title-card');
+
+        // Show or hide the title cards based on the selected tag
+        for (let i = 0; i < titleCards.length; i++) {
+            const tags = titleCards[i].getElementsByClassName('tag');
+
+            if (tag === 'all' || hasTag(tags, tag)) {
+                titleCards[i].style.display = 'block';
+            } else {
+                titleCards[i].style.display = 'none';
+            }
+        }
+    }
+
+    function hasTag(tags, tag) {
+        for (let i = 0; i < tags.length; i++) {
+            if (tags[i].innerText.toLowerCase() === tag.toLowerCase()) {
+                return true;
+            }
+        }
+        return false;
+    }
+</script>
 
     <!-- Example title card linking to a new page -->
    <div class="title-card" style="text-align: center;">
