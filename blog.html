@@ -61,38 +61,6 @@
             color: white; /* Change text color on hover */
         }
     </style>
-	
-	<!-- Javascript -->
-	
-	<script>
-  // Function to perform search based on the input value
-  function performSearch() {
-    var searchTerm = document.getElementById('search-bar').value;
-    // Code to search and filter articles based on the search term
-    // ...
-  }
-  
-  // Event listener for search bar input
-  document.getElementById('search-bar').addEventListener('input', performSearch);
-  
-  // Function to scroll to the top of the page
-  function scrollToTop() {
-    window.scrollTo({ top: 0, behavior: 'smooth' });
-  }
-  
-  // Function to handle scroll event and show/hide the scroll-to-top button
-  function handleScroll() {
-    var scrollButton = document.querySelector('.scroll-to-top-button');
-    if (window.scrollY > 200) {
-      scrollButton.style.display = 'block';
-    } else {
-      scrollButton.style.display = 'none';
-    }
-  }
-  
-  // Event listener for scroll event
-  window.addEventListener('scroll', handleScroll);
-</script>
 </head>
 
 
