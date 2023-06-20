@@ -58,31 +58,49 @@
 		
 		 /* Section Colors */
 
-    /* Section 1 */
-    section-1:nth-of-type(1) {
-      background-color: #FFFFFF; 
-    }
+    /* Define CSS classes for different section backgrounds */
+.section-1 {
+  background-color: #ff0000; /* Replace with your desired hex code */
+}
 
-    /* Section 2 */
-    section-2:nth-of-type(2) {
-      background-color: ##439775; 
-    }
+.section-2 {
+  background-color: #00ff00; /* Replace with your desired hex code */
+}
 
-    /* Section 3 */
-    section-3:nth-of-type(3) {
-      background-color: #FFFFFF; 
-    }
-	
-	/* Section 4 */
-    section-4:nth-of-type(3) {
-      background-color: #439775; 
-    }
-	
-	/* Section 5 */
-    section-5:nth-of-type(3) {
-      background-color: #FFFFFF; 
-    }
-		
+.section-3 {
+  background-color: #0000ff; /* Replace with your desired hex code */
+}
+
+.section-4 {
+  background-color: #ffff00; /* Replace with your desired hex code */
+}
+
+.section-5 {
+  background-color: #ff00ff; /* Replace with your desired hex code */
+}
+
+<script>
+	// Add event listeners to update section backgrounds when the page loads and when the hash changes
+window.addEventListener('DOMContentLoaded', updateSectionBackground);
+window.addEventListener('hashchange', updateSectionBackground);
+
+// Function to update section backgrounds based on the hash in the URL
+function updateSectionBackground() {
+  var hash = window.location.hash.substr(1); // Remove the "#" from the hash
+  
+  // Remove existing background classes from all sections
+  var sections = document.getElementsByTagName('section');
+  for (var i = 0; i < sections.length; i++) {
+    sections[i].classList.remove('section-1', 'section-2', 'section-3', 'section-4', 'section-5');
+  }
+  
+  // Add the appropriate background class to the section with the matching ID
+  var targetSection = document.getElementById(hash);
+  if (targetSection) {
+    targetSection.classList.add('section-' + hash);
+  }
+}
+</script>
     </style>
   </head>
   
