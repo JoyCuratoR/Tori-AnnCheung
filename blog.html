@@ -129,22 +129,19 @@
         // Show or hide the title cards based on the selected tag
         for (let i = 0; i < titleCards.length; i++) {
             const tags = titleCards[i].getElementsByClassName('tag');
+            let showCard = false;
 
-            if (tag === 'all' || hasTag(tags, tag)) {
-                titleCards[i].style.display = 'block';
-            } else {
-                titleCards[i].style.display = 'none';
+            // Check if the tag matches or if the selected tag is 'all'
+            for (let j = 0; j < tags.length; j++) {
+                if (tag === 'all' || tags[j].innerText.toLowerCase() === '#' + tag.toLowerCase()) {
+                    showCard = true;
+                    break;
+                }
             }
-        }
-    }
 
-    function hasTag(tags, tag) {
-        for (let i = 0; i < tags.length; i++) {
-            if (tags[i].innerText.toLowerCase() === tag.toLowerCase()) {
-                return true;
-            }
+            // Set the display property based on the showCard flag
+            titleCards[i].style.display = showCard ? 'block' : 'none';
         }
-        return false;
     }
 </script>
 
