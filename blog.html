@@ -133,7 +133,7 @@
 
             // Check if the tag matches or if the selected tag is 'all'
             for (let j = 0; j < tags.length; j++) {
-                if (tag === 'all' || tags[j].innerText.toLowerCase() === '#' + tag.toLowerCase()) {
+                if (tag === 'all' || tags[j].innerText.toLowerCase().includes('#' + tag.toLowerCase())) {
                     showCard = true;
                     break;
                 }
