@@ -62,7 +62,6 @@
         }
     </style>
 	
-	/* JavaScript */
 	<script>
 	window.addEventListener('DOMContentLoaded', sortTitleCards);
 
@@ -73,7 +72,7 @@ function sortTitleCards() {
   titleCards.sort(function(a, b) {
     var dateA = new Date(getPublishDate(a));
     var dateB = new Date(getPublishDate(b));
-    return dateA - dateB;
+    return dateB - dateA; // Sort in descending order
   });
 
   titleCards.forEach(function(card) {
@@ -86,6 +85,7 @@ function getPublishDate(card) {
   return publishDateElement.textContent.trim();
 }
 </script>
+
 </head>
 
 
