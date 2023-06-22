@@ -168,6 +168,7 @@ function getPublishDate(card) {
   </div>
 </div>
 
+<!-- Filtering articles by tag -->
 <script>
     function filterByTag(tag) {
         // Get all the title cards
@@ -192,6 +193,29 @@ function getPublishDate(card) {
     }
 </script>
 
+<!-- Search bar functionality -->
+<script>
+  function search() {
+    const searchInput = document.getElementById('search-input');
+    const searchText = searchInput.value.toLowerCase();
+    
+    // Get all the title cards
+    const titleCards = document.getElementsByClassName('title-card');
+    
+    // Loop through each title card and check if it matches the search text
+    for (let i = 0; i < titleCards.length; i++) {
+      const titleCard = titleCards[i];
+      const title = titleCard.getElementsByTagName('h2')[0].innerText.toLowerCase();
+      
+      // If the title contains the search text, display the title card, otherwise hide it
+      if (title.includes(searchText)) {
+        titleCard.style.display = 'block';
+      } else {
+        titleCard.style.display = 'none';
+      }
+    }
+  }
+</script>
 
 
     <!-- Rest of your content -->
