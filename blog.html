@@ -101,12 +101,18 @@ function getPublishDate(card) {
 	<h3 style="text-align: center;">Continuously learning, building, sharing & teaching</h3>
 	
 	<!-- Sort by bar -->
-<div id="sort-bar" style="text-align: center; margin-bottom: 10px;">
+<div id="sort-bar" style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 10px;">
+  <div>
     <button class="tag" onclick="filterByTag('all')">All</button>
     <button class="tag" onclick="filterByTag('cybersecurity')">Cybersecurity</button>
     <button class="tag" onclick="filterByTag('project')">Project</button>
     <button class="tag" onclick="filterByTag('tutorial')">Tutorial</button>
-	<button class="tag" onclick="filterByTag('osint')">OSINT</button>
+    <button class="tag" onclick="filterByTag('osint')">OSINT</button>
+  </div>
+  <div>
+    <input type="text" id="search-input" placeholder="Search...">
+    <button onclick="search()">Search</button>
+  </div>
 </div>
 
 <div id="title-cards-container">
