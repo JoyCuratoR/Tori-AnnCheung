@@ -100,7 +100,7 @@ function getPublishDate(card) {
     <h1 style="text-align: center;">Welcome to a place where learning never ends</h1>
 	<h3 style="text-align: center;">Continuously learning, building, sharing & teaching</h3>
 	
-	<!-- Sort by bar -->
+	<!-- Sort by bar with search bar -->
 <div id="sort-bar" style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 10px;">
   <div>
     <button class="tag" onclick="filterByTag('all')">All</button>
@@ -168,29 +168,29 @@ function getPublishDate(card) {
   </div>
 </div>
 
-<!-- Filtering articles by tag -->
 <script>
-    function filterByTag(tag) {
-        // Get all the title cards
-        const titleCards = document.getElementsByClassName('title-card');
+  function filterByTag(tag) {
+    // Get all the title cards
+    const titleCards = document.getElementsByClassName('title-card');
 
-        // Show or hide the title cards based on the selected tag
-        for (let i = 0; i < titleCards.length; i++) {
-            const tags = titleCards[i].getElementsByClassName('tag');
-            let showCard = false;
+    // Show or hide the title cards based on the selected tag
+    for (let i = 0; i < titleCards.length; i++) {
+      const titleCard = titleCards[i];
+      const tags = titleCard.getElementsByClassName('tag');
+      let showCard = false;
 
-            // Check if the tag matches or if the selected tag is 'all'
-            for (let j = 0; j < tags.length; j++) {
-                if (tag === 'all' || tags[j].innerText.toLowerCase().includes('#' + tag.toLowerCase())) {
-                    showCard = true;
-                    break;
-                }
-            }
-
-            // Set the display property based on the showCard flag
-            titleCards[i].style.display = showCard ? 'block' : 'none';
+      // Check if the tag matches or if the selected tag is 'all'
+      for (let j = 0; j < tags.length; j++) {
+        if (tag === 'all' || tags[j].innerText.toLowerCase().includes('#' + tag.toLowerCase())) {
+          showCard = true;
+          break;
         }
+      }
+
+      // Set the display property based on the showCard flag
+      titleCard.style.display = showCard ? 'flex' : 'none';
     }
+  }
 </script>
 
 <!-- Search bar functionality -->
