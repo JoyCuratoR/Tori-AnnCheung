@@ -62,30 +62,7 @@
         }
     </style>
 	
-	<script>
-	window.addEventListener('DOMContentLoaded', sortTitleCards);
-
-function sortTitleCards() {
-  var container = document.getElementById('title-cards-container');
-  var titleCards = Array.from(container.getElementsByClassName('title-card'));
-
-  titleCards.sort(function(a, b) {
-    var dateA = new Date(getPublishDate(a));
-    var dateB = new Date(getPublishDate(b));
-    return dateB - dateA; // Sort in descending order
-  });
-
-  titleCards.forEach(function(card) {
-    container.appendChild(card);
-  });
-}
-
-function getPublishDate(card) {
-  var publishDateElement = card.querySelector('.publish-date');
-  return publishDateElement.textContent.trim();
-}
-</script>
-
+	
 </head>
 
 
@@ -220,12 +197,32 @@ function getPublishDate(card) {
   }
 </script>
 
+<script>
+	window.addEventListener('DOMContentLoaded', sortTitleCards);
+
+function sortTitleCards() {
+  var container = document.getElementById('title-cards-container');
+  var titleCards = Array.from(container.getElementsByClassName('title-card'));
+
+  titleCards.sort(function(a, b) {
+    var dateA = new Date(getPublishDate(a));
+    var dateB = new Date(getPublishDate(b));
+    return dateB - dateA; // Sort in descending order
+  });
+
+  titleCards.forEach(function(card) {
+    container.appendChild(card);
+  });
+}
+
+function getPublishDate(card) {
+  var publishDateElement = card.querySelector('.publish-date');
+  return publishDateElement.textContent.trim();
+}
+</script>
 
     <!-- Rest of your content -->
 	
-
-
-
 </body>
 
 </html>
