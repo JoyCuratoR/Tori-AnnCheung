@@ -209,9 +209,9 @@ function getPublishDate(card) {
       
       // If the title contains the search text, display the title card, otherwise hide it
       if (title.includes(searchText)) {
-        titleCard.style.display = 'block';
+        titleCard.style.display = 'flex'; // Set display to flex
       } else {
-        titleCard.style.display = 'none';
+        titleCard.style.display = 'none'; // Hide the title card
       }
     }
   }
