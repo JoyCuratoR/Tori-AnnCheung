@@ -12,20 +12,6 @@
         padding-right: 20px; /* Add padding on the right side */
     }
 
-    /* Add the CSS for the scroll to top arrow */
-    .scroll-to-top {
-        position: fixed;
-        bottom: 20px; /* Adjust the distance from the bottom as needed */
-        right: 20px; /* Adjust the distance from the right as needed */
-        width: 40px;
-        height: 40px;
-        background-color: #55a6a2;
-        color: white;
-        border-radius: 50%;
-        text-align: center;
-        line-height: 40px;
-        cursor: pointer;
-    }
 
     h1, h2 {
         font-family: 'League Spartan', sans-serif; /* Change the font for big headers to League Spartan */
@@ -47,15 +33,24 @@
         color: orange;
     }
 	
-        /* Add styling for title cards */
-        .title-card {
-            background-color: #FFFFFF;
-            padding: 20px;
-            margin-bottom: 10px;
-        }
+	/* Add the CSS for the scroll to top arrow */
+    .scroll-to-top {
+        position: fixed;
+        bottom: 20px; /* Adjust the distance from the bottom as needed */
+        right: 20px; /* Adjust the distance from the right as needed */
+        width: 40px;
+        height: 40px;
+        background-color: #55a6a2;
+        color: white;
+        border-radius: 50%;
+        text-align: center;
+        line-height: 40px;
+        cursor: pointer;
+    }
+	
 		
-	/* Add styling for the tag buttons */
-	  .tag {
+	/* Add styling for the tag buttons within the sort bar */
+	  #sort-bar .sort-tag {
 		display: inline-block;
 		padding: 8px 16px;
 		background-color: #439775;
@@ -66,10 +61,19 @@
 		transition: background-color 0.3s, transform 0.3s;
 	  }
 
-	  .tag:active {
+	  #sort-bar .sort-tag:active {
 		transform: scale(0.95);
 	  }
 
+	/* Tag outline style */
+		.tag {
+		  display: inline-block;
+		  padding: 6px 12px;
+		  border: 1px solid #439775;
+		  border-radius: 20px;
+		  margin-right: 5px;
+		}
+		
     /* Style the navigation bar links */
         .navbar a {
             display: inline-block; /* Display links in a row */
@@ -87,15 +91,13 @@
             color: white; /* Change text color on hover */
         }
 	
-/* Tag outline style */
-		.tag {
-		  display: inline-block;
-		  padding: 6px 12px;
-		  border: 1px solid #439775;
-		  border-radius: 20px;
-		  margin-right: 5px;
-		}
-
+		
+/* Add styling for title cards */
+        .title-card {
+            background-color: #FFFFFF;
+            padding: 20px;
+            margin-bottom: 10px;
+        }
     </style>
 	
 	
