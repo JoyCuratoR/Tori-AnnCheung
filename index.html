@@ -11,7 +11,6 @@
         padding-right: 20px; /* Add padding on the right side */
     }
 
-    /* Rest of your CSS styles */
 
     /* Add the CSS for the scroll to top arrow */
     .scroll-to-top {
@@ -187,3 +186,15 @@
 <div class="navbar">
 	<p> Made with HTML, CSS, and JavaScript, hosted by GitHub Pages.</p>
 </div>
+
+<div class="scroll-to-top" onclick="scrollToTop()">
+    &#8593; <!-- Up arrow icon -->
+  </div>
+
+<script>
+  function scrollToTop() {
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+  }
+</script>
+
+</body>

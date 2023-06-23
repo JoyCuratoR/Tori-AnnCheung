@@ -12,8 +12,6 @@
         padding-right: 20px; /* Add padding on the right side */
     }
 
-    /* Rest of your CSS styles */
-
     /* Add the CSS for the scroll to top arrow */
     .scroll-to-top {
         position: fixed;
@@ -170,6 +168,10 @@
   </div>
 </div>
 
+<div class="scroll-to-top" onclick="scrollToTop()">
+    &#8593; <!-- Up arrow icon -->
+  </div>
+
 <script>
   function filterByTag(tag) {
     // Get all the title cards
@@ -241,6 +243,12 @@ function getPublishDate(card) {
   var publishDateElement = card.querySelector('.publish-date');
   return publishDateElement.textContent.trim();
 }
+</script>
+
+<script>
+  function scrollToTop() {
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+  }
 </script>
 
     <!-- Rest of your content -->
