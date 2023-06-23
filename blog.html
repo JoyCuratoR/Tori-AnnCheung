@@ -53,14 +53,24 @@
             padding: 20px;
             margin-bottom: 10px;
         }
-		/* Add any styling you want for the navigation bar */
-        .navbar {
-            background-color: #439775;
-            overflow: hidden;
-            text-align: center; /* Center the navigation links */
-        }
+		
+	/* Add styling for the tag buttons */
+	  .tag {
+		display: inline-block;
+		padding: 8px 16px;
+		background-color: #439775;
+		color: white;
+		border: none;
+		border-radius: 20px;
+		cursor: pointer;
+		transition: background-color 0.3s, transform 0.3s;
+	  }
 
-        /* Style the navigation bar links */
+	  .tag:active {
+		transform: scale(0.95);
+	  }
+
+    /* Style the navigation bar links */
         .navbar a {
             display: inline-block; /* Display links in a row */
             color: black;
@@ -77,14 +87,14 @@
             color: white; /* Change text color on hover */
         }
 	
-	/* Tag outline style */
-	.tag {
-  display: inline-block;
-  padding: 6px 12px;
-  border: 1px solid #439775;
-  border-radius: 20px;
-  margin-right: 5px;
-}
+/* Tag outline style */
+		.tag {
+		  display: inline-block;
+		  padding: 6px 12px;
+		  border: 1px solid #439775;
+		  border-radius: 20px;
+		  margin-right: 5px;
+		}
 
     </style>
 	
@@ -115,6 +125,7 @@
 	<button class="tag" onclick="filterByTag('resources')">Resources</button>
 	<button class="tag" onclick="filterByTag('programming')">Programming</button>
   </div>
+  
   <div>
     <input type="text" id="search-input" placeholder="Search...">
     <button onclick="search()">Search</button>
