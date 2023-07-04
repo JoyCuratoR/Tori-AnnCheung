@@ -1,0 +1,128 @@
+<html>
+  <head>
+    <title>Home</title>
+    <style>
+    body {
+        max-width: 1200px;
+        margin: 0 auto;
+        font-family: sans-serif;
+        color: black;
+        background-color: white;
+        padding-right: 20px; /* Add padding on the right side */
+    }
+
+
+    /* Add the CSS for the scroll to top arrow */
+    .scroll-to-top {
+        position: fixed;
+        bottom: 20px; /* Adjust the distance from the bottom as needed */
+        right: 20px; /* Adjust the distance from the right as needed */
+        width: 40px;
+        height: 40px;
+        background-color: #55a6a2;
+        color: white;
+        border-radius: 50%;
+        text-align: center;
+        line-height: 40px;
+        cursor: pointer;
+    }
+
+    h1, h2 {
+        font-family: 'League Spartan', sans-serif;
+    }
+
+    h3, h4, h5 {
+        font-family: 'Libre Baskerville Italic', serif;
+    }
+
+    p, ul li {
+        font-family: 'Libre Baskerville', serif;
+		font-size: 26px; /* Adjust the font size as desired */
+    }
+
+    .blue {
+        color: blue;
+    }
+
+    .orange {
+        color: orange;
+    }
+
+
+      /* Add any styling you want for the navigation bar */
+        .navbar {
+            background-color: #439775;
+            overflow: hidden;
+            text-align: center; /* Center the navigation links */
+        }
+
+        /* Style the navigation bar links */
+        .navbar a {
+            display: inline-block; /* Display links in a row */
+            color: black;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+            font-weight: bold; /* Make the font bold */
+            transition: background-color 0.3s; /* Add transition for hover effect */
+        }
+
+        /* Style the navigation bar links when hovered */
+        .navbar a:hover {
+            background-color: #55a6a2; /* Change background color on hover */
+            color: white; /* Change text color on hover */
+        }
+		
+    </style>
+	
+	  <!-- Making the page responsive -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<style>
+		/* Media query for mobile devices */
+    @media (max-width: 600px) {
+      body {
+        margin-left: 20px;
+      }
+	</style>
+	
+  </head>
+  
+  
+  <body>
+  
+  <!-- Add the navigation bar to the top of the page -->
+    <div class="navbar">
+		<a href="home.html" style="background-color: #439775;">Home</a>
+        <a href="index.html" style="background-color: #439775;">CV</a>
+        <a href="blog.html" style="background-color: #439775;">Blog</a>
+    </div>
+	
+	
+	
+	
+	
+	
+	
+
+<!-- Nav bar at bottom page -->	
+	<div class="navbar">
+		<p> Made with love and hosted on GitHub Pages.</p>
+	</div>
+
+<!-- Scroll to top icon -->
+	<div class="scroll-to-top" onclick="scrollToTop()">
+    &#8593; <!-- Up arrow icon -->
+	</div>
+	
+<!-- Scroll to top function -->
+<script>
+  function scrollToTop() {
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+  }
+</script>
+	
+  </body>
+
+
+  
+</html>
