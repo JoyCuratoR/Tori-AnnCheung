@@ -7,22 +7,6 @@
         color: black;
         background-color: white;
     }
-  
-  
-    /* Add the CSS for the scroll to top arrow */
-    .scroll-to-top {
-      position: fixed;
-      bottom: 20px; /* Adjust the distance from the bottom as needed */
-      right: 20px; /* Adjust the distance from the right as needed */
-      width: 40px;
-      height: 40px;
-      background-color: #55a6a2;
-      color: white;
-      border-radius: 50%;
-      text-align: center;
-      line-height: 40px;
-      cursor: pointer;
-    }
 
     h1,
     h2 {
@@ -48,6 +32,23 @@
     .orange {
       color: orange;
     }
+	
+	
+	/* Add the CSS for the scroll to top arrow */
+    .scroll-to-top {
+      position: fixed;
+      bottom: 20px; /* Adjust the distance from the bottom as needed */
+      right: 20px; /* Adjust the distance from the right as needed */
+      width: 40px;
+      height: 40px;
+      background-color: #55a6a2;
+      color: white;
+      border-radius: 50%;
+      text-align: center;
+      line-height: 40px;
+      cursor: pointer;
+    }
+	
 
     /* Add any styling you want for the navigation bar */
     .navbar {
@@ -113,15 +114,22 @@
  
   .skills {
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  grid-gap: 20px;
-  padding: 40px 80px;
+  gap: 20px;
+}
+
+.row {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
 }
 
 .work {
-  border: 1px solid #eeeeee;
-  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
 }
+
 
 .skills .work .work-heading {
   font-size: 25px;
@@ -192,11 +200,10 @@
       <h1>A Cybersecurity Professional</h1>
       <p>Solving puzzles to create sustainable growth.</p>
     </div>
-	
-	</div>
+
+	<div>
       <img src="Images/GreenComputer.png" alt="Computer with error icons">
-    </div>
-	
+	</div>
 	
 	<h1 style="text-align: center;">Skill Toolbelt</h1>
 <div class="skills">
@@ -239,14 +246,13 @@
   </div>
   <hr> <!-- Add a horizontal line -->
   <div class="row">
-    <div class="work left-column">
+    <div class="work center-column" colspan="2">
       <p class="work-heading">Security Tools and Software</p>
       <p class="work-text">Familiarity with security tools such as Wireshark, Nmap, Metasploit, Burp Suite, Snort, Splunk, MySQL, Git, 
       SIEM (Security Information and Event Management), and other tools commonly used in cybersecurity operations.</p>
     </div>
   </div>
 </div>
-
 
 </div>
 
