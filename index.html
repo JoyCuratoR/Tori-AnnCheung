@@ -112,47 +112,15 @@
  
  
   .skills {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    align-items: flex-start;
-    padding: 40px 80px;
-  }
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 20px;
+  padding: 40px 80px;
+}
 
-  .skills .row {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    align-items: flex-start;
-    margin-bottom: 20px;
-  }
-
-  .skills .work {
-    flex-basis: 48%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    padding: 0 20px;
-  }
-
-  .skills .work.left-side {
-    /* Style for left-side divs */
-    background-color: lightgray;
-  }
-
-  .skills .work.right-side {
-    /* Style for right-side divs */
-    background-color: lightblue;
-  }
-
-.skills .work i {
-  width: fit-content;
-  font-size: 50px;
-  color: #333333;
-  border-radius: 50%;
-  border: 2px solid #333333;
-  padding: 12px;
+.work {
+  border: 1px solid #eeeeee;
+  padding: 20px;
 }
 
 .skills .work .work-heading {
@@ -224,6 +192,11 @@
       <h1>A Cybersecurity Professional</h1>
       <p>Solving puzzles to create sustainable growth.</p>
     </div>
+	
+	</div>
+      <img src="Images/GreenComputer.png" alt="Computer with error icons">
+    </div>
+	
 	
 	<h1 style="text-align: center;">Skill Toolbelt</h1>
 <div class="skills">
