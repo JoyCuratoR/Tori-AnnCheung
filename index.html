@@ -73,6 +73,126 @@
             color: white; /* Change text color on hover */
         }
 		
+		
+		
+
+
+@import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
+
+body {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+/* CSS for main section */
+.intro {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 520px;
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.5) 0%, rgba(0, 0, 0, 0.5) 100%);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.intro h1 {
+  font-family: sans-serif;
+  font-size: 60px;
+  color: #fff;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin: 0;
+}
+
+.intro p {
+  font-size: 20px;
+  color: #d1d1d1;
+  text-transform: uppercase;
+  margin: 20px 0;
+}
+
+
+
+.skills {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 40px 80px;
+}
+
+.skills .work {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0 40px;
+}
+
+.skills .work i {
+  width: fit-content;
+  font-size: 50px;
+  color: #333333;
+  border-radius: 50%;
+  border: 2px solid #333333;
+  padding: 12px;
+}
+
+.skills .work .work-heading {
+  font-size: 20px;
+  color: #333333;
+  text-transform: uppercase;
+  margin: 10px 0;
+}
+
+.skills .work .work-text {
+  font-size: 15px;
+  color: #585858;
+  margin: 10px 0;
+}
+
+.about-me {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 40px 80px;
+  border-top: 2px solid #eeeeee;
+}
+
+.about-me img {
+  width: 500px;
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+.about-me-text h2 {
+  font-size: 30px;
+  color: #333333;
+  text-transform: uppercase;
+  margin: 0;
+}
+
+.about-me-text p {
+  font-size: 15px;
+  color: #585858;
+  margin: 10px 0;
+}
+/* CSS for footer */
+.footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #302f49;
+  padding: 40px 80px;
+}
+
+}
+		
+		
+		
     </style>
 	
 	  <!-- Making the page responsive -->
@@ -100,7 +220,64 @@
 	
 	<p>Note: Page is under construction</p>
 	
+	<main>
+  <div class="intro">
+    <h1>A Cybersecurity Professional</h1>
+    <p>Solving puzzles to create sustainable growth.</p>
+  </div>
+  <div class="achievements">
+    <div class="work">
+      <i class="fas fa-atom"></i>
+      <p class="work-heading">Operating Systems</p>
+      <p class="work-text">Windows, Linux, and macOS</p>
+    </div>
+    <div class="work">
+      <i class="fas fa-cloud"></i>
+      <p class="work-heading">Security Principles and Practices</p>
+      <p class="work-text">Familiarity with security concepts, principles, and best practices such as confidentiality, integrity, 
+	  availability, risk assessment, access controls, encryption, and security frameworks like NIST, ISO 27001, or CIS Controls</p>
+    </div>
+    <div class="work">
+      <i class="fas fa-ethernet"></i>
+      <p class="work-heading">Networking</p>
+      <p class="work-text">A solid understanding of networking protocols, TCP/IP, subnetting, firewalls, routers, and switches is essential for 
+	  analyzing network traffic, identifying vulnerabilities, and implementing security measures.</p>
+    </div>
+	<div class="work">
+      <i class="fas fa-ethernet"></i>
+      <p class="work-heading">Threat Landscape Awareness</p>
+      <p class="work-text">Knowledge of different types of cyberattacks, malware, social engineering techniques, phishing, ransomware, and other common attack vectors.</p>
+    </div>
+	<div class="work">
+      <i class="fas fa-ethernet"></i>
+      <p class="work-heading">Security Technologies</p>
+      <p class="work-text">Intrusion detection/prevention systems (IDS/IPS), antivirus software, virtual private networks (VPNs), authentication mechanisms</p>
+    </div>
+	<div class="work">
+      <i class="fas fa-ethernet"></i>
+      <p class="work-heading">Incident Response</p>
+      <p class="work-text">Knowledge of incident response processes, including identification, containment, eradication, and recovery from security incidents, as well as the ability to investigate and document security breaches.</p>
+    </div>
+	<div class="work">
+      <i class="fas fa-ethernet"></i>
+      <p class="work-heading">Security Tools and Software</p>
+      <p class="work-text">Familiarity with security tools such as Wireshark, Nmap, Metasploit, Burp Suite, Snort, Splunk, SIEM (Security Information and Event Management), and other tools commonly used in cybersecurity operations.</p>
+    </div>
 	
+  </div>
+  
+  <div class="about-me">
+    <div class="about-me-text">
+      <h2>My Promise</h2>
+      <p>As an aspiring cybersecurity professional that's driven by an unwavering dedication to accountability and curiosity, I possess a work ethic that is deeply rooted 
+	in integrity and a relentless pursuit of excellence. My ultimate motivation is to solve puzzles that work toward helping people and organizations figure out how to 
+	grow and create impact in a sustainable, healthy way. To employers, I offer a unique combination of technical proficiency, a strong desire to win, and an impulsiveness 
+	to investigate that's shadowed by a burning need to discover and know. Together we can foster a cybersecurity culture where users and employees become our partners 
+	to safeguarding against evolving security threats.</p>
+    </div>
+    <img src="https://images.unsplash.com/photo-1596495578065-6e0763fa1178?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=871&q=80" alt="me">
+  </div>
+</main>
 	
 	
 
