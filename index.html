@@ -111,10 +111,10 @@
     }
  
  
-  .skills {
+  ..skills {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between; /* Align divs in two columns */
+    justify-content: space-between;
     align-items: flex-start;
     padding: 40px 80px;
   }
@@ -122,18 +122,28 @@
   .skills .row {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between; /* Align divs in two columns */
+    justify-content: space-between;
     align-items: flex-start;
     margin-bottom: 20px;
   }
 
   .skills .work {
-    flex-basis: 48%; /* Adjust the width of each column */
+    flex-basis: 48%;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     padding: 0 20px;
+  }
+
+  .skills .work.left-side {
+    /* Style for left-side divs */
+    background-color: lightgray;
+  }
+
+  .skills .work.right-side {
+    /* Style for right-side divs */
+    background-color: lightblue;
   }
 
 
