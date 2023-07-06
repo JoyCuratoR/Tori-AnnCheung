@@ -83,19 +83,21 @@
 
 /* CSS for main section */
 	.intro {
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      padding: 40px 80px;
-    }
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 40px 80px;
+}
 
 .intro h1 {
   font-family: sans-serif;
   font-size: 60px;
-  color: #00000;
+  color: #000000;
   font-weight: bold;
   text-transform: uppercase;
   margin: 0;
+  text-align: center; /* Added to center the text */
 }
 
 .intro p {
@@ -103,7 +105,22 @@
   color: #d1d1d1;
   text-transform: uppercase;
   margin: 20px 0;
+  text-align: center; /* Added to center the text */
 }
+
+.intro .image-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px; /* Added to create spacing between text and image */
+}
+
+.intro .image-container img {
+  max-width: 300px;
+  height: auto;
+  border-radius: 10px;
+}
+
 
  
   .skills {
@@ -201,9 +218,9 @@
 </div>
 
 
-	
-	<h1 style="text-align: center;">Skill Toolbelt</h1>
+
 <div class="skills">
+<h1 style="text-align: center;">Skill Toolbelt</h1>
   <div class="row">
     <div class="work left-column">
       <p class="work-heading">Operating Systems</p>
