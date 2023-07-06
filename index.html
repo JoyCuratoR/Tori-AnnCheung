@@ -143,18 +143,6 @@
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 20px;
-  position: relative; /* Add a position value for the parent container */
-}
-
-.row::before {
-  content: '';
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 50%; /* Place the vertical line in the center */
-  width: 2px;
-  background-color: #ccc; /* Adjust the color as desired */
-  transform: translateX(-50%); /* Move the line to the left by 50% of its own width */
 }
 
 .work {
@@ -164,22 +152,31 @@
   text-align: center;
 }
 
-.work .work-heading {
+.row::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 50%;
+  width: 2px;
+  background-color: #ccc; /* Adjust the color as desired */
+  transform: translateX(-50%);
+}
+
+.work-heading {
   font-size: 25px;
   color: #333333;
   text-transform: uppercase;
   margin: 10px 0;
-  text-align: center; /* Center the work-heading text */
+  text-align: center;
 }
 
-.work .work-text {
+.work-text {
   font-size: 20px;
   color: #585858;
   margin: 10px 0;
-  text-align: left; /* Align the work-text on the left side */
+  text-align: left;
 }
-
-
 
 
 
