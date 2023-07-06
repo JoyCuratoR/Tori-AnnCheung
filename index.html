@@ -141,7 +141,7 @@
 
 .row {
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 1fr auto 1fr; /* Add an additional column for the vertical line */
   gap: 20px;
 }
 
@@ -150,20 +150,6 @@
   flex-direction: column;
   align-items: center;
   text-align: center;
-  position: relative; /* Add relative positioning */
-}
-
-.work::before {
-  content: "";
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 50%; /* Position the vertical line at the center */
-  border-left: 2px solid #cccccc; /* Add vertical line style */
-}
-
-.work:first-child::before {
-  display: none; /* Hide the vertical line for the first work div */
 }
 
 .work .work-heading {
@@ -180,6 +166,13 @@
   margin: 10px 0;
   text-align: left; /* Align the work-text on the left side */
 }
+
+.row::before {
+  content: '';
+  border-left: 2px solid #eeeeee; /* Add a vertical line */
+  margin-top: 20px; /* Add some padding */
+}
+
 
 
 
