@@ -88,7 +88,7 @@
   justify-content: center;
   align-items: center;
   padding: 40px 80px;
-  background-color: #f2f2f2; /* Add your desired background color */
+  background-color: #f2f2f2;
 }
 
 .intro h1 {
@@ -98,11 +98,12 @@
   font-weight: bold;
   text-transform: uppercase;
   margin: 0;
-  text-align: center; /* Added to center the text */
-  background-color: #439775; /* Add your desired background color */
-  color: #ffffff; /* Add your desired text color */
-  padding: 10px 20px; /* Add padding to create spacing */
-  border-radius: 10px; /* Add border radius for rounded corners */
+  text-align: center;
+  background-color: #439775;
+  color: #ffffff;
+  padding: 10px 20px;
+  border-radius: 10px;
+  animation: fadeUp 1s ease-out 0.5s forwards;
 }
 
 .intro p {
@@ -110,12 +111,23 @@
   color: #439775;
   text-transform: uppercase;
   margin: 20px 0;
-  text-align: center; /* Added to center the text */
-  background-color: #ffffff; /* Add your desired background color */
-  padding: 10px 20px; /* Add padding to create spacing */
-  border-radius: 10px; /* Add border radius for rounded corners */
+  text-align: center;
+  background-color: #ffffff;
+  padding: 10px 20px;
+  border-radius: 10px;
+  animation: fadeUp 1s ease-out 0.8s forwards;
 }
 
+@keyframes fadeUp {
+  0% {
+    opacity: 0;
+    transform: translateY(50px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
 
 .intro .image-container {
   display: flex;
@@ -222,7 +234,7 @@
 
   <main>
     <div class="intro">
-	  <h1>A Cybersecurity Professional</h1>
+	  <h1>Digital Forensics Investigator</h1>
 	  <p>Solving puzzles to create sustainable growth.</p>
 	  <div class="image-container">
 		<img src="Images/GreenComputer.png" alt="Computer with error icons">
