@@ -137,6 +137,10 @@
 		<h1 style="text-align: center;">Welcome to a Place Where Learning Never Ends</h1>
 		<h3 style="text-align: center;">Continuously learning, building, sharing & teaching</h3>
 	</div>
+	
+	<div class="scroll-to-top" onclick="scrollToTop()">
+    &#8593; <!-- Up arrow icon -->
+    </div>
 
 	<!-- Sort by Tags bar -->
 <div id="sort-bar" style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 10px;">
@@ -247,9 +251,29 @@
   </div>
 </div>
 
-<div class="scroll-to-top" onclick="scrollToTop()">
-    &#8593; <!-- Up arrow icon -->
-  </div>
+<script>
+  sortTitleCards();
+
+  function sortTitleCards() {
+    var container = document.getElementById('title-cards-container');
+    var titleCards = Array.from(container.getElementsByClassName('title-card'));
+
+    titleCards.sort(function(a, b) {
+      var dateA = new Date(getPublishDate(a));
+      var dateB = new Date(getPublishDate(b));
+      return dateB - dateA; // Sort in descending order
+    });
+
+    titleCards.forEach(function(card) {
+      container.appendChild(card);
+    });
+  }
+
+  function getPublishDate(card) {
+    var publishDateElement = card.querySelector('.publish-date');
+    return publishDateElement.textContent.trim();
+  }
+</script>
 
 <script>
   function filterByTag(tag) {
@@ -297,30 +321,6 @@
         titleCard.style.display = 'none'; // Hide the title card
       }
     }
-  }
-</script>
-
-<script>
-  sortTitleCards();
-
-  function sortTitleCards() {
-    var container = document.getElementById('title-cards-container');
-    var titleCards = Array.from(container.getElementsByClassName('title-card'));
-
-    titleCards.sort(function(a, b) {
-      var dateA = new Date(getPublishDate(a));
-      var dateB = new Date(getPublishDate(b));
-      return dateB - dateA; // Sort in descending order
-    });
-
-    titleCards.forEach(function(card) {
-      container.appendChild(card);
-    });
-  }
-
-  function getPublishDate(card) {
-    var publishDateElement = card.querySelector('.publish-date');
-    return publishDateElement.textContent.trim();
   }
 </script>
 
