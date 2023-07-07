@@ -112,7 +112,6 @@
 .intro p {
   font-size: 35px;
   color: #439775;
-  
   margin: 20px 0;
   text-align: center;
   background-color: #ffffff;
@@ -121,29 +120,20 @@
   animation: fadeUp 1s ease-out 0.5s forwards; /* Adjusted animation delay to 0.5s */
 }
 
-@keyframes fadeUp {
-  0% {
-    opacity: 0;
-    transform: translateY(50px);
-  }
-  100% {
-    opacity: 1;
-    transform: translateY(0);
-  }
-}
-
 
 .intro .image-container {
   display: flex;
   justify-content: center;
   align-items: center;
   margin-top: 20px; /* Added to create spacing between text and image */
+  animation: fadeUp 1s ease-out 0.5s forwards;
 }
 
 .intro .image-container img {
   max-width: 300px;
   height: auto;
   border-radius: 10px;
+  animation: fadeUp 1s ease-out 0.5s forwards;
 }
 
 .intro .learn-more-button {
@@ -156,12 +146,23 @@
   font-size: 18px;
   transition: background-color 0.3s;
   margin-top: 15px;
+  animation: fadeUp 1s ease-out 0.5s forwards;
 }
 
 .intro .learn-more-button:hover {
   background-color: #55a6a2;
 }
 
+@keyframes fadeUp {
+  0% {
+    opacity: 0;
+    transform: translateY(50px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
 
 
  .skills {
