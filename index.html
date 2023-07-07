@@ -9,6 +9,7 @@
         font-family: sans-serif;
         color: black;
         background-color: white;
+		box-sizing: border-box;
     }
 
     h1,
@@ -79,10 +80,8 @@
 
     @import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital@0;1&display=swap');
 
-    body {
-      margin: 0;
-      box-sizing: border-box;
-    }
+
+
 
 /* CSS for main section */
 	.intro {
@@ -165,6 +164,7 @@
 }
 
 
+
  .skills {
   display: grid;
   gap: 20px;
@@ -202,7 +202,6 @@
 
 
 
-
     .about-me {
       display: flex;
       justify-content: center;
@@ -230,6 +229,18 @@
       color: #585858;
       margin: 10px 0;
     }
+	
+	
+	.skills .row,
+.about-me {
+  opacity: 0; /* Initially set the opacity to 0 */
+  transition: opacity 1s ease-out; /* Add transition for smooth fade-in effect */
+}
+
+.fade-in {
+  opacity: 1 !important; /* Override opacity to 1 when the element is in view */
+}
+
 
     /* Media query for mobile devices */
     @media (max-width: 600px) {
@@ -342,6 +353,7 @@
     <p> Made with love and hosted on GitHub Pages.</p>
   </div>
 
+
   <!-- Scroll to top icon -->
   <div class="scroll-to-top" onclick="scrollToTop()">
     &#8593; <!-- Up arrow icon -->
@@ -353,6 +365,28 @@
       window.scrollTo({ top: 0, behavior: 'smooth' });
     }
   </script>
+  
+  
+  <script>
+  
+	  // Get all the elements to animate
+	const rows = document.querySelectorAll('.skills .row');
+	const aboutMe = document.querySelector('.about-me');
+
+	// Create an Intersection Observer instance
+	const observer = new IntersectionObserver(entries => {
+	  entries.forEach(entry => {
+		if (entry.isIntersecting) {
+		  // Add the "fade-in" class when the element is in view
+		  entry.target.classList.add('fade-in');
+		}
+	  });
+	}, { threshold: 0.5 }); // Adjust the threshold as desired
+
+	// Observe the elements
+	rows.forEach(row => observer.observe(row));
+	observer.observe(aboutMe);
+	</script>
 
 </body>
 
