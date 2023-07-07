@@ -259,7 +259,7 @@
     titleCards.sort(function(a, b) {
       var dateA = new Date(getPublishDate(a));
       var dateB = new Date(getPublishDate(b));
-      return dateB - dateA; // Sort in descending order
+      return dateA - dateB; // Sort in ascending order
     });
 
     titleCards.forEach(function(card) {
