@@ -3,6 +3,29 @@
 <head>
   <title>Article Template</title>
   <style>
+  
+  /* Add the CSS for the scroll to top arrow */
+    .scroll-to-top {
+      position: fixed;
+      bottom: 20px; /* Adjust the distance from the bottom as needed */
+      right: 20px; /* Adjust the distance from the right as needed */
+      width: 40px;
+      height: 40px;
+      background-color: #55a6a2;
+      color: white;
+      border-radius: 50%;
+      text-align: center;
+      line-height: 40px;
+      cursor: pointer;
+    }
+	
+	/* Media query for mobile devices */
+    @media (max-width: 600px) {
+      body {
+        margin-left: 20px;
+      }
+    }
+	
     /* Reset default margins and paddings */
     body {
       margin: 0;
@@ -94,5 +117,17 @@
       Published by Your Name
     </div>
   </div>
+  
+  <!-- Scroll to top icon -->
+  <div class="scroll-to-top" onclick="scrollToTop()">
+    &#8593; <!-- Up arrow icon -->
+  </div>
+
+  <!-- Scroll to top function -->
+  <script>
+    function scrollToTop() {
+      window.scrollTo({ top: 0, behavior: 'smooth' });
+    }
+  </script>
 </body>
 </html>
