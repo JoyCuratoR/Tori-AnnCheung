@@ -161,31 +161,12 @@
 </div>
 
 <!-- Add New Tags here -->
-	<div div id="sort-bar" style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 10px;">
+	<div div id="sort-bar-2" style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 10px;">
 		<button class="tag" onclick="filterByTag('programming')">Programming</button>
 		<button class="tag" onclick="filterByTag('commentary')">Commentary</button>
 	</div>
 	
 	
-	<script>
-	window.addEventListener('DOMContentLoaded', sortTitleCards);
-
-function sortTitleCards() {
-  var container = document.getElementById('title-cards-container');
-  var titleCards = Array.from(container.getElementsByClassName('title-card'));
-
-  titleCards.sort(function(a, b) {
-    var dateA = new Date(getPublishDate(a));
-    var dateB = new Date(getPublishDate(b));
-    return dateB - dateA; // Sort in descending order
-  });
-
-  titleCards.forEach(function(card) {
-    container.appendChild(card);
-  });
-}
-
-</script>
 
 	
 	<!-- Title Cards -->
@@ -272,6 +253,31 @@ function sortTitleCards() {
 
 
 <script>
+// Sorting function
+        function sortTitleCards() {
+            var container = document.getElementById('title-cards-container');
+            var titleCards = Array.from(container.getElementsByClassName('title-card'));
+
+            titleCards.sort(function(a, b) {
+                var dateA = new Date(getPublishDate(a));
+                var dateB = new Date(getPublishDate(b));
+                return dateA - dateB; // Sort in ascending order
+            });
+
+            titleCards.forEach(function(card) {
+                container.appendChild(card);
+            });
+        }
+
+        function getPublishDate(card) {
+            var publishDateElement = card.querySelector('.publish-date');
+            return publishDateElement.textContent.trim();
+        }
+
+
+
+
+
   function filterByTag(tag) {
     // Get all the title cards
     const titleCards = document.getElementsByClassName('title-card');
