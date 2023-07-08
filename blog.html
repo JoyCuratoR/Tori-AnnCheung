@@ -290,7 +290,10 @@
             });
         }
 
-
+        function getPublishDate(card) {
+            var publishDateElement = card.querySelector('.publish-date');
+            return publishDateElement.textContent.trim();
+        }
 
 
 
