@@ -8,6 +8,45 @@
       margin: 0;
       padding: 0;
     }
+	
+	/* Add the CSS for the scroll to top arrow */
+    .scroll-to-top {
+      position: fixed;
+      bottom: 20px; /* Adjust the distance from the bottom as needed */
+      right: 20px; /* Adjust the distance from the right as needed */
+      width: 40px;
+      height: 40px;
+      background-color: #55a6a2;
+      color: white;
+      border-radius: 50%;
+      text-align: center;
+      line-height: 40px;
+      cursor: pointer;
+    }
+	
+	/* Nav bar */
+		.navbar {
+	  background-color: #439775;
+	  overflow: hidden;
+	  text-align: center; /* Center the navigation links */
+	  display: flex; /* Add flex display */
+	  justify-content: center; /* Center the items horizontally */
+	}
+
+	.navbar a {
+	  display: inline-block;
+	  color: black;
+	  text-align: center;
+	  padding: 14px 16px;
+	  text-decoration: none;
+	  font-weight: bold;
+	  transition: background-color 0.3s;
+	}
+
+	.navbar a:hover {
+	  background-color: #55a6a2;
+	  color: white;
+	}
 
     /* Container for the article content */
     .article-container {
@@ -66,6 +105,13 @@
   </style>
 </head>
 <body>
+<!-- Add the navigation bar to the top of the page -->
+    <div class="navbar">
+		<a href="index.html" style="background-color: #439775;">Home</a>
+        <a href="cv.html" style="background-color: #439775;">CV</a>
+        <a href="blog.html" style="background-color: #439775;">Blog</a>
+    </div>
+
   <div class="article-container">
     <h1 class="article-title">How OSINT Opened My Eyes to Cybersecurity Threats</h1>
 
