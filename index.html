@@ -271,7 +271,7 @@
     <div class="image-container">
       <img src="Images/GreenComputer.png" alt="Computer with error icons">
     </div>
-    <a href="cv.html" class="learn-more-button">Learn More</a>
+    <a href="#" class="learn-more-button" onclick="scrollToNextSection()">Learn More</a>
   </div>
 </main>
 
@@ -387,6 +387,23 @@
 	rows.forEach(row => observer.observe(row));
 	observer.observe(aboutMe);
 	</script>
+	
+	<script>
+  function scrollToNextSection() {
+    // Get the next section element after the "Learn More" button
+    var nextSection = document.getElementsByClassName("skills")[0];
+
+    // Calculate the target scroll position by considering the current scroll position and the section's offset
+    var scrollPosition = window.pageYOffset || document.documentElement.scrollTop || document.body.scrollTop;
+    var targetPosition = nextSection.offsetTop - 50; // Adjust the offset as needed
+
+    // Scroll the page smoothly to the target position
+    window.scrollTo({
+      top: targetPosition,
+      behavior: "smooth"
+    });
+  }
+</script>
 
 </body>
 
