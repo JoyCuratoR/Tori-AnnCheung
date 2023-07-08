@@ -257,7 +257,7 @@
   <div style="flex: 3;">
     <h2>The Human Factor - Collaborative Ways to Build a Strong Cybersecurity Culture and Strengthen Security Posture</h2>
     <p>Let's be up front: security would much easier if there were no users.</p>
-    <p>Published: <span class="publish-date">2023-07-07 </span></p>
+    <p>Published: <span class="publish-date">2023-07-07</span></p>
     <p><a href="Articles/TheHumanFactor.html" target="_blank">Read More</a></p>
     <div class="tags">
       <span class="tag">#cybersecurity</span>
@@ -274,27 +274,35 @@
 
 
 <script>
-// Sorting function
-window.addEventListener('DOMContentLoaded', sortTitleCards);
-        function sortTitleCards() {
-            var container = document.getElementById('title-cards-container');
-            var titleCards = Array.from(container.getElementsByClassName('title-card'));
+// Function to convert a date string to a Date object
+    function parseDate(dateString) {
+      var dateParts = dateString.split("-");
+      return new Date(dateParts[0], dateParts[1] - 1, dateParts[2]);
+    }
 
-            titleCards.sort(function(a, b) {
-                var dateA = new Date(getPublishDate(a));
-                var dateB = new Date(getPublishDate(b));
-                return dateB - dateA; // Sort in descending order
-            });
+    // Sort the title cards by publish date
+    function sortTitleCards() {
+      var titleCardsContainer = document.getElementById("title-cards-container");
+      var titleCards = Array.from(titleCardsContainer.getElementsByClassName("title-card"));
 
-            titleCards.forEach(function(card) {
-                container.appendChild(card);
-            });
-        }
+      // Sort the title cards based on the publish date
+      titleCards.sort(function(a, b) {
+        var aDate = parseDate(a.getElementsByClassName("publish-date")[0].textContent);
+        var bDate = parseDate(b.getElementsByClassName("publish-date")[0].textContent);
+        return bDate - aDate;
+      });
 
-        function getPublishDate(card) {
-            var publishDateElement = card.querySelector('.publish-date');
-            return publishDateElement.textContent.trim();
-        }
+      // Clear the title cards container
+      titleCardsContainer.innerHTML = "";
+
+      // Add the sorted title cards back to the container
+      titleCards.forEach(function(card) {
+        titleCardsContainer.appendChild(card);
+      });
+    }
+
+    // Call the sortTitleCards function when the page finishes loading
+    window.addEventListener("load", sortTitleCards);
 
 
 
