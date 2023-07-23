@@ -130,35 +130,6 @@
 
 
 
- .skills {
-  display: grid;
-  gap: 20px;
-  padding: 40px 80px;
-  border-top: 2px solid #eeeeee;
-}
-
-/* Hide all slides by default */
-.slide {
-  display: none;
-}
-
-/* Show the first slide */
-.slide.fade-in {
-  display: block;
-}
-
-/* Add styles for the slideshow arrow */
-.slideshow-arrow {
-  cursor: pointer;
-  text-align: center;
-  font-size: 24px;
-}
-
-/* Add some spacing between slides */
-.slide {
-  margin-bottom: 20px;
-}
-
 
 .work {
   display: flex;
@@ -219,7 +190,6 @@
 	}
 	
 	
-	.skills .row,
 	.about-me {
 	  opacity: 0; /* Initially set the opacity to 0 */
 	  transition: opacity 1s ease-out; /* Add transition for smooth fade-in effect */
@@ -260,28 +230,6 @@
 </main>
 
 
-
-
-<div class="skills">
-
-<h1 style="text-align: center;">Security Toolbelt</h1>
-
-  <!-- Add an arrow for manual slide show -->
-<div class="slideshow-arrow" onclick="showNextSlide()">▼</div>
-
-<!-- Wrap the words in a container -->
-<div class="slideshow-container">
-  <!-- Each slide is a separate div -->
-  <div class="slide fade-in">OPERATING SYSTEMS<br>Windows, Linux, and macOS</div>
-  <div class="slide">SECURITY PRINCIPLES AND PRACTICES<br>Familiarity with security concepts, principles, and best practices such as confidentiality, integrity, availability, risk assessment, access controls, encryption, and security frameworks like NIST, ISO 27001, or CIS Controls</div>
-  <div class="slide">NETWORKING<br>A solid understanding of networking protocols, TCP/IP, subnetting, firewalls, routers, and switches is essential for analyzing network traffic, identifying vulnerabilities, and implementing security measures.</div>
-  <div class="slide">THREAT LANDSCAPE AWARENESS<br>Knowledge of different types of cyberattacks, malware, social engineering techniques, phishing, ransomware, and other common attack vectors.</div>
-  <div class="slide">SECURITY TECHNOLOGIES<br>Intrusion detection/prevention systems (IDS/IPS), antivirus software, virtual private networks (VPNs), authentication mechanisms</div>
-  <div class="slide">INCIDENT RESPONSE<br>Knowledge of incident response processes, including identification, containment, eradication, and recovery from security incidents, as well as the ability to investigate and document security breaches.</div>
-  <div class="slide">SECURITY TOOLS AND SOFTWARE<br>Familiarity with security tools such as Wireshark, Nmap, Metasploit, Burp Suite, Snort, Splunk, MySQL, Git, SIEM (Security Information and Event Management), and other tools commonly used in cybersecurity operations.</div>
-</div>
-
-</div>
 
 
 <div class="about-me">
@@ -357,30 +305,6 @@
       behavior: "smooth"
     });
   }
-</script>
-
-<script>
-// Intersection Observer to fade in the first slide when user scrolls to the section
-const section = document.querySelector('.slideshow-container');
-const firstSlide = document.querySelector('.slide.fade-in');
-
-const observer = new IntersectionObserver(function(entries) {
-  if (entries[0].isIntersecting) {
-    firstSlide.classList.remove('fade-in');
-  }
-}, { threshold: 0.5 });
-
-observer.observe(section);
-
-let currentSlideIndex = 0;
-const slides = document.querySelectorAll('.slide');
-
-// Function to show the next slide on click of the arrow
-function showNextSlide() {
-  slides[currentSlideIndex].classList.remove('fade-in');
-  currentSlideIndex = (currentSlideIndex + 1) % slides.length;
-  slides[currentSlideIndex].classList.add('fade-in');
-}
 </script>
 
 </body>
