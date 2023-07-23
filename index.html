@@ -137,11 +137,28 @@
   border-top: 2px solid #eeeeee;
 }
 
-.row {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 20px;
+/* Hide all slides by default */
+.slide {
+  display: none;
 }
+
+/* Show the first slide */
+.slide.fade-in {
+  display: block;
+}
+
+/* Add styles for the slideshow arrow */
+.slideshow-arrow {
+  cursor: pointer;
+  text-align: center;
+  font-size: 24px;
+}
+
+/* Add some spacing between slides */
+.slide {
+  margin-bottom: 20px;
+}
+
 
 .work {
   display: flex;
@@ -267,7 +284,7 @@
 </div>
 
 
-    <div class="about-me">
+<div class="about-me">
       <div class="about-me-text">
         <h2>My Promise</h2>
         <p>As an aspiring cybersecurity professional that's driven by an unwavering dedication to accountability and curiosity, I possess a work ethic that is deeply rooted
@@ -340,6 +357,30 @@
       behavior: "smooth"
     });
   }
+</script>
+
+<script>
+// Intersection Observer to fade in the first slide when user scrolls to the section
+const section = document.querySelector('.slideshow-container');
+const firstSlide = document.querySelector('.slide.fade-in');
+
+const observer = new IntersectionObserver(function(entries) {
+  if (entries[0].isIntersecting) {
+    firstSlide.classList.remove('fade-in');
+  }
+}, { threshold: 0.5 });
+
+observer.observe(section);
+
+let currentSlideIndex = 0;
+const slides = document.querySelectorAll('.slide');
+
+// Function to show the next slide on click of the arrow
+function showNextSlide() {
+  slides[currentSlideIndex].classList.remove('fade-in');
+  currentSlideIndex = (currentSlideIndex + 1) % slides.length;
+  slides[currentSlideIndex].classList.add('fade-in');
+}
 </script>
 
 </body>
