@@ -127,6 +127,8 @@ body {
 }
 
 
+/* The styles for the first and second sections remain the same as previously defined */
+
 #third-section {
   background-color: #1A2529;
   color: white;
@@ -147,8 +149,10 @@ body {
 }
 
 .rounded-boxes {
-  display: flex;
-  justify-content: space-between;
+  display: flex; /* Change to flex to align the boxes horizontally */
+  justify-content: space-between; /* Add space between the boxes */
+  max-width: 1200px; /* Add a max-width to the container for responsiveness */
+  margin-top: 20px; /* Add some space between the header and the boxes */
 }
 
 .rounded-box {
@@ -156,18 +160,15 @@ body {
   color: white;
   border-radius: 20px;
   padding: 20px;
-  flex: 0 0 30%; /* Adjust the width of the boxes */
+  flex: 1; /* Set each box to take equal space */
   text-align: left;
+  margin: 0 10px; /* Add space between each box */
 }
 
 .rounded-box img {
-  max-width: 100px; /* Adjust the size of the images */
+  max-width: 100px;
   margin-bottom: 10px;
 }
-In this code, we added a new section with the ID "third-section" for the third page/section of the home page. The content of this section includes a section header with Nunito bold heading and regular text in the colors specified. Below the header, there are three rounded boxes arranged horizontally, each containing an image and content with Nunito styles.
-
-You can customize the content inside each rounded box and adjust the box sizes and image sizes to fit your design requirements. Repeat this structure for any other sections you want to add to your home page.
-
 
 
 
