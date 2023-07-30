@@ -152,7 +152,7 @@ body {
   justify-content: space-between;
 }
 
-#third-section .rounded-box {
+.rounded-box {
   background-color: #263237;
   color: white;
   border-radius: 20px;
