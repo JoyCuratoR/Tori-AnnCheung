@@ -61,20 +61,19 @@ body {
 }
 
 #first-section {
-  display: flex;
-  flex-direction: row;
+  background-color: #1DCD8D;
 }
 
 .left-content {
-  width: 30%;
+  width: 70%;
   padding: 20px;
   display: flex;
   flex-direction: column;
+  justify-content: center;
 }
 
 .text-box {
   margin-bottom: 20px;
-  padding: 15px; /* Add padding all around the text boxes */
 }
 
 .text-box h1 {
@@ -82,7 +81,7 @@ body {
 }
 
 .right-content {
-  width: 70%;
+  width: 30%;
   padding: 20px;
   display: flex;
   justify-content: center;
@@ -90,14 +89,13 @@ body {
 }
 
 .learn-more-button {
-  display: block; /* Change to a block-level element to place it below text boxes */
+  display: inline-block;
   background-color: #1A2529;
   color: white;
   text-decoration: none;
-  padding: 15px 20px; /* Add padding all around the button */
+  padding: 10px 20px;
   border-radius: 50px;
   font-family: Nunito, sans-serif;
-  margin-top: 20px; /* Add some space between text boxes and button */
 }
 
 
