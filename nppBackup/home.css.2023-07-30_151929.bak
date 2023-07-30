@@ -127,6 +127,7 @@ body {
 }
 
 
+/* The styles for the first and second sections remain the same as previously defined */
 
 #third-section {
   background-color: #1A2529;
@@ -148,8 +149,10 @@ body {
 }
 
 .rounded-boxes {
-  display: flex;
-  justify-content: space-between;
+  display: flex; /* Change to flex to align the boxes horizontally */
+  justify-content: space-between; /* Add space between the boxes */
+  max-width: 1200px; /* Add a max-width to the container for responsiveness */
+  margin-top: 20px; /* Add some space between the header and the boxes */
 }
 
 .rounded-box {
@@ -157,12 +160,13 @@ body {
   color: white;
   border-radius: 20px;
   padding: 20px;
-  flex: 0 0 30%; /* Adjust the width of the boxes */
+  flex: 1; /* Set each box to take equal space */
   text-align: left;
+  margin: 0 10px; /* Add space between each box */
 }
 
 .rounded-box img {
-  max-width: 100px; /* Adjust the size of the images */
+  max-width: 100px;
   margin-bottom: 10px;
 }
 
