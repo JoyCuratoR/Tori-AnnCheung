@@ -86,21 +86,6 @@
   </section>
 
 
- <section class="page-section" id="fourth-section">
-    <div class="section-container">
-      <div class="rounded-box left-half">
-        <img src="path-to-image4.jpg" alt="Image 4">
-        <div class="box-content">
-          <h3>Nunito Bold Heading</h3>
-          <p>Nunito Regular Text</p>
-        </div>
-      </div>
-      <div class="right-half">
-        <!-- Add content for the right half of the section here -->
-      </div>
-    </div>
-  </section>
-
 
 
   <!-- Nav bar at bottom page -->
