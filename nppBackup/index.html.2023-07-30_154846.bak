@@ -104,21 +104,16 @@
   
   <section class="page-section" id="fifth-section">
     <div class="section-container">
-      <div class="layout-70-30">
-        <div class="left-side">
-          <!-- Add your content for the left side here -->
-        </div>
-        <div class="right-side">
-          <div class="text-box contact-box">
-            <h2>Contact Me</h2>
+      <div class="contact-box">
+        <h3>Contact Me</h3>
+        <div class="contact-content">
+          <div class="email-box">
+            <h4 style="color: #1DCD8D;">Email</h4>
+            <p>Nunito Bold Text</p>
           </div>
-          <div class="text-box email-box">
-            <h3 style="color: #1DCD8D;">Email</h3>
-            <p>Nunito Regular Text</p>
-          </div>
-          <div class="text-box social-box">
-            <h3 style="color: #1DCD8D;">Social</h3>
-            <p>Nunito Regular Text</p>
+          <div class="social-box">
+            <h4 style="color: #1DCD8D;">Social</h4>
+            <!-- Add your small social media icons here -->
           </div>
         </div>
       </div>
