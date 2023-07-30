@@ -100,11 +100,11 @@ body {
 
 
 
-/* The styles for the first section remain the same as previously defined */
 
 #second-section {
   background-color: #F4F4F4;
   display: flex;
+  flex-direction: column; /* Add flex-direction: column to stack the elements vertically */
   justify-content: center;
   align-items: center;
   height: 100vh;
@@ -112,6 +112,7 @@ body {
 
 .centered-content {
   text-align: center;
+  padding-top: 50px; /* Add padding on top to center the text box */
 }
 
 .centered-content h2 {
@@ -124,5 +125,6 @@ body {
 .animated-image {
   /* Add your styles for the animated image here */
 }
+
 
 
