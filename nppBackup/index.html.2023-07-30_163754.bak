@@ -21,7 +21,7 @@
 
 <h1>Page is Under Construction</h1>
 
-<section class="page-section" id="first-section">
+  <section class="page-section" id="first-section">
   <div class="left-content">
     <div class="text-box">
       <h1>Nunito Bold Heading</h1>
@@ -35,9 +35,9 @@
       <h1>Nunito Bold Heading</h1>
       <p>Nunito Regular Text</p>
     </div>
-    <div class="right-content">
-      <a href="#" class="learn-more-button">Learn More</a>
-    </div>
+  </div>
+  <div class="right-content">
+    <a href="#" class="learn-more-button">Learn More</a>
   </div>
 </section>
 
