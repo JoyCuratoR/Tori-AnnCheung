@@ -63,21 +63,21 @@
         <div class="rounded-box">
           <img src="path-to-image1.jpg" alt="Image 1">
           <div class="box-content">
-            <h3 style="color: #263237;">Nunito Bold Heading</h3>
+            <h3 style="color: #1DCD8D;">Nunito Bold Heading</h3>
             <p>Nunito Regular Text</p>
           </div>
         </div>
         <div class="rounded-box">
           <img src="path-to-image2.jpg" alt="Image 2">
           <div class="box-content">
-            <h3 style="color: #263237;">Nunito Bold Heading</h3>
+            <h3 style="color: #1DCD8D;">Nunito Bold Heading</h3>
             <p>Nunito Regular Text</p>
           </div>
         </div>
         <div class="rounded-box">
           <img src="path-to-image3.jpg" alt="Image 3">
           <div class="box-content">
-            <h3 style="color: #263237;">Nunito Bold Heading</h3>
+            <h3 style="color: #1DCD8D;">Nunito Bold Heading</h3>
             <p>Nunito Regular Text</p>
           </div>
         </div>
