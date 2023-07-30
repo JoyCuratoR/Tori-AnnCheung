@@ -100,25 +100,6 @@
       <!-- Add your animated image/sticker here -->
     </div>
   </section>
-  
-  
-  <section class="page-section" id="fifth-section">
-    <div class="section-container">
-      <div class="contact-box">
-        <h3>Contact Me</h3>
-        <div class="contact-content">
-          <div class="email-box">
-            <h4 style="color: #1DCD8D;">Email</h4>
-            <p>Nunito Bold Text</p>
-          </div>
-          <div class="social-box">
-            <h4 style="color: #1DCD8D;">Social</h4>
-            <!-- Add your small social media icons here -->
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
 
 
 
