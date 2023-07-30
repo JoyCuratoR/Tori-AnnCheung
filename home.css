@@ -100,6 +100,8 @@ body {
 
 
 
+/* The styles for the first section remain the same as previously defined */
+
 #second-section {
   background-color: #F4F4F4;
   display: flex;
@@ -108,11 +110,11 @@ body {
   height: 100vh;
 }
 
-.centered-text-box {
+.centered-content {
   text-align: center;
 }
 
-.centered-text-box h2 {
+.centered-content h2 {
   font-family: Nunito, sans-serif;
   font-size: 24px;
   font-weight: bold;
@@ -122,4 +124,5 @@ body {
 .animated-image {
   /* Add your styles for the animated image here */
 }
+
 
