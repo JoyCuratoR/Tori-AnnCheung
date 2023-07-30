@@ -156,7 +156,7 @@ body {
 }
 
 .rounded-box {
-  background-color: #263237;
+  background-color: ##263237;
   color: white;
   border-radius: 20px;
   padding: 20px;
