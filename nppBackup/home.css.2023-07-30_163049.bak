@@ -62,6 +62,7 @@ body {
 
 #first-section {
   display: flex;
+  flex-direction: row;
 }
 
 .left-content {
@@ -84,7 +85,6 @@ body {
   width: 70%;
   padding: 20px;
   display: flex;
-  flex-direction: column;
   justify-content: center;
   align-items: center;
 }
@@ -99,7 +99,6 @@ body {
   font-family: Nunito, sans-serif;
   margin-top: 20px; /* Add some space between text boxes and button */
 }
-
 
 
 

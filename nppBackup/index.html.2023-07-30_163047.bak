@@ -35,9 +35,9 @@
       <h1>Nunito Bold Heading</h1>
       <p>Nunito Regular Text</p>
     </div>
-  </div>
-  <div class="right-content">
-    <a href="#" class="learn-more-button">Learn More</a>
+    <div class="right-content">
+      <a href="#" class="learn-more-button">Learn More</a>
+    </div>
   </div>
 </section>
 
