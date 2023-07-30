@@ -127,4 +127,51 @@ body {
 }
 
 
+#third-section {
+  background-color: #1A2529;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 50px 0;
+}
+
+.section-container {
+  text-align: left;
+  padding: 20px;
+}
+
+.section-header {
+  margin-bottom: 30px;
+}
+
+.rounded-boxes {
+  display: flex;
+  justify-content: space-between;
+}
+
+.rounded-box {
+  background-color: #1DCD8D;
+  color: white;
+  border-radius: 20px;
+  padding: 20px;
+  flex: 0 0 30%; /* Adjust the width of the boxes */
+  text-align: left;
+}
+
+.rounded-box img {
+  max-width: 100px; /* Adjust the size of the images */
+  margin-bottom: 10px;
+}
+In this code, we added a new section with the ID "third-section" for the third page/section of the home page. The content of this section includes a section header with Nunito bold heading and regular text in the colors specified. Below the header, there are three rounded boxes arranged horizontally, each containing an image and content with Nunito styles.
+
+You can customize the content inside each rounded box and adjust the box sizes and image sizes to fit your design requirements. Repeat this structure for any other sections you want to add to your home page.
+
+
+
+
+
+
+
 
