@@ -24,7 +24,8 @@
 <section class="page-section" id="first-section">
   <div class="left-content">
     <div class="text-box">
-      <h5>Nunito Bold Heading</h5>
+      <h1>Nunito Bold Heading</h1>
+      <p>Nunito Regular Text</p>
     </div>
     <div class="text-box">
       <h1>Nunito Bold Heading</h1>
@@ -35,7 +36,7 @@
       <p>Nunito Regular Text</p>
     </div>
     <div class="right-content">
-      <a href="#second-section" class="learn-more-button">Learn More</a>
+      <a href="#" class="learn-more-button">Learn More</a>
     </div>
   </div>
 </section>

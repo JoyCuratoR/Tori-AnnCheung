@@ -76,16 +76,11 @@ body {
 
 .text-box {
   margin-bottom: 20px;
-  padding: 15px;
+  padding: 15px; /* Add padding all around the text boxes */
 }
 
 .text-box h1 {
   font-weight: bold;
-  color: white; /* Set text color to white */
-}
-
-.text-box p {
-  color: white; /* Set text color to white */
 }
 
 .right-content {
@@ -97,16 +92,17 @@ body {
 }
 
 .learn-more-button {
-  display: block;
+  display: block; /* Change to a block-level element to place it below text boxes */
   background-color: #1A2529;
   color: white;
   text-decoration: none;
-  padding: 15px 20px;
+  padding: 15px 20px; /* Add padding all around the button */
   border-radius: 50px;
   font-family: Nunito, sans-serif;
-  font-weight: bold; /* Make the text within the button bold */
-  margin-top: 20px;
+  margin-top: 20px; /* Add some space between text boxes and button */
 }
+
+
 
 
 
