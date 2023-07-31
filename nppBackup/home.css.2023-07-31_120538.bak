@@ -198,6 +198,7 @@ body {
   padding: 20px; /* Decreased padding to 20px */
   flex: 0 0 30%;
   text-align: left;
+  max-width: 200px;
 }
 
 .rounded-box img {
