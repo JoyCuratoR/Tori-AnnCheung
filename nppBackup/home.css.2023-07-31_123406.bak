@@ -196,7 +196,7 @@ body {
   color: white;
   border-radius: 20px;
   padding: 20px; /* Decreased padding to 20px */
-  flex: 0 0 20%;
+  flex: 0 0 30%;
   text-align: left;
 }
 
