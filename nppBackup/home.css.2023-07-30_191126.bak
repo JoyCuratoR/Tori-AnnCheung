@@ -82,20 +82,6 @@ body {
 .text-box h5 {
   font-weight: bold;
   color: white; /* Set text color to white */
-  position: relative; /* Create a stacking context for the pseudo-element */
-}
-
-.text-box h5::before {
-  content: "";
-  position: absolute;
-  top: 50%;
-  left: 0;
-  width: 100%;
-  height: 4px; /* Adjust the height of the line as needed */
-  background-color: black;
-  border-radius: 2px; /* Make the line rounded */
-  transform: translateY(-50%); /* Center the line vertically */
-  z-index: -1; /* Push the line below the text */
 }
 
 .text-box h1 {
@@ -126,7 +112,6 @@ body {
   font-weight: bold; /* Make the text within the button bold */
   margin-top: 20px;
 }
-
 
 
 
