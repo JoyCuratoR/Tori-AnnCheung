@@ -137,7 +137,7 @@ body {
 #second-section {
   background-color: #F4F4F4;
   display: flex;
-  flex-direction: column;
+  flex-direction: column; /* Add flex-direction: column to stack the elements vertically */
   justify-content: center;
   align-items: center;
   height: 100vh;
@@ -145,11 +145,7 @@ body {
 
 .centered-content {
   text-align: center;
-  padding: 50px; /* Add padding all around to center the text box */
-  flex: 1; /* Allow the content to expand to fill the available space */
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
+  padding-top: 50px; /* Add padding on top to center the text box */
 }
 
 .centered-content h2 {
@@ -157,12 +153,12 @@ body {
   font-size: 35px;
   font-weight: bold;
   margin-bottom: 10px;
+  padding-top: 80px
 }
 
 .animated-image {
   /* Add your styles for the animated image here */
 }
-
 
 
 
