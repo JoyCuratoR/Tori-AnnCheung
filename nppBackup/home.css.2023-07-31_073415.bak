@@ -109,7 +109,6 @@ body {
 
 .text-box p {
   color: white;
-  font-size: 25px;
 }
 
 .right-content {
@@ -179,7 +178,6 @@ body {
 .section-container {
   text-align: left;
   padding: 20px;
-  font-size: 30px;
 }
 
 .section-header {

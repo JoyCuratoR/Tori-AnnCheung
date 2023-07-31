@@ -65,15 +65,15 @@
         <div class="rounded-box">
           <img src="path-to-image2.jpg" alt="Image 2">
           <div class="box-content">
-            <h3 style="color: #1DCD8D;">Incident Response</h3>
-            <p>The process of promptly detecting, analyzing, prioritizing, containing, eradicating, recovering from and documenting cybersecurity incidents to minimize impact and improve resilience.</p>
+            <h3 style="color: #1DCD8D;">Incident Handling</h3>
+            <p>Nunito Regular Text</p>
           </div>
         </div>
         <div class="rounded-box">
           <img src="path-to-image3.jpg" alt="Image 3">
           <div class="box-content">
             <h3 style="color: #1DCD8D;">Data Analytics</h3>
-            <p>The discovery of patterns and meaningful insights in vast amounts of security data to detect, investigate, and predict threats.</p>
+            <p>Nunito Regular Text</p>
           </div>
         </div>
       </div>
