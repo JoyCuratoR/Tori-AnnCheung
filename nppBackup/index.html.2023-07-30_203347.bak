@@ -33,7 +33,7 @@
 	  <p>Creating Sustainable Solutions for all</p>
     </div>
     <div class="right-content">
-      <a href="#second-section" class="learn-more-button" onclick="smoothScrollToSecondSection(event)">LEARN MORE</a>
+      <a href="#second-section" class="learn-more-button" onclick="smoothScrollToSecondSection(event)">Learn More</a>
     </div>
   </div>
 </section>
