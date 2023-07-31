@@ -35,7 +35,7 @@
       <p>Creating Sustainable Solutions for all</p>
     </div>
     <div class="right-content">
-      <a href="#second-section" class="learn-more-button" onclick="smoothScrollToSecondSection()">Learn More</a>
+      <a href="#second-section" class="learn-more-button">Learn More</a>
     </div>
   </div>
 </section>
@@ -144,13 +144,43 @@
     }
   </script>
   
+  
+  <script>
+  
+	  // Get all the elements to animate
+	const rows = document.querySelectorAll('.skills .row');
+	const aboutMe = document.querySelector('.about-me');
 
+	// Create an Intersection Observer instance
+	const observer = new IntersectionObserver(entries => {
+	  entries.forEach(entry => {
+		if (entry.isIntersecting) {
+		  // Add the "fade-in" class when the element is in view
+		  entry.target.classList.add('fade-in');
+		}
+	  });
+	}, { threshold: 0.5 }); // Adjust the threshold as desired
+
+	// Observe the elements
+	rows.forEach(row => observer.observe(row));
+	observer.observe(aboutMe);
+	</script>
 	
-<script>
-  function smoothScrollToSecondSection() {
-  const secondSection = document.getElementById('second-section');
-  secondSection.scrollIntoView({ behavior: 'smooth' });
-}
+	<script>
+  function scrollToNextSection() {
+    // Get the next section element after the "Learn More" button
+    var nextSection = document.getElementsByClassName("skills")[0];
+
+    // Calculate the target scroll position by considering the current scroll position and the section's offset
+    var scrollPosition = window.pageYOffset || document.documentElement.scrollTop || document.body.scrollTop;
+    var targetPosition = nextSection.offsetTop - 50; // Adjust the offset as needed
+
+    // Scroll the page smoothly to the target position
+    window.scrollTo({
+      top: targetPosition,
+      behavior: "smooth"
+    });
+  }
 </script>
 
 
