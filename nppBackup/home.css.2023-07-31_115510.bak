@@ -173,7 +173,7 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding: 50px 30px; /* Adjusted padding to 50px at the top and bottom, 30px on the right and left */
+  padding: 50px 50px;
 }
 
 .section-container {
@@ -195,16 +195,17 @@ body {
   background-color: #263237;
   color: white;
   border-radius: 20px;
-  padding: 20px;
+  padding: 20px; /* Decreased padding to 20px */
   flex: 0 0 30%;
   text-align: left;
-  max-width: 200px; /* Adjusted max-width to 200px to make the boxes smaller */
 }
 
 .rounded-box img {
   max-width: 100px;
   margin-bottom: 10px;
 }
+
+
 
 
 
