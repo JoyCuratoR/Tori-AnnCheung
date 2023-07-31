@@ -195,7 +195,7 @@ body {
   background-color: #263237; /* Updated background color */
   color: white;
   border-radius: 20px;
-  padding: 20px; /* Increased padding to 40px */
+  padding: 40px; /* Increased padding to 40px */
   flex: 0 0 30%;
   text-align: left;
 }
