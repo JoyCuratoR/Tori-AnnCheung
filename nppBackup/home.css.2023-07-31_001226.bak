@@ -149,19 +149,22 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: center; /* Center the content horizontally */
 }
 
 .centered-content h2 {
   font-family: Nunito, sans-serif;
   font-size: 35px;
   font-weight: bold;
-  margin: 0; /* Remove the default margin to avoid extra space */
+  margin-bottom: 10px;
+  text-align: center;
+  justify-content: center;
+  padding: 50px;
 }
 
 .animated-image {
   /* Add your styles for the animated image here */
 }
+
 
 
 
