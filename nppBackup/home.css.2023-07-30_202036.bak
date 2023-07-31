@@ -69,7 +69,7 @@ body {
 
 .left-content {
   width: 30%;
-  padding: 75px;
+  padding: 85px;
   display: flex;
   flex-direction: column;
 }
@@ -102,7 +102,6 @@ body {
 .text-box h1 {
   font-weight: bold;
   color: white;
-  font-size: 40px; /* Increase the font size of the h1 tags as desired */
 }
 
 .text-box p {
@@ -128,7 +127,6 @@ body {
   font-weight: bold;
   margin-top: 20px;
 }
-
 
 
 
