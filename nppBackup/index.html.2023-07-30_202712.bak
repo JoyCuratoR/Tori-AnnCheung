@@ -29,8 +29,10 @@
     </div>
     <div class="text-box">
       <h1>Solving Puzzles,</h1>
-	  <h1>Empowering Futures</h1>
-	  <p>Creating Sustainable Solutions for all</p>
+	  <h1>Empowering Futures</h1
+    </div>
+    <div class="text-box">
+      <p>Creating Sustainable Solutions for all</p>
     </div>
     <div class="right-content">
       <a href="#second-section" class="learn-more-button" onclick="smoothScrollToSecondSection(event)">Learn More</a>
