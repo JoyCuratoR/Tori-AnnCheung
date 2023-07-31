@@ -192,10 +192,10 @@ body {
 }
 
 #third-section .rounded-box {
-  background-color: #263237;
+  background-color: #263237; /* Updated background color */
   color: white;
   border-radius: 20px;
-  padding: 20px; /* Decreased padding to 20px */
+  padding: 20px; /* Increased padding to 40px */
   flex: 0 0 30%;
   text-align: left;
 }
@@ -204,7 +204,6 @@ body {
   max-width: 100px;
   margin-bottom: 10px;
 }
-
 
 
 
