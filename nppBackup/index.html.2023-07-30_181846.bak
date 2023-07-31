@@ -23,7 +23,7 @@
 
 <section class="page-section" id="first-section">
   <div class="left-content">
-    <div class="text-box logo-box"> <!-- Added 'logo-box' class for the first text box -->
+    <div class="text-box">
       <h1>Nunito Bold Heading</h1>
       <p>Nunito Regular Text</p>
     </div>
