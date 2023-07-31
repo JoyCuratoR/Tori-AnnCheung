@@ -191,11 +191,11 @@ body {
   justify-content: space-between;
 }
 
-.rounded-box {
+#third-section .rounded-box {
   background-color: #263237;
   color: white;
   border-radius: 20px;
-  padding: 40px;
+  padding: 20px;
   flex: 0 0 30%; /* Adjust the width of the boxes */
   text-align: left;
 }
