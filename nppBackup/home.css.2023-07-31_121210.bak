@@ -173,7 +173,7 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding: 25px 25px;
+  padding: 50px 50px;
 }
 
 .section-container {
