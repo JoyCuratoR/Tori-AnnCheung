@@ -103,8 +103,6 @@ body {
   font-weight: bold;
   color: white;
   font-size: 65px; /* Increase the font size of the h1 tags as desired */
-  margin-top: 0; /* Add top margin of 0 */
-  margin-bottom: 0; /* Add bottom margin of 0 */
 }
 
 .text-box p {
