@@ -158,7 +158,6 @@ body {
   margin-bottom: 10px;
   text-align: center;
   justify-content: center;
-  padding: 50px;
 }
 
 .animated-image {
