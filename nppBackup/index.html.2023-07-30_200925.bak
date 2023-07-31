@@ -28,11 +28,12 @@
 	  <h4>curiosity.</h4>
     </div>
     <div class="text-box">
-      <h1>Solving Puzzles,</h1>
-	  <h1>Empowering Futures</h1
+      <h1>Nunito Bold Heading</h1>
+      <p>Nunito Regular Text</p>
     </div>
     <div class="text-box">
-      <p>Creating Sustainable Solutions for all</p>
+      <h1>Nunito Bold Heading</h1>
+      <p>Nunito Regular Text</p>
     </div>
     <div class="right-content">
       <a href="#second-section" class="learn-more-button">Learn More</a>
