@@ -83,8 +83,8 @@ body {
 .text-box h4 {
   font-weight: bold;
   color: white;
-  margin-top: 0; /* Add top margin of 0 */
-  margin-bottom: 0; /* Add bottom margin of 0 */
+  margin: 0;
+  line-height: 1;
 }
 
 .text-box h4::before {
