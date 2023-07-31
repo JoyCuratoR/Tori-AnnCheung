@@ -35,7 +35,7 @@
       <p>Creating Sustainable Solutions for all</p>
     </div>
     <div class="right-content">
-      <a href="#second-section" class="learn-more-button" onclick="smoothScrollToSecondSection(event)">Learn More</a>
+      <a href="#second-section" class="learn-more-button" onclick="smoothScrollToSecondSection()">Learn More</a>
     </div>
   </div>
 </section>
@@ -147,8 +147,7 @@
 
 	
 <script>
-function smoothScrollToSecondSection(event) {
-  event.preventDefault(); // Prevent default behavior of the anchor link
+  function smoothScrollToSecondSection() {
   const secondSection = document.getElementById('second-section');
   secondSection.scrollIntoView({ behavior: 'smooth' });
 }
