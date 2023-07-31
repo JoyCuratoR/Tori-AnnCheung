@@ -80,12 +80,12 @@ body {
   position: relative; /* Create a positioning context for the pseudo-element */
 }
 
-.text-box h4 {
+.text-box h5 {
   font-weight: bold;
   color: white;
 }
 
-.text-box h4::before {
+.text-box h5::before {
   content: "";
   position: absolute;
   top: 50%;
