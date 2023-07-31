@@ -192,16 +192,16 @@ body {
 }
 
 #third-section .rounded-box {
-  background-color: #263237; /* Updated background color */
+  background-color: #263237;
   color: white;
   border-radius: 20px;
-  padding: 40px; /* Increased padding to 40px */
-  flex: 0 0 30%;
+  padding: 40px;
+  flex: 0 0 30%; /* Adjust the width of the boxes */
   text-align: left;
 }
 
 .rounded-box img {
-  max-width: 100px;
+  max-width: 100px; /* Adjust the size of the images */
   margin-bottom: 10px;
 }
 
