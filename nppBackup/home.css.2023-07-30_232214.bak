@@ -150,7 +150,7 @@ body {
 
 .centered-content h2 {
   font-family: Nunito, sans-serif;
-  font-size: 35px;
+  font-size: 24px;
   font-weight: bold;
   margin-bottom: 10px;
   padding-top: 50px
