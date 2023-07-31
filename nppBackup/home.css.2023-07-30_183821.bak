@@ -64,7 +64,6 @@ body {
 #first-section {
   display: flex;
   flex-direction: row;
-  background-color: #1DCD8D;
 }
 
 .left-content {
@@ -77,10 +76,28 @@ body {
 .text-box {
   margin-bottom: 20px;
   padding: 15px; /* Add padding all around the text boxes */
+  position: relative; /* To position the black rounded line */
 }
 
 .text-box h1 {
   font-weight: bold;
+}
+
+.logo-box {
+  width: 100px; /* Set the width for the smaller square (adjust as needed) */
+  height: 100px; /* Set the height for the smaller square (adjust as needed) */
+  background-color: #1A2529; /* Set the background color for the square */
+  border-radius: 5px; /* To create the square shape */
+}
+
+.black-line {
+  position: absolute;
+  top: 50%; /* Position it in the middle vertically */
+  right: -10px; /* Adjust the position to be on the right side of the square */
+  width: 20px; /* Set the width of the black line (adjust as needed) */
+  height: 3px; /* Set the height of the black line (adjust as needed) */
+  background-color: black; /* Set the color for the black line */
+  border-radius: 2px; /* To make the line rounded */
 }
 
 .right-content {
@@ -92,16 +109,15 @@ body {
 }
 
 .learn-more-button {
-  display: block; /* Change to a block-level element to place it below text boxes */
+  display: block;
   background-color: #1A2529;
   color: white;
   text-decoration: none;
-  padding: 15px 20px; /* Add padding all around the button */
+  padding: 15px 20px;
   border-radius: 50px;
   font-family: Nunito, sans-serif;
-  margin-top: 20px; /* Add some space between text boxes and button */
+  margin-top: 20px;
 }
-
 
 
 
