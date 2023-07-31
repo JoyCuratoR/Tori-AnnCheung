@@ -102,7 +102,7 @@ body {
 .text-box h1 {
   font-weight: bold;
   color: white;
-  font-size: 80px; /* Increase the font size of the h1 tags as desired */
+  font-size: 40px; /* Increase the font size of the h1 tags as desired */
 }
 
 .text-box p {
