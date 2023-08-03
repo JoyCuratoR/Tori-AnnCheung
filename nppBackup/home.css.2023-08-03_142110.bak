@@ -75,7 +75,7 @@ body {
 }
 
 .text-box {
-  margin-bottom: 5px;
+  margin-bottom: 15px;
   padding: 15px;
   position: relative; /* Create a positioning context for the pseudo-element */
 }
