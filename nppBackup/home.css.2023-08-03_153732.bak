@@ -45,37 +45,21 @@ body {
     }
 
 
-@media (max-width: 768px) {
+/* Mobile */ 
+@media (max-width: 500px) {
+  .container {
+    padding: 10px;
+  }
+}
 
-  .page-section {
-    flex-direction: column;
+/* Tablet */
+@media (min-width: 501px) and (max-width: 768px) {
+  .container {
+    padding: 20px; 
   }
-  
-  .left-content,
-  .right-content {
-    width: 100%;
-  }
-
-  .content-boxes {
-    flex-direction: column;  
-  }
-  
-  .content-box {
-    width: 100%;
-  }
-
-  .layout-70-30 {
-    flex-direction: column;
-  }
-
-  .left-side, 
-  .right-side {
-    width: 100%;
-  }
-
 }
 	
-
+	
 
 .page-section {
   width: 100%;
