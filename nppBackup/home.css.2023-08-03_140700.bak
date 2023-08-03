@@ -75,7 +75,7 @@ body {
 }
 
 .text-box {
-  margin-bottom: 15px;
+  margin-bottom: 20px;
   padding: 15px;
   position: relative; /* Create a positioning context for the pseudo-element */
 }
@@ -129,6 +129,7 @@ body {
   border-radius: 50px;
   font-family: Nunito, sans-serif;
   font-weight: bold;
+  margin-top: 5px; /* Decrease the margin-top value to bring the button closer to the paragraph */
 }
 
 
