@@ -174,7 +174,7 @@ body {
 .header-text-box {
   background-color: #1A2529;
   color: #1DCD8D;
-  font-family: Nunito, sans-serif; 
+  font-family: Nunito, sans-serif;
   font-weight: bold;
   padding: 20px;
 }
@@ -188,18 +188,23 @@ body {
   background-color: #263237;
   border-radius: 10px;
   padding: 20px;
-  width: 30%; 
+  width: 30%;
 }
 
 .content-box h3 {
   color: #1DCD8D;
   font-family: Nunito, sans-serif;
-  font-weight: bold;
+  font-weight: bold; 
 }
 
 .content-box p {
-  color: #fff;
+  color: white;
   font-family: Nunito, sans-serif;
+}
+
+.rounded-box img {
+  max-width: 100px; /* Adjust the size of the images */
+  margin-bottom: 10px;
 }
 
 
