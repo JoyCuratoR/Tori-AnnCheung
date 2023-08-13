@@ -195,26 +195,6 @@
 	<!-- Title Cards -->
 	<div class="title-card" style="display: flex; align-items: center;">
   <div style="flex: 3;">
-    <h2>Mistakes Made & Lessons Learned: Studying for CompTIA Security+ Exam</h2>
-    <p>4 of the biggest mistakes and lessons learned and the solution that eventually worked.</p>
-    <p>Published: <span class="publish-date">2023-08-13</span></p>
-    <p><a href="Articles/mistakes-lessons-comptia-security-exam.html" target="_blank">Read More</a></p>
-    <div class="tags">
-      <span class="tag">#cybersecurity</span>
-	  <span class="tag">#commentary</span>
-	  <span class="tag">#self-teaching</span>
-      <!-- Add more tags as needed -->
-    </div>
-  </div>
-  <div style="flex: 1;">
-    <img src="https://images.pexels.com/photos/17887967/pexels-photo-17887967.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" style="max-width: 400px; height: 300px;" alt="Shoto by Iren Fedo from Pexels: https://www.pexels.com/photo/17887967/">
-  </div>
-</div>
-
-<hr class="separator"> <!-- Add a separator line here -->
-	
-	<div class="title-card" style="display: flex; align-items: center;">
-  <div style="flex: 3;">
     <h2>Forget About Setting Goals. Focus on This Secret to Success Instead.</h2>
     <p>We've all been there: setting goals that we're excited about for a few days or weeks, only to lose motivation and give up altogether. But what if I told you that the secret to success isn't setting goals at all?</p>
     <p>Published: <span class="publish-date">2023-08-03</span></p>
