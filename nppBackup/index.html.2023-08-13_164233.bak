@@ -1,0 +1,156 @@
+<html>
+<head>
+  
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="home.css">
+  
+  
+  <title>made by curiosity Home</title>
+</head>
+
+
+<body>
+
+  <!-- Add the navigation bar to the top of the page -->
+  <div class="navbar">
+    <a href="index.html" style="background-color: #439775;">Home</a>
+    <a href="cv.html" style="background-color: #439775;">CV</a>
+    <a href="blog.html" style="background-color: #439775;">Blog</a>
+  </div>
+
+<h1>Page is Under Construction</h1>
+
+<section class="page-section" id="first-section">
+  <div class="left-content">
+    <div class="text-box">
+      <h4>made by</h4>
+	  <h4>curiosity.</h4>
+    </div>
+    <div class="text-box">
+      <h1>Solving Puzzles,</h1>
+	  <h1>Empowering Futures</h1>
+	  <p>Creating Sustainable Solutions for all</p>
+    </div>
+    <div class="right-content">
+      <a href="#second-section" class="learn-more-button" onclick="smoothScrollToSecondSection(event)">LEARN MORE</a>
+    </div>
+  </div>
+</section>
+
+
+<section class="page-section" id="second-section">
+    <div class="centered-content">
+      <h2>My driving force is towards helping people and organizations solve puzzles that don't have clear solutions in a sustainable, healthy way.</h2>
+    </div>
+    <div class="animated-image">
+      <!-- Add your animated image/sticker here -->
+    </div>
+  </section>
+
+
+<section class="page-section" id="third-section">
+    <div class="section-container">
+      <div class="header-text-box">
+        <h2 style="color: #1DCD8D;">Services</h2>
+      </div>
+      <div class="content-boxes">
+        <div class="content-box">
+          <img src="path-to-image1.jpg" alt="Image 1">
+          <div class="box-content">
+            <h3 style="color: #1DCD8D;">Digital Forensics</h3>
+            <p>The ability to recover and analyze data from computers, networks, mobile devices, etc. to find evidence of cybercrimes.</p>
+          </div>
+        </div>
+        <div class="content-box">
+          <img src="path-to-image2.jpg" alt="Image 2">
+          <div class="box-content">
+            <h3 style="color: #1DCD8D;">Incident Response</h3>
+            <p>The process of promptly detecting, analyzing, prioritizing, containing, eradicating, recovering from and documenting cybersecurity incidents to minimize impact and improve resilience.</p>
+          </div>
+        </div>
+        <div class="content-box">
+          <img src="path-to-image3.jpg" alt="Image 3">
+          <div class="box-content">
+            <h3 style="color: #1DCD8D;">Data Analytics</h3>
+            <p>The discovery of patterns and meaningful insights in vast amounts of security data to detect, investigate, and predict threats.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+ <section class="page-section" id="fourth-section">
+    <div class="section-container">
+      <div class="rounded-box">
+        <img src="path-to-image4.jpg" alt="Image 4">
+        <div class="box-content">
+          <h3>Let's foster an integrated security culture</h3>
+          <p>Where users and employees become our partners to safeguarding against evolving security threats.</p>
+        </div>
+      </div>
+    </div>
+    <div class="animated-image">
+      <!-- Add your animated image/sticker here -->
+    </div>
+  </section>
+  
+  
+  <section class="page-section" id="fifth-section">
+    <div class="section-container">
+      <div class="layout-70-30">
+        <div class="left-side">
+          <!-- Add your content for the left side here -->
+        </div>
+        <div class="right-side">
+          <div class="text-box contact-box">
+            <h2>Contact Me</h2>
+          </div>
+          <div class="text-box email-box">
+            <h3 style="color: #1DCD8D;">Email</h3>
+            <p>torianncheung@gmail.com</p>
+          </div>
+          <div class="text-box social-box">
+            <h3 style="color: #1DCD8D;">Social</h3>
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+
+  <!-- Nav bar at bottom page -->
+  <div class="navbar">
+    <p> Made with love and hosted on GitHub Pages.</p>
+  </div>
+
+
+  <!-- Scroll to top icon -->
+  <div class="scroll-to-top" onclick="scrollToTop()">
+    &#8593; <!-- Up arrow icon -->
+  </div>
+
+  <!-- Scroll to top function -->
+  <script>
+    function scrollToTop() {
+      window.scrollTo({ top: 0, behavior: 'smooth' });
+    }
+  </script>
+  
+
+	
+<script>
+function smoothScrollToSecondSection(event) {
+  event.preventDefault(); // Prevent default behavior of the anchor link
+  const secondSection = document.getElementById('second-section');
+  secondSection.scrollIntoView({ behavior: 'smooth' });
+}
+</script>
+
+
+</body>
+
+</html>
