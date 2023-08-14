@@ -22,20 +22,26 @@
 <h1>Page is Under Construction</h1>
 
 <section class="page-section" id="first-section">
+
   <div class="left-content">
+
     <div class="text-box">
       <h4>made by</h4>
-	  <h4>curiosity.</h4>
+      <h4>curiosity.</h4> 
     </div>
+
     <div class="text-box">
       <h1>Solving Puzzles,</h1>
-	  <h1>Empowering Futures</h1>
-	  <p>Creating Sustainable Solutions for all</p>
+      <h1>Empowering Futures</h1>
+      <p>Creating Sustainable Solutions for all</p>
     </div>
-    <div class="right-content">
-      <a href="#second-section" class="learn-more-button" onclick="smoothScrollToSecondSection(event)">LEARN MORE</a>
-    </div>
+
   </div>
+  
+  <div class="right-content">
+    <a href="#second-section" class="learn-more-button">LEARN MORE</a>
+  </div>
+
 </section>
 
 
