@@ -44,8 +44,8 @@
     <div class="centered-content">
       <h2>My driving force is towards helping people and organizations solve puzzles that don't have clear solutions in a sustainable, healthy way.</h2>
     </div>
-    <div>
-      <img src="Images/4.png">
+    <div class="animated-image">
+      <!-- Add your animated image/sticker here -->
     </div>
   </section>
 
