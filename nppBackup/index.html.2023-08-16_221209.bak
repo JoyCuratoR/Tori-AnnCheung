@@ -43,6 +43,7 @@
 <section class="page-section" id="second-section">
     <div class="centered-content">
       <h2>My driving force is towards helping people and organizations solve puzzles that don't have clear solutions in a sustainable, healthy way.</h2>
+	  <h2>I appreciate teamwork and cooperation. Attention to detail keeps me away from mistakes. Learning new things and constant self-development are important to me.</h2>
     </div>
     <div class="animated-image">
       <!-- Add your animated image/sticker here -->
@@ -93,7 +94,8 @@
       <div class="rounded-box">
         <img src="path-to-image4.jpg" alt="Image 4">
         <div class="box-content">
-          <h3>I appreciate teamwork and cooperation. Attention to detail keeps me away from mistakes. Learning new things and constant self-development are important to me.</h3>
+          <h3>Let's foster an integrated security culture</h3>
+          <p>Where users and employees become our partners to safeguarding against evolving security threats.</p>
         </div>
       </div>
     </div>
