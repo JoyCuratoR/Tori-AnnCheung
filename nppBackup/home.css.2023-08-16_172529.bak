@@ -45,7 +45,7 @@ body {
     }
 
 
-@media (max-width: 1000px) {
+@media (max-width: 768px) {
 
   .page-section {
     flex-direction: column;
@@ -244,6 +244,58 @@ body {
   padding: 50px 0;
 }
 
+.section-container {
+  flex: 1; /* Take half of the space */
+  padding: 20px;
+}
+
+.layout-70-30 {
+  display: flex;
+  justify-content: space-between;
+}
+
+.left-side {
+  flex: 70%; /* Take 70% of the space */
+  color: white;
+}
+
+.right-side {
+  flex: 30%; /* Take 30% of the space */
+  padding-left: 20px; /* Add space on the left side of the right-side content */
+  color: white;
+}
+
+.text-box {
+  padding: 20px;
+}
+
+.text-box h2 {
+  font-family: Nunito, sans-serif;
+  font-weight: bold;
+}
+
+.text-box h3 {
+  font-family: Nunito, sans-serif;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+/* Additional styles for the specific text boxes */
+.contact-box {
+  background-color: #1DCD8D;
+}
+
+.email-box {
+  background-color: #1A2529;
+  margin-top: 20px;
+}
+
+.social-box {
+  background-color: #1A2529;
+  margin-top: 20px;
+}
+
+/* Add styles for social media icons, if needed */
 
 
 
