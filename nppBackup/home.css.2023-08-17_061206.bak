@@ -198,7 +198,6 @@ body {
   font-family: Nunito, sans-serif; 
   font-weight: bold;
   padding: 20px;
-  text-align: center;
 }
 
 .content-boxes {
