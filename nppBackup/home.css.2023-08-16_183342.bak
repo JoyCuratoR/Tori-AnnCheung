@@ -173,20 +173,40 @@ body {
 }
 
 
+
 #fourth-section {
   background-color: #CDF3E5;
+  display: flex;
+  padding: 50px 0;
 }
 
-.text-box {
-  padding: 50px; 
-  width: 50%;
+.section-container {
+  flex: 1; /* Take half of the space */
+  padding: 20px;
+}
+
+.rounded-box {
+  background-color: white;
   color: black;
+  border-radius: 20px;
+  padding: 20px;
+  margin-right: 20px; /* Add space between the white rounded box and animated image */
+}
+
+.rounded-box img {
+  max-width: 100px;
+  margin-bottom: 10px;
+}
+
+.box-content h3 {
   font-family: Nunito, sans-serif;
   font-weight: bold;
-  font-size: 36px;
 }
 
-
+.animated-image {
+  flex: 1; /* Take half of the space */
+  /* Add your styles for the animated image here */
+}
 
 
 #fifth-section {
