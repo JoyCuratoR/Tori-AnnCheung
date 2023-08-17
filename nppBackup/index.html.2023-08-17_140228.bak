@@ -57,7 +57,7 @@
       </div>
       <div class="content-boxes">
         <div class="content-box">
-          <img src="Images/Strength.png" style="max-width: 50px; height: 50px;">
+          <img src="Images/Strength.png" >
           <div class="box-content">
             <h3 style="color: #1DCD8D;">Key Strengths</h3>
             <ol>
