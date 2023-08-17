@@ -192,13 +192,35 @@ body {
   background-color: #1A2529;
 }
 
-.text-box {
-  padding: 50px;
-  width: 50%;
+.header-text-box {
+  background-color: #1A2529;
+  color: #1DCD8D;
+  font-family: Nunito, sans-serif; 
+  font-weight: bold;
+  padding: 20px;
+}
+
+.content-boxes {
+  display: flex;
+  justify-content: space-between;
+}
+
+.content-box {
+  background-color: #263237;
+  border-radius: 10px;
+  padding: 20px;
+  width: 30%; 
+}
+
+.content-box h3 {
   color: #1DCD8D;
   font-family: Nunito, sans-serif;
   font-weight: bold;
-  font-size: 36px; 
+}
+
+.content-box p {
+  color: #fff;
+  font-family: Nunito, sans-serif;
 }
 
 
