@@ -43,7 +43,6 @@
 <section class="page-section" id="second-section">
     <div class="centered-content">
       <h2>My driving force is towards helping people and organizations solve puzzles that don't have clear solutions in a sustainable, healthy way.</h2>
-	  <h2>I appreciate teamwork and cooperation. Attention to detail keeps me away from mistakes. Learning new things and constant self-development are important to me.</h2>
     </div>
     <div class="animated-image">
       <!-- Add your animated image/sticker here -->
@@ -54,34 +53,28 @@
 <section class="page-section" id="third-section">
     <div class="section-container">
       <div class="header-text-box">
-        <h2 style="color: #1DCD8D;">What I Bring to the Table</h2>
+        <h2 style="color: #1DCD8D;">Services</h2>
       </div>
       <div class="content-boxes">
         <div class="content-box">
           <img src="path-to-image1.jpg" alt="Image 1">
           <div class="box-content">
-            <h3 style="color: #1DCD8D;">Key Strengths</h3>
-            <ol>
-				<li>Self-confidence: I know my value and am not afraid of presenting my ideas to others.</li>
-				<li>Self-discipline: I’m responsible and committed to my duties. I maintain productivity even when faced with distractions.</li>  
-				<li>Straightforwardness: I am direct, honest, and transparent in my communication and actions.</li>
-			</ol>
+            <h3 style="color: #1DCD8D;">Digital Forensics</h3>
+            <p>The ability to recover and analyze data from computers, networks, mobile devices, etc. to find evidence of cybercrimes.</p>
           </div>
         </div>
         <div class="content-box">
           <img src="path-to-image2.jpg" alt="Image 2">
           <div class="box-content">
-            <h3 style="color: #1DCD8D;">Communication Style</h3>
-            <p>Intuitive: I'm interested in the big picture, and I like quick and to-the-point conversations.</p>
+            <h3 style="color: #1DCD8D;">Incident Response</h3>
+            <p>The process of promptly detecting, analyzing, prioritizing, containing, eradicating, recovering from and documenting cybersecurity incidents to minimize impact and improve resilience.</p>
           </div>
         </div>
         <div class="content-box">
           <img src="path-to-image3.jpg" alt="Image 3">
           <div class="box-content">
-            <h3 style="color: #1DCD8D;">Work Values</h3>
-            <p>I appreciate the possibility of working with others, confidence, and personal comfort. I may be ready to sacrifice the feeling of individual achievement 
-			and recognition and be prepared to follow detailed rules and instructions. To find satisfaction, I take care to pick a job that provides support and enough 
-			interaction with others.</p>
+            <h3 style="color: #1DCD8D;">Data Analytics</h3>
+            <p>The discovery of patterns and meaningful insights in vast amounts of security data to detect, investigate, and predict threats.</p>
           </div>
         </div>
       </div>
