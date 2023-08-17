@@ -98,8 +98,8 @@
         </div>
       </div>
     </div>
-    <div>
-      <img src="Images/5.png">
+    <div class="animated-image">
+      <!-- Add your animated image/sticker here -->
     </div>
   </section>
   
