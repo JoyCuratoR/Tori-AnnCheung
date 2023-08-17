@@ -68,7 +68,7 @@
           </div>
         </div>
         <div class="content-box">
-          <img src="Images/Speaking.png" style="max-width: 100px; height: 100px;">
+          <img src="path-to-image2.jpg" alt="Image 2">
           <div class="box-content">
             <h3 style="color: #1DCD8D;">Communication Style</h3>
             <p>Intuitive: I'm interested in the big picture, and I like quick and to-the-point conversations.</p>
@@ -76,7 +76,7 @@
           </div>
         </div>
         <div class="content-box">
-          <img src="Images/Trophy.png" style="max-width: 100px; height: 100px;">
+          <img src="path-to-image3.jpg" alt="Image 3">
           <div class="box-content">
             <h3 style="color: #1DCD8D;">Work Values</h3>
             <p>I appreciate the possibility of working with others, confidence, and personal comfort. I may be ready to sacrifice the feeling of individual achievement 
