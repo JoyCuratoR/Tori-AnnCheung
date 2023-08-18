@@ -260,6 +260,8 @@ border-radius: 20px;
 
 padding: 20px;
 
+margin-right: 10px; /* Add space between the white rounded box and animated image */
+
 width: 600px;
 
 height: auto;
