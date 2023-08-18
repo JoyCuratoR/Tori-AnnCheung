@@ -249,7 +249,7 @@ body {
   border-radius: 20px;
   padding: 20px;
   margin-right: 20px; /* Add space between the white rounded box and animated image */
-  width: 750px;
+  width: 300px;
 }
 
 .rounded-box img {
