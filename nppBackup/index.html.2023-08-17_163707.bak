@@ -92,6 +92,7 @@
  <section class="page-section" id="fourth-section">
     <div class="section-container">
       <div class="rounded-box">
+        <img src="path-to-image4.jpg" alt="Image 4">
         <div class="box-content">
           <h3>I appreciate teamwork and cooperation. Attention to detail keeps me away from mistakes. Learning new things and constant self-development are important to me.</h3>
         </div>
