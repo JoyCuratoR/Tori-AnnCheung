@@ -260,7 +260,7 @@ border-radius: 20px;
 
 padding: 20px;
 
-margin-right: 10px; /* Add space between the white rounded box and animated image */
+margin-right: 20px; /* Add space between the white rounded box and animated image */
 
 width: 600px;
 
@@ -284,6 +284,13 @@ font-weight: bold;
 
 }
 
+.animated-image {
+
+flex: 1; /* Take half of the space */
+
+/* Add your styles for the animated image here */
+
+}
 
 
 #fifth-section {
