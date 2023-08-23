@@ -236,19 +236,12 @@ body {
 
 background-color: #CDF3E5;
 
-display: flex;
-
-padding: 50px 0;
-
-}
-
-.section-container {
-
-flex: 1; /* Take half of the space */
-
-padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 
 }
+
 
 .rounded-box {
 
@@ -258,14 +251,17 @@ color: black;
 
 border-radius: 20px;
 
-padding: 20px;
-
-width: 600px;
-
-height: auto;
+margin: auto 0; /* Vertical center */
 
 }
 
+.rounded-box img {
+
+max-width: 150px;
+
+margin-top: 20px; /* Padding */
+
+}
 
 .box-content h3 {
 
