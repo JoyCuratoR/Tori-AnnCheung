@@ -238,13 +238,15 @@ background-color: #CDF3E5;
 
 display: flex;
 
-justify-content: space-between;
+padding: 50px 0;
 
 }
 
 .section-container {
 
 flex: 1; /* Take half of the space */
+
+padding: 20px;
 
 }
 
@@ -258,7 +260,7 @@ border-radius: 20px;
 
 padding: 20px;
 
-width: 50%;
+width: 600px;
 
 height: auto;
 
