@@ -240,10 +240,13 @@ display: flex;
 
 justify-content: space-between;
 
-padding: 50px 0; 
-
 }
 
+.section-container {
+
+flex: 1; /* Take half of the space */
+
+}
 
 .rounded-box {
 
@@ -252,6 +255,8 @@ background-color: white;
 color: black;
 
 border-radius: 20px;
+
+padding: 20px;
 
 width: 50%;
 
