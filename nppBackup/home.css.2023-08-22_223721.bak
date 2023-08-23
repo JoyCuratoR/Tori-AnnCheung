@@ -244,6 +244,8 @@ padding: 50px 0;
 
 .section-container {
 
+flex: 1; /* Take half of the space */
+
 padding: 20px;
 
 }
