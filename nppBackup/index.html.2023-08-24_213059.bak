@@ -104,22 +104,26 @@
   
   
   <section class="page-section" id="fifth-section">
+    <div class="section-container">
+      <div class="layout-70-30">
+        <div class="left-side">
+          <!-- Add your content for the left side here -->
+        </div>
+        <div class="right-side">
+          <div class="text-box contact-box">
+            <h2>Contact Me</h2>
+          </div>
+          <div class="text-box email-box">
+            <h3 style="color: #1DCD8D;">Email</h3>
+            <p>torianncheung@gmail.com</p>
+          </div>
+          <div class="text-box social-box">
+            <h3 style="color: #1DCD8D;">Social</h3>
 
-  <h1>Contact Me</h1>
-
-  <h2 style="color: #1DCD8D;">Email</h2>
-  <p style="color: white;">torianncheung@gmail.com</p>
-
-  <h2 style="color: #1DCD8D;">Social</h2>
-
-  <a href="https://www.linkedin.com/in/tori-ann-cheung/" target="_blank">
-    <img src="Images/6.png" alt="Social Link">
-  </a>
-
-  <a href="https://medium.com/@tori-anncheung" target="_blank">  
-    <img src="Images/7.png" alt="Social Link">
-  </a>
-
+          </div>
+        </div>
+      </div>
+    </div>
   </section>
 
 
