@@ -113,11 +113,11 @@
   <h2 style="color: #1DCD8D;">Social</h2>
 
   <a href="https://www.linkedin.com/in/tori-ann-cheung/" target="_blank">
-    <img src="Images/6.png" style="max-width: 100px; height: 100px;">
+    <img src="Images/6.png" alt="Social Link">
   </a>
 
   <a href="https://medium.com/@tori-anncheung" target="_blank">  
-    <img src="Images/7.png" style="max-width: 100px; height: 100px;">
+    <img src="Images/7.png" alt="Social Link">
   </a>
 
   </section>
