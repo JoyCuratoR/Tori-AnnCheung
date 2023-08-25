@@ -285,7 +285,7 @@ font-weight: bold;
   align-items: center;
   justify-content: center;
   height: 100vh;
-  background: #000000;
+  background: #333;
   color: white;
 }
 
@@ -298,8 +298,4 @@ font-weight: bold;
   font-family: Nunito, sans-serif;
 }
 
-.fifth-section img {
-  vertical-align: middle;
-  display: inline-block;
-  margin: 0 10px;
-}
+
