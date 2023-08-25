@@ -41,7 +41,7 @@ body {
     /* Style the navigation bar links when hovered */
     .navbar a:hover {
       background-color: #CDF3E5; /* Change background color on hover */
-      color: #CDF3E5; /* Change text color on hover */
+      color: black; /* Change text color on hover */
     }
 
 
