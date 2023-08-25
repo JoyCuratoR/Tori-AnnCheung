@@ -22,7 +22,7 @@ body {
 
     /* Add any styling you want for the navigation bar */
     .navbar {
-      background-color: white;
+      background-color: #439775;
       overflow: hidden;
       text-align: center; /* Center the navigation links */
     }
@@ -40,8 +40,8 @@ body {
 
     /* Style the navigation bar links when hovered */
     .navbar a:hover {
-      background-color: #CDF3E5; /* Change background color on hover */
-      color: black; /* Change text color on hover */
+      background-color: #55a6a2; /* Change background color on hover */
+      color: white; /* Change text color on hover */
     }
 
 
