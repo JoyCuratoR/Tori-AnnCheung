@@ -182,6 +182,9 @@ body {
   margin: 0; /* Remove the default margin to avoid extra space */
 }
 
+.animated-image {
+  /* Add your styles for the animated image here */
+}
 
 
 
