@@ -126,7 +126,7 @@ body {
   font-weight: bold;
   color: white;
   font-size: 65px; /* Increase the font size of the h1 tags as desired */
-  margin-top: 5px; /* Add top margin of 0 */
+  margin-top: 0; /* Add top margin of 0 */
   margin-bottom: 0; /* Add bottom margin of 0 */
 }
 
@@ -177,7 +177,7 @@ body {
 
 .centered-content h2 {
   font-family: Nunito, sans-serif;
-  font-size: 45px;
+  font-size: 35px;
   font-weight: bold;
   margin: 0; /* Remove the default margin to avoid extra space */
 }

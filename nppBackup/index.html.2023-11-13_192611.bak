@@ -69,8 +69,8 @@
           <img src="Images/Speaking.png" style="max-width: 100px; height: 100px;">
           <div class="box-content">
             <h3 style="color: #1DCD8D;">Communication Style</h3>
-            <p><b>Intuitive</b>: I'm interested in the big picture, and I like quick and to-the-point conversations.</p>
-			<p><b>Straightforwardness</b>: I am direct, honest, and transparent in my communication and actions.</p>
+            <p>Intuitive: I'm interested in the big picture, and I like quick and to-the-point conversations.</p>
+			<p>Straightforwardness: I am direct, honest, and transparent in my communication and actions.</p>
           </div>
         </div>
         <div class="content-box">
