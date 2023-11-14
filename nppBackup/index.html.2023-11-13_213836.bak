@@ -80,8 +80,9 @@
           <img src="Images/Trophy.png" style="max-width: 100px; height: 100px;">
           <div class="box-content">
             <h3 style="color: #1DCD8D;">Work Values</h3>
-            <p>I thrive working closely with others to achieve shared goals.  I appreciate having clear direction and procedures to follow. 
-			Most of all, I find satisfaction in roles that allow me to build connections, provide support, and collaborate in a team environment.</p>
+            <p>I appreciate the possibility of working with others, direction, and reliability. I may be ready to sacrifice the feeling of individual achievement 
+			and recognition and be prepared to follow detailed rules and instructions. To find satisfaction, I take care to pick a job that provides support and enough 
+			interaction with others.</p>
           </div>
         </div>
       </div>
@@ -93,10 +94,11 @@
     <div class="section-container">
       <div class="rounded-box">
         <div class="box-content">
-			<h3>I have consistently been drawn to roles that allow me to help people and make a positive difference in their lives. 
-			Driven by a steadfast commitment to serving others, I pursue opportunities that align with my mission to empower, support, 
-			and care for people in need. Regardless of my position or profession, my passion for service has always guided me and continues 
-			to shape my goals today.</h3>
+			<ol>
+			  <h3>I appreciate teamwork and cooperation. </h3>
+			  <h3>Attention to detail keeps me away from mistakes. </h3>
+			  <h3>Learning new things and constant self-development are important to me.</h3>
+			</ol>
         </div>
       </div>
     </div>
