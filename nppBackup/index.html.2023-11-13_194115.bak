@@ -43,7 +43,7 @@
       <h2>My driving force is being of service to others by providing insights that empower and equip.</h2>
     </div>
     <div>
-      <h3>Through supporting others, my core strengths and values shine the brightest.</h3>
+      <img src="Images/4.png">
     </div>
   </section>
 
@@ -91,9 +91,7 @@
     <div class="section-container">
       <div class="rounded-box">
         <div class="box-content">
-          <h3>I appreciate teamwork and cooperation. </h3>
-		  <h3>Attention to detail keeps me away from mistakes. </h3>
-		  <h3>Learning new things and constant self-development are important to me.</h3>
+          <h3>I appreciate teamwork and cooperation. Attention to detail keeps me away from mistakes. Learning new things and constant self-development are important to me.</h3>
         </div>
       </div>
     </div>
