@@ -28,8 +28,9 @@
 	  <h4>curiosity.</h4>
     </div>
     <div class="text-box">
-      <h1>Hi There,</h1>
-	  <h1>How Can I Be of Service to You?</h1>
+      <h1>Solving Puzzles,</h1>
+	  <h1>Empowering Futures</h1>
+	  <p>Creating Sustainable Solutions for all</p>
     </div>
     <div class="right-content">
       <a href="#second-section" class="learn-more-button" onclick="smoothScrollToSecondSection(event)">LEARN MORE</a>
@@ -40,7 +41,7 @@
 
 <section class="page-section" id="second-section">
     <div class="centered-content">
-      <h2>My driving force is being of service to others by providing insights that empower and equip.</h2>
+      <h2>My driving force is towards helping people and organizations solve puzzles that don't have clear solutions in a sustainable, healthy way.</h2>
     </div>
     <div>
       <img src="Images/4.png">
@@ -77,7 +78,7 @@
           <img src="Images/Trophy.png" style="max-width: 100px; height: 100px;">
           <div class="box-content">
             <h3 style="color: #1DCD8D;">Work Values</h3>
-            <p>I appreciate the possibility of working with others, direction, and reliability. I may be ready to sacrifice the feeling of individual achievement 
+            <p>I appreciate the possibility of working with others, confidence, and personal comfort. I may be ready to sacrifice the feeling of individual achievement 
 			and recognition and be prepared to follow detailed rules and instructions. To find satisfaction, I take care to pick a job that provides support and enough 
 			interaction with others.</p>
           </div>
