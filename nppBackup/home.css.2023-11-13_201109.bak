@@ -91,7 +91,7 @@ body {
 }
 
 .left-content {
-  width: 35%;
+  width: 30%;
   padding: 75px;
   display: flex;
   flex-direction: column;
@@ -137,7 +137,7 @@ body {
 }
 
 .right-content {
-  width: 65%;
+  width: 70%;
   padding: 20px;
   display: flex;
   justify-content: center;
@@ -163,7 +163,6 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  height: 100vh;
 }
 
 .centered-content {
