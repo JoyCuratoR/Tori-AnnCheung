@@ -94,11 +94,9 @@
     <div class="section-container">
       <div class="rounded-box">
         <div class="box-content">
-			<ol>
-			  <h3>I appreciate teamwork and cooperation. </h3>
-			  <h3>Attention to detail keeps me away from mistakes. </h3>
-			  <h3>Learning new things and constant self-development are important to me.</h3>
-			</ol>
+          <h3>I appreciate teamwork and cooperation. </h3>
+		  <h3>Attention to detail keeps me away from mistakes. </h3>
+		  <h3>Learning new things and constant self-development are important to me.</h3>
         </div>
       </div>
     </div>
@@ -112,11 +110,13 @@
 
   <h1>Contact Me</h1>
 
+  <h2 style="color: #1DCD8D;">Email</h2>
   <p style="color: white;">torianncheung@gmail.com</p>
 
+  <h2 style="color: #1DCD8D;">Social</h2>
 
 <div class="fifth-section-img">
-  <a href="https://www.linkedin.com/in/tori-ann-cheung" target="_blank">
+  <a href="https://www.linkedin.com/in/tori-ann-cheung/" target="_blank">
     <img src="Images/6.png" style="max-width: 100px; height: 100px;">
   </a>
 
