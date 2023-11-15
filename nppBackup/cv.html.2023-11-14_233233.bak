@@ -106,7 +106,6 @@
 	<!-- Table of contents -->
 <h1>Table of Contents</h1>
 <div style="margin-bottom: 10px;">
-  <p style="margin: 0;"><a href="#section-0">Research & Reports</a></p>
   <p style="margin: 0;"><a href="#section-1">Cybersecurity Experience</a></p>
   <p style="margin: 0;"><a href="#section-2">Education</a></p>
   <p style="margin: 0;"><a href="#section-3">Writing</a></p>
@@ -116,13 +115,7 @@
 	
 
 <!-- Content sections -->
-	<section id="section-0">
-	<h2>Research & Reports</h2>
-	<h3>Projects</h3>
-	<ul>
-		<li></li>
-	</ul>
-	
+
 	<section id="section-1">
 	<h2>Cybersecurity Experience</h2>
 	<h3>Information Security Administrator Intern at Cyber Proud</h3>
