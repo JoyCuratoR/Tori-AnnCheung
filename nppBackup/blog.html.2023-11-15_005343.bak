@@ -186,7 +186,6 @@
 <div id="sort-bar-2" style="display: flex; justify-content: flex-start; align-items: center; margin-bottom: 10px;">
   <button class="tag" onclick="filterByTag('programming')">Programming</button>
   <button class="tag" onclick="filterByTag('commentary')">Commentary</button>
-  <button class="tag" onclick="filterByTag('research-and-reports')">Research & Reports</button>
 </div>
 
 	
