@@ -98,12 +98,9 @@
     </div>
   
     <h1 style="text-align: center;">Tori-Ann Cheung</h1>
-	<p>Seeking opportunity to leverage investigations, data analysis and strategic thinking capabilities in roles actively safeguarding society's 
-	most vulnerable from harm. Driven by care for innocents and a vision to inform decisions upholding human welfare, my purpose is empowering solutions 
-	that prevent exploitation, aid victims, and promote sustainable community security. I helped George Usi, a man who helped build the internet,
-	with research that educated children and their parents about common exploitation methods - exemplifying my goal to apply skills for greater 
-	societal well-being.</p>
-	
+	<p>Seeking roles that allow me to serve society and support frontline workers who prioritize safety and wellbeing. With my passion for investigation and analysis,
+	I am especially interested in positions centered on OSINT, report writing, and interpreting data to uncover insights. An ideal opportunity would
+	align analytical skills with the greater purpose of aiding people dedicated to protecting and uplifting our communities.</p>
 	<p>Contact me at <a href="mailto:torianncheung@gmail.com">torianncheung@gmail.com</a>, or find me at <a href = "https://www.linkedin.com/in/tori-ann-cheung/" target="_blank">LinkedIn</a>, <a href = "https://github.com/JoyCuratoR" target="_blank">GitHub</a>.</p>
 	
 	<!-- Table of contents -->
@@ -123,7 +120,6 @@
 	<h2>Research & Reports</h2>
 	<h3>Projects</h3>
 	<ul>
-		<li>Camplight Safety Sessions: Online Scams - Tips to Safeguard Kids and Parents Against Online Scams (Final Report: In-progress)</li>
 		<li>The Double-Edged Sword of AI: How Innovations of Machine Learning Are Revolutionizing Society While Heightening National Vulnerabilities <b>(Peer-Review: In-progress)</b></li>
 	</ul>
 	
@@ -140,7 +136,6 @@
 	</ul>
 	<h3>Projects</h3>
 	<ul>
-		<li>Researched key statistics as well as common exploitations and methods targetted against children for an episode of Camplight Safety Sessions where Camplight's Forest Bronzan and Omnistruct's George Usi chat about safeguarding kids and parents against scams. (See more about this in the <p style="margin: 0;"><a href="#section-0">Research & Reports</a>)</li>
 		<li>Participated in PWN the Shell, an innovative Discord-based platform with CTF style linux challenges where each challenge gives players access to a real linux shell which they control through the Discord chat and execute Linux commands to complete objectives. </li>
 		<li>Gained hands-on experience of Linux command-line and fundamental cybersecurity skills via <a href="https://www.worldofhaiku.com/?gclid=Cj0KCQjwmN2iBhCrARIsAG_G2i6vrtYjomb1El_CAmvS2sv48y2S1CHRW5INudjEqUm1dqWND7oD4eoaAtw8EALw_wcB" target ="_blank">World of Haiku</a>, an interactive, hands-on, game-based training developed by <a href="https://haikuinc.io" target="_blank">Haiku Inc.</a> </li>
 		<li>Learned essential cybersecurity skills and frameworks from <b>15 (and counting) </b><a href= "https://tryhackme.com/p/joycuratoR" target="_blank">TryHackMe rooms</a>. </li>
