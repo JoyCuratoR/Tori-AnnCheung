@@ -47,11 +47,29 @@ body {
 
 @media (max-width: 768px) {
 
-  .content-boxes {
+  .page-section {
     flex-direction: column;
   }
   
+  .left-content,
+  .right-content {
+    width: 100%;
+  }
+
+  .content-boxes {
+    flex-direction: column;  
+  }
+  
   .content-box {
+    width: 100%;
+  }
+
+  .layout-70-30 {
+    flex-direction: column;
+  }
+
+  .left-side, 
+  .right-side {
     width: 100%;
   }
 
@@ -170,7 +188,6 @@ body {
 
 #third-section {
   background-color: #1A2529;
-  min-height: 600px
 }
 
 .header-text-box {
@@ -209,7 +226,6 @@ body {
 .content-box li {
 	color: #fff;
 	font-family: Nunito, sans-serif;
-	max-width: 200px;
 }
 
 
