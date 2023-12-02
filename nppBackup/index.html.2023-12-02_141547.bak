@@ -115,7 +115,7 @@
 
   <h1>Contact Me</h1>
 <div>
-  <p style="color: white;">torianncheung@gmail.com</p>
+  <p style="color: white;"><a href="mailto:torianncheung@gmail.com">torianncheung@gmail.com</a></p>
 </div>
 
 <div class="fifth-section-img">
