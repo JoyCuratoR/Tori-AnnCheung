@@ -209,7 +209,7 @@
 		
 
 <div class="navbar">
-	<p> Made with love and GitHub Pages.</p>
+	<p> Made with love and hosted on GitHub Pages.</p>
 </div>
 
 <div class="scroll-to-top" onclick="scrollToTop()">
