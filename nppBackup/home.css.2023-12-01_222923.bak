@@ -45,6 +45,17 @@ body {
     }
 
 
+@media (max-width: 768px) {
+
+  .content-boxes {
+    flex-direction: column;
+  }
+  
+  .content-box {
+    width: 100%;
+  }
+
+}
 	
 
 
