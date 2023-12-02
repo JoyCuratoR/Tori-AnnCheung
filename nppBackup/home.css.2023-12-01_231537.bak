@@ -188,7 +188,7 @@ body {
 
 #third-section {
   background-color: #1A2529;
-  min-height: 700px;
+  min-height: 600px;
 }
 
 .header-text-box {
