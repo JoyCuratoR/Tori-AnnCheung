@@ -7,7 +7,7 @@
 
         <meta name="author" content="Tori-Ann Cheung" />
     
-        <meta name="date" content="2023-11-30" />
+        <meta name="date" content="2023-12-04" />
     
     <title>Data Analytics in the Public Sector with R - Course 1 Week 2</title>
 
@@ -1525,7 +1525,7 @@ Course 1 Week 2</h1>
            <span class="glyphicon glyphicon-user"></span> Tori-Ann
 Cheung
       </p>
-         <p class="date"><span class="glyphicon glyphicon-calendar"></span> 2023-11-30</p>
+         <p class="date"><span class="glyphicon glyphicon-calendar"></span> 2023-12-04</p>
            
 
    
@@ -1549,15 +1549,7 @@ Cheung
 <div id="the-dataset" class="section level2">
 <h2>The Dataset</h2>
 <pre class="r"><code>folder &lt;- &quot;D:/R_Studio/Project_Vault/GP_Coursera_PublicSec/adm2020.csv&quot;
-admissions &lt;- read_csv(folder)</code></pre>
-<pre><code>## Rows: 1989 Columns: 68
-## -- Column specification --------------------------------------------------------
-## Delimiter: &quot;,&quot;
-## chr (29): XAPPLCN, XAPPLCNM, XAPPLCNW, XADMSSN, XADMSSNM, XADMSSNW, XENRLT, ...
-## dbl (39): UNITID, ADMCON1, ADMCON2, ADMCON3, ADMCON4, ADMCON5, ADMCON6, ADMC...
-## 
-## i Use `spec()` to retrieve the full column specification for this data.
-## i Specify the column types or set `show_col_types = FALSE` to quiet this message.</code></pre>
+admissions &lt;- read.csv(folder)</code></pre>
 </div>
 <div id="question-1-what-is-the-value-of-the-column-enrlw-for-the-institution-at-row-1337-in-the-data-this-is-in-an-exact-numeric-value-without-decimals." class="section level2">
 <h2>Question 1: What is the value of the column <code>ENRLW</code> for
@@ -1591,30 +1583,13 @@ paste0(&quot;We have &quot;, nrow(missing_schools), &quot; schools which have re
 this dataset? This is in a numeric value with decimals (precision to the
 third decimal place).</h2>
 <p>This question only focuses on the admissions of men, I can work with
-the <code>ADMSSNM</code> column. First, I will find out the sum of men
-who were admitted and then the sum of women who were admitted.</p>
-<pre class="r"><code>sum(admissions$ADMSSNM)</code></pre>
-<pre><code>## [1] NA</code></pre>
-<p>Because there are ‘NA’ variables within this column, the output is
-NA. So I will clean it and retry the sum function.</p>
-<pre class="r"><code>cleaned_df &lt;- admissions[ !(is.na(admissions$ADMSSNM)), ]
+the <code>ADMSSNM</code> column.</p>
+<p>I’ll clean the column of NAs and subset it so that it only calculates
+the average using the numeric values (so no NAs are included).</p>
+<pre class="r"><code>avg_male_admit &lt;- mean(admissions[!is.na(admissions$ADMSSNM), c(&#39;ADMSSNM&#39;) ])
 
-paste0(&quot;There are  &quot;, sum(cleaned_df$ADMSSNM), &quot; men admitted in total.&quot; )</code></pre>
-<pre><code>## [1] &quot;There are  2865168 men admitted in total.&quot;</code></pre>
-<p>Now I will clean the column for admisisons for women and find the
-sum.</p>
-<pre class="r"><code>cleaned_df2 &lt;- admissions[ !(is.na(admissions$ADMSSNW)), ]
-
-paste0(&quot;There are &quot;, sum(cleaned_df2$ADMSSNW), &quot; women admitted in total.&quot;)</code></pre>
-<pre><code>## [1] &quot;There are 4171606 women admitted in total.&quot;</code></pre>
-<p>Adding both these totals together and then dividing the total by the
-number of men admitted to find the average.</p>
-<pre class="r"><code>total_admits &lt;- sum(cleaned_df$ADMSSNM) + sum(cleaned_df2$ADMSSNW)
-
-avg_admitted_males &lt;- sum(cleaned_df$ADMSSNM) / total_admits
-
-paste0(&quot;There is an average of &quot;, avg_admitted_males, &quot; males admitted.&quot;)</code></pre>
-<pre><code>## [1] &quot;There is an average of 0.407170672242707 males admitted.&quot;</code></pre>
+paste0(&quot;There is an average of &quot;, avg_male_admit, &quot; males admitted.&quot;)</code></pre>
+<pre><code>## [1] &quot;There is an average of 1510.36794939378 males admitted.&quot;</code></pre>
 </div>
 </div>
 </div>
