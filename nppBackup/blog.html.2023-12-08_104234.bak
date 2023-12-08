@@ -197,46 +197,6 @@
 	<!-- Title Cards -->
 	<div class="title-card" style="display: flex; align-items: center;">
   <div style="flex: 3;">
-    <h2>Data Analytics in the Public Sector with R - Course 1, Week 3</h2>
-    <p>My thought process for Week 3 Quiz Questions</p>
-    <p>Published: <span class="publish-date">2023-12-08</span></p>
-    <p><a href="Articles/data-analytics-for-public-sector-c1w3.html" target="_blank">Read More</a></p>
-    <div class="tags">
-      <span class="tag">#data-analytics</span>
-	  <span class="tag">#programming</span>
-	  <span class="tag">#self-teaching</span>
-      <!-- Add more tags as needed -->
-    </div>
-  </div>
-  <div style="flex: 1;">
-    <img src="https://images.pexels.com/photos/18649961/pexels-photo-18649961/free-photo-of-people-on-boat-on-calm-sea.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" style="max-width: 400px; height: 300px;" alt="Photo by Beyzaa Yurtkuran: https://www.pexels.com/photo/people-on-boat-on-calm-sea-18649961/">
-  </div>
-</div>
-
-<hr class="separator"> <!-- Add a separator line here -->
-	
-	<div class="title-card" style="display: flex; align-items: center;">
-  <div style="flex: 3;">
-    <h2>Data Analytics in the Public Sector with R - Course 1, Week 3 Follow Along</h2>
-    <p>My thought process for Week 3 </p>
-    <p>Published: <span class="publish-date">2023-12-08</span></p>
-    <p><a href="Articles/data-analytics-for-public-sector-c1w3-follow-along.html" target="_blank">Read More</a></p>
-    <div class="tags">
-      <span class="tag">#data-analytics</span>
-	  <span class="tag">#programming</span>
-	  <span class="tag">#self-teaching</span>
-      <!-- Add more tags as needed -->
-    </div>
-  </div>
-  <div style="flex: 1;">
-    <img src="https://images.pexels.com/photos/18129514/pexels-photo-18129514/free-photo-of-woman-smiling-and-posing-under-clear-sky.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" style="max-width: 400px; height: 300px;" alt="Photo by Wesley Davi: https://www.pexels.com/photo/woman-smiling-and-posing-under-clear-sky-18129514/">
-  </div>
-</div>
-
-<hr class="separator"> <!-- Add a separator line here -->
-	
-	<div class="title-card" style="display: flex; align-items: center;">
-  <div style="flex: 3;">
     <h2>Data Analytics in the Public Sector with R - Course 1, Week 2</h2>
     <p>My thought process for Week 2 Quiz Questions</p>
     <p>Published: <span class="publish-date">2023-11-30 </span></p>
