@@ -127,11 +127,11 @@ body {
 }
 
 .text-box h1 {
+  font-weight: bold;
   color: white;
   font-size: 65px; /* Increase the font size of the h1 tags as desired */
   margin-top: 5px; /* Add top margin of 0 */
   margin-bottom: 0; /* Add bottom margin of 0 */
-  font-family: 'League Spartan', sans-serif;
 }
 
 .text-box p {
@@ -176,11 +176,10 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center; /* Center the content horizontally */
-  font-family: 'Lora', serif;
 }
 
 .centered-content h2 {
-  font-family: 'League Spartan', sans-serif;
+  font-family: Nunito, sans-serif;
   font-size: 45px;
   font-weight: bold;
   margin: 0; /* Remove the default margin to avoid extra space */
@@ -273,15 +272,9 @@ height: auto;
 
 .box-content h3 {
 
-font-family: 'League Spartan', sans-serif;
+font-family: Nunito, sans-serif;
 
 font-weight: bold;
-
-}
-
-.box-content p {
-
-font-family: 'Lora', serif;
 
 }
 
