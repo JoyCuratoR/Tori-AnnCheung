@@ -1,16 +1,9 @@
 body {
   margin: 0;
   padding: 0;
+  font-family: 'League Spartan', sans-serif;
   font-family: 'Lora', serif;
-
-  h1, 
-  h2,
-  h3,
-  h4,
-  h5,
-  h6 {
-  font-family: 'League Spartan', sans-serif;  
-
+  font-family: 'Yeseva One', serif;
   box-sizing: border-box;
 }
 /* Add the CSS for the scroll to top arrow */
@@ -139,6 +132,11 @@ body {
   margin-top: 5px; /* Add top margin of 0 */
   margin-bottom: 0; /* Add bottom margin of 0 */
   font-family: 'League Spartan', sans-serif;
+}
+
+.text-box p {
+  color: white;
+  font-size: 25px;
 }
 
 .right-content {
@@ -282,9 +280,7 @@ font-weight: bold;
 }
 
 .box-content p {
-
 font-family: 'Lora', serif;
-
 }
 
 
