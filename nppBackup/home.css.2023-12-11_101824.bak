@@ -111,7 +111,6 @@ body {
   color: white;
   margin-top: 0; /* Add top margin of 0 */
   margin-bottom: 0; /* Add bottom margin of 0 */
-  font-family: 'Yeseva One', serif;
 }
 
 .text-box h4::before {
@@ -154,7 +153,8 @@ body {
   text-decoration: none;
   padding: 15px 20px;
   border-radius: 50px;
-  font-family: 'League Spartan', sans-serif;
+  font-family: Nunito, sans-serif;
+  font-weight: bold;
 }
 
 
