@@ -131,7 +131,10 @@ body {
   margin-bottom: 0; /* Add bottom margin of 0 */
 }
 
-
+.text-box p {
+  color: white;
+  font-size: 25px;
+}
 
 .right-content {
   width: 65%;

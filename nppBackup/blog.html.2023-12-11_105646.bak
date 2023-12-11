@@ -23,7 +23,7 @@
     }
 
     p {
-        font-family: 'Libre Baskerville', serif; /* Change the font for paragraphs to Libre Baskerville */
+        font-family: 'Lora', serif; /* Change the font for paragraphs to Libre Baskerville */
     }
 
     .blue {
