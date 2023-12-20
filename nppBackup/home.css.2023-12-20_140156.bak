@@ -45,7 +45,39 @@ body {
     }
 
 
+@media (max-width: 480px) {
+  .right-side {
+    height: 400px;
+    overflow-y: scroll;
+  }
+  
+  .page-section {
+    flex-direction: column;
+  }
+  
+  .left-content,
+  .right-content {
+    width: 50%;
+  }
 
+  .content-boxes {
+    flex-direction: column;  
+  }
+  
+  .content-box {
+    width: 50%;
+  }
+
+  .layout-70-30 {
+    flex-direction: column;
+  }
+
+  .left-side, 
+  .right-side {
+    width: 50%;
+  }
+
+}
 	
 
 
