@@ -47,10 +47,6 @@ body {
 
 @media (max-width: 768px) {
 
-  .mobile-long {
-    height: auto;
-  }
-  
   .page-section {
     flex-direction: column;
   }
