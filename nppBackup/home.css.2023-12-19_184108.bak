@@ -46,10 +46,6 @@ body {
 
 
 @media (max-width: 768px) {
-  .right-side {
-    height: 400px;
-    overflow-y: scroll;
-  }
   
   .page-section {
     flex-direction: column;
