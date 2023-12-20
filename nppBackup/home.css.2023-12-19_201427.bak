@@ -57,7 +57,7 @@ body {
   
   .left-content,
   .right-content {
-    width: 50%;
+    width: 100%;
   }
 
   .content-boxes {
@@ -74,7 +74,7 @@ body {
 
   .left-side, 
   .right-side {
-    width: 50%;
+    width: 100%;
   }
 
 }
