@@ -176,45 +176,11 @@
 	<button class="tag" onclick="filterByTag('resources')">Resources</button>
   </div>
   <!-- Search Bar -->
-  <div>  
-  <form>
-    <input type="text" name="search" placeholder="Search...">
-    <button type="submit">Search</button> 
-  </form>
+  <div>
+    <input type="text" id="search-input" placeholder="Search...">
+    <button onclick="search()">Search</button>
+  </div>
 </div>
-
-<?php
-
-// Get search input 
-$search = trim(htmlspecialchars($_GET['search']));
-
-// Set folder to search  
-$folder = 'D:\R_Studio\Project_Vault\OP_GitHubWebsite\Articles';
-
-// Open folder
-$articles = opendir($folder);
-
-// Output matching files
-echo '<div>';
-while($file = readdir($articles)) {
-  
-  // Only search .txt files    
-  if(pathinfo($file, PATHINFO_EXTENSION) == 'txt') {
-    
-    // Get content
-    $content = file_get_contents($folder . '/' . $file);
-    
-    // Check if search string is present
-    if(strpos($content, $search) !== false) {
-      echo "<p>$file</p>";
-    }
-  }
-}
-echo '</div>';
-
-closedir($articles);
-
-?>
 
 <!-- Add New Tags here -->
 <div id="sort-bar-2" style="display: flex; justify-content: flex-start; align-items: center; margin-bottom: 10px;">
