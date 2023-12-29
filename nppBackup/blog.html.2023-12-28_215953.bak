@@ -175,14 +175,12 @@
 	<button class="tag" onclick="filterByTag('self-teaching')">Self-Teaching</button>
 	<button class="tag" onclick="filterByTag('resources')">Resources</button>
   </div>
-  <!-- Search Bar --> 
-<div> 
-	<input type="text" id="search-input" placeholder="Search...">
-	<button onclick="search()">Search</button>
-</div> 
-
+  
+  <!-- Search Bar -->
+  <div>  
+    <input type="text" name="search" placeholder="Search...">
+    <button type="submit">Search</button> 
 </div>
-
 
 
 <!-- Add New Tags here -->
