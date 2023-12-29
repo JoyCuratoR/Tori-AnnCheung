@@ -175,7 +175,6 @@
 	<button class="tag" onclick="filterByTag('self-teaching')">Self-Teaching</button>
 	<button class="tag" onclick="filterByTag('resources')">Resources</button>
   </div>
-  
   <!-- Search Bar -->
   <div>  
     <input type="text" name="search" placeholder="Search...">
