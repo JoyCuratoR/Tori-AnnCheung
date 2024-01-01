@@ -167,7 +167,7 @@
 		<img src="https://images.pexels.com/photos/15419367/pexels-photo-15419367/free-photo-of-sunlit-alley-in-town-in-black-and-white.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" class="article-image">
   
 		<figcaption>
-			Photo by Carlos Martins on Pexels: <a href="https://www.pexels.com/photo/sunlit-alley-in-town-in-black-and-white-15419367/" target="_blank">https://www.pexels.com/photo/sunlit-alley-in-town-in-black-and-white-15419367/</a>
+			Photo by Carlos Martins on Pexels:<a href="https://www.pexels.com/photo/sunlit-alley-in-town-in-black-and-white-15419367/" target="_blank">https://www.pexels.com/photo/sunlit-alley-in-town-in-black-and-white-15419367/</a>
 		</figcaption>
 	</figure>
 
@@ -205,7 +205,7 @@ Please identify the coordinates of where the photo was taken.</p>
   <li>I did find a mosque that had very similar architecture as the one in the challenge photo when I looked through the additional photos of the place </li>
   <figure>
 	<img src="../Images/square-cuts-purple-mark.png" class="article-image">
-		<figcaption>
+	<figcaption>
 			<a href="https://www.google.com/maps/place/جامع+أهل+احميد%E2%80%AD/@16.6192534,-11.3960982,16z/data=!4m6!3m5!1s0xe8b1f1e743f54ad:0xc56cb3f4bc222daf!8m2!3d16.6171879!4d-11.3914694!16s%2Fg%2F11nyvn5h9r?entry=ttu" target="_blank">On Google Maps</a>
 		</figcaption>
   </figure>
@@ -217,7 +217,6 @@ Please identify the coordinates of where the photo was taken.</p>
 
 <ul>
   <li>I didn't think to use the big tree behind the building strip on the right side in the challenge photo as a landmark to search for. I did take note of the buildings, and the paved road with the large gaps of dirt but I also didn't quite make note of the dip in the paved road nor the electrical poles</li>
-  <img src="../Images/osint-exercise-001-big-picture-markedup.jpeg" class="article-image">
   <li>A seemingly bare-bones photo is deceptively simple to locate, once you know what landmarks are solid points of references to help narrow down what to look for</li>
   <li>A new tool in the tool belt: Google Earth Pro with the ability to go back in time and see how things looked like then. Which is why the date of the twitter post was kept in the challenge photo</li>  
 </ul>
