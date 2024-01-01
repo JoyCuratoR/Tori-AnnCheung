@@ -155,13 +155,7 @@
       Published on 1st January, 2024
     </p>
 
-    <figure>
-		<img src="https://images.pexels.com/photos/15419367/pexels-photo-15419367/free-photo-of-sunlit-alley-in-town-in-black-and-white.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" class="article-image">
-  
-		<figcaption>
-			Photo by Carlos Martins on Pexels: https://www.pexels.com/photo/sunlit-alley-in-town-in-black-and-white-15419367/
-		</figcaption>
-	</figure>
+    <img src="https://images.pexels.com/photos/15419367/pexels-photo-15419367/free-photo-of-sunlit-alley-in-town-in-black-and-white.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" class="article-image" alt="Photo by Carlos Martins: https://www.pexels.com/photo/sunlit-alley-in-town-in-black-and-white-15419367/">
 
     <div class="article-tags">
       <span class="article-tag">#OSINT</span>
@@ -184,22 +178,31 @@ Please identify the coordinates of where the photo was taken.</p>
   <li>Immediately, my first thought was to do a reverse search on the image</li>
   <li>But seeing that there was a city name mentioned in the text of the tweet, I thought that could equally be another good starting point</li>
   <li>I also note before beginning my search that the tweet had been translated from Arabic, so that tells me that the photo could have some Arabic origins but that would just be an assumption</li>
-  <li>I use TinEye to do a reverse search of the image URL and find that there is a handful of links pointing to different Medium blogs. I then search on Google for the city of Kiffa and look at some images, and the images I see do match the aesthetic of the photo I've been given to work with. I then come across this promising photo from a site called Advisor Travel and the caption says "Interesting photos of Kiffa (Muritaaniya) tourist attractions". It shows a tan building with some green trimmings and arches. The green trimmings kind of appear in the challenge photo on the far left building but the fact it's shadowed by something make it hard to confirm. Nonetheless, it's a some sort of lead to pursue.</li>
-  <li>My next thoughts are: I can research some tourist attractions in the city of Kiffa, what Muritaaniya is, and look at the colors in the challenge photo via a color histogram and RGB channels.</li><li>A Google search corrects my spelling to Mauritania which is a country in Africa which is good to know but zooms me out when I want to zoom in. I then, pause to think about what else a photo can reveal and immediately facepalm when I remember the existence of EXIF data. So I download the challenge photo put it through an online EXIF tool and......... nothing.</li> 
-  <li>Now, I'm scratching my head, thinking that maybe Twitter strips EXIF data for privacy reasons? A quick Google search confirms that thought. </li>
-  <li>Dang.</li>
-  <li>Maybe I have to find the original tweet, if it's still there? </li>
-  <li>I take a longer break, do something else, and come back to it. I'm not above getting help from the video that's accompanied by the challenge but I want to hold off on using it for a little bit longer.</li>
-  <li>Coming back to it, I focused in on the idea of the left most building being part of a mosque or grand building of some sort. I went to Google Maps and typed in city of Kiffa and searched through the images to see if I can get closer yet definite location where I can narrow my search for this needle. I ignore all photos that don't show a paved road since one of the landmarks to help me is a paved road in the challenge photo.</li>
-  <li>I try using the Terrain Layer option in Google Maps to look but it's not yielding any results. At this point, I'm going have to concede and use a hint.</li>
-  <li>Okay, so I stopped the video around 3:53 when Sofia mentioned that she had left the date of the tweet on purpose since things change and it's important to know when things were taken. I wonder if I am supposed to try to find an archive of this tweet or if she just mentions this detail because it's good for OSINT practitioners to document things properly.</li>
-  <li>I paused again at 6:25 after I was shown that you can get a street view of some places in Kiffa, so I'm going to play around with this and see if I can get any where new in my investigation.</li>
-  <li>I did find a mosque that had very similar architecture as the one in the challenge photo when I looked through the additional photos of the place </li>
-  <img src="Images/square-cuts-purple-mark.png" class="article-image" alt="(https://www.google.com/maps/place/جامع+أهل+احميد%E2%80%AD/@16.6192534,-11.3960982,16z/data=!4m6!3m5!1s0xe8b1f1e743f54ad:0xc56cb3f4bc222daf!8m2!3d16.6171879!4d-11.3914694!16s%2Fg%2F11nyvn5h9r?entry=ttu)">
-   
-  <li>But there wasn't anything else that can confirm they are one in the same.</li>  
-  <li>At this point, I've spent much too long looking on Google Maps and getting nowhere, so I wave my white flag and go back to the video to find the answer</li>
 </ul>
+
+<p>I use TinEye to do a reverse search of the image URL and find that there is a handful of links pointing to different Medium blogs. I then search on Google for the city of Kiffa and look at some images, and the images I see do match the aesthetic of the photo I've been given to work with. I then come across this promising photo from a site called Advisor Travel and the caption says "Interesting photos of Kiffa (Muritaaniya) tourist attractions". It shows a tan building with some green trimmings and arches. The green trimmings kind of appear in the challenge photo on the far left building but the fact it's shadowed by something make it hard to confirm. Nonetheless, it's a some sort of lead to pursue.</p>
+
+<p>My next thoughts are: I can research some tourist attractions in the city of Kiffa, what Muritaaniya is, and look at the colors in the challenge photo via a color histogram and RGB channels.</p>
+
+<p>A Google search corrects my spelling to Mauritania which is a country in Africa which is good to know but zooms me out when I want to zoom in. I then, pause to think about what else a photo can reveal and immediately facepalm when I remember the existence of EXIF data. So I download the challenge photo put it through an online EXIF tool and......... nothing.</p> 
+
+<p>Now, I'm scratching my head, thinking that maybe Twitter strips EXIF data for privacy reasons? A quick Google search confirms that thought. Dang.</p>
+
+Maybe I have to find the original tweet, if it's still there?  
+
+<p>I take a longer break, do something else, and come back to it. I'm not above getting help from the video that's accompanied by the challenge but I want to hold off on using it for a little bit longer.</p>
+
+<p>Coming back to it, I focused in on the idea of the left most building being part of a mosque or grand building of some sort. I went to Google Maps and typed in city of Kiffa and searched through the images to see if I can get closer yet definite location where I can narrow my search for this needle. I ignore all photos that don't show a paved road since one of the landmarks to help me is a paved road in the challenge photo.</p>
+
+<p>I try using the Terrain Layer option in Google Maps to look but it's not yielding any results. At this point, I'm going have to concede and use a hint.</p>
+
+<p>Okay, so I stopped the video around 3:53 when Sofia mentioned that she had left the date of the tweet on purpose since things change and it's important to know when things were taken. I wonder if I am supposed to try to find an archive of this tweet or if she just mentions this detail because it's good for OSINT practitioners to document things properly.</p>
+
+<p>I paused again at 6:25 after I was shown that you can get a street view of some places in Kiffa, so I'm going to play around with this and see if I can get any where new in my investigation.</p>
+
+<p>I did find a mosque that had very similar architecture as the one in the challenge photo when I looked through the additional photos of the place (https://www.google.com/maps/place/جامع+أهل+احميد%E2%80%AD/@16.6192534,-11.3960982,16z/data=!4m6!3m5!1s0xe8b1f1e743f54ad:0xc56cb3f4bc222daf!8m2!3d16.6171879!4d-11.3914694!16s%2Fg%2F11nyvn5h9r?entry=ttu) But there wasn't anything else that can confirm they are one in the same.</p>  
+
+<p>At this point, I've spent much too long looking on Google Maps and getting nowhere, so I wave my white flag and go back to the video to find the answer</p>
 
 <h2>What I Learned</h2>
 
