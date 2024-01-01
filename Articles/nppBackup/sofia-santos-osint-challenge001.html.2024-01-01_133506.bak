@@ -155,7 +155,7 @@
       Published on 1st January, 2024
     </p>
 
-    <img src="https://images.pexels.com/photos/15419367/pexels-photo-15419367/free-photo-of-sunlit-alley-in-town-in-black-and-white.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" class="article-image" alt="Photo by Carlos Martins: https://www.pexels.com/photo/sunlit-alley-in-town-in-black-and-white-15419367/">
+    <img src="your-image-path.jpg" class="article-image" alt="Article Image">
 
     <div class="article-tags">
       <span class="article-tag">#OSINT</span>
