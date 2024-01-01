@@ -200,10 +200,10 @@
 	<!-- Title Cards -->
 	<div class="title-card" style="display: flex; align-items: center;">
   <div style="flex: 3;">
-    <h2>Documenting my Process for Sofia Santos OSINT Challenge - 001</h2>
+    <h2>Documenting my Process for Sofia Santos OSINT Challenge 001</h2>
     <p>My first OSINT challenge</p>
     <p>Published: <span class="publish-date">1-1-2024</span></p>
-    <p><a href="Articles/sofia-santos-osint-challenge001.html" target="_blank">Read More</a></p>
+    <p><a href="Articles/sofia-santos-osint-challenge01.html" target="_blank">Read More</a></p>
     <div class="tags">
       <span class="tag">#OSINT</span>
 	  <span class="tag">#project</span>
