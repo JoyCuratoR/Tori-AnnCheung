@@ -205,7 +205,7 @@ Please identify the coordinates of where the photo was taken.</p>
   <li>I try using the Terrain Layer option in Google Maps to look but it's not yielding any results. At this point, I'm going have to concede and use a hint.</li>
   <li>Okay, so I stopped the video around 3:53 when Sofia mentioned that she had left the date of the tweet on purpose since things change and it's important to know when things were taken. I wonder if I am supposed to try to find an archive of this tweet or if she just mentions this detail because it's good for OSINT practitioners to document things properly.</li>
   <li>I paused again at 6:25 after I was shown that you can get a street view of some places in Kiffa, so I'm going to play around with this and see if I can get any where new in my investigation.</li>
-  <li>I did find a mosque that had very similar architecture as the one in the challenge photo when I looked through the additional photos of the place. </li>
+  <li>I did find a mosque that had very similar architecture as the one in the challenge photo when I looked through the additional photos of the place </li>
   <figure>
 	<img src="../Images/square-cuts-purple-mark.png" class="article-image">
 		<figcaption>
@@ -213,16 +213,16 @@ Please identify the coordinates of where the photo was taken.</p>
 		</figcaption>
   </figure>
   <li>But there wasn't anything else that can confirm they are one in the same.</li>  
-  <li>At this point, I've spent much too long looking on Google Maps and getting nowhere, so I wave my white flag and go back to the video to find the answer.</li>
+  <li>At this point, I've spent much too long looking on Google Maps and getting nowhere, so I wave my white flag and go back to the video to find the answer</li>
 </ul>
 
 <h2>What I Learned</h2>
 
 <ul>
-  <li>I didn't think to use the big tree behind the building strip on the right side in the challenge photo as a landmark to search for. I did take note of the buildings, and the paved road with the large gaps of dirt but I also didn't quite make note of the dip in the paved road nor the electrical poles.</li>
+  <li>I didn't think to use the big tree behind the building strip on the right side in the challenge photo as a landmark to search for. I did take note of the buildings, and the paved road with the large gaps of dirt but I also didn't quite make note of the dip in the paved road nor the electrical poles</li>
   <img src="../Images/osint-exercise-001-big-picture-markedup.jpeg" class="article-image">
-  <li>A seemingly bare-bones photo is deceptively simple to locate, once you know what landmarks are solid points of references to help narrow down what to look for.</li>
-  <li>A new tool in the tool belt: Google Earth Pro with the ability to go back in time and see how things looked like then. Which is why the date of the twitter post was kept in the challenge photo.</li>  
+  <li>A seemingly bare-bones photo is deceptively simple to locate, once you know what landmarks are solid points of references to help narrow down what to look for</li>
+  <li>A new tool in the tool belt: Google Earth Pro with the ability to go back in time and see how things looked like then. Which is why the date of the twitter post was kept in the challenge photo</li>  
 </ul>
 
 <h2>Closing Thoughts</h2>
