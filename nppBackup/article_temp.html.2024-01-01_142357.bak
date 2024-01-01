@@ -162,12 +162,7 @@
       Published on June 20, 2023
     </p>
 
-    <figure>
-		<img src="{Image URL}" class="{css class(es)}">
-		<figcaption>
-			{Caption Text} <a href="{Image Source URL}" target="_blank">({Image Source Website})</a>
-		</figcaption>
-	</figure>
+    <img src="your-image-path.jpg" class="article-image" alt="Article Image">
 
     <div class="article-tags">
       <span class="article-tag">#technology</span>

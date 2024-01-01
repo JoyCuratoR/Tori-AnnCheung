@@ -146,7 +146,6 @@
 }
   </style>
 </head>
-
 <body>
 <!-- Add the navigation bar to the top of the page -->
     <div class="navbar">
@@ -204,7 +203,7 @@ Please identify the coordinates of where the photo was taken.</p>
   <li>I paused again at 6:25 after I was shown that you can get a street view of some places in Kiffa, so I'm going to play around with this and see if I can get any where new in my investigation.</li>
   <li>I did find a mosque that had very similar architecture as the one in the challenge photo when I looked through the additional photos of the place </li>
   <figure>
-	<img src="../Images/square-cuts-purple-mark.png" class="article-image">
+	<img src="Images/square-cuts-purple-mark.png" class="article-image">
 	<figcaption>
 			Photo by Carlos Martins on Pexels: <a href="https://www.google.com/maps/place/جامع+أهل+احميد%E2%80%AD/@16.6192534,-11.3960982,16z/data=!4m6!3m5!1s0xe8b1f1e743f54ad:0xc56cb3f4bc222daf!8m2!3d16.6171879!4d-11.3914694!16s%2Fg%2F11nyvn5h9r?entry=ttu" target="_blank">
 		</figcaption>
