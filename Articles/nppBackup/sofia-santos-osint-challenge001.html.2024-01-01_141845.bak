@@ -166,7 +166,7 @@
 		<img src="https://images.pexels.com/photos/15419367/pexels-photo-15419367/free-photo-of-sunlit-alley-in-town-in-black-and-white.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" class="article-image">
   
 		<figcaption>
-			Photo by Carlos Martins on Pexels: <a href="https://www.pexels.com/photo/sunlit-alley-in-town-in-black-and-white-15419367/" target="_blank">
+			Photo by Carlos Martins on Pexels: https://www.pexels.com/photo/sunlit-alley-in-town-in-black-and-white-15419367/
 		</figcaption>
 	</figure>
 
@@ -202,12 +202,8 @@ Please identify the coordinates of where the photo was taken.</p>
   <li>Okay, so I stopped the video around 3:53 when Sofia mentioned that she had left the date of the tweet on purpose since things change and it's important to know when things were taken. I wonder if I am supposed to try to find an archive of this tweet or if she just mentions this detail because it's good for OSINT practitioners to document things properly.</li>
   <li>I paused again at 6:25 after I was shown that you can get a street view of some places in Kiffa, so I'm going to play around with this and see if I can get any where new in my investigation.</li>
   <li>I did find a mosque that had very similar architecture as the one in the challenge photo when I looked through the additional photos of the place </li>
-  <figure>
-	<img src="Images/square-cuts-purple-mark.png" class="article-image">
-	<figcaption>
-			Photo by Carlos Martins on Pexels: <a href="https://www.google.com/maps/place/جامع+أهل+احميد%E2%80%AD/@16.6192534,-11.3960982,16z/data=!4m6!3m5!1s0xe8b1f1e743f54ad:0xc56cb3f4bc222daf!8m2!3d16.6171879!4d-11.3914694!16s%2Fg%2F11nyvn5h9r?entry=ttu" target="_blank">
-		</figcaption>
-  </figure>
+  <img src="Images/square-cuts-purple-mark.png" class="article-image" alt="(https://www.google.com/maps/place/جامع+أهل+احميد%E2%80%AD/@16.6192534,-11.3960982,16z/data=!4m6!3m5!1s0xe8b1f1e743f54ad:0xc56cb3f4bc222daf!8m2!3d16.6171879!4d-11.3914694!16s%2Fg%2F11nyvn5h9r?entry=ttu)">
+   
   <li>But there wasn't anything else that can confirm they are one in the same.</li>  
   <li>At this point, I've spent much too long looking on Google Maps and getting nowhere, so I wave my white flag and go back to the video to find the answer</li>
 </ul>
