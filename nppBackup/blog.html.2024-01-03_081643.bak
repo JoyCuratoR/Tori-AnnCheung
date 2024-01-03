@@ -198,9 +198,6 @@
 
 	
 	<!-- Query Title Cards -->
-	<div class="title-cards-container"></div>
-	
-	
 <script>
 	fetch('title-cards.html')
   .then(res => res.text())
