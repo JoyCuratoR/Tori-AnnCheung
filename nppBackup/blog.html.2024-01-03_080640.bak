@@ -198,7 +198,6 @@
 
 	
 	<!-- Query Title Cards -->
-<script>
 	fetch('title-cards.html')
   .then(res => res.text())
   .then(html => {
@@ -206,7 +205,7 @@
   });
 
 
- </script>
+  
 
 
 <script>
@@ -293,6 +292,7 @@
   }
 </script>
 
+    <!-- Rest of your content -->
 	
 </body>
 
