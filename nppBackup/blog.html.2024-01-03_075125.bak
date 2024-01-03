@@ -422,56 +422,60 @@
 
 
 <script>
+// Function to convert a date string to a Date object
+    function parseDate(dateString) {
+      var dateParts = dateString.split("-");
+      return new Date(dateParts[0], dateParts[1] - 1, dateParts[2]);
+    }
+
+    // Sort the title cards by publish date
+    function sortTitleCards() {
+      var titleCardsContainer = document.getElementById("title-cards-container");
+      var titleCards = Array.from(titleCardsContainer.getElementsByClassName("title-card"));
+
+      // Sort the title cards based on the publish date
+      titleCards.sort(function(a, b) {
+        var aDate = parseDate(a.getElementsByClassName("publish-date")[0].textContent);
+        var bDate = parseDate(b.getElementsByClassName("publish-date")[0].textContent);
+        return bDate - aDate;
+      });
+
+      // Clear the title cards container
+      titleCardsContainer.innerHTML = "";
+
+      // Add the sorted title cards back to the container
+      titleCards.forEach(function(card) {
+        titleCardsContainer.appendChild(card);
+      });
+    }
 
     // Call the sortTitleCards function when the page finishes loading
     window.addEventListener("load", sortTitleCards);
 
 
+
   function filterByTag(tag) {
+    // Get all the title cards
+    const titleCards = document.getElementsByClassName('title-card');
 
-  // Get all the title cards
-  const titleCards = document.getElementsByClassName('title-card');
+    // Show or hide the title cards based on the selected tag
+    for (let i = 0; i < titleCards.length; i++) {
+      const titleCard = titleCards[i];
+      const tags = titleCard.getElementsByClassName('tag');
+      let showCard = false;
 
-  // Hide all title cards first
-  for (let i = 0; i < titleCards.length; i++) {
-    titleCards[i].style.display = 'none'; 
-  }
-
-  // Show title cards with matching tags
-  for (let i = 0; i < titleCards.length; i++) {
-    
-    const titleCard = titleCards[i];
-    const tags = titleCard.getElementsByClassName('tag');
-    
-    let showCard = false;
-    
-    for (let j = 0; j < tags.length; j++) {
-      if (tag === 'all' || tags[j].innerText.toLowerCase().includes('#' + tag.toLowerCase())) {
-        showCard = true;
-        break;  
+      // Check if the tag matches or if the selected tag is 'all'
+      for (let j = 0; j < tags.length; j++) {
+        if (tag === 'all' || tags[j].innerText.toLowerCase().includes('#' + tag.toLowerCase())) {
+          showCard = true;
+          break;
+        }
       }
-    }
-    
-    titleCard.style.display = showCard ? 'flex' : 'none';
 
+      // Set the display property based on the showCard flag
+      titleCard.style.display = showCard ? 'flex' : 'none';
+    }
   }
-
-  // Hide all separators first
-  const separators = document.querySelectorAll('.separator');
-  separators.forEach(function(sep) {
-    sep.style.display = 'none';
-  });
-
-  // Show relevant separators
-  const visibleCards = document.querySelectorAll('.title-card:not([style*="display: none"])');
-  visibleCards.forEach(function(card) {
-    let prev = card.previousElementSibling;
-    if (prev && prev.classList.contains('separator')) {
-      prev.style.display = 'block'; 
-    }
-  });
-  
-}
 </script>
 
 <!-- Search bar functionality -->
