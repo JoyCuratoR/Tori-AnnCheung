@@ -202,8 +202,9 @@
 	fetch('title-cards.html')
   .then(res => res.text())
   .then(html => {
-    document.getElementsByClassName('title-cards-container')[0].innerHTML = html; 
+    document.getElementsByClassName('title-card')[0].innerHTML = html;
   });
+
 
  </script>
 
