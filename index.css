@@ -1,0 +1,53 @@
+
+
+	body {
+		margin: 0; 
+		padding: 0;
+	}
+
+	img {
+		isplay: block; 
+		width: 100%;
+	}
+	
+
+
+/* Add the CSS for the scroll to top arrow */
+    .scroll-to-top {
+      position: fixed;
+      bottom: 20px; /* Adjust the distance from the bottom as needed */
+      right: 20px; /* Adjust the distance from the right as needed */
+      width: 40px;
+      height: 40px;
+      background-color: #55a6a2;
+      color: white;
+      border-radius: 50%;
+      text-align: center;
+      line-height: 40px;
+      cursor: pointer;
+    }
+	
+
+    /* Add any styling you want for the navigation bar */
+    .navbar {
+      background-color: white;
+      overflow: hidden;
+      text-align: center; /* Center the navigation links */
+    }
+
+    /* Style the navigation bar links */
+    .navbar a {
+      display: inline-block; /* Display links in a row */
+      color: black;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+      font-weight: bold; /* Make the font bold */
+      transition: background-color 0.3s; /* Add transition for hover effect */
+    }
+
+    /* Style the navigation bar links when hovered */
+    .navbar a:hover {
+      background-color: #439775; /* Change background color on hover */
+      color: #439775; /* Change text color on hover */
+    }

@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>madebycuriosity Home</title>
+
+<style>
+	
+	body {
+		margin: 0; 
+		padding: 0;
+	}
+
+	img {
+		isplay: block; 
+		width: 100%;
+	}
+</style>
+
+</head>

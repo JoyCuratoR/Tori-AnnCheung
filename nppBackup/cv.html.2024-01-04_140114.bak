@@ -229,7 +229,9 @@
 			</ul>
 		
 
-
+<div class="navbar">
+	<p> Made with love.</p>
+</div>
 
 <div class="scroll-to-top" onclick="scrollToTop()">
     &#8593; <!-- Up arrow icon -->

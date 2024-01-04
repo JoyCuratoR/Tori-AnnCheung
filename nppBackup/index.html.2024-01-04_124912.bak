@@ -1,13 +1,12 @@
 <!DOCTYPE html>
 <html>
 <head>
-
-<meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="index.css">
-
   <title>madebycuriosity Home</title>
 
+<style>
+	
+	
+</style>
 
 </head>
 
@@ -49,36 +48,6 @@
   </div>
   
   
-  
-  
-  
-  <!-- Nav bar at bottom page -->
-  <div class="navbar">
-    <p> Made with love.</p>
-  </div>
-
-
-  <!-- Scroll to top icon -->
-  <div class="scroll-to-top" onclick="scrollToTop()">
-    &#8593; <!-- Up arrow icon -->
-  </div>
-
-  <!-- Scroll to top function -->
-  <script>
-    function scrollToTop() {
-      window.scrollTo({ top: 0, behavior: 'smooth' });
-    }
-  </script>
-  
-
-	
-<script>
-function smoothScrollToSecondSection(event) {
-  event.preventDefault(); // Prevent default behavior of the anchor link
-  const secondSection = document.getElementById('second-section');
-  secondSection.scrollIntoView({ behavior: 'smooth' });
-}
-</script>
   
   
   </body>

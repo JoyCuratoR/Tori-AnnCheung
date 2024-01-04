@@ -8,6 +8,20 @@
 
   <title>madebycuriosity Home</title>
 
+<style>
+	h1,
+    h2,
+	h3,
+	h4,
+	h5 {
+      font-family: 'League Spartan', sans-serif;
+    }
+
+    p, ul li {
+        font-family: 'Libre Baskerville', serif;
+		font-size: 26px; /* Adjust the font size as desired */
+    }
+</style>
 
 </head>
 

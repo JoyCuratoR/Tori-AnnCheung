@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>My Website</title>
+
+  <!-- Add smooth scroll script -->
+  <script src="smooth-scroll.js"></script> 
+  
+  <!-- Add navigation bar CSS -->
+  <style>
+    #navbar {
+      background: #333; 
+      overflow: hidden;
+    }
+    
+    #navbar a {
+      float: left;  
+      display: block;
+      color: #f2f2f2;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+    }
+	
+	body {
+  margin: 0; 
+  padding: 0;
+}
+
+#page-wrapper {
+  width: 100%;
+  max-width: 1300px;   
+  margin: 0 auto; 
+}
+
+img {
+  display: block; 
+  width: 100%;
+}
+
+</head>
+
+<body>
+
+
+
+  <!-- Navigation Bar -->
+  <div id="navbar">
+    <a href="#section1">Section 1</a>
+    <a href="#section2">Section 2</a>
+    <a href="#section3">Section 3</a>
+    <a href="#section4">Section 4</a>
+    <a href="#section5">Section 5</a>
+    <a href="#section6">Section 6</a>
+  </div>
+
+<div id="page-wrapper">
+
+
+  <!-- Section 1 -->
+  <div id="section1">
+    <img src="Images/Home.png">
+  </div>
+
+  <!-- Section 2 -->
+  <div id="section2">
+    <img src="Images/Background.png">
+  </div>
+
+  <!-- Remaining Sections -->
+  <div id="section3">
+    <img src="Images/Goals.png">
+  </div>
+  
+  <div id="section4">
+    <img src="Images/Dedication.png">
+  </div>
+   
+  <div id="section5">
+    <img src="Images/Values.png">
+  </div>
+   
+  <div id="section6">
+    <img src="Images/Contact.png">
+  </div>
+
+  <!-- Back to Top Button -->
+  <button onclick="topFunction()" id="backBtn" title="Go to top">Top</button>
+ 
+ </div>
+</body>
+</html>

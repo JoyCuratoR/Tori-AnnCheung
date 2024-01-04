@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>My Website</title>
+
+<style>
+	
+	body {
+		margin: 0; 
+		padding: 0;
+	}
+
+	img {
+		isplay: block; 
+		width: 100%;
+	}
+</style>
+
+</head>
+
+<body>
+
+
+
+
+  <!-- Section 1 -->
+  <div id="section1">
+    <img src="Images/Home.png">
+  </div>
+
+  <!-- Section 2 -->
+  <div id="section2">
+    <img src="Images/Background.png">
+  </div>
+
+  <!-- Remaining Sections -->
+  <div id="section3">
+    <img src="Images/Goals.png">
+  </div>
+  
+  <div id="section4">
+    <img src="Images/Dedication.png">
+  </div>
+   
+  <div id="section5">
+    <img src="Images/Values.png">
+  </div>
+   
+  <div id="section6">
+    <img src="Images/Contact.png">
+  </div>
+
+  <!-- Back to Top Button -->
+  <button onclick="topFunction()" id="backBtn" title="Go to top">Top</button>
+ 
+</body>
+</html>

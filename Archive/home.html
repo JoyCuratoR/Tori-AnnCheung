@@ -1,0 +1,158 @@
+<html>
+<head>
+  
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="home.css">
+  
+  
+  <title>made by curiosity Home</title>
+</head>
+
+
+<body>
+
+  <!-- Add the navigation bar to the top of the page -->
+  <div class="navbar">
+    <a href="index.html" style="background-color: white;">Home</a>
+    <a href="cv.html" style="background-color: white;">CV</a>
+    <a href="blog.html" style="background-color: white;">Blog</a>
+  </div>
+
+
+
+<section class="page-section" id="first-section">
+  <div class="left-content">
+    <div class="text-box">
+      <h4>made by</h4>
+	  <h4>curiosity.</h4>
+    </div>
+    <div class="text-box">
+      <h1>Hi There,</h1>
+	  <h1>How Can I Be of Service to You?</h1>
+    </div>
+	<div>
+		<a href="#second-section" class="learn-more-button" onclick="smoothScrollToSecondSection(event)">LEARN MORE</a>
+	</div>
+  </div>
+  
+  <div class="right-content">
+      <img src="Images/1.png">
+  </div>
+  
+</section>
+
+
+<section class="page-section" id="second-section">
+    <div class="centered-content">
+      <h2>I am driven by, and find a deep sense of purpose in the pursuit of an answer to a burning question, or the solution to a significant problem.</h2>
+	  <h3>My key strengths shine the brightest when I have the freedom to go searching for knowledge and acquiring mastery as a means to an end to answer a burning question.</h3>
+    </div>
+  </section>
+
+
+<section class="page-section" id="third-section">
+    <div class="section-container">
+      <div class="header-text-box">
+        <h2 style="color: #1DCD8D;">What I Bring to the Table</h2>
+      </div>
+      <div class="content-boxes">
+        <div class="content-box">
+          <img src="Images/Strength.png" style="max-width: 100px; height: 100px;">
+          <div class="box-content">
+            <h3 style="color: #1DCD8D;">Key Strengths</h3>
+            <ol>
+				<li>Serving others: I'm driven by compassion to assist people however I can and make a positive difference in their lives.</li>  
+				<li>Curiosity: I explore new perspectives and constantly ask questions to deepen my understanding of the world around me.</li>
+				<li>Analytical:  I break down problems and information to uncover insights. With rigorous thinking, I thoroughly examine all aspects of complex situations to drive informed, strategic decisions. </li>
+			</ol>
+          </div>
+        </div>
+        <div class="content-box">
+          <img src="Images/Speaking.png" style="max-width: 100px; height: 100px;">
+          <div class="box-content">
+            <h3 style="color: #1DCD8D;">Communication Style</h3>
+            <p><b>Intuitive</b>: I'm interested in the big picture, and I like quick and to-the-point conversations.</p>
+			<p><b>Straightforwardness</b>: I am direct, honest, and transparent in my communication and actions.</p>
+          </div>
+        </div>
+        <div class="content-box">
+          <img src="Images/Trophy.png" style="max-width: 100px; height: 100px;">
+          <div class="box-content">
+            <h3 style="color: #1DCD8D;">Work Values</h3>
+            <p>I thrive working closely with others to achieve shared goals.  I appreciate having clear direction and procedures to follow. 
+			Most of all, I find satisfaction in roles that allow me to build connections, provide support, and collaborate in a team environment.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+ <section class="page-section" id="fourth-section">
+    <div class="section-container">
+      <div class="rounded-box">
+        <div class="box-content">
+			<h3>What I Hope to Achieve within the Next Decade</h3>
+			<p>My overarching mission over the next decade is to speak truth to power through writing grounded in thoughtful analysis of facts and data. 
+			I plan to achieve this by working on projects at the intersection of technology, communication, and security - areas critical for society to 
+			understand in order to drive progress. Specifically, I aim to use my skills to teach cybersecurity basics to young students while also producing 
+			insightful reports that increase public awareness on demanding, yet under-examined issues within security. My goal is to leverage research, data and strategic 
+			communication skills to influence understanding and debate around important, complex challenges within these spheres.</p>
+        </div>
+      </div>
+    </div>
+    <div>
+      <img src="Images/5.png">
+    </div>
+  </section>
+  
+  
+  <section class="page-section" id="fifth-section">
+
+  <h1>Contact Me</h1>
+<div>
+  <p style="color: white;">torianncheung@gmail.com</p>
+</div>
+
+<div class="fifth-section-img">
+  <a href="https://www.linkedin.com/in/tori-ann-cheung" target="_blank">
+    <img src="Images/6.png" style="max-width: 100px; height: 100px;">
+  </a>
+</div>
+  </section>
+
+
+
+  <!-- Nav bar at bottom page -->
+  <div class="navbar">
+    <p> Made with love and GitHub Pages.</p>
+  </div>
+
+
+  <!-- Scroll to top icon -->
+  <div class="scroll-to-top" onclick="scrollToTop()">
+    &#8593; <!-- Up arrow icon -->
+  </div>
+
+  <!-- Scroll to top function -->
+  <script>
+    function scrollToTop() {
+      window.scrollTo({ top: 0, behavior: 'smooth' });
+    }
+  </script>
+  
+
+	
+<script>
+function smoothScrollToSecondSection(event) {
+  event.preventDefault(); // Prevent default behavior of the anchor link
+  const secondSection = document.getElementById('second-section');
+  secondSection.scrollIntoView({ behavior: 'smooth' });
+}
+</script>
+
+
+</body>
+
+</html>
