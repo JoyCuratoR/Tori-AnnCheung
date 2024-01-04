@@ -120,19 +120,16 @@
 <!-- Content sections -->
 	<section id="section-0">
 	<h2>Research & Reports</h2>
-	<h3>Research</h3>
-	<ul>
-		<li>The Double-Edged Sword of AI: How Innovations of Machine Learning Are Revolutionizing Society While Heightening National Vulnerabilities <b>(Third Peer-review: In-progress)</b></li>
-	</ul>
-	<h3>Reports</h3>
+	<h3>Projects</h3>
 	<ul>
 		<li>Camplight Safety Sessions: Online Scams - Tips to Safeguard Kids and Parents Against Online Scams (See more in the <a href="#section-1">Cybersecurity Projects</a>) <b>(Final Report: In-progress)</b></li>
+		<li>The Double-Edged Sword of AI: How Innovations of Machine Learning Are Revolutionizing Society While Heightening National Vulnerabilities <b>(Third Peer-review: In-progress)</b></li>
 	</ul>
 	
 	<section id="section-1">
 	<h2>Cybersecurity</h2>
 	<h3>Information Security Administrator Intern at Cyber Proud</h3>
-		<p>April 2023 - July 2023</p>
+		<p> April 2023 - July 2023 </p>
 	<ul>
 		<li>Skilled in utilizing network monitoring tools and software, such as Wireshark, to ensure robust security measures.</li>
 		<li>Gained knowledge of network devices, including routers, switches, and firewalls, which enhances overall proficiency.</li>
