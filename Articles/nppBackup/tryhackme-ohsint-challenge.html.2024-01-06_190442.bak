@@ -195,7 +195,7 @@
   </ul>
   <li>The coordinates just lead back to Hawes, so I focus on the social handle</li>
   <li>A Google Search tells me that OWoodflint (does it stand for Oliver Wood and Marcus Flint? Harry Potter fans, anyone?) has a Twitter/X account, a GitHub account and also appears on various blog posts that ties back to this challenge (no spoilers, please)</li>
-  <img src="../OSINTChallenges/OWoodflintSearch.png" class="article-image">
+  <img src="../Images/OSINTChallenges/OWoodflintSearch.png" class="article-image">
   <li>I open both the Twitter account and GitHub account</li>
   <li>On Twitter I see there's a post about an BSSID B4:5D:50:AA:86:41, now having looked at the two hints provided in the challenge room, I know that the BSSID is important</li>
   <li>On GitHub, in the sole repository I find the email and the answer to "What is his personal email address?" and "What site did you find his email address on?"</li>
