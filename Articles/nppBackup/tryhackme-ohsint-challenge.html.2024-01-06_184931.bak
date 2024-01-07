@@ -195,7 +195,6 @@
   </ul>
   <li>The coordinates just lead back to Hawes, so I focus on the social handle</li>
   <li>A Google Search tells me that OWoodflint (does it stand for Oliver Wood and Marcus Flint? Harry Potter fans, anyone?) has a Twitter/X account, a GitHub account and also appears on various blog posts that ties back to this challenge (no spoilers, please)</li>
-  <img src="Images/OSINTChallenges/OWoodflintSearch.png" class="article-image">
   <li>I open both the Twitter account and GitHub account</li>
   <li>On Twitter I see there's a post about an BSSID B4:5D:50:AA:86:41, now having looked at the two hints provided in the challenge room, I know that the BSSID is important</li>
   <li>On GitHub, in the sole repository I find the email and the answer to "What is his personal email address?" and "What site did you find his email address on?"</li>
@@ -247,7 +246,7 @@
 <ul>
   <li>Real OSINT investigations/cases aren't going to be so clean-cut. As in, due to the hints given in the room and also the information I got from other people who have solved the room already, there was an expected, definite answer.</li>
   <li>That being said, having some help is still great for these challenges because I'm learning new and different ways you can search for information. For instance, I wouldn't have known you could check a site's page source to see if a password has been leaked on there, nor did I think to use a username search tool to quickly see where a username has been used.</li>
-  <li>Learning hands-on and as I go is a fun and engaging way to learn about OSINT, however, there's still a big gap of foundational knowledge that I'm lacking. Reading up on cases and learning about tools and how and where they can be used will help me go into these challenges better equipped. Looking at some investigations and case studies from Bellingcat, going through the archives of OSINTCurio.us, Three Minute Thursdays with Gary Ruddell, and many more can start minimizing the gap.</li>  
+  <li>Learning hands-on and as I go is a fun and engaging way to learn about OSINT, however, there's still a big gap of foundational knowledge that I'm lacking. Reading up on cases and learning about tools and how and where they can be used will help me go into these challenges better equipped. To start minimizing the gap, looking at some investigations and case studies from Bellingcat, going through the archives of OSINTCurio.us, Three Minute Thursdays with Gary Ruddell, and many more.</li>  
 </ul>
 
 <h2>Closing Thoughts</h2>
