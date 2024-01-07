@@ -144,7 +144,7 @@
 	figcaption {
   font-size: 0.8em;
   font-style: italic;
-  text-align: left;
+  text-align: center;
 }
  </style>
 </head>
@@ -167,7 +167,7 @@
     <figure>
 		<img src="https://images.pexels.com/photos/18273081/pexels-photo-18273081/free-photo-of-scenic-cliff-at-stokksnes-on-iceland.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" class="article-image">
 		<figcaption>
-			Photo by Thibaut Tattevin: <a href="https://images.pexels.com/photos/18273081/pexels-photo-18273081/free-photo-of-scenic-cliff-at-stokksnes-on-iceland.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" target="_blank">Scenic Cliff at Stokksnes on Iceland</a>
+			Photo by Thibaut Tattevin:<a href="https://images.pexels.com/photos/18273081/pexels-photo-18273081/free-photo-of-scenic-cliff-at-stokksnes-on-iceland.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" target="_blank">Scenic Cliff at Stokksnes on Iceland</a>
 		</figcaption>
 	</figure>
 
