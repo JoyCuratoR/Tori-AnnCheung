@@ -15,7 +15,7 @@
     <h2>Documenting my Thought Process for TryHackMe's OhSINT challenge</h2>
     <p>OSINT challenge #02</p>
     <p>Published: <span class="publish-date">6-1-2024</span></p>
-    <p><a href="Articles/tryhackme-ohsint-challenge.html" target="_blank">Read More</a></p>
+    <p><a href="tryhackme-ohsint-challenge.html" target="_blank">Read More</a></p>
     <div class="tags">
       <span class="tag">#OSINT</span>
 	  <span class="tag">#project</span>
