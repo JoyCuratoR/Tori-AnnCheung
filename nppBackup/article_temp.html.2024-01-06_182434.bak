@@ -165,7 +165,7 @@
     </p>
 
     <figure>
-		<img src="{Image URL}" class="article-image">
+		<img src="{Image URL}" class="{css class(es)}">
 		<figcaption>
 			{Caption Text} <a href="{Image Source URL}" target="_blank">({Image Source Website})</a>
 		</figcaption>
