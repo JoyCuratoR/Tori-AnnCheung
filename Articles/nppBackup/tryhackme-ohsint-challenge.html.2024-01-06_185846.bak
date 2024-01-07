@@ -219,13 +219,13 @@
   <li>Clicking into the six people he is following doesn't turn up much results</li>
   <li>The hint for the question tells me to look at the Wayback Machine. I have a location, I have a social handle, I have an email. So maybe OWoodflint has another site or social?</li>
   <li>Let's see if searching for OWoodflint on Wayback Machine upends new information</li>
-  <li>Searching OWoodflint gives me nothing</li>
-  <li>Searching the URL to the Twitter account gives me one instance in Feb 6th, 2023 but doesn't give me anything new. Nor does the GitHub profile</li>
+  <li>Typing OWoodflint gives me nothing</li>
+  <li>Typing the URL to the Twitter account gives me one instance in Feb 6th, 2023 but doesn't give me anything new. Nor does the GitHub profile</li>
   <li>At this point, I'm all out of ideas, so I'm going to look at what other people have done</li>
   <li>Using this <a href="https://medium.com/csg-govtech/tryhackmes-ohsint-challenge-38dd0f647d75" target="_blank">write up</a>, I see that OWoodflint used to have a WordPress blog, which would explain the hint of needing to use the Wayback Machine</li>
-  <li>However, I'm confused as to how I could've found this out without needing to look at someone else's work</li> 
+  <li>However, I'm confused as to how I could've found this out without needing to look at someone's work</li> 
   <li>Granted the write up I used is from 2021, so maybe looking at a guide from recent years will tell me how</li>
-  <li>But even walkthroughs published in 2023 (see <a href="https://medium.com/@timnik/tryhackme-ohsint-writeup-walkthrough-e516cd26f5e" target="_blank">here</a> and <a href="https://medium.com/@tamannaag121/walkthrough-write-up-ohsint-tryhackme-f277d917244" target="_blank">here</a>), show that a Google Search yields the WordPress blog &#x1F928;	</li>
+  <li>But even walkthroughs published in 2023 (see <a href="https://medium.com/@timnik/tryhackme-ohsint-writeup-walkthrough-e516cd26f5e" target="_blank">here</a>, and <a href="https://medium.com/@tamannaag121/walkthrough-write-up-ohsint-tryhackme-f277d917244" target="_blank">here</a>), show that a Google Search yields the WordPress blog :|</li>
   <li>However, I did stumble upon a <a href="https://medium.com/@t0mu/ohsint-tryhackme-555c74a4ebde" target="_blank">write up</a> that showed a different way to use the social handle OWoodflint, which is to load it into a username search tool</li>
   <li>It just shows that OWoodflint is on Twitter but it also gives me two links that uses the Wayback Machine</li>
   <li>One of them, for some reason, can't be loaded and gives me a 'Try again' error</li>
@@ -265,7 +265,7 @@
     </div>
 
     <div class="article-footer">
-      Published by Tori-Ann Cheung
+      Published by Your Name
     </div>
   </div>
   
