@@ -22,7 +22,7 @@
     </div>
   </div>
   <div style="flex: 1;">
-    <img src="https://images.pexels.com/photos/18273081/pexels-photo-18273081/free-photo-of-scenic-cliff-at-stokksnes-on-iceland.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" style="max-width: 400px; height: 300px;" alt="">
+    <img src="https://images.pexels.com/photos/15419367/pexels-photo-15419367/free-photo-of-sunlit-alley-in-town-in-black-and-white.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" style="max-width: 400px; height: 300px;" alt="Photo by Carlos Martins: https://www.pexels.com/photo/sunlit-alley-in-town-in-black-and-white-15419367/">
   </div>
 </div>
 
@@ -30,7 +30,7 @@
 
 <div class="title-card" style="display: flex; align-items: center;">
   <div style="flex: 3;">
-    <h2>Documenting my Thought Process for Sofia Santos OSINT Challenge 001</h2>
+    <h2>Documenting my Process for Sofia Santos OSINT Challenge 001</h2>
     <p>My first OSINT challenge</p>
     <p>Published: <span class="publish-date">1-1-2024</span></p>
     <p><a href="Articles/sofia-santos-osint-challenge001.html" target="_blank">Read More</a></p>

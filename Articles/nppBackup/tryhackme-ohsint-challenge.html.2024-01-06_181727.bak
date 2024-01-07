@@ -167,7 +167,7 @@
     <figure>
 		<img src="{Image URL}" class="{css class(es)}">
 		<figcaption>
-			Photo by Thibaut Tattevin:<a href="https://images.pexels.com/photos/18273081/pexels-photo-18273081/free-photo-of-scenic-cliff-at-stokksnes-on-iceland.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" target="_blank">Scenic Cliff at Stokksnes on Iceland</a>
+			{Caption Text} <a href="{Image Source URL}" target="_blank">({Image Source Website})</a>
 		</figcaption>
 	</figure>
 

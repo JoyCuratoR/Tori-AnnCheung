@@ -167,7 +167,7 @@
     <figure>
 		<img src="{Image URL}" class="{css class(es)}">
 		<figcaption>
-			Photo by Thibaut Tattevin:<a href="https://images.pexels.com/photos/18273081/pexels-photo-18273081/free-photo-of-scenic-cliff-at-stokksnes-on-iceland.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" target="_blank">Scenic Cliff at Stokksnes on Iceland</a>
+			{Caption Text} <a href="{Image Source URL}" target="_blank">({Image Source Website})</a>
 		</figcaption>
 	</figure>
 
@@ -179,7 +179,7 @@
     <div class="article-content">
       <article>
 
-<p>My real-time account and thought process of solving TryHackMe's <a href="https://tryhackme.com/room/ohsint " target="_blank">OhSINT</a>room.</p>
+<h1>My real-time account and thought process of solving TryHackMe's [OhSINT](https://tryhackme.com/room/ohsint) room.</h1>
 
 <h2>4th January, 2024</h2>
 
@@ -203,7 +203,7 @@
   <li>I'm a little confused on how to use Wigle.net, I ran with the assumption that it would just show me the location after hitting the 'filter' button, but then I realize I needed to zoom out and search for it</li>
   <li>And viola! I can answer the question "What city is this person in?"</li>
   <li>Since I don't know how to find an SSID of a WAP, I only assume it can be found with what I have which is the BSSID</li>
-  <li>So I do a Google Search of "how to find ssid using bssid" and stumble upon an <a href="https://www.osintcurio.us/2019/01/15/tracking-all-the-wifi-things/" target="_blank">OSINTCurious blog post</a> to help</li>
+  <li>So I do a Google Search of "how to find ssid using bssid" and stumble upon an <a href="https://www.osintcurio.us/2019/01/15/tracking-all-the-wifi-things/">OSINTCurious blog post</a> to help</li>
   <li>But wait a second, out of curiosity, I zoomed in really close on the specific location (the dot) and lo and behold there's the SSID. Guess I didn't need to Google it after all</li>
   <li>The last two questions have stumped me. I don't know where I could look for the answers</li>
   <li>From the hints, all I know is that I'm looking for a possible archived website and source code</li>  
@@ -221,10 +221,10 @@
   <li>Typing OWoodflint gives me nothing</li>
   <li>Typing the URL to the Twitter account gives me one instance in Feb 6th, 2023 but doesn't give me anything new. Nor does the GitHub profile</li>
   <li>At this point, I'm all out of ideas, so I'm going to look at what other people have done</li>
-  <li>Using this <a href="https://medium.com/csg-govtech/tryhackmes-ohsint-challenge-38dd0f647d75" target="_blank">write up</a>, I see that OWoodflint used to have a WordPress blog, which would explain the hint of needing to use the Wayback Machine</li>
+  <li>Using this <a href="https://medium.com/csg-govtech/tryhackmes-ohsint-challenge-38dd0f647d75">write up</a>, I see that OWoodflint used to have a WordPress blog, which would explain the hint of needing to use the Wayback Machine</li>
   <li>However, I'm confused as to how I could've found this out without needing to look at someone's work</li> 
   <li>Granted the write up I used is from 2021, so maybe looking at a guide from recent years will tell me how</li>
-  <li>But even walkthroughs published in 2023 (see <a href="https://medium.com/@timnik/tryhackme-ohsint-writeup-walkthrough-e516cd26f5e" target="_blank">here</a>, and <a href="https://medium.com/@tamannaag121/walkthrough-write-up-ohsint-tryhackme-f277d917244" target="_blank">here</a>), show that a Google Search yields the WordPress blog :|</li>
+  <li>But even walkthroughs published in 2023 (see <a href="https://medium.com/@timnik/tryhackme-ohsint-writeup-walkthrough-e516cd26f5e">here</a>, <a href="https://medium.com/@tamannaag121/walkthrough-write-up-ohsint-tryhackme-f277d917244">here</a>, and here), show that a Google Search yields the WordPress blog :|</li>
   <li>However, I did stumble upon a write up that showed a different way to use the social handle OWoodflint, which is to load it into a username search tool</li>
   <li>It just shows that OWoodflint is on Twitter but it also gives me two links that uses the Wayback Machine</li>
   <li>One of them, for some reason, can't be loaded and gives me a 'Try again' error</li>
