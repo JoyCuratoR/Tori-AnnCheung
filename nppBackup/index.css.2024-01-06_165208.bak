@@ -19,7 +19,7 @@
     }
 
     p {
-        font-family: 'Georgia', serif;
+        font-family: 'Libre Baskerville', serif; /* Change the font for paragraphs to Libre Baskerville */
     }
 
     .blue {
@@ -62,7 +62,6 @@
       text-align: center;
       padding: 14px 16px;
       text-decoration: none;
-	  font-family: 'League Spartan', sans-serif;
       font-weight: bold; /* Make the font bold */
       transition: background-color 0.3s; /* Add transition for hover effect */
     }

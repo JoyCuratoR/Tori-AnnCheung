@@ -19,7 +19,7 @@
     }
 
     p {
-        font-family: 'Georgia', serif;
+        font-family: 'Garamond', serif;
     }
 
     .blue {

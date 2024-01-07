@@ -19,7 +19,7 @@
     }
 
     p {
-        font-family: 'Georgia', serif;
+        font-family: 'Libre Baskerville', serif; /* Change the font for paragraphs to Libre Baskerville */
     }
 
     .blue {

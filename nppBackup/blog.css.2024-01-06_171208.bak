@@ -1,0 +1,131 @@
+	
+	
+	body {
+        max-width: 1300px;
+        margin: 0 auto;
+        font-family: sans-serif;
+        color: black;
+        background-color: #FFFFFF;
+        padding-right: 20px; /* Add padding on the right side */
+    }
+
+
+    h1,
+    h2,
+	h3,
+	h4,
+	h5 {
+      font-family: 'League Spartan', sans-serif;
+    }
+
+    p {
+        font-family: 'Libre Baskerville', serif; /* Change the font for paragraphs to Libre Baskerville */
+    }
+
+    .blue {
+        color: blue;
+    }
+
+    .orange {
+        color: orange;
+    }
+	
+	
+	/* Add the CSS for the scroll to top arrow */
+    .scroll-to-top {
+        position: fixed;
+        bottom: 20px; /* Adjust the distance from the bottom as needed */
+        right: 20px; /* Adjust the distance from the right as needed */
+        width: 40px;
+        height: 40px;
+        background-color: #55a6a2;
+        color: white;
+        border-radius: 50%;
+        text-align: center;
+        line-height: 40px;
+        cursor: pointer;
+    }
+	
+		
+	 /* Add styling for the tag buttons within the sort bar */
+	#sort-bar .tag {
+		display: inline-block;
+		padding: 8px 16px;
+		background-color: #439775;
+		color: white;
+		border: none;
+		border-radius: 20px;
+		cursor: pointer;
+		transition: background-color 0.3s, transform 0.3s;
+	  }
+
+	#sort-bar .tag:hover {
+		background-color: #55a6a2;
+	  }
+
+	#sort-bar .tag:active {
+		transform: scale(0.95);
+	  }
+  
+  /* Add styling for the tag buttons within the sort bar 2 */
+	  #sort-bar-2 .tag {
+		display: inline-block;
+		padding: 8px 16px;
+		background-color: #439775;
+		color: white;
+		border: none;
+		border-radius: 20px;
+		cursor: pointer;
+		transition: background-color 0.3s, transform 0.3s;
+	  }
+
+	  #sort-bar-2 .tag:hover {
+		background-color: #55a6a2;
+	  }
+
+	  #sort-bar-2 .tag:active {
+		transform: scale(0.95);
+	  }
+
+	/* Tag outline style */
+		.tag {
+		  display: inline-block;
+		  padding: 6px 12px;
+		  border: 1px solid #439775;
+		  border-radius: 20px;
+		  margin-right: 5px;
+		}
+		
+	/* Nav bar */
+		.navbar {
+	  background-color: #439775;
+	  overflow: hidden;
+	  text-align: center; /* Center the navigation links */
+	  display: flex; /* Add flex display */
+	  justify-content: center; /* Center the items horizontally */
+	}
+
+	.navbar a {
+	  display: inline-block;
+	  color: black;
+	  text-align: center;
+	  padding: 14px 16px;
+	  text-decoration: none;
+	  font-family: 'League Spartan', sans-serif;
+	  font-weight: bold;
+	  transition: background-color 0.3s;
+	}
+
+	.navbar a:hover {
+	  background-color: #55a6a2;
+	  color: white;
+	}
+	
+	
+		
+/* Add styling for title cards */
+        .title-card {
+            background-color: #FFFFFF;
+            padding: 20px;
+            margin-bottom: 10px;
+        }

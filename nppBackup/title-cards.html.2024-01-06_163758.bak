@@ -1,32 +1,7 @@
-
-<head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<link rel="stylesheet" href="blog.css">
-</head>
-
-
 <!-- Title Cards -->
 
 
-<div class="title-card" style="display: flex; align-items: center;">
-  <div style="flex: 3;">
-    <h2>Documenting my Thought Process for TryHackMe's OhSINT challenge</h2>
-    <p>OSINT challenge #02</p>
-    <p>Published: <span class="publish-date">6-1-2024</span></p>
-    <p><a href="Articles/tryhackme-ohsint-challenge.html" target="_blank">Read More</a></p>
-    <div class="tags">
-      <span class="tag">#OSINT</span>
-	  <span class="tag">#project</span>
-      <!-- Add more tags as needed -->
-    </div>
-  </div>
-  <div style="flex: 1;">
-    <img src="https://images.pexels.com/photos/15419367/pexels-photo-15419367/free-photo-of-sunlit-alley-in-town-in-black-and-white.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" style="max-width: 400px; height: 300px;" alt="Photo by Carlos Martins: https://www.pexels.com/photo/sunlit-alley-in-town-in-black-and-white-15419367/">
-  </div>
-</div>
 
-<hr class="separator"> <!-- Add a separator line here -->
 
 <div class="title-card" style="display: flex; align-items: center;">
   <div style="flex: 3;">

@@ -10,26 +10,6 @@
 		width: 100%;
 	}
 	
-	h1,
-    h2,
-	h3,
-	h4,
-	h5 {
-      font-family: 'League Spartan', sans-serif;
-    }
-
-    p {
-        font-family: 'Georgia', serif;
-    }
-
-    .blue {
-        color: blue;
-    }
-
-    .orange {
-        color: orange;
-    }
-
 
 
 /* Add the CSS for the scroll to top arrow */
@@ -62,7 +42,6 @@
       text-align: center;
       padding: 14px 16px;
       text-decoration: none;
-	  font-family: 'League Spartan', sans-serif;
       font-weight: bold; /* Make the font bold */
       transition: background-color 0.3s; /* Add transition for hover effect */
     }

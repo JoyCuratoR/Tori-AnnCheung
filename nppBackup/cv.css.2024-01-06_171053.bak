@@ -1,0 +1,76 @@
+	body {
+        max-width: 1200px;
+        margin: 0 auto;
+        color: black;
+        background-color: white;
+        padding-right: 20px; /* Add padding on the right side */
+    }
+
+
+    /* Add the CSS for the scroll to top arrow */
+    .scroll-to-top {
+        position: fixed;
+        bottom: 20px; /* Adjust the distance from the bottom as needed */
+        right: 20px; /* Adjust the distance from the right as needed */
+        width: 40px;
+        height: 40px;
+        background-color: #55a6a2;
+        color: white;
+        border-radius: 50%;
+        text-align: center;
+        line-height: 40px;
+        cursor: pointer;
+    }
+
+    h1,
+    h2,
+	h3,
+	h4,
+	h5 {
+      font-family: 'League Spartan', sans-serif;
+    }
+
+    p, ul li {
+        font-family: 'Merriweather', serif;
+		font-size: 26px; /* Adjust the font size as desired */
+    }
+
+    .blue {
+        color: blue;
+    }
+
+    .orange {
+        color: orange;
+    }
+
+
+      /* Add any styling you want for the navigation bar */
+        .navbar {
+            background-color: #439775;
+            overflow: hidden;
+            text-align: center; /* Center the navigation links */
+        }
+
+        /* Style the navigation bar links */
+        .navbar a {
+            display: inline-block; /* Display links in a row */
+            color: black;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+			font-family: 'League Spartan', sans-serif; 
+            font-weight: bold; /* Make the font bold */
+            transition: background-color 0.3s; /* Add transition for hover effect */
+        }
+
+        /* Style the navigation bar links when hovered */
+        .navbar a:hover {
+            background-color: #55a6a2; /* Change background color on hover */
+            color: white; /* Change text color on hover */
+        }
+		
+		/* Media query for mobile devices */
+    @media (max-width: 600px) {
+      body {
+        margin-left: 20px;
+      }
