@@ -16,7 +16,7 @@
     p,
     ul li {
       font-family: 'Helvetica', 'Georgia';
-      font-size: 36px; /* Adjust the font size as desired */
+      font-size: 26px; /* Adjust the font size as desired */
     }
 
     .blue {

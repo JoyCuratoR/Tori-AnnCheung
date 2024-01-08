@@ -90,7 +90,7 @@
       max-width: 800px;
       margin: 0 auto;
       padding: 40px;
-      font-family: Helvetica, sans-serif;
+      font-family: Arial, sans-serif;
     }
 
     /* Article title style */
