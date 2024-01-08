@@ -17,7 +17,7 @@
 
     p,
     ul li {
-      font-family: 'Helvetica', 'Georgia;
+      font-family: 'Georgia', serif;
       font-size: 26px; /* Adjust the font size as desired */
     }
 
