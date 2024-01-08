@@ -19,7 +19,7 @@
     }
 
     p {
-        font-family: 'Helvetica', 'Georgia';
+        font-family: 'Georgia', serif;
     }
 
     .blue {
