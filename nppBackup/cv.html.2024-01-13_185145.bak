@@ -48,7 +48,7 @@
 	</ul>
 	<h3>Reports</h3>
 	<ul>
-		<li>Camplight Safety Sessions: Online Scams - Tips to Safeguard Kids and Parents Against Online Scams (See more in the <a href="#section-1">Cybersecurity Projects</a>) | See the <a href="https://docs.google.com/document/d/1yaWCvbcLyTnrvSz-Yi3jA_YDfZ_t9cWD0V_kCLJc85A/edit?usp=sharing" target="_blank">research</a></li>
+		<li>Camplight Safety Sessions: Online Scams - Tips to Safeguard Kids and Parents Against Online Scams (See more in the <a href="#section-1">Cybersecurity Projects</a>) <b>(Final Report: In-progress)</b></li>
 	</ul>
 	
 	<section id="section-1">
@@ -66,7 +66,7 @@
 		<li>Investigated the prevalence of online scams targeting children and compiled key statistics and data on common exploitation methods for an episode of Camplight Safety Sessions. In this program, Camplight's Forest Bronzan and Omnistruct's George Usi discussed safeguarding strategies to protect both kids and parents from increasingly sophisticated scamming schemes. (See more in the <a href="#section-0">Research & Reports</a>)</li>
 		<li>Participated in PWN the Shell, an innovative Discord-based platform with CTF style linux challenges where each challenge gives players access to a real linux shell which they control through the Discord chat and execute Linux commands to complete objectives. </li>
 		<li>Gained hands-on experience of Linux command-line and fundamental cybersecurity skills via <a href="https://www.worldofhaiku.com/?gclid=Cj0KCQjwmN2iBhCrARIsAG_G2i6vrtYjomb1El_CAmvS2sv48y2S1CHRW5INudjEqUm1dqWND7oD4eoaAtw8EALw_wcB" target ="_blank">World of Haiku</a>, an interactive, hands-on, game-based training developed by <a href="https://haikuinc.io" target="_blank">Haiku Inc.</a> </li>
-		<li>Learned essential cybersecurity skills and frameworks from <b>16 (and counting) </b><a href= "https://tryhackme.com/p/joycuratoR" target="_blank">TryHackMe rooms</a>. </li>
+		<li>Learned essential cybersecurity skills and frameworks from <b>15 (and counting) </b><a href= "https://tryhackme.com/p/joycuratoR" target="_blank">TryHackMe rooms</a>. </li>
 		<li>Reconfigured a pre-installed Windows 10 OS to run the latest Kali Linux OS to transform a used laptop into a home lab for red and blue team operations.</li>
 	</ul>
 	
@@ -75,7 +75,6 @@
 	
 	<h3>OSINT</h3>
 	<ul>
-		<li>TryHackMe's OhSINT challenge room | Read the <a href="https://madebycuriosity.com/Articles/tryhackme-ohsint-challenge.html" target="_blank">Documentation</a></li>
 		<li>Sofia Santos OSINT Challenge #001 | Read the <a href="https://madebycuriosity.com/Articles/sofia-santos-osint-challenge001.html" target="_blank">Documentation</a></li>
 		<li>Kase Scenarios: Betrayal | Read the <a href="https://docs.google.com/document/d/1L73cawmL588q-w_2hQLVBkgBMQU3eV9fT2nWyT0_5mc/edit?usp=sharing" target="_blank">Submitted Report</a> | <a href="https://courses.kasescenarios.com/certificates/frrjyi6t6c" target="_blank">Verification</a></li>
 	</ul>
