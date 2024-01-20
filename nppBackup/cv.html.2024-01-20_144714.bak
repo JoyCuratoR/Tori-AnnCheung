@@ -29,27 +29,18 @@
 	<!-- Table of contents -->
 <h1>Table of Contents</h1>
 <div style="margin-bottom: 10px;">
-  <p style="margin: 0;"><a href="#section-0">OSINT</a></p>
-  <p style="margin: 0;"><a href="#section-1">Research & Reports</a></p>
-  <p style="margin: 0;"><a href="#section-2">Cybersecurity</a></p>
-  <p style="margin: 0;"><a href="#section-3">Data Analytics</a></p>
-  <p style="margin: 0;"><a href="#section-4">Education</a></p>
-  <p style="margin: 0;"><a href="#section-5">Programming, Scripts, and other code</a></p>
+  <p style="margin: 0;"><a href="#section-0">Research & Reports</a></p>
+  <p style="margin: 0;"><a href="#section-1">Cybersecurity</a></p>
+  <p style="margin: 0;"><a href="#section-2">OSINT & Data Analysis</a></p>
+  <p style="margin: 0;"><a href="#section-3">Education</a></p>
+  <p style="margin: 0;"><a href="#section-4">Programming, Scripts, and other code</a></p>
+  <p style="margin: 0;"><a href="#section-5">Writing</a></p>
   <p style="margin: 0;"><a href="#section-6">Volunteering</a></p>
 </div>
 	
 
 <!-- Content sections -->
 	<section id="section-0">
-	<h2>OSINT</h2>
-	<ul>
-		<li>TryHackMe's OhSINT challenge room | Read the <a href="https://madebycuriosity.com/Articles/tryhackme-ohsint-challenge.html" target="_blank">Documentation</a></li>
-		<li>Sofia Santos OSINT Challenge #001 | Read the <a href="https://madebycuriosity.com/Articles/sofia-santos-osint-challenge001.html" target="_blank">Documentation</a></li>
-		<li>Kase Scenarios: Betrayal | Read the <a href="https://docs.google.com/document/d/1L73cawmL588q-w_2hQLVBkgBMQU3eV9fT2nWyT0_5mc/edit?usp=sharing" target="_blank">Submitted Report</a> | <a href="https://courses.kasescenarios.com/certificates/frrjyi6t6c" target="_blank">Verification</a></li>
-	</ul>
-	
-	
-	<section id="section-1">
 	<h2>Research & Reports</h2>
 	<h3>Research</h3>
 	<ul>
@@ -60,8 +51,7 @@
 		<li>Camplight Safety Sessions: Online Scams - Tips to Safeguard Kids and Parents Against Online Scams (See more in the <a href="#section-1">Cybersecurity Projects</a>) | See the <a href="Other/ScamsAgainstKids.pdf" target="_blank">research</a></li>
 	</ul>
 	
-	
-	  <section id="section-2">
+	<section id="section-1">
 	<h2>Cybersecurity</h2>
 	<h3>Information Security Administrator Intern at Cyber Proud</h3>
 		<p>April 2023 - July 2023</p>
@@ -80,9 +70,16 @@
 		<li>Reconfigured a pre-installed Windows 10 OS to run the latest Kali Linux OS to transform a used laptop into a home lab for red and blue team operations.</li>
 	</ul>
 	
+	  <section id="section-2">
+	<h2>OSINT & Data Analysis</h2>
 	
-	<section id="section-3">
-	<h2>Data Analysis</h2>
+	<h3>OSINT</h3>
+	<ul>
+		<li>TryHackMe's OhSINT challenge room | Read the <a href="https://madebycuriosity.com/Articles/tryhackme-ohsint-challenge.html" target="_blank">Documentation</a></li>
+		<li>Sofia Santos OSINT Challenge #001 | Read the <a href="https://madebycuriosity.com/Articles/sofia-santos-osint-challenge001.html" target="_blank">Documentation</a></li>
+		<li>Kase Scenarios: Betrayal | Read the <a href="https://docs.google.com/document/d/1L73cawmL588q-w_2hQLVBkgBMQU3eV9fT2nWyT0_5mc/edit?usp=sharing" target="_blank">Submitted Report</a> | <a href="https://courses.kasescenarios.com/certificates/frrjyi6t6c" target="_blank">Verification</a></li>
+	</ul>
+	<h3>Data Analysis</h3>
 	<ul>
 	  <li>As a way to showcase my skills to gain a volunteering opportunity, I gathered, organized, and analyzed Los Angeles County Library System to perform Resource Allocation Analysis. Check out the <a href = "https://tori-ann.notion.site/Library-Resource-Allocation-Optimization-Work-In-Progress-a81ed799155c46fca469dac2d94a21fe" target ="_blank">project requirements</a> and <a href = "https://www.canva.com/design/DAFalkfzPew/m372AhfcxraY3hav4SrANg/view?utm_content=DAFalkfzPew&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink" target ="_blank">presentation of the results and recommendations</a>. </li>
 	  <li>Through a guided project written by Marynia Kolak, Moksha Menghaney, Qinyun Lin, and Angela Li, I learned how to perform geospatial analysis techniques such as: geocoding, buffer analysis, and nearest resource analysis. <a href = "https://github.com/JoyCuratoR/MethadoneClinicsGeospatialAnalysis" target ="_blank">GitHub Repo</a>.</li>
@@ -90,9 +87,9 @@
 	  <li>In part of completing the Google Data Analytics Certificate program, I created a capstone project to analyze Greenhouse Gas Emissions data from the Environmental Protection Agency. Find the full report here: <a href="https://rpubs.com/joycuratoR/RadiantEnergy" target="_blank">RPubs</a></li>
       <li>The game Elden Ring exploded in popularity in 2022 and many Reddit users had negative and positive thoughts about its game mechanics. So using Reddit's API, I parsed and cleaned qualitative data to conduct sentiment analysis to discover the impact of Elden Ring's boss mechanics. Find the tutorial here: <a href="https://github.com/JoyCuratoR/Elden-Ring-Sentiment-Analysis-Guide" target="_blank">Elden Ring Sentiment Analysis Tutorial</a>.</li>
 	</ul>
-
 	
-	<section id="section-4">
+	
+	<section id="section-3">
 	<h2>Education</h2>
 	<h3>Degrees</h3>
 	<ul>
@@ -119,13 +116,27 @@
 	  <li>Google Data Analytics Certificate |  <a href="https://www.credly.com/badges/6f724d11-0444-4a99-9963-f6dd1a181fa2/public_url" target="_blank">Verification</a></li>
 	  <li>Sololearn SQL Certificate | <a href="https://www.sololearn.com/certificates/CT-W0SWZIK6" target="_blank">Verification</a>
 	</ul>
+
 	
-	
-	<section id="section-5">
+	<section id="section-4">
 	<h2>Programming, Scripts and other code</h2>
 	<ul>
 	  <li>I built a typewriter simulator which is a text editor where you can't use the backspace. Try it out here: <a href="https://joycurator.github.io/TypewriterSimulator/" target="_blank">Typewriter app</a>.</li>
       <li>I created an automated Twitter account that requests Twitter's API to tweet daily inspirational quotes. Find the account here: <a href="https://twitter.com/SunshinecatLeo" target="_blank">@SunshinecatLeo</a> and build your own automated account with my <a href="https://github.com/JoyCuratoR/brainyquotebot" target="_blank">tutorial</a>.</li>
+	</ul>
+	
+	
+	<section id="section-5">
+	<h2>Writing</h2>
+	<p>Where else I've written outside of my blog.</p>
+    <ul>
+	  <li>Medium | <a href="https://medium.com/madebycuriosity/how-osint-opened-my-eyes-to-cybersecurity-threats-25bdd78221c4" target="_blank"> How OSINT Opened My Eyes to Cybersecurity Threats</a>.</li>
+	  <li>Medium | <a href="https://medium.com/madebycuriosity/turning-my-fear-of-cyber-threats-into-a-passion-for-cybersecurity-479df6c71b9" target="_blank"> Turning My Fear of Cyber Threats into a Passion for Cybersecurity</a>.</li>
+	  <li>Dev Genius | <a href="https://blog.devgenius.io/how-to-install-and-configure-python-for-your-personal-computer-a5466b03fe5e" target="_blank"> How to Install and Configure Python for your Personal Computer</a>.</li>
+	  <li>Dev Genius | <a href="https://blog.devgenius.io/python-lured-me-in-with-its-readability-then-slapped-me-in-the-face-with-a-catfish-14bf9a20d82d" target="_blank">Python lured me in with its Readability then Slapped me in the Face with a Catfish</a>.</li>
+      <li>Illumination | <a href="https://medium.com/illumination/according-to-taoism-the-way-you-think-is-the-number-one-reason-for-unhappiness-2e3590e6037e" target="_blank">According to Taoism, the Way you Think is the Number One Reason for Unhappiness</a>.</li>
+      <li>Coderons | <a href="https://coderons.com/post/the-truth-about-learning-a-programming-language-c9b" target="_blank">The Truth About Learning a Programming Language: Myths to Unlearn to be a Good Programmer</a>.</li>
+      <li>Medium | <a href="https://medium.com/@tori-anncheung/forget-data-analytics-roadmaps-master-this-first-954640cc1fa5" target="_blank">Forget Data Analytics Roadmaps, Master This First</a>.</li>
 	</ul>
 	
 	
