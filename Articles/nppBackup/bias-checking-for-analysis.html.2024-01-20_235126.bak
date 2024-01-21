@@ -249,7 +249,7 @@
 <figure>
 <img src="../Images/diagnosticbiases.png" class="article-image">
 	<figcaption>
-		From "Restructuring Structured Analytic Techniques in Intelligence"
+		<p>From "Restructuring Structured Analytic Techniques in Intelligence"</p>
 	</figcaption>
 </figure>
 <h4> Contrarian Techniques</h4>
@@ -260,7 +260,7 @@
 <figure>
 <img src="../Images/contrarianbiases.png" class="article-image">
 	<figcaption>
-		From "Restructuring Structured Analytic Techniques in Intelligence"
+		<p>"Restructuring Structured Analytic Techniques in Intelligence"</p>
 	</figcaption>
 </figure>
 <h4> Imaginative Thinking Techniques</h4>
@@ -271,7 +271,7 @@
 <figure>
 <img src="../Images/imaginativebiases.png" class="article-image">
 	<figcaption>
-		From "Restructuring Structured Analytic Techniques in Intelligence"
+		<p>"Restructuring Structured Analytic Techniques in Intelligence"</p>
 	</figcaption>
 </figure>
 
