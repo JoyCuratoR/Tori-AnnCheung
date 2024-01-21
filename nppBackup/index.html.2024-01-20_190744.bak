@@ -33,19 +33,19 @@
 
   <!-- Remaining Sections -->
   <div id="section3">
-    <img src="Images/Home/Goals.png">
+    <img src="Images/Goals.png">
   </div>
   
   <div id="section4">
-    <img src="Images/Home/Dedication.png">
+    <img src="Images/Dedication.png">
   </div>
    
   <div id="section5">
-    <img src="Images/Home/Values.png">
+    <img src="Images/Values.png">
   </div>
    
   <div id="section6">
-    <img src="Images/Home/Contact.png">
+    <img src="Images/Contact.png">
   </div>
   
   
