@@ -14,7 +14,7 @@
 
     p,
     ul li {
-      font-family: 'Helvetica', 'Georgia';
+      font-family: 'Georgia', serif;
       font-size: 26px; /* Adjust the font size as desired */
     }
 
@@ -73,7 +73,6 @@
     @media (max-width: 600px) {
       body {
         margin-left: 20px;
-		background-color: #FFFFFF;
       }
     }
 	
@@ -88,7 +87,7 @@
       max-width: 800px;
       margin: 0 auto;
       padding: 40px;
-      font-family: Helvetica, sans-serif;
+      font-family: Arial, sans-serif;
     }
 
     /* Article title style */
@@ -142,7 +141,7 @@
 	figcaption {
   font-size: 0.8em;
   font-style: italic;
-  text-align: left;
+  text-align: center;
 }
  </style>
 </head>
