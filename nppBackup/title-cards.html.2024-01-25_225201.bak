@@ -55,9 +55,8 @@
     <p>Published: <span class="publish-date">1-1-2024</span></p>
     <p><a href="Articles/sofia-santos-osint-challenge001.html" target="_blank">Read More</a></p>
     <div class="tags">
-      <span class="tag">#osint</span>
+      <span class="tag">#OSINT</span>
 	  <span class="tag">#project</span>
-	  <span class="tag">#self-teaching</span>
       <!-- Add more tags as needed -->
     </div>
   </div>

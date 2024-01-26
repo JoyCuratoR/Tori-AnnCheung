@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  
+  <title>Article Template</title>
+  
+  <style>
+	h1,
+    h2,
+	h3,
+	h4,
+	h5 {
+      font-family: 'League Spartan', sans-serif;
+    }
+
+
+    p,
+    ul li {
+      font-family: 'Helvetica', 'Georgia';
+      font-size: 26px; /* Adjust the font size as desired */
+    }
+
+    .blue {
+      color: blue;
+    }
+
+    .orange {
+      color: orange;
+    }
+  
+  
+  /* Add the CSS for the scroll to top arrow */
+    .scroll-to-top {
+      position: fixed;
+      bottom: 20px; /* Adjust the distance from the bottom as needed */
+      right: 20px; /* Adjust the distance from the right as needed */
+      width: 40px;
+      height: 40px;
+      background-color: #55a6a2;
+      color: white;
+      border-radius: 50%;
+      text-align: center;
+      line-height: 40px;
+      cursor: pointer;
+    }
+	
+	/* Nav bar */
+		.navbar {
+	  background-color: #439775;
+	  overflow: hidden;
+	  text-align: center; /* Center the navigation links */
+	  display: flex; /* Add flex display */
+	  justify-content: center; /* Center the items horizontally */
+	}
+
+	.navbar a {
+	  display: inline-block;
+	  color: black;
+	  text-align: center;
+	  padding: 14px 16px;
+	  text-decoration: none;
+	  font-weight: bold;
+	  transition: background-color 0.3s;
+	  font-family: "League Spartan", sans-serif;
+	}
+
+	.navbar a:hover {
+	  background-color: #55a6a2;
+	  color: white;
+	}
+	
+	
+	
+	/* Media query for mobile devices */
+    @media (max-width: 600px) {
+      body {
+        margin-left: 20px;
+		background-color: #FFFFFF;
+      }
+    }
+	
+    /* Reset default margins and paddings */
+    body {
+      margin: 0;
+      padding: 0;
+    }
+
+    /* Container for the article content */
+    .article-container {
+      max-width: 800px;
+      margin: 0 auto;
+      padding: 40px;
+      font-family: Helvetica, sans-serif;
+    }
+
+    /* Article title style */
+    .article-title {
+      font-size: 32px;
+      font-weight: bold;
+      margin-bottom: 20px;
+    }
+
+    /* Article metadata style */
+    .article-metadata {
+      color: #888;
+      margin-bottom: 20px;
+    }
+
+    /* Article content style */
+    .article-content {
+      line-height: 1.6;
+      margin-bottom: 40px;
+    }
+
+    /* Article image style */
+    .article-image {
+      max-width: 100%;
+      height: auto;
+      margin-bottom: 20px;
+    }
+
+    /* Article tags style */
+    .article-tags {
+      margin-bottom: 20px;
+    }
+
+    /* Article tag style */
+    .article-tag {
+      display: inline-block;
+      margin-right: 10px;
+      background-color: #f0f0f0;
+      padding: 4px 8px;
+      font-size: 14px;
+      color: #666;
+    }
+
+    /* Article footer style */
+    .article-footer {
+      color: #888;
+      font-size: 14px;
+    }
+	
+	/* Caption Styling for Photo */
+	figcaption {
+  font-size: 0.8em;
+  font-style: italic;
+  text-align: left;
+}
+</style>
+</head>
+<body>
+<!-- Add the navigation bar to the top of the page -->
+    <div class="navbar">
+		<a href="../index.html" style="background-color: #439775;">Home</a>
+        <a href="../cv.html" style="background-color: #439775;">CV</a>
+        <a href="../blog.html" style="background-color: #439775;">Blog</a>
+    </div>
+	
+	
+  <div class="article-container">
+    <h1 class="article-title">Article Title</h1>
+
+    <p class="article-metadata">
+      Published on June 20, 2023
+    </p>
+
+    <figure>
+		<img src="{Image URL}" class="article-image">
+		<figcaption>
+			{Caption Text} <a href="{Image Source URL}" target="_blank">({Image Source Website})</a>
+		</figcaption>
+	</figure>
+
+    <div class="article-tags">
+      <span class="article-tag">#OSINT</span>
+      <span class="article-tag">#Commentary</span>
+      <span class="article-tag">#Self-teaching</span>
+	  <span class="article-tag">#Resources</span>
+    </div>
+
+    <div class="article-content">
+<p>My first two OSINT challenges were purely for documenting my thought process as I went along doing the challenge. The benefit was to visualize my thoughts and understand where they tend to veer. And although two instances is not substantial data to accurately determine any statistics, I did notice that I was very 'boxed in' to a certain way of thinking. Because it was an OSINT challenge, the questions and answers were predetermined and that had influenced my mindset into thinking 'Oh, there's a certain way to complete this'.</p>
+
+<p>Falling into this trap stifled chances for diffuse and creative and critical thinking that is essential in real investigations. Not only having practice and experience can greatly ease the ambiguity of where you can start, but having a good system, a good plan to guide you is also essential.</p>
+
+<p>So, instead of documenting my stream of consciousness, I'm going to implement the intelligence cycle to help with solving these challenges.</p>
+
+<p>I'll be using Secjuice's intelligence cycle guides written by Sinwindie as a reference:</p>
+
+<ol>
+<li><a href="https://www.secjuice.com/the-osint-intelligence-cycle-part-i-planning-and-direction/" target="_blank">Part 1: Planning and Direction</a></li>
+<li><a href="https://www.secjuice.com/osint-and-the-intelligence-cycle-part-ii-collection/" target="_blank">Part 2: Collection</a></li> 
+<li><a href="https://www.secjuice.com/osint-the-intelligence-cycle-part-iii-processing-raw-intelligence/" target="_blank">Part 3: Processing</a></li>
+<li><a href="https://www.secjuice.com/osint-the-intelligence-cycle-part-iv-processing-raw-intelligence/" target="_blank">Part 4: Analyzing and Production</a></li>  
+<li><a href="https://www.secjuice.com/osint-the-intelligence-cycle-part-v-dissemination/" target="_blank">Part 5: Dissemination</a></li>
+</ol>
+
+<p>Secondly, I'll be keeping these questions, provided by the DutchOSINTGuy's blog post "<a href="https://www.dutchosintguy.com/post/osint-is-a-state-of-mind" target="_blank">OSINT is a State of Mind</a>" to practice questioning and verifying everything I do to be as objective as possible:</p>
+
+<ul>
+<li>What was the initial research question?</li>
+<li>What were you trying to answer?</li>
+<li>What sources did you pick to answer that question</li>
+<li>Are those sources reliable?</li>
+<li>Whats gaps are there left behind from choosing those sources?</li>
+<li>What keywords did you formulate to try and answer that question?</li>
+<li>Why those specific keywords?</li>
+<li>Why did you use that tool or script?</li>  
+</ul>
+
+<p>Additionally, I'll be keeping in mind Gary Ruddell's advice of <a href="https://www.youtube.com/watch?v=j0jwfZxtak8" target="_blank">what makes a good intelligence report</a>. My favorite takeaway is it's best to put the bottom line up front, then the overview of what's happened and then go into why it matters for your specific audience.</p>
+
+<p>Here's my write up on <a href="sofia-santos-challenge006.html" target="_blank">Sofia Santos OSINT Challenge 006</a> demonstrating how I practiced the intelligence cycle.</p>
+
+    </div>
+
+    <div class="article-footer">
+      Published by Tori-Ann Cheung
+    </div>
+  </div>
+  
+  <!-- Scroll to top icon -->
+  <div class="scroll-to-top" onclick="scrollToTop()">
+    &#8593; <!-- Up arrow icon -->
+  </div>
+
+  <!-- Scroll to top function -->
+  <script>
+    function scrollToTop() {
+      window.scrollTo({ top: 0, behavior: 'smooth' });
+    }
+  </script>
+</body>
+</html>

@@ -14,7 +14,7 @@
     <p>Published: <span class="publish-date">20-1-2024</span></p>
     <p><a href="Articles/bias-checking-for-analysis.html" target="_blank">Read More</a></p>
     <div class="tags">
-      <span class="tag">#osint</span>
+      <span class="tag">#OSINT</span>
 	  <span class="tag">#self-teaching</span>
 	  <span class="tag">#resources</span>
       <!-- Add more tags as needed -->
@@ -35,9 +35,8 @@
     <p>Published: <span class="publish-date">6-1-2024</span></p>
     <p><a href="Articles/tryhackme-ohsint-challenge.html" target="_blank">Read More</a></p>
     <div class="tags">
-      <span class="tag">#osint</span>
+      <span class="tag">#OSINT</span>
 	  <span class="tag">#project</span>
-	  <span class="tag">#self-teaching</span>
       <!-- Add more tags as needed -->
     </div>
   </div>
@@ -55,9 +54,8 @@
     <p>Published: <span class="publish-date">1-1-2024</span></p>
     <p><a href="Articles/sofia-santos-osint-challenge001.html" target="_blank">Read More</a></p>
     <div class="tags">
-      <span class="tag">#osint</span>
+      <span class="tag">#OSINT</span>
 	  <span class="tag">#project</span>
-	  <span class="tag">#self-teaching</span>
       <!-- Add more tags as needed -->
     </div>
   </div>
