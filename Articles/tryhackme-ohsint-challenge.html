@@ -6,9 +6,18 @@
   <title>Documenting my Thought Process for TryHackMe's OhSINT challenge</title>
   
   <style>
-	h1,
-    h2,
-	h3,
+	h1 {
+	font-size: 2em;
+	font-family: 'League Spartan', sans-serif;
+	}
+    h2 {
+	font-size: 1.7em;
+	font-family: 'League Spartan', sans-serif;
+	}
+	h3 {
+	font-size: 1.4em;
+	font-family: 'League Spartan', sans-serif;
+	}
 	h4,
 	h5 {
       font-family: 'League Spartan', sans-serif;
@@ -16,6 +25,8 @@
 
 
     p,
+	em,
+	figcaption,
     ul li {
       font-family: 'Helvetica', 'Georgia';
       font-size: 26px; /* Adjust the font size as desired */
@@ -143,9 +154,13 @@
 	
 	/* Caption Styling for Photo */
 	figcaption {
-  font-size: 0.8em;
+  font-size: 1em;
   font-style: italic;
   text-align: left;
+}
+
+img[class="article-image"] {
+  border: 1px solid blue; 
 }
 </style>
 <body>
@@ -195,7 +210,7 @@
   </ul>
   <li>The coordinates just lead back to Hawes, so I focus on the social handle</li>
   <li>A Google Search tells me that OWoodflint (does it stand for Oliver Wood and Marcus Flint? Harry Potter fans, anyone?) has a Twitter/X account, a GitHub account and also appears on various blog posts that ties back to this challenge (no spoilers, please)</li>
-  <img src="/Images/OSINTChallenges/OWoodflintSearch.png" class="article-image">
+  <img src="../Images/OSINTChallenges/OWoodflintSearch.png" class="article-image">
   <li>I open both the Twitter account and GitHub account</li>
   <li>On Twitter I see there's a post about an BSSID B4:5D:50:AA:86:41, now having looked at the two hints provided in the challenge room, I know that the BSSID is important</li>
   <li>On GitHub, in the sole repository I find the email and the answer to "What is his personal email address?" and "What site did you find his email address on?"</li>
@@ -239,7 +254,7 @@
   <li>In Google I search "what class or tag would a password in an html file have?" and find the answer '<code>&lt;input type="password"&gt;</code>'</li>
   <li>Back to the page source, I hit CTR + F and type in '<code>&lt;input type="p &gt;</code>' which gives me no matches and then I try just '<code>&lt;input type=" &gt;</code>' but that just gives me four instances on the same line</li>
   <li>And after many minutes of careful scrolling and reading through a lot of web.archive.org links and other bits and bobs, I just happened upon the possibility to the answer of the last question</li>
-  <img src="/Images/OSINTChallenges/OWoodflintSiteSource.png" class="article-image">
+  <img src="../Images/OSINTChallenges/OWoodflintSiteSource.png" class="article-image">
   <li>Because TryHackMe let's me know that there is a period punctuation in the password.... <i>pennYDr0pper.!</i> seems rather suspicious (and correct!)</li> 
 </ul>
 
@@ -253,7 +268,7 @@
 
 <h2>Closing Thoughts</h2>
 
-<p>Reading some of the write ups for this room, I find myself thinking that the 'easy' ranking for this room needs to have some nuance. I would argue that because of the changes, namely the archived WordPress blog, this room should advertise as 'for advanced beginners' (which, I am not).</p>
+<p>Reading some of the write ups for this room, I find myself thinking that the 'easy' ranking for this room needs to have some nuance. I would argue that because of the changes, namely the archived WordPress blog, this room should advertise as 'for advanced beginners'.</p>
 
 <p>Overall, despite the confusion and some frustration, it was still a great learning experience. And I would still like to know how I could've known to use the Wayback Machine to look for the WordPress blog if I didn't know there was a blog in the first place. Thoughts anyone? Let me know in the comments of my LinkedIn post.</p>
 

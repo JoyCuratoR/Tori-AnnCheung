@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  
+  <title>Sofia Santos OSINT Challenge 006 - Thought Process and Writeup Using the Intelligence Cycle</title>
+  
+  <style>
+	h1,
+    h2,
+	h3,
+	h4,
+	h5 {
+      font-family: 'League Spartan', sans-serif;
+    }
+
+
+    p,
+    ul li {
+      font-family: 'Helvetica', 'Georgia';
+      font-size: 26px; /* Adjust the font size as desired */
+    }
+
+    .blue {
+      color: blue;
+    }
+
+    .orange {
+      color: orange;
+    }
+  
+  
+  /* Add the CSS for the scroll to top arrow */
+    .scroll-to-top {
+      position: fixed;
+      bottom: 20px; /* Adjust the distance from the bottom as needed */
+      right: 20px; /* Adjust the distance from the right as needed */
+      width: 40px;
+      height: 40px;
+      background-color: #55a6a2;
+      color: white;
+      border-radius: 50%;
+      text-align: center;
+      line-height: 40px;
+      cursor: pointer;
+    }
+	
+	/* Nav bar */
+		.navbar {
+	  background-color: #439775;
+	  overflow: hidden;
+	  text-align: center; /* Center the navigation links */
+	  display: flex; /* Add flex display */
+	  justify-content: center; /* Center the items horizontally */
+	}
+
+	.navbar a {
+	  display: inline-block;
+	  color: black;
+	  text-align: center;
+	  padding: 14px 16px;
+	  text-decoration: none;
+	  font-weight: bold;
+	  transition: background-color 0.3s;
+	  font-family: "League Spartan", sans-serif;
+	}
+
+	.navbar a:hover {
+	  background-color: #55a6a2;
+	  color: white;
+	}
+	
+	
+	
+	/* Media query for mobile devices */
+    @media (max-width: 600px) {
+      body {
+        margin-left: 20px;
+		background-color: #FFFFFF;
+      }
+    }
+	
+    /* Reset default margins and paddings */
+    body {
+      margin: 0;
+      padding: 0;
+    }
+
+    /* Container for the article content */
+    .article-container {
+      max-width: 800px;
+      margin: 0 auto;
+      padding: 40px;
+      font-family: Helvetica, sans-serif;
+    }
+
+    /* Article title style */
+    .article-title {
+      font-size: 32px;
+      font-weight: bold;
+      margin-bottom: 20px;
+    }
+
+    /* Article metadata style */
+    .article-metadata {
+      color: #888;
+      margin-bottom: 20px;
+    }
+
+    /* Article content style */
+    .article-content {
+      line-height: 1.6;
+      margin-bottom: 40px;
+    }
+
+    /* Article image style */
+    .article-image {
+      max-width: 100%;
+      height: auto;
+      margin-bottom: 20px;
+    }
+
+    /* Article tags style */
+    .article-tags {
+      margin-bottom: 20px;
+    }
+
+    /* Article tag style */
+    .article-tag {
+      display: inline-block;
+      margin-right: 10px;
+      background-color: #f0f0f0;
+      padding: 4px 8px;
+      font-size: 14px;
+      color: #666;
+    }
+
+    /* Article footer style */
+    .article-footer {
+      color: #888;
+      font-size: 14px;
+    }
+	
+	/* Caption Styling for Photo */
+	figcaption {
+  font-size: 0.8em;
+  font-style: italic;
+  text-align: left;
+}
+</style>
+</head>
+<body>
+<!-- Add the navigation bar to the top of the page -->
+    <div class="navbar">
+		<a href="../index.html" style="background-color: #439775;">Home</a>
+        <a href="../cv.html" style="background-color: #439775;">CV</a>
+        <a href="../blog.html" style="background-color: #439775;">Blog</a>
+    </div>
+	
+	
+  <div class="article-container">
+    <h1 class="article-title">Sofia Santos OSINT Challenge 006 - Thought Process and Writeup Using the Intelligence Cycle</h1>
+
+    <p class="article-metadata">
+      Published on 26th January, 2024
+    </p>
+
+    <figure>
+		<img src="{Image URL}" class="article-image">
+		<figcaption>
+			{Caption Text} <a href="{Image Source URL}" target="_blank">({Image Source Website})</a>
+		</figcaption>
+	</figure>
+
+    <div class="article-tags">
+      <span class="article-tag">#OSINT</span>
+      <span class="article-tag">#Project</span>
+	  <span class="article-tag">#Self-teaching</span>
+    </div>
+
+    <div class="article-content">
+<p>Last time I attempted Sofia Santos' OSINT challenges, I was a bit gung-ho with choosing my first challenge that was designated as difficult for beginners. So to scale back a bit, let's see if I am successful with a challenge that is easy for beginners.</p>
+
+<p>In tandem with this posting this <a href="practicing-intelligence-cycle-using-osint-challenges.html" target="_blank">Treating an OSINT Challenge as if it is a Real Case- Practicing the Intelligence Cycle</a>, I will document this following the intelligence cycle as well as providing my real-time thoughts.</p>
+
+<h1>Table of Contents</h1>
+<div style="margin-bottom: 10px;">
+  <p style="margin: 0;"><a href="#section-1">Background Challenge</a></p>
+  <p style="margin: 0;"><a href="#section-2">Planning &amp; Direction</a></p>
+  <p style="margin: 0;"><a href="#section-3">Collection</a></p>
+	
+      <li style="margin: 0;"><a href="#section-3-5">Step by Step Thought Process</a></li>
+    
+  <p style="margin: 0;"><a href="#section-4">Processing</a></p>
+  <p style="margin: 0;"><a href="#section-5">Analyzing</a></p>
+  <p style="margin: 0;"><a href="#section-6">Dissemination</a></p>
+</div>
+
+<section id="section-1">
+<h2>Background of Challenge</h2>
+
+<p>On January 19, 2023, a journalist with almost 140k followers on Twitter shared an image of a destroyed vehicle amidst a large cloud of smoke and fire. The tweet said: “<em>BREAKING: TTP</em> <em>carried out a suicide attack on a police post in Khyber city of Pakistan that killed three Pakistani police officers.</em>“</p>   
+
+<p>The photo is not of the event described by the journalist.  
+a) Verify the statement above.</p>
+
+<p><strong>Note: You do NOT need to find the author of the tweet seen below. Do NOT harass the journalist.</strong></p>
+
+<p>~ from <a href="https://gralhix.com/list-of-osint-exercises/osint-exercise-006/" target="_blank">Challenge #006</a></p> 
+
+<section id="section-2">
+<h2>Planning &amp; Direction</h2>  
+
+<h3>Guiding  Question(s)</h3>
+
+<p>While the task briefing gives me an objective to complete, I still need a guiding question to specify a direction. My initial question is what I consider the knee-jerk question that first comes to mind. I like to write this down because most, if not all, branching questions comes from this first one.</p>   
+
+<p><strong>Initial Question</strong>: Is this tweet mis- or disinformation?</p>  
+
+<p><em>Branching Questions</em>:</p>
+<ul>
+  <li>Did the journalist verify their source of the photo?</li>
+  <li>If not, what parts of the tweet are false?</li>
+  <li>Where did this photo come from? What's the place or scene it actually depicts?</li>   
+</ul>  
+
+<h3>Tools of the Trade</h3>  
+
+<p>I'm not one to keep track of what is considered the best tool to use. My ideology is that if it gets the job done then good enough for me. However, I made a recent discovery of <a href="https://metaosint.github.io/chart" target="_blank">MetaOSINT</a> which provides a huge database of over 4000 OSINT resources.</p>   
+
+<p>Like...wow?</p>  
+
+<p>Though this is helpful, I don't think I'll be needing it's extensive library as much or at all for this challenge.</p>  
+
+<h2>The End Goal</h2>   
+
+<p>Normally, there would be a section to assess the technical capabilities of the target, but in this case, there is no need.</p>  
+
+<p>And like mentioned above, the end goal will be to verify the statement of the tweet.</p>  
+
+<section id="section-3">
+<h2>Collection</h2>
+
+<p>Some key things to remember:</p>  
+<ul>
+  <li>Initial and branching questions and the objective will the searching and collection</li>
+  <li>Begin searching with broad strokes and then funnel down</li> 
+  <li>Since this is a challenge that is fixed, there won't be an on-going investigation that will have multiple collection phases</li>
+  <li>Documenting thought and discovery process helps with answering how connections between pieces of information are made</li>   
+</ul>
+
+<section id="section-3-5">
+<h3>Step By Step Thought Process</h3>  
+
+<p>24th January, 2024</p>
+<ul>
+  <li>Thinking a classic reverse image search to start</li>    
+  <li>TinEye reveals several instances (363 to be exact) where the same photo was used in various published sources with varying titles</li>  
+  <li>I click on the <a href="https://www.alamy.com/stock-photo-060827-n-6477m-395-waziriya-iraq-aug-27-2006-a-vehicle-born-improvised-130204687.html?utm_source=77643&utm_campaign=Shop%20Royalty%20Free%20at%20Alamy&utm_medium=impact&irgwc=1" target="_blank">photo link</a> of first result that is from the site www.alamy.com and find a caption describing the photo as "a street outside of the Al Sabah newspaper office in the Waziryia district of Baghdad, Iraq"</li>  
+  <li>Also, just a quick search of the site Alamy, my eyebrows raise to my hairline when I discover it is a stock image site, which is made more evident with the watermarks going across the photo</li>
+  <li>Further reading of the 'Image Details' informs me that this image is a public domain image and that the date taken was on <strong>26th August, 2006</strong></li> 
+  <ul>
+    <li>Wanting to verify what the date of the incident that the tweet refers to, I do a quick Google Search of: ttp carried out a suicide attack on a police post in khyber city</li>   
+    <li>The <a href="https://www.reuters.com/world/asia-pacific/pakistani-taliban-attacks-police-outpost-killing-three-officers-2023-01-19/" target="_blank">Reuters article</a>, published on 19 Jan 2023 (same date as the Tweet), has similar information that lines up with what the Tweet talks about, this connects these two sources together</li>     
+    <li>Also the Reuters article also confirms that TTP in the tweet is referring to Tehreek-e-Taliban Pakistan (and not tactics, techniques, and procedures as I immediately thought without thinking)</li>  
+    <li>So the text content of the tweet <em>seems</em> true but based on the image details gathered from the stock image site Alamy, the photo used in the tweet is from 2006 whereas the incident described is from 2023 according to the date of the tweet </li>  
+    <li>I realize I can narrow down my Google search by date using 'Tools' and filter only for searches that appear on 19th January, 2023</li>
+    <li>Besides the Reuters article, I only find two other articles that talk about this incident</li>
+    <li>I expand the date filter to 19th January, 2023 - 22nd January, 2023 but there are barely any sources talking about this specific incident</li>
+  </ul>    
+  <li>Circling back to my initial tangent of finding out what and where of the photo, I go back to the results in TinEye, thinking to click on other image links to see if they can provide a cross-reference for the Baghdad, Iraq location, and I see that a few different sites also refer the photo with 'Baghdad' or 'Iraq', further confirming suspicions this is the actual place of the photo and not Khyber city of Pakistan as the Tweet claims</li>
+  <li>However, I do not think that counts as confirmation of the location</li> 
+  <li>On the second page of TinEye, I find a <a href="https://no.wikipedia.org/wiki/Terrorisme" target="_blank">Wikipedia page for terrorism but it's in Norwegian</a> since the site has the subdomain for Norway https://no.wikipedia.org/wiki/Terrorisme</li>
+  <li>But I don't see the photo, so I go to the Wayback Machine to try and find an old version of the site that may have the photo</li>
+  <li>Thanks to TinEye I know the exact date the photo was first found and I navigate to December, 2010 but there are no snapshots for that year</li>
+  <li>No problem, I'll check for the latest snapshot in 2011, which is on the <a href="https://web.archive.org/web/20110501115511/https://no.wikipedia.org/wiki/Terrorisme" target="_blank">1st of May</a></li>
+  <li>Lo and behold, I find the photo</li>
+  <li>Using my Google Translate extension, a quick highlight of the Norwegian text and I get the English translation: "US authorities define all civil and military resistance to the US invasion of Iraq as terrorism. The picture shows a fire after a car bomb attack outside a newspaper editorial office in Baghdad in August 2006. 20 cars were destroyed in the explosion, thirty people were injured and two were killed."</li>
+  <li>The Wikipedia caption of the photo "The picture shows a fire after a car bomb attack outside a newspaper editorial office in Baghdad in August 2006. 20 cars were destroyed in the explosion, thirty people were injured and two were killed" lines up almost exactly with "A Vehicle Born Improvised Explosive Devise (VBIED) after exploding on a street outside of the Al Sabah newspaper office in the Waziryia district of Baghdad, Iraq. The VBIED destroyed more than 20 cars, killing two people and wounding as many as 30" gathered from the Alamy caption</li>
+  <li>I do another Google Search this time of using the Alamy caption of the photo: car explosion on a street outside of the Al Sabah newspaper office in the Waziriya district of Baghdad, Iraq</li>
+  <li>I get two promising leads: <a href="https://www.defense.gov/Multimedia/Photos/igphoto/2001188842/" target="_blank">U.S. Department of Defense site titled Baghdad Explosion</a> and a public domain media search engine <a href="https://picryl.com/media/a-vehicle-born-improvised-explosive-devise-vbied-after-exploding-on-a-street-424271">Picryl</a> with familiar key terms</li>  
+  <li>This confirms two things:</li>
+  <ol>
+    <li>The Waziryia district of Baghdad, Iraq car explosion is real and true incident</li> 
+    <li>I've got multiple sources describing the same photo found in the tweet as "Vehicle Born Improvised Explosive Devise (VBIED) exploded on a street outside of the Al Sabah newspaper office in the Waziryia district of Baghdad, Iraq, Aug. 27, 2006"</li>
+  </ol>  
+
+<p>25th January, 2024</p>
+<ul>
+ <li>After completing through the intelligence cycle phases with each part breaking down this step by step thought process, now I will watch the solution video</li>
+ <li>😊Nice.</li>
+ <li>Also, I did a lot more than was need for the challenge, whoops?</li>  
+</ul>
+
+<section id="section-4">
+<h2>Processing</h2>
+
+<ul>
+<li>Copied the image address of the photo provided in the challenge and used TinEye to reverse image search to find other instances of the image online</li>  
+<li>Cross-referenced multiple sources referring to the image as depicting the aftermath of a vehicular bomb attack outside a newspaper office in the Waziryia district of Baghdad, Iraq in August 2006</li>
+<li>Confirmed via U.S. Department of Defense and public domain media sites that this August 2006 vehicle bombing in Baghdad, Iraq occured</li>
+<li>Translated Norwegian Wikipedia page caption to further corroborate details on 2006 Baghdad incident</li> 
+<li>Compared date of image (August 2006) against date of reported TTP police attack in tweet (January 2023) and found mismatch</li>
+<li>Filtered Google News search results by date range from 19th January, 2023 to 22nd January, 2023 and found only 3 relevant articles reporting on tweet's claimed incident</li>
+<li>Limited coverage indicates the tweeted incident likely did not occur as described</li>
+</ul>
+
+<section id="section-5">
+<h2>Analyzing and Production</h2>
+
+<ul>
+<li>As stated in the challenge's task briefing, the image of the tweet is not the event described</li>
+<li>The original tweet claims that the photo shows the aftermath of a TTP suicide attack on a police post in Khyber, Pakistan</li>  
+<li>Multiple reverse image search results date the photo to August 2006 depicting a car bomb attack at a newspaper office in Baghdad, Iraq</li>
+<li>Credible source confirm the event and photo refers to the 2006 Iraq incident and not any attack in Pakistan</li>
+<li>Only a small few news reports can corroborate the claimed TTP attack</li>
+</ul>
+
+<section id="section-6">
+<h2>Dissemination</h2>  
+
+<p>The claim made in the 19th January, 2023 tweet and photo that TTP suicide bombing on a police post in Khyber, Pakistan is false.</p>
+
+<p>This report describes the completed analysis and results of Sofia Santos' OSINT Exercise #006.</p>
+<p>The task briefing for this challenge is as follows:</p>  
+<p>On January 19, 2023, a journalist with almost 140k followers on Twitter shared an image of a destroyed vehicle amidst a large cloud of smoke and fire. The tweet said: “<em>BREAKING: TTP</em> <em>carried out a suicide attack on a police post in Khyber city of Pakistan that killed three Pakistani police officers.</em>“  </p>
+<p>The photo is not of the event described by the journalist.  </p>
+<p>a) Verify the statement above.</p>
+
+<p>This exercise is a prime example of misinformation spreading on popular social media platforms. As consumers and readers, we need a healthy dose of skepticism and to check the credibility of what we read and hear. By not providing a clear description of the photo, the tweet misleads people either unintentionally or intentionally.</p>
+
+<h1>Closing Thoughts</h1>   
+
+<p>Though I tried to think about my thinking and question why I thought certain evidence or sources confirmed or didn't confirm facts, I still felt like I could've been better about checking for bias.</p>  
+<p>To paraphrase David Carver (@NewbieAlpaca), in the video "<a href="https://youtu.be/LNRCmd4zZz0?list=PLs4eo9Tja8biwfrS17MaFEeflTOedjUXz&t=1109" target="_blank">Lifting the Fog: OSINT, analytical processes & analytical bias</a>" published by SANS Cyber Defense, if you relate to a piece of information, for instance by being happy or excited about what you find, then you've formed a relationship that shouldn't exist with information. It indicates you're more likely to be "a friend to the information rather than a friend to a correct assessment". I found myself doing this where I was reacting to what I found rather than being a neutral party.</p>  
+
+<p>All in all, another fun challenge and the first one I've completed without needing to look at the solution for hints.</p>
+
+<p>Thanks for reading.</p>
+    </div>
+
+    <div class="article-footer">
+      Published by Tori-Ann Cheung
+    </div>
+  </div>
+  
+  <!-- Scroll to top icon -->
+  <div class="scroll-to-top" onclick="scrollToTop()">
+    &#8593; <!-- Up arrow icon -->
+  </div>
+
+  <!-- Scroll to top function -->
+  <script>
+    function scrollToTop() {
+      window.scrollTo({ top: 0, behavior: 'smooth' });
+    }
+  </script>
+</body>
+</html>

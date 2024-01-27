@@ -3,19 +3,29 @@
 
 <head>
   
-  <title>Article Template</title>
+  <title>Treating an OSINT Challenge as if it is a Real Case - Practicing the Intelligence Cycle</title>
   
   <style>
-	h1,
-    h2,
-	h3,
+h1 {
+	font-size: 2em;
+	font-family: 'League Spartan', sans-serif;
+	}
+    h2 {
+	font-size: 1.7em;
+	font-family: 'League Spartan', sans-serif;
+	}
+	h3 {
+	font-size: 1.4em;
+	font-family: 'League Spartan', sans-serif;
+	}
 	h4,
 	h5 {
       font-family: 'League Spartan', sans-serif;
     }
 
-
     p,
+	em,
+	figcaption,
     ul li {
       font-family: 'Helvetica', 'Georgia';
       font-size: 26px; /* Adjust the font size as desired */
@@ -143,9 +153,13 @@
 	
 	/* Caption Styling for Photo */
 	figcaption {
-  font-size: 0.8em;
+  font-size: 1em;
   font-style: italic;
   text-align: left;
+}
+
+img[class="article-image"] {
+  border: 1px solid blue; 
 }
 </style>
 </head>
@@ -159,16 +173,16 @@
 	
 	
   <div class="article-container">
-    <h1 class="article-title">Article Title</h1>
+    <h1 class="article-title">Treating an OSINT Challenge as if it is a Real Case - Practicing the Intelligence Cycle</h1>
 
     <p class="article-metadata">
-      Published on June 20, 2023
+      Published on 26th January, 2024
     </p>
 
     <figure>
-		<img src="{Image URL}" class="article-image">
+		<img src="https://images.pexels.com/photos/10850828/pexels-photo-10850828.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" class="article-image">
 		<figcaption>
-			{Caption Text} <a href="{Image Source URL}" target="_blank">({Image Source Website})</a>
+			Photo by TakeN Neto from Pexels: <a href="https://images.pexels.com/photos/10850828/pexels-photo-10850828.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" target="_blank">https://images.pexels.com/photos/10850828/pexels-photo-10850828.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1</a>
 		</figcaption>
 	</figure>
 
@@ -180,7 +194,7 @@
     </div>
 
     <div class="article-content">
-<p>My first two OSINT challenges were purely for documenting my thought process as I went along doing the challenge. The benefit was to visualize my thoughts and understand where they tend to veer. And although two instances is not substantial data to accurately determine any statistics, I did notice that I was very 'boxed in' to a certain way of thinking. Because it was an OSINT challenge, the questions and answers were predetermined and that had influenced my mindset into thinking 'Oh, there's a certain way to complete this'.</p>
+<p>My first two OSINT challenges were purely for documenting my thought process as I went along doing the challenge. The benefit was to visualize my thoughts and understand where they tend to veer. And although two instances is not substantial data to accurately determine any statistics, I did notice that I was very 'boxed in' to a certain way of thinking. Because it was an OSINT challenge, the questions and answers were predetermined and that had influenced my mindset into thinking 'Oh, there's one way to complete this'.</p>
 
 <p>Falling into this trap stifled chances for diffuse and creative and critical thinking that is essential in real investigations. Not only having practice and experience can greatly ease the ambiguity of where you can start, but having a good system, a good plan to guide you is also essential.</p>
 
@@ -188,13 +202,13 @@
 
 <p>I'll be using Secjuice's intelligence cycle guides written by Sinwindie as a reference:</p>
 
-<ol>
+<ul>
 <li><a href="https://www.secjuice.com/the-osint-intelligence-cycle-part-i-planning-and-direction/" target="_blank">Part 1: Planning and Direction</a></li>
 <li><a href="https://www.secjuice.com/osint-and-the-intelligence-cycle-part-ii-collection/" target="_blank">Part 2: Collection</a></li> 
 <li><a href="https://www.secjuice.com/osint-the-intelligence-cycle-part-iii-processing-raw-intelligence/" target="_blank">Part 3: Processing</a></li>
 <li><a href="https://www.secjuice.com/osint-the-intelligence-cycle-part-iv-processing-raw-intelligence/" target="_blank">Part 4: Analyzing and Production</a></li>  
 <li><a href="https://www.secjuice.com/osint-the-intelligence-cycle-part-v-dissemination/" target="_blank">Part 5: Dissemination</a></li>
-</ol>
+</ul>
 
 <p>Secondly, I'll be keeping these questions, provided by the DutchOSINTGuy's blog post "<a href="https://www.dutchosintguy.com/post/osint-is-a-state-of-mind" target="_blank">OSINT is a State of Mind</a>" to practice questioning and verifying everything I do to be as objective as possible:</p>
 
@@ -209,7 +223,7 @@
 <li>Why did you use that tool or script?</li>  
 </ul>
 
-<p>Additionally, I'll be keeping in mind Gary Ruddell's advice of <a href="https://www.youtube.com/watch?v=j0jwfZxtak8" target="_blank">what makes a good intelligence report</a>. My favorite takeaway is it's best to put the bottom line up front, then the overview of what's happened and then go into why it matters for your specific audience.</p>
+<p>Additionally, I'll be keeping in mind Gary Ruddell's advice of <a href="https://www.youtube.com/watch?v=j0jwfZxtak8" target="_blank">what makes a good intelligence report</a>. My takeaway is that it's best to put the bottom line up front, then the overview of what's happened and then go into why it matters for your specific audience.</p>
 
 <p>Here's my write up on <a href="sofia-santos-challenge006.html" target="_blank">Sofia Santos OSINT Challenge 006</a> demonstrating how I practiced the intelligence cycle.</p>
 

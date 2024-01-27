@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  
+  <title>Documenting my Thought Process for TryHackMe's OhSINT challenge</title>
+  
+  <style>
+		h1 {
+	font-size: 2em;
+	font-family: 'League Spartan', sans-serif;
+	}
+    h2 {
+	font-size: 1.7em;
+	font-family: 'League Spartan', sans-serif;
+	}
+	h3 {
+	font-size: 1.4em;
+	font-family: 'League Spartan', sans-serif;
+	}
+	h4,
+	h5 {
+      font-family: 'League Spartan', sans-serif;
+    }
+
+
+    p,
+	a,
+	em,
+    ul li {
+      font-family: 'Helvetica', 'Georgia';
+      font-size: 26px; /* Adjust the font size as desired */
+    }
+
+    .blue {
+      color: blue;
+    }
+
+    .orange {
+      color: orange;
+    }
+  
+  
+  /* Add the CSS for the scroll to top arrow */
+    .scroll-to-top {
+      position: fixed;
+      bottom: 20px; /* Adjust the distance from the bottom as needed */
+      right: 20px; /* Adjust the distance from the right as needed */
+      width: 40px;
+      height: 40px;
+      background-color: #55a6a2;
+      color: white;
+      border-radius: 50%;
+      text-align: center;
+      line-height: 40px;
+      cursor: pointer;
+    }
+	
+	/* Nav bar */
+		.navbar {
+	  background-color: #439775;
+	  overflow: hidden;
+	  text-align: center; /* Center the navigation links */
+	  display: flex; /* Add flex display */
+	  justify-content: center; /* Center the items horizontally */
+	}
+
+	.navbar a {
+	  display: inline-block;
+	  color: black;
+	  text-align: center;
+	  padding: 14px 16px;
+	  text-decoration: none;
+	  font-weight: bold;
+	  transition: background-color 0.3s;
+	  font-family: "League Spartan", sans-serif;
+	}
+
+	.navbar a:hover {
+	  background-color: #55a6a2;
+	  color: white;
+	}
+	
+	
+	
+	/* Media query for mobile devices */
+    @media (max-width: 600px) {
+      body {
+        margin-left: 20px;
+		background-color: #FFFFFF;
+      }
+    }
+	
+    /* Reset default margins and paddings */
+    body {
+      margin: 0;
+      padding: 0;
+    }
+
+    /* Container for the article content */
+    .article-container {
+      max-width: 800px;
+      margin: 0 auto;
+      padding: 40px;
+      font-family: Helvetica, sans-serif;
+    }
+
+    /* Article title style */
+    .article-title {
+      font-size: 32px;
+      font-weight: bold;
+      margin-bottom: 20px;
+    }
+
+    /* Article metadata style */
+    .article-metadata {
+      color: #888;
+      margin-bottom: 20px;
+    }
+
+    /* Article content style */
+    .article-content {
+      line-height: 1.6;
+      margin-bottom: 40px;
+    }
+
+    /* Article image style */
+    .article-image {
+      max-width: 100%;
+      height: auto;
+      margin-bottom: 20px;
+    }
+
+    /* Article tags style */
+    .article-tags {
+      margin-bottom: 20px;
+    }
+
+    /* Article tag style */
+    .article-tag {
+      display: inline-block;
+      margin-right: 10px;
+      background-color: #f0f0f0;
+      padding: 4px 8px;
+      font-size: 14px;
+      color: #666;
+    }
+
+    /* Article footer style */
+    .article-footer {
+      color: #888;
+      font-size: 14px;
+    }
+	
+	/* Caption Styling for Photo */
+	figcaption {
+  font-size: 0.8em;
+  font-style: italic;
+  text-align: left;
+}
+
+img[class="article-image"] {
+  border: 1px solid blue; 
+}
+</style>
+<body>
+<!-- Add the navigation bar to the top of the page -->
+    <div class="navbar">
+		<a href="../index.html" style="background-color: #439775;">Home</a>
+        <a href="../cv.html" style="background-color: #439775;">CV</a>
+        <a href="../blog.html" style="background-color: #439775;">Blog</a>
+    </div>
+	
+	
+  <div class="article-container">
+    <h1 class="article-title">Documenting my Thought Process for TryHackMe's OhSINT challenge</h1>
+
+    <p class="article-metadata">
+      Published on 6th January, 2024
+    </p>
+
+    <figure>
+		<img src="https://images.pexels.com/photos/18273081/pexels-photo-18273081/free-photo-of-scenic-cliff-at-stokksnes-on-iceland.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" class="article-image">
+		<figcaption>
+			Photo by Thibaut Tattevin: <a href="https://images.pexels.com/photos/18273081/pexels-photo-18273081/free-photo-of-scenic-cliff-at-stokksnes-on-iceland.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" target="_blank">Scenic Cliff at Stokksnes on Iceland</a>
+		</figcaption>
+	</figure>
+
+    <div class="article-tags">
+      <span class="article-tag">#OSINT</span>
+      <span class="article-tag">#project</span>
+    </div>
+
+    <div class="article-content">
+      <article>
+
+<p>My real-time account and thought process of solving TryHackMe's <a href="https://tryhackme.com/room/ohsint " target="_blank">OhSINT</a> room.</p>
+
+<h2>4th January, 2024</h2>
+
+<ul>
+  <li>I download the 'Task Files' and see a basic Windows XP background</li>
+  <li>Perhaps I need to see the EXIF data to answer some questions</li>
+  <li>Instead of using a tool off the bat, I open the image, right-click, and select ''File info" and instantly I see a possible answer to the question "What city is this person in?"</li>
+  <li>But as I count the number of letters the answer is supposed to have, I know that my initial guess of "Hawes" is incorrect</li>
+  <li>So using an online EXIF tool, and find a couple leads to explore - a username and coordinates</li>
+  <ul>
+    <li>Social handle: OWoodflint</li> 
+    <li>Coordinates: 54°17'41.3"N 2°15'01.3"W</li>
+  </ul>
+  <li>The coordinates just lead back to Hawes, so I focus on the social handle</li>
+  <li>A Google Search tells me that OWoodflint (does it stand for Oliver Wood and Marcus Flint? Harry Potter fans, anyone?) has a Twitter/X account, a GitHub account and also appears on various blog posts that ties back to this challenge (no spoilers, please)</li>
+  <img src="/Images/OSINTChallenges/OWoodflintSearch.png" class="article-image">
+  <li>I open both the Twitter account and GitHub account</li>
+  <li>On Twitter I see there's a post about an BSSID B4:5D:50:AA:86:41, now having looked at the two hints provided in the challenge room, I know that the BSSID is important</li>
+  <li>On GitHub, in the sole repository I find the email and the answer to "What is his personal email address?" and "What site did you find his email address on?"</li>
+  <li>Oh and just noticing the cat photo on the Twitter account, I can also answer "What is this user's avatar of?"</li>
+  <li>Going back to the BSSID procured from Twitter, I use Wigle.net to enter the BSSID</li>
+  <li>I'm a little confused on how to use Wigle.net, I ran with the assumption that it would just show me the location after hitting the 'filter' button, but then I realize I needed to zoom out and search for it</li>
+  <li>And viola! I can answer the question "What city is this person in?"</li>
+  <li>Since I don't know how to find an SSID of a WAP, I only assume it can be found with what I have which is the BSSID</li>
+  <li>So I do a Google Search of "how to find ssid using bssid" and stumble upon an <a href="https://www.osintcurio.us/2019/01/15/tracking-all-the-wifi-things/" target="_blank">OSINTCurious blog post</a> to help</li>
+  <li>But wait a second, out of curiosity, I zoomed in really close on the specific location (the dot) and lo and behold there's the SSID. Guess I didn't need to Google it after all</li>
+  <li>The last two questions have stumped me. I don't know where I could look for the answers</li>
+  <li>From the hints, all I know is that I'm looking for a possible archived website and source code</li>  
+</ul>
+
+<h2>5th January, 2023</h2>
+
+<ul>
+  <li>I'm wondering if knowing the email helps with answering the last two questions</li>
+  <li>Maybe it's not new leads that I'm looking for but something I have to revisit?</li>
+  <li>The Twitter account comes to mind; socials are always a good source of information, for instance, who is OWoodflint following?</li>
+  <li>Clicking into the six people he is following doesn't turn up much results</li>
+  <li>The hint for the question tells me to look at the Wayback Machine. I have a location, I have a social handle, I have an email. So maybe OWoodflint has another site or social?</li>
+  <li>Let's see if searching for OWoodflint on Wayback Machine upends new information</li>
+  <li>Searching OWoodflint gives me nothing</li>
+  <li>Searching the URL to the Twitter account gives me one instance in Feb 6th, 2023 but doesn't give me anything new. Nor does the GitHub profile</li>
+  <li>At this point, I'm all out of ideas, so I'm going to look at what other people have done</li>
+  <li>Using this <a href="https://medium.com/csg-govtech/tryhackmes-ohsint-challenge-38dd0f647d75" target="_blank">write up</a>, I see that OWoodflint used to have a WordPress blog, which would explain the hint of needing to use the Wayback Machine</li>
+  <li>However, I'm confused as to how I could've found this out without needing to look at someone else's work</li> 
+  <li>Granted the write up I used is from 2021, so maybe looking at a guide from recent years will tell me how</li>
+  <li>But even walkthroughs published in 2023 (see <a href="https://medium.com/@timnik/tryhackme-ohsint-writeup-walkthrough-e516cd26f5e" target="_blank">here</a> and <a href="https://medium.com/@tamannaag121/walkthrough-write-up-ohsint-tryhackme-f277d917244" target="_blank">here</a>), show that a Google Search yields the WordPress blog &#x1F928;	</li>
+  <li>However, I did stumble upon a <a href="https://medium.com/@t0mu/ohsint-tryhackme-555c74a4ebde" target="_blank">write up</a> that showed a different way to use the social handle OWoodflint, which is to load it into a username search tool</li>
+  <li>It just shows that OWoodflint is on Twitter but it also gives me two links that uses the Wayback Machine</li>
+  <li>One of them, for some reason, can't be loaded and gives me a 'Try again' error</li>
+  <li>And the other one is a status link, that shows me a snapshot of the Twitter account between the years 2020-2022</li>
+  <li>But none of it links to the supposed WordPress blog that once existed</li>  
+  <li>So, I cheat a bit, copy the URL from one of the write ups and search for it using Wayback Machine</li>
+  <li>I click on the snap shot from 16th April, 2020 and lo and behold, there is the site and the answer to one of the last questions</li>
+  <li>To find the password, I inspect the WordPress blog's page source and wow, that is a lot look through</li>
+  <li>I don't really know what I'm supposed to look for. I mean anything can be a password</li>
+  <li>But since this is a mix of HTML, JavaScript, and css, I could try to find the tag or class that a password might have?</li>
+  <li>In Google I search "what class or tag would a password in an html file have?" and find the answer '<code>&lt;input type="password"&gt;</code>'</li>
+  <li>Back to the page source, I hit CTR + F and type in '<code>&lt;input type="p &gt;</code>' which gives me no matches and then I try just '<code>&lt;input type=" &gt;</code>' but that just gives me four instances on the same line</li>
+  <li>And after many minutes of careful scrolling and reading through a lot of web.archive.org links and other bits and bobs, I just happened upon the possibility to the answer of the last question</li>
+  <img src="/Images/OSINTChallenges/OWoodflintSiteSource.png" class="article-image">
+  <li>Because TryHackMe let's me know that there is a period punctuation in the password.... <i>pennYDr0pper.!</i> seems rather suspicious (and correct!)</li> 
+</ul>
+
+<h2>What I learned</h2>
+
+<ul>
+  <li>Real OSINT investigations/cases aren't going to be so clean-cut. As in, due to the hints given in the room and also the information I got from other people who have solved the room already, there was an expected, definite answer.</li>
+  <li>That being said, having some help is still great for these challenges because I'm learning new and different ways you can search for information. For instance, I wouldn't have known you could check a site's page source to see if a password has been leaked on there, nor did I think to use a username search tool to quickly see where a username has been used.</li>
+  <li>Learning hands-on and as I go is a fun and engaging way to learn about OSINT, however, there's still a big gap of foundational knowledge that I'm lacking. Reading up on cases and learning about tools and how and where they can be used will help me go into these challenges better equipped. Looking at some investigations and case studies from Bellingcat, going through the archives of OSINTCurio.us, Three Minute Thursdays with Gary Ruddell, and many more can start minimizing the gap.</li>  
+</ul>
+
+<h2>Closing Thoughts</h2>
+
+<p>Reading some of the write ups for this room, I find myself thinking that the 'easy' ranking for this room needs to have some nuance. I would argue that because of the changes, namely the archived WordPress blog, this room should advertise as 'for advanced beginners' (which, I am not).</p>
+
+<p>Overall, despite the confusion and some frustration, it was still a great learning experience. And I would still like to know how I could've known to use the Wayback Machine to look for the WordPress blog if I didn't know there was a blog in the first place. Thoughts anyone? Let me know in the comments of my LinkedIn post.</p>
+
+<p>Thanks for reading.</p>
+
+</article>
+      <!-- Insert your article content here -->
+
+    </div>
+
+    <div class="article-footer">
+      Published by Tori-Ann Cheung
+    </div>
+  </div>
+  
+  <!-- Scroll to top icon -->
+  <div class="scroll-to-top" onclick="scrollToTop()">
+    &#8593; <!-- Up arrow icon -->
+  </div>
+
+  <!-- Scroll to top function -->
+  <script>
+    function scrollToTop() {
+      window.scrollTo({ top: 0, behavior: 'smooth' });
+    }
+  </script>
+</body>
+</html>
