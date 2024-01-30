@@ -43,8 +43,6 @@
 	<section id="section-0">
 	<h2>OSINT</h2>
 	<ul>
-		<li>Ongoing challenges (no end): Geolocation challenges from Geotastic and Bellingcat and In-progress challenges (has a definite end) <a href="https://quiz.sector035.nl" target="_blank">Sector035</a> OSINT Quiz and <a href="https://www.adventofosint.com/en/about" target="_blank">Advent of OSINT</li>
-		<li>Sofia Santos OSINT Challenge #006 | Read the <a href="https://madebycuriosity.com/Articles/sofia-santos-osint-challenge006.html" target="_blank">Documentation</a></li>
 		<li>TryHackMe's OhSINT challenge room | Read the <a href="https://madebycuriosity.com/Articles/tryhackme-ohsint-challenge.html" target="_blank">Documentation</a></li>
 		<li>Sofia Santos OSINT Challenge #001 | Read the <a href="https://madebycuriosity.com/Articles/sofia-santos-osint-challenge001.html" target="_blank">Documentation</a></li>
 		<li>Kase Scenarios: Betrayal | Read the <a href="https://docs.google.com/document/d/1L73cawmL588q-w_2hQLVBkgBMQU3eV9fT2nWyT0_5mc/edit?usp=sharing" target="_blank">Submitted Report</a> | <a href="https://courses.kasescenarios.com/certificates/frrjyi6t6c" target="_blank">Verification</a></li>
@@ -75,14 +73,11 @@
 	</ul>
 	<h3>Projects</h3>
 	<ul>
-		<li>Pursuing Governance, Risk Management, and Compliance (GRC) education from Gerald Auger on TCM Academy</li>
-		<li>Participating in an on-going mentorship with George Usi, CEO and co-founder of Omnistruct, Co-Chair of California IPv6 Task Force, and researcher of over 25 years in internet open standards, networking, and security.</li>
 		<li>Investigated the prevalence of online scams targeting children and compiled key statistics and data on common exploitation methods for an episode of Camplight Safety Sessions. In this program, Camplight's Forest Bronzan and Omnistruct's George Usi discussed safeguarding strategies to protect both kids and parents from increasingly sophisticated scamming schemes. (See more in the <a href="#section-0">Research & Reports</a>)</li>
 		<li>Participated in PWN the Shell, an innovative Discord-based platform with CTF style linux challenges where each challenge gives players access to a real linux shell which they control through the Discord chat and execute Linux commands to complete objectives. </li>
 		<li>Gained hands-on experience of Linux command-line and fundamental cybersecurity skills via <a href="https://www.worldofhaiku.com/?gclid=Cj0KCQjwmN2iBhCrARIsAG_G2i6vrtYjomb1El_CAmvS2sv48y2S1CHRW5INudjEqUm1dqWND7oD4eoaAtw8EALw_wcB" target ="_blank">World of Haiku</a>, an interactive, hands-on, game-based training developed by <a href="https://haikuinc.io" target="_blank">Haiku Inc.</a> </li>
 		<li>Learned essential cybersecurity skills and frameworks from <b>16 (and counting) </b><a href= "https://tryhackme.com/p/joycuratoR" target="_blank">TryHackMe rooms</a>. </li>
-		<li>Configured DNS records to link a domain to my portfolio website which is built from custom HTML, CSS, JavaScript code, and hosted on GitHub Pages with enforced security measures and rules.</li>
-		<li>Configured an isolated network inside VirtualBox to connect a Kali Linux virtual machine to vulnerable virtual machines from Vulnerable Hub to safely and ethically practice exploitation skills.</li>
+		<li>Reconfigured a pre-installed Windows 10 OS to run the latest Kali Linux OS to transform a used laptop into a home lab for red and blue team operations.</li>
 	</ul>
 	
 	
@@ -101,7 +96,7 @@
 	<h2>Education</h2>
 	<h3>Degrees</h3>
 	<ul>
-		<li>SANS Technology Institute Women’s Cyber Academy, Estimated completion: May, 2024</li>
+		<li>Data Analysis Program | Calbright College | Estimated completion: Feb 2024</li>
 		<li>B.A. History and Political Science | University of Maine at Presque Isle | Estimated completion: 2025</li>
 	</ul>
 	
@@ -121,7 +116,6 @@
 	<h4>Data Analytics</h4>
 	<ul>
 	  <li>HarvardX's Data Science Professional Certificate | edX | In-progress</li>
-	  <li>Data Analysis Program | Calbright College | Estimated completion: May 2024</li>
 	  <li>Google Data Analytics Certificate |  <a href="https://www.credly.com/badges/6f724d11-0444-4a99-9963-f6dd1a181fa2/public_url" target="_blank">Verification</a></li>
 	  <li>Sololearn SQL Certificate | <a href="https://www.sololearn.com/certificates/CT-W0SWZIK6" target="_blank">Verification</a>
 	</ul>
