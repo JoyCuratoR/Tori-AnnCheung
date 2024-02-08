@@ -1,0 +1,162 @@
+<html>
+  <head>
+
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="../assets/css/cv.css">
+
+    <title>CV</title>
+ 
+  </head>
+  
+  <!-- Main content for Home Page --> 
+  <body>
+  
+  <!-- Add the navigation bar to the top of the page -->
+    <div class="navbar">
+		<a href="index.html" style="background-color: #439775;">Home</a>
+        <a href="cv.html" style="background-color: #439775;">CV</a>
+        <a href="blog.html" style="background-color: #439775;">Blog</a>
+    </div>
+  
+    <h1 style="text-align: center;">Tori-Ann Cheung</h1>
+	<p>Most days, I'm a little bit of everything. From data analytics, to cybersecurity, to OSINT, all of these skills were grounded by curiosity 
+	and the drive to inform. I have two goals: inform those in power about security issues and give context about why they need to care about them, 
+	and to educate children and their guardians about how to be safe in online and offline settings.</p>
+	
+	<p>Contact me at <a href="mailto:tacheung@protonmail.com">tacheung@protonmail.com</a>, or find me at <a href = "https://www.linkedin.com/in/tori-ann-cheung/" target="_blank">LinkedIn</a>, <a href = "https://github.com/JoyCuratoR" target="_blank">GitHub</a>.</p>
+	
+	<!-- Table of contents -->
+<h1>Table of Contents</h1>
+<div style="margin-bottom: 10px;">
+  <p style="margin: 0;"><a href="#section-0">OSINT</a></p>
+  <p style="margin: 0;"><a href="#section-1">Research & Reports</a></p>
+  <p style="margin: 0;"><a href="#section-2">Cybersecurity</a></p>
+  <p style="margin: 0;"><a href="#section-3">Data Analytics</a></p>
+  <p style="margin: 0;"><a href="#section-4">Education</a></p>
+  <p style="margin: 0;"><a href="#section-5">Programming, Scripts, and other code</a></p>
+  <p style="margin: 0;"><a href="#section-6">Volunteering</a></p>
+</div>
+	
+
+<!-- Content sections -->
+	<section id="section-0">
+	<h2>OSINT</h2>
+	<ul>
+		<li><em>Ongoing challenges (no end)</em>: Geolocation challenges from Geotastic and Bellingcat and <em>In-progress challenges (has a definite end)</em>: <a href="https://quiz.sector035.nl" target="_blank">Sector035</a> OSINT Quiz and <a href="https://www.adventofosint.com/en/about" target="_blank">Advent of OSINT</li>
+		<li>Sofia Santos OSINT Challenge #006 | Read the <a href="./articles/sofia-santos-osint-challenge006.html" target="_blank">Documentation</a></li>
+		<li>TryHackMe's OhSINT challenge room | Read the <a href="./articles/tryhackme-ohsint-challenge.html" target="_blank">Documentation</a></li>
+		<li>Sofia Santos OSINT Challenge #001 | Read the <a href="./articles/sofia-santos-osint-challenge001.html" target="_blank">Documentation</a></li>
+		<li>Kase Scenarios: Betrayal | Read the <a href="https://docs.google.com/document/d/1L73cawmL588q-w_2hQLVBkgBMQU3eV9fT2nWyT0_5mc/edit?usp=sharing" target="_blank">Submitted Report</a> | <a href="https://courses.kasescenarios.com/certificates/frrjyi6t6c" target="_blank">Verification</a></li>
+	</ul>
+	
+	
+	<section id="section-1">
+	<h2>Research & Reports</h2>
+	<h3>Research</h3>
+	<ul>
+		<li>The Double-Edged Sword of AI: How Innovations of Machine Learning Are Revolutionizing Society While Heightening Vulnerabilities <b>Note: this was suppose to be published a lot sooner, but due to a recent editing session, the entire purpose of the piece has been overhauled and now it is being completely re-written</b></li>
+	</ul>
+	<h3>Reports</h3>
+	<ul>
+		<li>Camplight Safety Sessions: Online Scams - Tips to Safeguard Kids and Parents Against Online Scams (See more in the <a href="#section-1">Cybersecurity Projects</a>) | See the <a href="../assets/other/ScamsAgainstKids.pdf" target="_blank">research</a></li>
+	</ul>
+	
+	
+	  <section id="section-2">
+	<h2>Cybersecurity</h2>
+	<h3>Information Security Administrator Intern at Cyber Proud</h3>
+		<p>April 2023 - July 2023</p>
+	<ul>
+		<li>Skilled in utilizing network monitoring tools and software, such as Wireshark, to ensure robust security measures.</li>
+		<li>Gained knowledge of network devices, including routers, switches, and firewalls, which enhances overall proficiency.</li>
+		<li>Installed, configured, and maintained PCs, mobile devices, and software for end-users, gaining hands-on experience in hardware and software deployment and maintenance.</li>
+		<li>Diagnosed, resolved, and documented hardware and software issues while adhering to proper safety protocols.</li>
+	</ul>
+	<h3>Projects</h3>
+	<ul>
+		<li>Pursuing Governance, Risk Management, and Compliance (GRC) education from Gerald Auger on TCM Academy</li>
+		<li>Participating in an on-going mentorship with George Usi, CEO and co-founder of Omnistruct, Co-Chair of California IPv6 Task Force, and researcher of over 25 years in internet open standards, networking, and security.</li>
+		<li>Investigated the prevalence of online scams targeting children and compiled key statistics and data on common exploitation methods for an episode of Camplight Safety Sessions. In this program, Camplight's Forest Bronzan and Omnistruct's George Usi discussed safeguarding strategies to protect both kids and parents from increasingly sophisticated scamming schemes. (See more in the <a href="#section-0">Research & Reports</a>)</li>
+		<li>Participated in PWN the Shell, an innovative Discord-based platform with CTF style linux challenges where each challenge gives players access to a real linux shell which they control through the Discord chat and execute Linux commands to complete objectives. </li>
+		<li>Gained hands-on experience of Linux command-line and fundamental cybersecurity skills via <a href="https://www.worldofhaiku.com/?gclid=Cj0KCQjwmN2iBhCrARIsAG_G2i6vrtYjomb1El_CAmvS2sv48y2S1CHRW5INudjEqUm1dqWND7oD4eoaAtw8EALw_wcB" target ="_blank">World of Haiku</a>, an interactive, hands-on, game-based training developed by <a href="https://haikuinc.io" target="_blank">Haiku Inc.</a> </li>
+		<li>Learned essential cybersecurity skills and frameworks from <b>16 (and counting) </b><a href= "https://tryhackme.com/p/joycuratoR" target="_blank">TryHackMe rooms</a>. </li>
+		<li>Configured DNS records to link a domain to my portfolio website which is built from custom HTML, CSS, JavaScript code, and hosted on GitHub Pages with enforced security measures and rules.</li>
+		<li>Configured an isolated network inside VirtualBox to connect a Kali Linux virtual machine to vulnerable virtual machines from Vulnerable Hub to safely and ethically practice exploitation skills.</li>
+	</ul>
+	
+	
+	<section id="section-3">
+	<h2>Data Analysis</h2>
+	<ul>
+	  <li>As a way to showcase my skills to gain a volunteering opportunity, I gathered, organized, and analyzed Los Angeles County Library System to perform Resource Allocation Analysis. Check out the <a href = "https://tori-ann.notion.site/Library-Resource-Allocation-Optimization-Work-In-Progress-a81ed799155c46fca469dac2d94a21fe" target ="_blank">project requirements</a> and <a href = "https://www.canva.com/design/DAFalkfzPew/m372AhfcxraY3hav4SrANg/view?utm_content=DAFalkfzPew&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink" target ="_blank">presentation of the results and recommendations</a>. </li>
+	  <li>Through a guided project written by Marynia Kolak, Moksha Menghaney, Qinyun Lin, and Angela Li, I learned how to perform geospatial analysis techniques such as: geocoding, buffer analysis, and nearest resource analysis. <a href = "https://github.com/JoyCuratoR/MethadoneClinicsGeospatialAnalysis" target ="_blank">GitHub Repo</a>.</li>
+	  <li>Using data analysis tools such as R programming, Tableau, and Excel, analyzed 20+ Facebook ad campaigns to identify essential metrics to measure and track for high return on investment, resulting in a 5% decrease in marketing costs and time spent. | September 2022 - October 2022</li>
+	  <li>In part of completing the Google Data Analytics Certificate program, I created a capstone project to analyze Greenhouse Gas Emissions data from the Environmental Protection Agency. Find the full report here: <a href="https://rpubs.com/joycuratoR/RadiantEnergy" target="_blank">RPubs</a></li>
+      <li>The game Elden Ring exploded in popularity in 2022 and many Reddit users had negative and positive thoughts about its game mechanics. So using Reddit's API, I parsed and cleaned qualitative data to conduct sentiment analysis to discover the impact of Elden Ring's boss mechanics. Find the tutorial here: <a href="https://github.com/JoyCuratoR/Elden-Ring-Sentiment-Analysis-Guide" target="_blank">Elden Ring Sentiment Analysis Tutorial</a>.</li>
+	</ul>
+
+	
+	<section id="section-4">
+	<h2>Education</h2>
+	<h3>Degrees</h3>
+	<ul>
+		<li>SANS Technology Institute Women’s Cyber Academy, Estimated completion: May, 2024</li>
+		<li>B.A. History and Political Science | University of Maine at Presque Isle | Estimated completion: 2025</li>
+	</ul>
+	
+	<h3>Certifications</h3>
+	<h4>OSINT</h4>
+	<ul>
+		<li>OSINT Case "Betrayal" by Kase Scenarios | <a href="https://courses.kasescenarios.com/certificates/frrjyi6t6c" target="_blank">Verification</a></li>
+	</ul>
+	<h4>Cybersecurity</h4>
+	<ul>
+	  <li>GIAC Security Essentials (GSEC) Certification | SANS Technology Institute Cyber Academy | Estimated completion: February 26th, 2024
+	  <li>GIAC Foundational Cybersecurity Technologies (GFACT) Certification | <a href="https://www.credly.com/badges/ee2784f4-2083-41ef-9c3b-6a5b1157add7/public_url" target="_blank">Verification</a></li> 
+	  <li>SANS Foundations Certificate | SANS Technology Institute Cyber Academy | <a href="https://api.badgr.io/public/assertions/yqLcKB6FTJqnFa8vv_ASuw?identity__email=torianncheung%40gmail.com" target="_blank">Verification</a></li>
+	  <li>Google Information Technology Support Certificate | <a href="https://www.credly.com/badges/0cf7f981-5144-4235-8bf1-5fd0919c76c2/public_url" target="_blank">Verification</a></li>
+	  <li>Google Cybersecurity Certificate | <a href="https://www.credly.com/badges/3bec00f1-f32f-4793-9295-f484720ffc2f/public_url" target="_blank">Verification</a></li>
+	</ul>
+	<h4>Data Analytics</h4>
+	<ul>
+	  <li>HarvardX's Data Science Professional Certificate | edX | In-progress</li>
+	  <li>Data Analysis Program | Calbright College | Estimated completion: May 2024</li>
+	  <li>Google Data Analytics Certificate |  <a href="https://www.credly.com/badges/6f724d11-0444-4a99-9963-f6dd1a181fa2/public_url" target="_blank">Verification</a></li>
+	  <li>Sololearn SQL Certificate | <a href="https://www.sololearn.com/certificates/CT-W0SWZIK6" target="_blank">Verification</a>
+	</ul>
+	
+	
+	<section id="section-5">
+	<h2>Programming, Scripts and other code</h2>
+	<ul>
+	  <li>I built a typewriter simulator which is a text editor where you can't use the backspace. Try it out here: <a href="https://joycurator.github.io/TypewriterSimulator/" target="_blank">Typewriter app</a>.</li>
+      <li>I created an automated Twitter account that requests Twitter's API to tweet daily inspirational quotes. Find the account here: <a href="https://twitter.com/SunshinecatLeo" target="_blank">@SunshinecatLeo</a> and build your own automated account with my <a href="https://github.com/JoyCuratoR/brainyquotebot" target="_blank">tutorial</a>.</li>
+	</ul>
+	
+	
+	<section id="section-6">
+	<h2>Volunteering</h2>
+	
+	<h3> Online Content Moderator for <a href="https://www.careervillage.org/?next=" target="_blank">CareerVillage</a></h3>
+		<p>May 2023 - October 2023 </p>
+			<ul>
+				<li>Analyzed and moderated 300+ content each week to ensure compliance with platform policies and guidelines.</li>
+				<li>Prepared reports on flagged content and collaborated with other moderators to ensure positive user experiences.</li>
+				<li>Collaborated with other moderators through Slack channels to ensure positive experiences for all CareerVillage users.</li>
+			</ul>
+		
+
+
+
+<div class="scroll-to-top" onclick="scrollToTop()">
+    &#8593; <!-- Up arrow icon -->
+  </div>
+
+<script>
+  function scrollToTop() {
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+  }
+</script>
+
+</body>

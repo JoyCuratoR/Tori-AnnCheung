@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="../../assets/css/article.css">
+  <title>How to Install and Configure Python for your Personal Computer</title>
+  
+</head>
+<body>
+<!-- Add the navigation bar to the top of the page -->
+    <div class="navbar">
+		<a href="../index.html" style="background-color: #439775;">Home</a>
+        <a href="../cv.html" style="background-color: #439775;">CV</a>
+        <a href="../blog.html" style="background-color: #439775;">Blog</a>
+    </div>
+
+  <div class="article-container">
+    <h1 class="article-title">How to Install and Configure Python for your Personal Computer</h1>
+
+    <p class="article-metadata">
+      Published on February 11, 2023
+    </p>
+
+    <img src="https://images.pexels.com/photos/12659472/pexels-photo-12659472.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" class="article-image" alt="A Man in White Long Sleeves Reading Book
+">
+
+    <div class="article-tags">
+      <span class="article-tag">#tutorial</span>
+      <span class="article-tag">#programming</span>
+      <span class="article-tag">#self-teaching</span>
+    </div>
+
+    <div class="article-content">
+      
+      <p>No course instructor told me about Python’s chaotic package management system, let alone the necessity of using virtual environments to prevent version conflicts.</p>
+	  
+	  <p> *Sigh* </p>
+
+<p>Oh Python, you catfish-extraordinaire. You’ve annoyed me beyond what I was capable of and that’s all before I had any chance to code a single line. Instead, circular dependencies and module errors haunted my every move.
+</p>
+<p>Until, I used chatGPT to answer all the questions I had.</p>
+
+<h3>Here’s what I began with:</h3>
+
+<h2> Installing Python and Spyder IDE using Miniconda3 </h2>
+<p>What is miniconda? If you Google it, you’ll most likely find Anaconda — miniconda’s mother. Miniconda is the lite version of Anaconda.</p>
+
+<p>If you want to use Python mainly for data science, I recommend you to download miniconda instead of Anaconda. This is because Anaconda is bloated with many unnecessary packages not related to data science.
+</p>
+<p>With a 2 GB disk storage requirement, installing Anaconda means downloading well over 75,000 files. But it’s worth it if you have enough storage space, you’re using Python for multiple reasons, and you want deal with less configuration.
+</p>
+<h3>Installation process</h3>
+<p>Please note: my system is Windows so this tutorial is for this type of OS. Also, there are links here that will re-direct you out of the site but I am not affiliated with any.
+</p>
+<p>Go to conda.io to install miniconda with your preferred Python version. I chose Python 3.10.</p>
+
+<p>Downloading this will install the miniconda3 executable file. Go to path of where the executable is, for me it is: “D:\App Downloads\Miniconda3-py310_22.11.1–1-Windows-x86_64.exe”</p>
+
+<p>1. Click on the executable.</p>
+<p>2. Click next.</p>
+<p>3. Click to agree to the terms and conditions.</p>
+<p>4. Decide if you want to install for all the users on your computer or just yourself (if you’re using a personal computer, it’s suggested to click install just for yourself).</p>
+<p>5. Choose a destination folder of where to install all the miniconda3 files.</p>
+<p>6. If you haven’t download miniconda or Python on your current computer before, choose the option to add miniconda to your PATH variable (this makes configuration a bit easier).</p>
+<p>7. And then check the other recommended boxes.</p>
+<p>8. Click install. Don’t worry if it takes a bit of time to install.</p>
+
+<p>Once miniconda is downloaded, open the Anaconda Prompt — it looks exactly like the Command Prompt.</p>
+
+<p>Notice the ‘(base)’ tag coming before the path to your C: drive. The ‘(base)’ indicates you’re in the pre-installed virtual environment. Let’s deactivate this environment by using the command ‘conda deactivate’.</p>
+
+<p>Change directory to your miniconda folder, and navigate to ‘env’ folder. For me my path looks like this: “D:\Py\miniconda3\envs”.</p>
+
+<p>A tip: to change drives just type the letter of your drive with a colon after, like this — ‘d:’</p>
+
+<h2>Create a custom virtual environment for data science</h2>
+<p>Why create a virtual environment? A virtual environment is best described as a programming sandbox, an isolated local workspace that doesn’t affect anything else outside.</p>
+
+<p>Environments prevent any circular dependencies, importing errors, or module errors.</p>
+
+<p>To create one, begin with writing this command in your Anaconda Prompt: ‘conda create -n ds_env’ (you can replace ds_env with what you want to call your environment).</p>
+
+<p>Then we’ll activate the environment with: ‘conda activate ds_env’</p>
+
+<h2>Add the conda-forge channel</h2>
+<p>The conda-forge channel is the best, up-to-date channel to install packages because it’s well-kept by multiple contributors. I highly recommend you install all of your packages from this channel, if possible.</p>
+
+<p>In the Anaconda Prompt, write this command: ‘conda config — env — add channels conda-forge’</p>
+
+<p>The ‘ — env’ option ensures that conda-forge is added only to this environment.</p>
+
+<p>Check that conda-forge has been installed: ‘conda config — show channels’</p>
+
+<p>Now let’s make sure that whenever we install packages, we install them from conda-forge as our default.</p>
+
+<p>‘conda config — env — set channel_priority strict’</p>
+
+<p>Double-check it’s been set: ‘conda config — show channel_priority’</p>
+
+<h2>Installing data science packages into the environment</h2>
+<p>‘conda install numpy pandas scikit-learn matplotlib seaborn’</p>
+
+<p>Double check these packages are installed by running: ‘conda list’</p>
+
+<h3>And that’s it!</h3>
+<p>I am using Spyder IDE for Python because it’s the most similar to R Studio (Posit)’s IDE layout. You can download Spyder IDE using miniconda3 but it’s advisable by them to use their official IDE installer instead.</p>
+
+<p>Thanks for reading.</p>
+
+    </div>
+
+    <div class="article-footer">
+      Published by Tori-Ann Cheung
+    </div>
+  </div>
+</body>
+</html>
