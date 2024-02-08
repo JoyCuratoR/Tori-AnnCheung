@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="../assets/css/index.css">
+
+  <title>madebycuriosity Home</title>
+
+
+</head>
+
+<body>
+<!-- Add the navigation bar to the top of the page -->
+  <div class="navbar">
+    <a href="index.html" style="background-color: white;">Home</a>
+    <a href="pages/cv.html" style="background-color: white;">CV</a>
+    <a href="pages/blog.html" style="background-color: white;">Blog</a>
+  </div>
+  
+  
+  
+  <!-- Section 1 -->
+  <div id="section1">
+    <img src="../assets/images/home/Home.png">
+  </div>
+
+  <!-- Section 2 -->
+  <div id="section2">
+    <img src="../assets/images/home/Background.png">
+  </div>
+
+  <!-- Remaining Sections -->
+  <div id="section3">
+    <img src="../assets/images/home/Goals.png">
+  </div>
+  
+  <div id="section4">
+    <img src="../assets/images/home/Dedication.png">
+  </div>
+   
+  <div id="section5">
+    <img src="../assets/images/home/Values.png">
+  </div>
+   
+  <div id="section6">
+    <img src="../assets/images/home/Contact.png">
+  </div>
+  
+  
+  
+  
+  
+  <!-- Nav bar at bottom page -->
+  <div class="navbar">
+    <p> Made with love.</p>
+  </div>
+
+
+  <!-- Scroll to top icon -->
+  <div class="scroll-to-top" onclick="scrollToTop()">
+    &#8593; <!-- Up arrow icon -->
+  </div>
+
+  <!-- Scroll to top function -->
+  <script>
+    function scrollToTop() {
+      window.scrollTo({ top: 0, behavior: 'smooth' });
+    }
+  </script>
+  
+
+	
+<script>
+function smoothScrollToSecondSection(event) {
+  event.preventDefault(); // Prevent default behavior of the anchor link
+  const secondSection = document.getElementById('second-section');
+  secondSection.scrollIntoView({ behavior: 'smooth' });
+}
+</script>
+  
+  
+  </body>
+  
+  
+  </html>
