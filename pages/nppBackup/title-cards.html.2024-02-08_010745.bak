@@ -12,7 +12,7 @@
     <h2>Sofia Santos OSINT Challenge 006 - Thought Process and Writeup Using the Intelligence Cycle</h2>
     <p>My third OSINT challenge</p>
     <p>Published: <span class="publish-date">26-1-2024</span></p>
-    <p><a href="articles/sofia-santos-osint-challenge006.html" target="_blank">Read More</a></p>
+    <p><a href="../articles/sofia-santos-osint-challenge006.html" target="_blank">Read More</a></p>
     <div class="tags">
       <span class="tag">#osint</span>
 	  <span class="tag">#project</span>
@@ -33,7 +33,7 @@
     <h2>Treating an OSINT Challenge as if it is a Real Case - Practicing the Intelligence Cycle</h2>
     <p></p>
     <p>Published: <span class="publish-date">26-1-2024</span></p>
-    <p><a href="articles/practicing-intelligence-cycle-using-osint-challenges.html" target="_blank">Read More</a></p>
+    <p><a href="../articles/practicing-intelligence-cycle-using-osint-challenges.html" target="_blank">Read More</a></p>
     <div class="tags">
       <span class="tag">#osint</span>
 	  <span class="tag">#commentary</span>
@@ -54,7 +54,7 @@
     <h2>Checking Your Analysis for Bias: Advice from Spies, Lies, and Algorithms</h2>
     <p></p>
     <p>Published: <span class="publish-date">20-1-2024</span></p>
-    <p><a href="articles/bias-checking-for-analysis.html" target="_blank">Read More</a></p>
+    <p><a href="../articles/bias-checking-for-analysis.html" target="_blank">Read More</a></p>
     <div class="tags">
       <span class="tag">#osint</span>
 	  <span class="tag">#self-teaching</span>
@@ -75,7 +75,7 @@
     <h2>Documenting my Thought Process for TryHackMe's OhSINT challenge</h2>
     <p>My second OSINT challenge</p>
     <p>Published: <span class="publish-date">6-1-2024</span></p>
-    <p><a href="articles/tryhackme-ohsint-challenge.html" target="_blank">Read More</a></p>
+    <p><a href="../articles/tryhackme-ohsint-challenge.html" target="_blank">Read More</a></p>
     <div class="tags">
       <span class="tag">#osint</span>
 	  <span class="tag">#project</span>
@@ -95,7 +95,7 @@
     <h2>Documenting my Thought Process for Sofia Santos OSINT Challenge 001</h2>
     <p>My first OSINT challenge</p>
     <p>Published: <span class="publish-date">1-1-2024</span></p>
-    <p><a href="articles/sofia-santos-osint-challenge001.html" target="_blank">Read More</a></p>
+    <p><a href="../articles/sofia-santos-osint-challenge001.html" target="_blank">Read More</a></p>
     <div class="tags">
       <span class="tag">#osint</span>
 	  <span class="tag">#project</span>
@@ -115,7 +115,7 @@
     <h2>Data Analytics in the Public Sector with R - Course 1, Week 3</h2>
     <p>My thought process for Week 3 Quiz Questions</p>
     <p>Published: <span class="publish-date">2023-12-08</span></p>
-    <p><a href="articles/data-analytics-for-public-sector-c1w3.html" target="_blank">Read More</a></p>
+    <p><a href="../articles/data-analytics-for-public-sector-c1w3.html" target="_blank">Read More</a></p>
     <div class="tags">
       <span class="tag">#data-analytics</span>
 	  <span class="tag">#programming</span>
@@ -135,7 +135,7 @@
     <h2>Data Analytics in the Public Sector with R - Course 1, Week 3 Follow Along</h2>
     <p>My thought process for Week 3 </p>
     <p>Published: <span class="publish-date">2023-12-08</span></p>
-    <p><a href="articles/data-analytics-for-public-sector-c1w3-follow-along.html" target="_blank">Read More</a></p>
+    <p><a href="../articles/data-analytics-for-public-sector-c1w3-follow-along.html" target="_blank">Read More</a></p>
     <div class="tags">
       <span class="tag">#data-analytics</span>
 	  <span class="tag">#programming</span>
@@ -155,7 +155,7 @@
     <h2>Data Analytics in the Public Sector with R - Course 1, Week 2</h2>
     <p>My thought process for Week 2 Quiz Questions</p>
     <p>Published: <span class="publish-date">2023-11-30 </span></p>
-    <p><a href="articles/data-analytics-for-public-sector-c1w2.html" target="_blank">Read More</a></p>
+    <p><a href="../articles/data-analytics-for-public-sector-c1w2.html" target="_blank">Read More</a></p>
     <div class="tags">
       <span class="tag">#data-analytics</span>
 	  <span class="tag">#programming</span>
@@ -175,7 +175,7 @@
     <h2>Mistakes Made & Lessons Learned: Studying for CompTIA Security+ Exam</h2>
     <p>4 of the biggest mistakes and lessons learned and the solution that eventually worked.</p>
     <p>Published: <span class="publish-date">2023-08-13</span></p>
-    <p><a href="articles/mistakes-lessons-comptia-security-exam.html" target="_blank">Read More</a></p>
+    <p><a href="../articles/mistakes-lessons-comptia-security-exam.html" target="_blank">Read More</a></p>
     <div class="tags">
       <span class="tag">#cybersecurity</span>
 	  <span class="tag">#commentary</span>
@@ -195,7 +195,7 @@
     <h2>Forget About Setting Goals. Focus on This Secret to Success Instead.</h2>
     <p>We've all been there: setting goals that we're excited about for a few days or weeks, only to lose motivation and give up altogether. But what if I told you that the secret to success isn't setting goals at all?</p>
     <p>Published: <span class="publish-date">2023-08-03</span></p>
-    <p><a href="articles/create-systems-not-goals.html" target="_blank">Read More</a></p>
+    <p><a href="../articles/create-systems-not-goals.html" target="_blank">Read More</a></p>
     <div class="tags">
       <span class="tag">#commentary</span>
 	  <span class="tag">#self-teaching</span>
@@ -215,7 +215,7 @@
     <h2>What I'm Up To - My CompTIA Security+ Study Plan</h2>
     <p>I want to prove to myself that I can conquer any challenge, even if it seems impossible. And because of this, I'm slowly adopting a mindset that says limitations are just illusions.</p>
     <p>Published: <span class="publish-date">2023-07-22</span></p>
-    <p><a href="articles/my-comptia-security+-study-plan.html" target="_blank">Read More</a></p>
+    <p><a href="../articles/my-comptia-security+-study-plan.html" target="_blank">Read More</a></p>
     <div class="tags">
       <span class="tag">#cybersecurity</span>
 	  <span class="tag">#self-teaching</span>
@@ -235,7 +235,7 @@
     <h2>The Human Factor - Collaborative Ways to Build a Strong Cybersecurity Culture and Strengthen Security Posture</h2>
     <p>Let's be up front: security would much easier if there were no users.</p>
     <p>Published: <span class="publish-date">2023-07-07</span></p>
-    <p><a href="articles/the-human-factor.html" target="_blank">Read More</a></p>
+    <p><a href="../articles/the-human-factor.html" target="_blank">Read More</a></p>
     <div class="tags">
       <span class="tag">#cybersecurity</span>
 	  <span class="tag">#tutorial</span>
@@ -257,7 +257,7 @@
       <h2>How OSINT Opened My Eyes to Cybersecurity Threats</h2>
       <p>There’s a lot of free, not-difficult-to-get information out there about you. From your address, to who your family members are, to where…</p>
       <p>Published: <span class="publish-date">2023-06-08</span></p>
-      <p><a href="articles/how-osint-opened-my-eyes.html" target="_blank">Read More</a></p>
+      <p><a href="../articles/how-osint-opened-my-eyes.html" target="_blank">Read More</a></p>
       <div class="tags">
         <span class="tag">#cybersecurity</span>
         <span class="tag">#osint</span>
@@ -277,7 +277,7 @@
     <h2>Turning My Fear of Cyber Threats into a Passion for Cybersecurity</h2>
     <p>From Crunching Numbers to Protecting Secrets</p>
     <p>Published: <span class="publish-date">2023-04-21</span></p>
-    <p><a href="articles/turning-my-fear-of-cyber-threats.html" target="_blank">Read More</a></p>
+    <p><a href="../articles/turning-my-fear-of-cyber-threats.html" target="_blank">Read More</a></p>
     <div class="tags">
       <span class="tag">#cybersecurity</span>
 	  <span class="tag">#osint</span>
@@ -296,7 +296,7 @@
     <h2>How to Install and Configure Python for your Personal Computer</h2>
     <p>No course instructor told me about Python’s chaotic package management system, let alone the necessity of using…</p>
     <p>Published: <span class="publish-date">2023-02-11</span></p>
-    <p><a href="articles/how-to-install-python.html" target="_blank">Read More</a></p>
+    <p><a href="../articles/how-to-install-python.html" target="_blank">Read More</a></p>
     <div class="tags">
       <span class="tag">#tutorial</span>
 	  <span class="tag">#programming</span>
