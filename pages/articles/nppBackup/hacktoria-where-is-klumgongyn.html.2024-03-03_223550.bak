@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="../../assets/css/article.css">
+  
+  <title>Hactoria Contract - Where's Klumgongyn?</title>
+  
+</head>
+<body>
+<!-- Add the navigation bar to the top of the page -->
+    <div class="navbar">
+		<a href="../../index.html" style="background-color: #439775;">Home</a>
+        <a href="../pages/cv.html" style="background-color: #439775;">CV</a>
+        <a href="../pages/blog.html" style="background-color: #439775;">Blog</a>
+    </div>
+	
+	
+  <div class="article-container">
+    <h1 class="article-title">Hactoria Contract - Where's Klumgongyn?</h1>
+
+    <p class="article-metadata">
+      Published on 3rd March, 2024
+    </p>
+
+    <figure>
+		<img src="https://images.pexels.com/photos/7567969/pexels-photo-7567969.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" class="article-image">
+		<figcaption>
+			Photo by Alyona Stafeeva: <a href="https://www.pexels.com/photo/portrait-of-woman-in-artistic-makeup-hidden-behind-veil-7567969/" target="_blank">(https://www.pexels.com/photo/portrait-of-woman-in-artistic-makeup-hidden-behind-veil-7567969/)</a>
+		</figcaption>
+	</figure>
+
+    <div class="article-tags">
+      <span class="article-tag">#OSINT</span>
+      <span class="article-tag">#Project</span>
+      <span class="article-tag">#Self-teaching</span>
+    </div>
+
+    <div class="article-content">
+
+<h2>Table of Contents</h2>
+
+<div style="margin-bottom: 10px;">
+  <p style="margin: 0;"><a href="#section-1">The Challenge Background</a></p>
+  <p style="margin: 0;"><a href="#section-2">Planning and Direction</a></p>
+  <p style="margin: 0;"><a href="#section-3">Collection</a></p>
+  <p style="margin: 0;"><a href="#section-4">Processing</a></p>
+  <p style="margin: 0;"><a href="#section-5">Analyzing</a></p>
+  <p style="margin: 0;"><a href="#section-6">Dissemination</a></p>
+  <p style="margin: 0;"><a href="#section-7">3 Biggest Perssonal Takeaways</a></p>
+  <p style="margin: 0;"><a href="#section-8">3 Biggest Perssonal Takeaways</a></p>
+</div>
+
+<section id="section-1">
+<h3>The Challenge Background</h3>
+<p>Greetings Special Agent.</p>
+
+<p>We have quite a strange case on our hands today. Our Lead Counsel Klumgongyn, has gone missing in action.</p>
+
+<p>Now don’t be alarmed, I don’t mean this in any dangerous way. Lately the company chat has been used as a dumpster for GIF wars and edgy memes. Klumgongyn was so fed up with this, that he took one of the spaceships and warped to an unknown location.</p>
+
+<p>He says it’s a “surprise vacation” and won’t come back for another two weeks. This is of course unacceptable behavior and we need to find him. </p>
+
+<p>After arrival he sent a picture with the message “see you in two weeks memelords”. We need you to geolocate the image so we can send in a retrieval unit to pick him up.</p>
+
+<p>Whether we’ll actually find him once we’re there is another issue. Shapeshifting alien lizard like creatures are hard to spot. They’ve been posing as politicians for years now and nobody’s really caught on to them either.</p>
+
+<p>Special Agent K, you have 24 hours to locate Klumgongyn. After that we’ll start refusing to reimburse his travel expenses.</p>
+
+<p>As always, the contract is yours, if you choose to accept.</p>
+
+<p>Use the Country and Streetname to form the answer.</p>
+
+<p>Example: turkey-street-name</p>
+
+
+<section id="section-2">
+<h3>Planning and Direction</h3>
+
+<p>The task objective is to find the country and street name of where the photo was taken. But the initial question will help me with the direction to go first.
+Initial Question: 
+<ul>
+  <li>What are the permanent elements that make this photo less generic and more easily identifiable?</li>
+</ul>
+</p>
+
+<p>Branching Questions:
+<ul>
+  <li>What's the country?</li>
+  <li>What does the surroundings tell you?</li>
+  <li>What assumptions can you explore to confirm or deny?</li> 
+</ul>
+</p>
+
+<p>Tools of the Trade:
+<ul>
+  <li>This won't be an exhaustive list since as investigations go along, you won't know exactly what you might find or need.</li>
+  <li>TinEye</li>
+  <li>Google Maps</li> 
+  <li>Google Earth</li>
+</ul>  
+</p>
+<section id="section-3">
+<h3>Collection</h3>
+
+<h4>My thought process during the challenge</h4>
+
+<p>22 February, 2024</p>
+<ul>
+  <li>Woohoo! Another geolocation challenge &#x1F601;</li>
+  <li>As always, TinEye for reverse image search</li>
+  <img src="../../assets/images/osint-challenges/where-is-klumgongyn/reverse-search-tineye.com.png" class="article-image">
+  <li>0 results returned, unsurprising</li>
+  <li>I save the image as an image file to make zooming in easier</li>
+  <img src="../../assets/images/osint-challenges/where-is-klumgongyn/where-is-klumgongyn.png" class="article-image">
+  <li>Just brainstorming some assumptions:
+    <ul>
+      <li>Based on the vegetation, it looks kind of tropical-ish? Thinking South America? Maybe even Florida</li>
+      <li>there's a lot of water gathered by the side walk so maybe some place that has a humid rainy season to go along with my tropical assumption</li>
+      <li>I don't know, I have an unproven guess that it's the Bahamas even though I've never been (it's probably because of the palm tree). My Geotastic training might be tricking or helping me here</li>
+      <li>It's also kind of sandy on the road</li> 
+    </ul>
+  </li>
+  <li>But really the first thing that drew my eye is the written words and numbers on the building</li>
+  <li>The photo itself is blurry so I search for online tools to enhance a blurry photo and use Image Enhancer to sharpen the overall image</li>
+  <li>Which does little to clarify the part I need to see but it's to no fault of the tool, and it does clear up some of the noise surrounding the words and what looks to be numbers: 555 2122</li>
+  <img src="../../assets/images/osint-challenges/where-is-klumgongyn/enhanced-image.png" class="article-image">
+  <li>Looking at it reminds of vision tests at the optometrist where you squint as hard as you can just to delude yourself that your vision isn't as bad as you think it is</li>
+  <li>I remember a short while ago I stumbled upon two instances mentioning an extremely useful geolocation tool that lets you input some details and it'll give you options of where you might be looking at</li>
+  <li>But currently, I can't for the life of me remember what that tool is called nor the sources from which I first learned about it</li>
+  <li>Aha! Bellingcat OpenStreetMap search, that's the one. Unironically, I just searched up "best geolocation tool for osint"</li>
+  <img src="../../assets/images/osint-challenges/where-is-klumgongyn/best-geolocation-tool.png" class="article-image">
+  <li>Getting some general input, I analyze the photo to match some of the 'Feature presets' from the Bellingcat OSM tool
+    <ul>
+      <li>Road</li>
+      <li>2-lane road</li>
+      <li>Sidewalk</li>
+      <li>Building (1 story)</li>
+      <li>Building (2 story)</li>
+      <li>Shop (any)</li>
+    </ul>
+  </li>
+  <li>And just going with my assumption of the Bahamas, I enter that into the search bar under 'Find location' of the map</li>
+  <li>OSM Search tells me my search query is too large so I narrow it down to Nassau, Bahamas and instantly get a handful of options</li>
+  <li>I check them out by clicking on the coordinates provided by OSM Search and then using the 'Browse Street View Images' I drop into the street view</li>
+  <img src="../../assets/images/osint-challenges/where-is-klumgongyn/browse-street-view-images.png" class="article-image">
+  <li>However, none of them really look any where near the image I have, likely because my search query was too vague with the features and I randomly chose a city</li>
+  <li>Hm okay, time to take a step back from the assumption that the photo is somewhere tropical</li>
+  <li>I want to see if I can unblur the words and numbers on the building again</li>
+  <li>I try an image enhancer and it just turns the numbers into spaghetti</li>
+  <li>I even try an online OCR tool but there wasn't any recognized text</li>
+  <li>Hmmm &#x1F611; I think now is as good as any time to take a break, read up on some geolocation guides and case studies I've been bookmarking and come back to this with fresh eyes</li>
+</ul>  
+</p>
+
+<p>23rd February, 2024</p>
+<ul>
+  <li>Google Images, that might help</li>
+  <li>I upload image I downloaded from Hacktoria and it gives me some promising leads</li>
+  <img src="../../assets/images/osint-challenges/where-is-klumgongyn/google-images-search.png" class="article-image">
+  <li>Astutely, I avoid the Medium blog article of the exact challenge (I'll return to it later after I know I've gotten the correct answer)</li>
+  <li>The photo next to the Medium blog article is one that catches my eye because of the vegetation (yes, because of the palm trees)</li>
+  <img src="../../assets/images/osint-challenges/where-is-klumgongyn/the-first-image.png" class="article-image">
+  <li>Clicking on the link, it brings me to a site about where to park in downtown Akumal and Akumal bay</li>
+  <li>Scrolling further down, I see the image referenced in Google Images and to check the metadata, I open the image in a new tab</li>
+  <img src="../../assets/images/osint-challenges/where-is-klumgongyn/first-image-in-original-source.png" class="article-image">
+  <li>Here's the full image address: https://www.i-akumal.com/sites/default/files/blog-teaser/san_francisco_3.png</li>
+  <li>Having a solid location to begin, I search up 'san francisco akumal bay' and head to maps to find more images to help validate the location of the challenge's image</li>
+  <li>But unexpectedly, Google Maps points me to another location, in Quintana Roo</li>
+  <li>Curious and sidetracked from my original purpose of going to Google Maps, I drop down into street view</li>
+  <img src="../../assets/images/osint-challenges/where-is-klumgongyn/akumal-quintano-roo-street-view.png" class="article-image">
+  <li>Some of the vegetation looks similar to the first image from Google Images I clicked on, so I wonder if there are other mentioned instances of Akumal, Quintana Roo from my results</li>
+  <li>Yes, there are, however, that doesn't confirm anything since vegetation is similar in the challenge photo and what's in Quintana Roo which could be why it showed up in the Google Images results</li>
+  <img src="../../assets/images/osint-challenges/where-is-klumgongyn/second-instance-of-quintana-roo.png" class="article-image">
+  <li>Even though it may be a waste of time, I'm still going to look around via street view since it's a relatively small area</li>
+  <li>What I'm going to try to search for in street view is the tall round yellow sign - I assume it's a sign - maybe for a gas station or a market?</li> 
+  <img src="../../assets/images/osint-challenges/where-is-klumgongyn/yellow-rounded-object.png" class="article-image">
+</ul>
+</p>
+
+<p>25th February, 2024</p>
+<ul>
+  <li>Coming back to this, I remember that I can search for the "My Taxi" words on the side of the building</li>
+  <li>So I query "taxi" in google maps while looking over Akumal Quintana Roo and I get a few points of interest</li>
+  <img src="../../assets/images/osint-challenges/where-is-klumgongyn/my-taxi-maldives.png" class="article-image">
+  <li>But none of them lead me anywhere</li>
+  <li>Returning to Open Street Map search, this time I query with Akumal Quintana Roo as the place just as a last ditch idea before moving on</li>
+  <li>There are no results returned</li>
+  <li>The main problem right now is not knowing how to narrow down my search</li> 
+  <li>The contract says that Klumgongyn is vacationing, so a tropical beach front like Akumal Quintana Roo would make sense</li>
+  <li>However, I'm only assuming that the challenge photo is in a tropical place or one that's near a beach with the vegetation and the sand on the road but this is not validated so it should be taken with a grain of ~~salt~~ sand</li>
+  <li>There is an option of going through all the results from Google Lens and searching for the term "My Taxi"</li>
+  <li>For instance, the location of a few images were located in the Maldives and there is a company called My Taxi in Addu City but, using street view there was nothing there at the pin</li>
+  <li>Using this <a href="https://www.bellingcat.com/resources/how-tos/2023/05/08/finding-geolocation-leads-with-bellingcats-openstreetmap-search-tool/" target="_blank">OSM guide by Bellingcat</a> I know how to add custom tags which can really help narrow down my search</li>
+  <li>As per the guide's suggestion, I use the OSM wiki to find the appropriate tags</li>
+  <img src="../../assets/images/osint-challenges/where-is-klumgongyn/osm-street-light-tag.png" class="article-image">
+  <li>My first tag is taxi which I know is labeled as an amenity</li>
+  <img src="../../assets/images/osint-challenges/where-is-klumgongyn/osm-taxi-tag.png" class="article-image">
+  <li>And this is how I put it into OSM search</li>
+  <img src="../../assets/images/osint-challenges/where-is-klumgongyn/taxi-tag-query.png" class="article-image">
+  <li>Next on the wiki, I search for street light since there is one far right in the challenge photo and thanks to one of Gralhix's OSINT challenges, I learned that street lamps are a great landmark to use as they are rarely moved - unlike parked vehicles</li>
+  <li>Although again, the problem still is not having a narrowed down area to search for in OSM</li>
+</ul>  
+</p>  
+
+<p>26th February, 2024</p>
+<ul>
+ <li>In between the time spent doing this challenge, I've been reading up on the latest OSINT news and tools</li>
+ <li>Notably, from The OSINT Newsletter - Issue #44 by Jake Crepts on Substack, I learned of a new tool called GeoSpyAI</li>
+ <li>Here's the results from plugging in the challenge photo:</li>
+ <img src="../../assets/images/osint-challenges/where-is-klumgongyn/geo-spy-results-p1.png" class="article-image">
+ <img src="../../assets/images/osint-challenges/where-is-klumgongyn/geo-spy-results-p2.png" class="article-image">
+ <img src="../../assets/images/osint-challenges/where-is-klumgongyn/geo-spy-results-p3.png" class="article-image">
+ <li>The estimated coordinates it gave me didn't match the area that the photo seemed to be in, though the tool seems to believe the photo is in the Maldives which is similar to some of the results of Google Lens</li> 
+ <li>But once again, I'm unsure how to confirm any of this information</li>
+ <li>I think returning to the obvious, the blurred text and digits on the side of the building would be where I'll refocus my efforts</li>
+ <li>At first I Googled "My Taxi 555 2122" and didn't return any results and then I Googled just "My Taxi 2122" and got some results along with a Medium blog post, so maybe I'm on the right track</li>
+ <img src="../../assets/images/osint-challenges/where-is-klumgongyn/my-taxi-2122-search.png" class="article-image">
+ <li>And in the metadata of the Facebook link, I already see a familiar street and city that I saw in the results of Google Lens</li>
+</ul>
+</p>
+
+<p>27th February, 2024</p>
+<ul>
+  <li>The Facebook page and post lets me see the whole string of numbers that is blurred out in the challenge photo: 688 2122</li>
+  <img src="../../assets/images/osint-challenges/where-is-klumgongyn/my-taxi-facebook.png" class="article-image">
+  <li>But more importantly, that Facebook post shows me the logo of the company which matches exactly to the "My Taxi" pin that I dropped down to street view yet couldn't visually confirm it to the challenge photo</li>
+  <img src="../../assets/images/osint-challenges/where-is-klumgongyn/same-car-logo.png" class="article-image">
+  <li>So now, a previous lead is directly linked to the challenge photo via the same logo that's shown in the Google Maps business page and in the Facebook account which I found by searching for "My Taxi 2122" based on what I saw from the challenge photo</li>
+  <li>However, besides the matching red roofs in Google street view and the challenge photo, nothing about this so far leads to confirmation that the street name S.Hithadhoo is correct</li>
+  <img src="../../assets/images/osint-challenges/where-is-klumgongyn/matching-red-roofs.png" class="article-image">
+  <li>Scrolling further down the Facebook account, I find another post with the name Hithadhoo along with a hashtag in English that tells me it's a promotional post</li>
+  <li>What are the chances this taxi service is in more than one place? What if some of these words are actually other branches located in different areas?</li>
+  <img src="../../assets/images/osint-challenges/where-is-klumgongyn/different-islands-neighborhoods.png" class="article-image">
+  <li>Lo and behold, when I Google "in maradhoo" I get shown the island underneath Hithadhoo</li>
+  <img src="../../assets/images/osint-challenges/where-is-klumgongyn/islands-neighborhoods.png" class="article-image">
+  <li>Randomly going into street view and clicking around, I do know I'm in the right country and possibly getting warmer when I spot the same green wooden planter</li>
+  <img src="../../assets/images/osint-challenges/where-is-klumgongyn/same-wooden-planter.png" class="article-image">
+  <li>On Google Maps I go to the satellite view to look out for the yellow sign/tower object in the distance, as well as the small red roof next to the street lamp</li>
+  <li>Wow, okay. I did not think I'd find the yellow sign/tower object but by some random chance, after many, many minutes, and fed up with manually clicking up and down street view, I exit street view and then dropped back down to street view and immediately found it</li>
+  <img src="../../assets/images/osint-challenges/where-is-klumgongyn/golden-tower.png" class="article-image">
+  <li>To explain how I narrowed down the search area was the fact that TinEye returned no results and then coupled with examining the challenge photo, told me that the challenge photo is most likely a screenshot of street view somewhere which was purposefully blurred to make it harder to identify</li>
+  <li>Thus, when I narrowed down the country, I only searched the roads that have a street view to drop down in</li>
+  <li>Initially, I searched the other islands/neighborhoods but returned  to Hithadhoo because of the Facebook account that links the island to the challenge photo</li>
+  <li>Hithadhoo has two roads that has street view nearly the entire way through, the reason why I knew that Link Road isn't the one to check is because the challenge photo has paved sidewalks on both sides</li>
+  <li>Dropping down into Link Road, you can clearly see that doesn't really have paved sidewalks</li>
+  <li>So left with one other road, I searched until I found a tower-like structure that had a golden tip that made the alarms in my head shriek</li>
+  <li>And so to confirm it, from facing the golden tower, I turned around in street view and as I went down that direction, more and more "incriminating" evidence came to light, until I was looking at the very same angle as the challenge photo</li> 
+  <img src="../../assets/images/osint-challenges/where-is-klumgongyn/blue-strip-building.png" class="article-image">
+  <img src="../../assets/images/osint-challenges/where-is-klumgongyn/incriminating-evidence.png" class="article-image">
+  <img src="../../assets/images/osint-challenges/where-is-klumgongyn/x-marks-the-spot.png" class="article-image">
+  <li>Mission Accomplished. One resident shape-shifter successfully located</li>
+  <img src="../../assets/images/osint-challenges/where-is-klumgongyn/badge-wheres-klumgongyn.png" class="article-image">
+</ul>
+</p>
+<section id="section-4">
+<h3>Processing</h3>
+
+<ul>
+<li>Conducted reverse image search on TinEye which returned no useful results</li>
+<li>Enhanced blurry image to identify "My Taxi" text and phone number</li>
+<li>Searched Google and Facebook with phone number and name clues, revealing a taxi company in the Maldives</li>
+<li>Uncovered exact street name and island location from social media search</li>
+<li>Identified visual landmarks from image to aid confirmation, including vegetation, yellow tower structure, red roofs, streetlight</li>
+<li>Utilized various OSINT tools:
+  <ul>
+    <li>OpenStreetMap search to narrow locations based on custom amenity tags</li>
+    <li>Google Maps/Street View to validate details between image and mapped locations</li>
+    <li>Satellite imagery to match roof structures and landmarks</li>
+  </ul>
+</li>
+</ul>
+<section id="section-5">
+<h3>Analyzing and Production</h3>
+<ul>
+<li>Initial tropical and beachfront assumptions led to inaccurate search areas</li>
+<li>Finding contradictory evidence forced reanalysis without those assumptions</li>
+<li>Taxi logo match and street name match across sources provided confirmation</li>
+<li>With narrowed search area from clues, systematically eliminated possibilities via Street View</li>
+<li>Randomly discovering fully matching scene shows how confirmation can suddenly occur</li>
+<li>Incorrect assumptions send investigations off-track; contradictory evidence presents opportunities for expansive thinking</li>
+<li>Search terms, tools, locations shifted continuously based on new information</li>
+<li>Persistence and open/analytical mindset essential when pieces of evidence incrementally combine to solve challenge</li>
+</ul>
+<section id="section-6">
+<h3>Dissemination</h3>
+<p>The location of where Klumgongyn warped to for an unsanctioned and impromptu vacation is <b>REDACTED</b>. Please send out a team to extract our wayward resident shape-shifter. As painful as it is for him to be subjugated to "GIF wars and edgy memes", there is proper protocol to mitigate this issue (read: muting the chat indefinitely).</p>
+
+<p>This report describes the completed analysis and results of Hacktoria's Contract - Where's Klumgongyn?</p>
+
+<p>The task briefing for this challenge is as follows: Klumgongyn disappeared to an unknown location and broke protocol. After arrival he sent a picture. The task was to geolocate the image's country and street name so a retrieval unit can pick him up.</p>
+<p>This challenge demonstrates importance of examining a photo clearly and cataloguing anything that can be used to identify the specific area. Additionally, it's important to remember to explore every avenue while keeping an open mind that previously discarded leads could suddenly be connected by evidence you find later on. And remember to always, always question your reasoning for any bias and explain why you think something is.</p>
+<p>For the purpose of keeping this challenge's integrity, I will keep the plaintext answer hidden. This writeup is meant to guide someone through my process of unveiling the location as well as a hint citation for anyone who is stuck and needs a nudge in the right direction to help solve the challenge themselves. Also, since Hacktoria gives you unlimited guesses, one could easily check if they have the correct location.</p>
+<section id="section-7">
+<h3>3 Biggest Personal Takeaways</h3>
+<ul>
+<li>The point of these challenges/exercises/CTFs isn't to win but to learn. I'm very competitive with myself and that can veer towards perfectionism so I'm often self-critical. I don't like making mistakes or not knowing. I don't like not meeting my (unrealistic) expectations for myself. And I don't like feeling inadequate - no matter if it's true or not. I want to be a better OSINT analyst  than I was yesterday so when I don't fit that mould, imposter syndrome rears its ugly face and traps me in a mindset that debilitates my workflow. However, OSINT is a field that demands constant learning which means you are, in part, always a student - a learner. Thus, as a student there are times where I'm suppose to make mistakes, to not know things because they're new to me, and I'm suppose to reach out and ask for help from those who are more competent and in the know; I'm suppose to <b>learn, not win</b>. Because when you learn something, you win something too.</li>
+<li>I'm aware that in professional settings you won't always have an unlimited timeframe as you do with CTFs. Regardless, it's okay to need to step away multiple times and come back to it a few days later; you don't always have to complete the work in a day if the scope of the project doesn't demand it from you.</li>
+<li>Keep an open mind, that's how you become and stay creative - revisit leads until you can confirm it's not useful. Confirmation and validation of evidence isn't just for evidence that answers your question but also for the ones that don't answer your question. Remember to ask yourself why you decide to write off a lead as 'not useful', what reasons lead you there? When you don't find any useful results to help answer your question, that in of itself is a type of answer - perhaps it's telling you that you need to refine your search query. For instance, when I initially searched "My Taxi 555 2122", it didn't crop up any results that would answer my question but when my query became granular, querying "My Taxi 2122", that lead me somewhere. Had I just crossed off all of the digits as 'not useful' or 'not related' I would've never completed this CTF.</li>
+</ul>
+<section id="section-8">
+<h3>Some Closing Thoughts</h3>
+<p>OSINT isn't glamorous. That's what this challenge reminded me. It's less about the tools that produce instant results and more about patience and your mindset. OSINT is grunt work; it is having to manually click up and down the street view of a road on a small island in the Maldives. OSINT is not fun and yet, so, so fun and exhilarating to get right. It's about finding all the pieces of the puzzle and putting it back together to form a clear image.</p>
+<p>Thanks for reading.</p>
+    </div>
+
+    <div class="article-footer">
+      Published by Tori-Ann Cheung
+    </div>
+  </div>
+  
+  <!-- Scroll to top icon -->
+  <div class="scroll-to-top" onclick="scrollToTop()">
+    &#8593; <!-- Up arrow icon -->
+  </div>
+
+  <!-- Scroll to top function -->
+  <script>
+    function scrollToTop() {
+      window.scrollTo({ top: 0, behavior: 'smooth' });
+    }
+  </script>
+</body>
+</html>
