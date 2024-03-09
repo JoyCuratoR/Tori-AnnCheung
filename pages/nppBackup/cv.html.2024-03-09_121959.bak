@@ -134,7 +134,7 @@
 	
 	<section id="section-5">
 	<h2>Programming, Scripts and other code</h2>
-	<h4>2021 - Present</h4>
+	<h4>2021-Present</h4>
 	<ul>
 	  <li>This current page and website was built to host my portfolio and act as a hands-on project while I learned HTML, Css, and JavaScript.</li>
 	  <li>I built a typewriter simulator which is a text editor where you can't use the backspace. Try it out here: <a href="https://joycurator.github.io/TypewriterSimulator/" target="_blank">Typewriter app</a>.</li>

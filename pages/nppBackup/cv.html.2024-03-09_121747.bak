@@ -77,7 +77,7 @@
 		<li>Diagnosed, resolved, and documented hardware and software issues while adhering to proper safety protocols.</li>
 	</ul>
 	<h3>Projects</h3>
-	<h4>2023 - Present</h4>
+	<h4>2023-Present</h4>
 	<ul>
 		<li>Pursuing Governance, Risk Management, and Compliance (GRC) education from Gerald Auger on TCM Academy</li>
 		<li>Participating in an on-going mentorship with George Usi, CEO and co-founder of Omnistruct, Co-Chair of California IPv6 Task Force, and researcher of over 25 years in internet open standards, networking, and security.</li>
@@ -92,7 +92,7 @@
 	
 	<section id="section-3">
 	<h2>Data Analysis</h2>
-	<h4>2020 - 2022</h4>
+	<p>2020-2022</p>
 	<ul>
 	  <li>Through a guided project written by Marynia Kolak, Moksha Menghaney, Qinyun Lin, and Angela Li, I learned how to perform geospatial analysis techniques such as: geocoding, buffer analysis, and nearest resource analysis. <a href = "https://github.com/JoyCuratoR/MethadoneClinicsGeospatialAnalysis" target ="_blank">GitHub Repo</a>.</li>
 	  <li>Using data analysis tools such as R programming, Tableau, and Excel, analyzed 20+ Facebook ad campaigns to identify essential metrics to measure and track for high return on investment, resulting in a 2% decrease in marketing costs and time spent. | September 2022 - October 2022</li>
@@ -114,7 +114,7 @@
 	<ul>
 		<li>OSINT Case "Betrayal" by Kase Scenarios | <a href="https://courses.kasescenarios.com/certificates/frrjyi6t6c" target="_blank">Verification</a></li>
 	</ul>
-	<h4>Information Security</h4>
+	<h4>Cybersecurity</h4>
 	<ul>
 	  <li>GIAC Certified Incident Handler Certification | SANS Technology Institute Women's Cyber Academy | Estimated completion: May 6th, 2024
 	  <li>GIAC Security Essentials (GSEC) Certification | SANS Technology Institute Women's Cyber Academy | <a href="https://www.credly.com/badges/b26aba73-fd01-4e62-b306-f1a80d7b9120/public_url" target="_blank">Verification</a></li>
@@ -134,7 +134,7 @@
 	
 	<section id="section-5">
 	<h2>Programming, Scripts and other code</h2>
-	<h4>2021 - Present</h4>
+	<p>2021-Present</p>
 	<ul>
 	  <li>This current page and website was built to host my portfolio and act as a hands-on project while I learned HTML, Css, and JavaScript.</li>
 	  <li>I built a typewriter simulator which is a text editor where you can't use the backspace. Try it out here: <a href="https://joycurator.github.io/TypewriterSimulator/" target="_blank">Typewriter app</a>.</li>
