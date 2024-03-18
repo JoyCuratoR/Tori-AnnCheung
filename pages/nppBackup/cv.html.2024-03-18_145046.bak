@@ -22,7 +22,8 @@
     <h1 style="text-align: center;">Tori-Ann Cheung</h1>
 	<p>A professional with a T-shaped skill set spanning open-source intelligence, research, and information security, complemented by expertise in geolocation analysis and technical writing/reporting.</p>
 	<p>Although, most days I'm a little bit of everything. From web development, to information security, to OSINT, all of these skills were founded in my curiosity 
-	and the drive to inform. I have a long-term goal of creating a educational organization that teaches risk evaluation skills for internet activities to groups particularly vulnerable online.</p>
+	and the drive to inform. I have two goals: inform those in power about security issues and give context about why they need to care about them, 
+	and to educate children and their guardians about online privacy and security.</p>
 	
 	<p>Contact me at <a href="mailto:tacheung@protonmail.com">tacheung@protonmail.com</a>, or find me at <a href = "https://www.linkedin.com/in/tori-ann-cheung/" target="_blank">LinkedIn</a>, <a href = "https://github.com/JoyCuratoR" target="_blank">GitHub</a>.</p>
 	
@@ -68,7 +69,7 @@
 	  <section id="section-2">
 	<h2>Information Security</h2>
 	<h3>Work Experience</h3>
-	<p>Information Security Administrator Intern at Cyber Proud</p>
+	<b>Information Security Administrator Intern at Cyber Proud</b>
 		<p>April 2023 - July 2023</p>
 	<ul>
 		<li>Skilled in utilizing network monitoring tools and software, such as Wireshark, to ensure robust security measures.</li>
@@ -133,7 +134,7 @@
 	<section id="section-5">
 	<h2>Programming, Scripts and other code</h2>
 	<ul>
-	  <li>Actively learning Ruby and Ruby on Rails to build a dynamic web app that teaches online privacy & security best practices</li>
+	  <li>Actively learning Ruby and Ruby on Rails</li>
 	  <li>This current page and website was built to host my portfolio and act as a hands-on project while I learned HTML, Css, and JavaScript.</li>
 	  <li>I built a typewriter simulator which is a text editor where you can't use the backspace. Try it out here: <a href="https://joycurator.github.io/TypewriterSimulator/" target="_blank">Typewriter app</a>.</li>
       <li>I created an automated Twitter account that requests Twitter's API to tweet daily inspirational quotes. Find the account here: <a href="https://twitter.com/SunshinecatLeo" target="_blank">@SunshinecatLeo</a> and build your own automated account with my <a href="https://github.com/JoyCuratoR/brainyquotebot" target="_blank">tutorial</a>.</li>
