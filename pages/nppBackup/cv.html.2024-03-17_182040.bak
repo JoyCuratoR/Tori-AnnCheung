@@ -45,7 +45,7 @@
 	<h2>OSINT</h2>
 	<h4>2024 - Present</h4>
 	<ul>
-		<li>Actively expanding knowledge in areas such as architecture, foreign languages, vegetation, and infrastructure as well as QGIS - a geospatial tool - to enhance OSINT analysis capabilities and provide comprehensive, multi-disciplinary insights.</li>
+		<li>Actively expanding knowledge in areas such as architecture, foreign languages, vegetation, and infrastructure to enhance OSINT analysis capabilities and provide comprehensive, multi-disciplinary insights.</li>
 		<li>Honed geospatial analysis capabilities through regular participation in 50+ GEOINT challenges, excelling in tasks such as image interpretation, terrain analysis, and location identification.</li>
 		<li>Hacktoria's Contracts - Where's Klumgongyn? | Read the <a href="./articles/hacktoria-where-is-klumgongyn.html" target="_blank">Documentation</a></li>
 		<li>Sofia Santos OSINT Challenge #006 | Read the <a href="./articles/sofia-santos-osint-challenge006.html" target="_blank">Documentation</a></li>
@@ -138,7 +138,6 @@
 	<h2>Programming, Scripts and other code</h2>
 	<h4>2021 - Present</h4>
 	<ul>
-	  <li>Actively learning Ruby and Ruby on Rails</li>
 	  <li>This current page and website was built to host my portfolio and act as a hands-on project while I learned HTML, Css, and JavaScript.</li>
 	  <li>I built a typewriter simulator which is a text editor where you can't use the backspace. Try it out here: <a href="https://joycurator.github.io/TypewriterSimulator/" target="_blank">Typewriter app</a>.</li>
       <li>I created an automated Twitter account that requests Twitter's API to tweet daily inspirational quotes. Find the account here: <a href="https://twitter.com/SunshinecatLeo" target="_blank">@SunshinecatLeo</a> and build your own automated account with my <a href="https://github.com/JoyCuratoR/brainyquotebot" target="_blank">tutorial</a>.</li>
