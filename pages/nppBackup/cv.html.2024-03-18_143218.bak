@@ -43,6 +43,7 @@
 <!-- Content sections -->
 	<section id="section-0">
 	<h2>OSINT</h2>
+	<h4>2024 - Present</h4>
 	<ul>
 		<li>Actively expanding knowledge in areas such as architecture, foreign languages, vegetation, and infrastructure as well as QGIS - a geospatial tool - to enhance OSINT analysis capabilities and provide comprehensive, multi-disciplinary insights.</li>
 		<li>Honed geospatial analysis capabilities through regular participation in 50+ GEOINT challenges, excelling in tasks such as image interpretation, terrain analysis, and location identification.</li>
@@ -56,6 +57,7 @@
 	
 	<section id="section-1">
 	<h2>Research & Reports</h2>
+	<h4>2024 - Present</h4>
 	<h3>Research</h3>
 	<ul>
 		<li>The Double-Edged Sword of AI: How Innovations of Machine Learning Are Revolutionizing Society While Heightening Vulnerabilities <b>In-progress</b></li>
@@ -68,7 +70,6 @@
 	
 	  <section id="section-2">
 	<h2>Information Security</h2>
-	<p>Work Experience</p>
 	<h3>Information Security Administrator Intern at Cyber Proud</h3>
 		<p>April 2023 - July 2023</p>
 	<ul>
@@ -78,6 +79,7 @@
 		<li>Diagnosed, resolved, and documented hardware and software issues while adhering to proper safety protocols.</li>
 	</ul>
 	<h3>Projects</h3>
+	<h4>2023 - Present</h4>
 	<ul>
 		<li>Pursuing Governance, Risk Management, and Compliance (GRC) education from Gerald Auger on TCM Academy</li>
 		<li>Participating in an on-going mentorship with George Usi, CEO and co-founder of Omnistruct, Co-Chair of California IPv6 Task Force, and researcher of over 25 years in internet open standards, networking, and security.</li>
@@ -92,6 +94,7 @@
 	
 	<section id="section-3">
 	<h2>Data Analysis</h2>
+	<h4>2020 - 2022</h4>
 	<ul>
 	  <li>Through a guided project written by Marynia Kolak, Moksha Menghaney, Qinyun Lin, and Angela Li, I learned how to perform geospatial analysis techniques such as: geocoding, buffer analysis, and nearest resource analysis. <a href = "https://github.com/JoyCuratoR/MethadoneClinicsGeospatialAnalysis" target ="_blank">GitHub Repo</a>.</li>
 	  <li>Using data analysis tools such as R programming, Tableau, and Excel, analyzed 20+ Facebook ad campaigns to identify essential metrics to measure and track for high return on investment, resulting in a 2% decrease in marketing costs and time spent. | September 2022 - October 2022</li>
@@ -133,6 +136,7 @@
 	
 	<section id="section-5">
 	<h2>Programming, Scripts and other code</h2>
+	<h4>2021 - Present</h4>
 	<ul>
 	  <li>Actively learning Ruby and Ruby on Rails</li>
 	  <li>This current page and website was built to host my portfolio and act as a hands-on project while I learned HTML, Css, and JavaScript.</li>
