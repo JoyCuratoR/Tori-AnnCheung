@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="../../assets/css/article.css">
+  
+  <title>Article Template</title>
+  
+</head>
+<body>
+<!-- Add the navigation bar to the top of the page -->
+    <div class="navbar">
+		<a href="../../index.html" style="background-color: #439775;">Home</a>
+        <a href="../pages/cv.html" style="background-color: #439775;">CV</a>
+        <a href="../pages/blog.html" style="background-color: #439775;">Blog</a>
+    </div>
+	
+	
+  <div class="article-container">
+    <h1 class="article-title">Article Title</h1>
+
+    <p class="article-metadata">
+      Published on 23rd March, 2024
+    </p>
+
+    <figure>
+		<img src="https://images.pexels.com/photos/13024626/pexels-photo-13024626.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" class="article-image">
+		<figcaption>
+			Photo by hicret from Pexels:<a href="https://images.pexels.com/photos/13024626/pexels-photo-13024626.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" target="_blank"> https://images.pexels.com/photos/13024626/pexels-photo-13024626.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1</a>
+		</figcaption>
+	</figure>
+
+    <div class="article-tags">
+      <span class="article-tag">#OSINT</span>
+      <span class="article-tag">#Tutorial</span>
+      <span class="article-tag">#Self-Teaching</span>
+    </div>
+
+    <div class="article-content">
+      <p>There are many sources that tell people where to look to begin learning open-source intelligence (OSINT), but none of them sit down to teach you <i>how</i>.</p>
+
+<p>How does someone who just heard of OSINT understand what everyone else is doing? </p>
+
+<p>Like you, I've drowned in the flood of advice, materials, guides, walkthroughs, challenges, tools, etc. that will be, no doubt, all extremely useful at some point. And foolishly, I thought that I could dive head-first into the open-source intelligence flood and consume every bit of it to build a foundation. But that method quickly transitioned me from the Uninformed Optimism phase to the Informed Pessimism phase and then straight to the Valley of Despair phase.</p>
+
+<p>As mentioned before, there are plenty of resources, groups, and people to learn from and they all offer something worthy to learn. Bellingcat is a personal favorite because of their mission, professionality, quality of work, and their engagement with the OSINT community.</p>
+
+<p>However, the issue with only learning from guides and walkthroughs, like the ones Bellingcat offers, when you're just starting out is the lack of hands-on experience. What Bellingcat does isn't safely replicable at the starting out level and because of that, fully comprehending what they do and how they investigate can be difficult. The barrier of entry is high through this method.</p>
+
+<p>Therefore, challenges, ironically, are a great way to learn open-source intelligence because they offer three solutions: bite-sized learning, hands-on experience, and foundation-building conducted safely within scenarios that mimic aspects of real investigations. It really doesn't get better than that - oh and most of them are free.</p>
+
+<h2>How do Challenges Help you to Learn Open-Source Intelligence?</h2>
+<p>There isn't a way around this - the first few challenges are going to feel like banging your head against a wall. And it's not going to feel good the longer you stew in the feeling that a bunch of question marks are hanging over your head. But the frustration and confusion are necessary evils.</p>
+
+<img src="https://sports-images.vice.com/images/2017/01/25/when-nick-young-the-basketball-player-met-nick-young-the-meme-body-image-1485378510.jpg?crop=1xw:0.6590777262180975xh;center,center&resize=500:*" style="max-width: 500px; height: 300px;">
+<figcaption>
+			Photo taken from a Vice article: <a href="https://www.vice.com/en/article/3dg3z9/when-nick-young-the-basketball-player-met-nick-young-the-meme" target="_blank">https://www.vice.com/en/article/3dg3z9/when-nick-young-the-basketball-player-met-nick-young-the-meme</a>
+		</figcaption>
+
+<p><b>Please note that the following sections will contain spoilers for Gralhix's OSINT exercise 001. Read at your own discretion.</b></p>
+
+<p>Here's how I approached my first OSINT challenge created by <a href="https://gralhix.com/list-of-osint-exercises/osint-exercise-001/" target="_blank">Sofia Santos, aka Gralhix.</a> I began by acknowledging that I'm not going to know much and that I might fail but it's okay. This step was very important as someone who is competitive with themselves. Because while I did get pretty frustrated with myself, accepting that it was a learning experience made me not see the challenge as a personal affront.</p>
+
+<p>I'm not going to waste your time in re-telling my step by step thought process while attempting the challenge, you can read it <a href="https://madebycuriosity.com/pages/articles/sofia-santos-osint-challenge001.html" target="_blank">here.</a>  Although what I didn't explain in there, is how this first challenge informed the subsequent challenges I'd do later on. Learning how to use natural and manmade objects as landmarks to then case potential locations within satellite imagery tools, greatly contributed to me successfully completing a Hacktoria contract, for instance, which you can also read <a href="https://madebycuriosity.com/pages/articles/hacktoria-where-is-klumgongyn.html" target="_blank">here.</a></p>
+
+<p>My point is that successful completion or not and whether you were able to find the answer using no hints, some hints or the entire walkthrough, you are constantly compounding what you learn for future scenarios. Like this, you build your foundation, toolbelt, and skillset piece by piece. Including this guide, there is no one-size fits all, golden pathway to learning open-source intelligence. Truly, you don't need to be extremely tech savvy before diving into OSINT challenges, you just need to be okay with not knowing. Although, I would recommend you do build up your skillset before setting out to do your own real-world investigations.</p>
+
+<p>Additionally, challenges are a good way to practice showing your work also known as explaining your thought process of how you come to conclusions with the pieces of evidence you find. I'd recommend that you always document your thought process, even if it's not going to be included in the final report, because OSINT strongly values transparency. Documenting is an invaluable tool for not only yourself but others to verify and possibly replicate your findings. As well, use challenges to practice writing reports. For their newsletter subscribers, Kase Scenarios gave a free reporting template as part of their new scenario case, Project Sandshark  which is releasing on the 27th of March. Though beforehand, I've been making use of <a href="https://www.youtube.com/watch?v=j0jwfZxtak8" target="_blank">Gary Ruddell's tutorial of writing an intelligence report</a>; from which I learned it's best to put your bottom-line-up-front (BLUF).</p>
+
+<p>Finally, challenges offer direction of what to learn first. Taking my first OSINT challenge as an example, after learning how to find the answer, I took some time to learn the extra bells and whistles of Google Maps. While a tool like Google Earth Pro is better for satellite imagery, Google Maps is also useful to know as well.</p>
+
+<p>After experiencing multiple times how a mock investigation is like then you have a better base of knowledge to understand how real investigations are conducted. And the more you understand real investigations the closer you get to potentially conduct your own. It's like every challenge you do and every tool and technique you get in touch with, you get one of those plastic swimming noodles to help buoy you against the torrent flood of information overload. Get enough of the noodles, and you can build a pretty awesome boat. However, it is dangerous assume that just because you have a sturdy boat, that you're ready to navigate the open waters of real-world investigation. It is extremely important that you understand the legality and ethics of gathering and presenting open-source information. I cannot emphasize this enough but I will not get into it here. Always keep in mind, there are privacy and data laws and regulations like GDPR that dictate what you can do in an online investigation.</p>
+
+<h2>Conclusion</h2>
+<p>I want to conclude this guide with re-iterating that this is not the only way to learn open-source intelligence. I'm not at all advertising that the resources that the OSINT community recommends is not good for a beginner. I'm only trying to advertise a different view of how one can use challenges to learn; instead of using them to, well, challenge themselves after they've amassed all this OSINT knowledge.</p>
+
+<p>OSINT challenges offer a great solution to learn without pressure or overwhelm and they direct what to first learn and what to learn next. They are the ultimate training tool and benchmarks of expertise and skillset. Paired with resources, guides, and walkthroughs recommended by the community, you can be well on your way to contributing to real-world scenarios. (But do so ethically!)</p>
+
+<p>Thanks for reading.</p>
+
+
+    </div>
+
+    <div class="article-footer">
+      Published by Tori-Ann Cheung
+    </div>
+  </div>
+  
+  <!-- Scroll to top icon -->
+  <div class="scroll-to-top" onclick="scrollToTop()">
+    &#8593; <!-- Up arrow icon -->
+  </div>
+
+  <!-- Scroll to top function -->
+  <script>
+    function scrollToTop() {
+      window.scrollTo({ top: 0, behavior: 'smooth' });
+    }
+  </script>
+</body>
+</html>
