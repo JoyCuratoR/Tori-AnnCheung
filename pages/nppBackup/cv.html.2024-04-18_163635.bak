@@ -50,10 +50,6 @@
 		<li>TryHackMe's OhSINT challenge room | A challenge with a series of questions that analyzed a photo of a generic WindowsXP photo; the results revealed a severe personal identifiable information leak | Read the <a href="./articles/tryhackme-ohsint-challenge.html" target="_blank">Documentation</a></li>
 		<li>Sofia Santos OSINT Challenge #001 | A geolocation challenge that required both terrain and chronology analysis to complete | Read the <a href="./articles/sofia-santos-osint-challenge001.html" target="_blank">Documentation</a></li>
 		<li>Received training from Kase Scenarios, founded by senior OSINT analysts, on open-source intelligence research methodologies, documentation practices, and reporting techniques. Kase Scenarios: Betrayal | Read the <a href="https://docs.google.com/document/d/1L73cawmL588q-w_2hQLVBkgBMQU3eV9fT2nWyT0_5mc/edit?usp=sharing" target="_blank">Submitted Report</a> | <a href="https://courses.kasescenarios.com/certificates/frrjyi6t6c" target="_blank">Verification</a></li>
-			<ul>
-				<li>Methodologies include searching through publicly available information (public records), handling sensitive and critical information, verifying sources for data integrity and evaluating reports for completeness and accuracy.
-				<li>Experienced in identifying and extracting information used to identify subjects and people.</li>
-			</ul>
 	</ul>
 	
 	
@@ -82,9 +78,7 @@
 	</ul>
 	<p><b>Safety Sessions Research Assistant at Camplight</b> | November 2023
 	<ul>
-		<li>Investigated the prevalence of online scams targeting children and compiled key statistics and data on common exploitation methods for Camplight Safety Sessions.</li>
-		<li>Results demonstrated an uptick of 1126% increase of children being affected by scams between the years 2017-2021.</li>
-		<li>Research found that scams can be enabled by technology, such as ridesharing applications, where proxy children are incentivized to move victims around for exploitation.</li>
+		<li>Investigated the prevalence of online scams targeting children and compiled key statistics and data on common exploitation methods for an episode of Camplight Safety Sessions.</li>
 		<li>In this program, Camplight's Forest Bronzan and Omnistruct's George Usi discussed safeguarding strategies to protect both kids and parents from increasingly sophisticated scamming schemes. (See more in the <a href="#section-0">Research & Reports</a>)</li>
 	</ul>
 	<p><b>Writer/Blogger at madebycuriosity.com Blog</b> | February 2023 - Present</p>
@@ -166,8 +160,9 @@
 	<h3> Online Content Moderator for <a href="https://www.careervillage.org/?next=" target="_blank">CareerVillage</a></h3>
 		<p>May 2023 - October 2023 </p>
 			<ul>
-				<li>Applied company policies, procedures and guidelines to review and moderate over 300 weekly content to determine if it needs to be flagged.</li>
-				<li>Collaborated with other staff and departments through Slack channels to ensure positive experiences for all CareerVillage users.</li>
+				<li>Analyzed and moderated 300+ content each week to ensure compliance with platform policies and guidelines.</li>
+				<li>Prepared reports on flagged content and collaborated with other moderators to ensure positive user experiences.</li>
+				<li>Collaborated with other moderators through Slack channels to ensure positive experiences for all CareerVillage users.</li>
 			</ul>
 		
 

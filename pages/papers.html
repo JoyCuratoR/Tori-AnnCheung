@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="../assets/css/blog.css">
+
+    <title>Research Papers</title>
+
+	
+</head>
+
+
+<body>
+    <!-- Add the navigation bar to the top of the page -->
+    <div class="navbar">
+		<a href="../index.html" style="background-color: #439775;">Home</a>
+        <a href="cv.html" style="background-color: #439775;">CV</a>
+        <a href="blog.html" style="background-color: #439775;">Blog</a>
+		<a href="paper.html" style="background-color: #439775;">Research</a>
+    </div>
+
+
+	<div style="margin-bottom: 70px; margin-top: 40px">
+		<h1 style="text-align: center;">A Collection of my Academic and Independent Research Papers</h1>
+	</div>
+	
+	<div class="scroll-to-top" onclick="scrollToTop()">
+    &#8593; <!-- Up arrow icon -->
+    </div>
+
+	<!-- Sort by Tags bar -->
+<div id="sort-bar" style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 10px;">
+  <div>
+    <button class="tag" onclick="filterByTag('all')">All</button>
+	<button class="tag" onclick="filterByTag('information-security')">Information Security</button>
+    <button class="tag" onclick="filterByTag('north-america')">North America</button>
+    <button class="tag" onclick="filterByTag('south-america')">South America</button>
+    <button class="tag" onclick="filterByTag('europe')">Europe</button>
+    <button class="tag" onclick="filterByTag('asia')">Asia</button>
+  </div>
+  <!-- Search Bar --> 
+<div> 
+	<input type="text" id="search-input" placeholder="Search...">
+	<button onclick="search()">Search</button>
+</div> 
+
+</div>
+
+	
+	
+
+	
+	<!-- Query Title Cards -->
+	<div class="research-cards-container"></div>
+	
+	
+<script>
+	fetch('research-cards.html')
+  .then(res => res.text())
+  .then(html => {
+    document.getElementsByClassName('research-cards-container')[0].innerHTML = html; 
+  });
+
+ </script>
+
+
+<script>
+
+    // Call the sortTitleCards function when the page finishes loading
+    window.addEventListener("load", sortTitleCards);
+
+
+  function filterByTag(tag) {
+
+  // Get all the title cards
+  const titleCards = document.getElementsByClassName('title-card');
+
+  // Hide all title cards first
+  for (let i = 0; i < titleCards.length; i++) {
+    titleCards[i].style.display = 'none'; 
+  }
+
+  // Show title cards with matching tags
+  for (let i = 0; i < titleCards.length; i++) {
+    
+    const titleCard = titleCards[i];
+    const tags = titleCard.getElementsByClassName('tag');
+    
+    let showCard = false;
+    
+    for (let j = 0; j < tags.length; j++) {
+      if (tag === 'all' || tags[j].innerText.toLowerCase().includes('#' + tag.toLowerCase())) {
+        showCard = true;
+        break;  
+      }
+    }
+    
+    titleCard.style.display = showCard ? 'flex' : 'none';
+
+  }
+
+  // Hide all separators first
+  const separators = document.querySelectorAll('.separator');
+  separators.forEach(function(sep) {
+    sep.style.display = 'none';
+  });
+
+  // Show relevant separators
+  const visibleCards = document.querySelectorAll('.title-card:not([style*="display: none"])');
+  visibleCards.forEach(function(card) {
+    let prev = card.previousElementSibling;
+    if (prev && prev.classList.contains('separator')) {
+      prev.style.display = 'block'; 
+    }
+  });
+  
+}
+</script>
+
+<!-- Search bar functionality -->
+<script>
+  function search() {
+    const searchInput = document.getElementById('search-input');
+    const searchText = searchInput.value.toLowerCase();
+    
+    // Get all the title cards
+    const titleCards = document.getElementsByClassName('title-card');
+    
+    // Loop through each title card and check if it matches the search text
+    for (let i = 0; i < titleCards.length; i++) {
+      const titleCard = titleCards[i];
+      const title = titleCard.getElementsByTagName('h2')[0].innerText.toLowerCase();
+      
+      // If the title contains the search text, display the title card, otherwise hide it
+      if (title.includes(searchText)) {
+        titleCard.style.display = 'flex'; // Set display to flex
+      } else {
+        titleCard.style.display = 'none'; // Hide the title card
+      }
+    }
+  }
+</script>
+
+<!-- Scroll to top button -->
+<script>
+  function scrollToTop() {
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+  }
+</script>
+
+	
+</body>
+
+</html>
