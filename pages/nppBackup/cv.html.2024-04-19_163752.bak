@@ -44,7 +44,6 @@
 	<h2>OSINT</h2>
 	<ul>
 		<li>Expanding knowledge and improving proficiency in ArcGIS and QGIS with ongoing crime analysis projects.</li>
-		<li>Gained knowledge following Bellingcat’s real-time data collection and analysis of national and global events such as the 22nd March, 2024 Moscow concert hall terrorist attack carried out by the Islamic State group.</li>
 		<li>Performed multidisciplinary research spanning architecture, foreign languages, vegetation, and infrastructure through participation in over 50 geospatial intelligence (GEOINT) challenges focused on image interpretation, terrain analysis, and location identification.</li>
 		<li>Hacktoria's Contracts - Where's Klumgongyn? | A geolocation challenge to locate an SERPENT agent | Read the <a href="./articles/hacktoria-where-is-klumgongyn.html" target="_blank">Documentation</a></li>
 		<li>Sofia Santos OSINT Challenge #006 | A geolocation challenge to verify an image of a viral Twitter post; the results indicate misinformation or deliberate disinformation | Read the <a href="./articles/sofia-santos-osint-challenge006.html" target="_blank">Documentation</a></li>
@@ -113,14 +112,9 @@
 	
 	<section id="section-3">
 	<h2>Data Analysis</h2>
-	Data Analyst | AM Wedding Film Co. | September 2022 - October 2022
-	<ul>
-		<li>As the project lead and consultant, spearheaded data analysis of Facebook advertising campaigns to identify key performance metrics for ad copy, creatives, and success factors.</li>
-		<li>Leveraged Canva for design and R statistical programming for in-depth analysis, pinpointing slow landing page speeds and suboptimal ad placements as bottlenecks hindering campaign success.</li>
-		<li>Provided strategic recommendations based on insights, resulting in a 2% reduction in overall marketing spend and time investment for the client.</li> 
-		<li>Demonstrated expertise in data-driven decision-making, digital marketing analytics, and delivering quantifiable process improvements.</li>
 	<ul>
 	  <li>Through a guided project written by Marynia Kolak, Moksha Menghaney, Qinyun Lin, and Angela Li, I learned how to perform geospatial analysis techniques such as: geocoding, buffer analysis, and nearest resource analysis. <a href = "https://github.com/JoyCuratoR/MethadoneClinicsGeospatialAnalysis" target ="_blank">GitHub Repo</a>.</li>
+	  <li>Using data analysis tools such as R programming, Tableau, and Excel, analyzed 20+ Facebook ad campaigns to identify essential metrics to measure and track for high return on investment, resulting in a 2% decrease in marketing costs and time spent. | September 2022 - October 2022</li>
 	  <li>In part of completing the Google Data Analytics Certificate program, I created a custom capstone project that analyzed Greenhouse Gas Emissions data from the Environmental Protection Agency. Find the full report here: <a href="https://rpubs.com/joycuratoR/RadiantEnergy" target="_blank">RPubs</a></li>
       <li>The game Elden Ring exploded in popularity in 2022 and many Reddit users had negative and positive thoughts about its game mechanics. So using Reddit's API, I parsed and cleaned 150+ qualitative data to conduct sentiment analysis to discover the impact of Elden Ring's boss mechanics. Find the tutorial here: <a href="https://github.com/JoyCuratoR/Elden-Ring-Sentiment-Analysis-Guide" target="_blank">Elden Ring Sentiment Analysis Tutorial</a>.</li>
 	</ul>

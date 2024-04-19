@@ -113,14 +113,11 @@
 	
 	<section id="section-3">
 	<h2>Data Analysis</h2>
-	Data Analyst | AM Wedding Film Co. | September 2022 - October 2022
-	<ul>
-		<li>As the project lead and consultant, spearheaded data analysis of Facebook advertising campaigns to identify key performance metrics for ad copy, creatives, and success factors.</li>
-		<li>Leveraged Canva for design and R statistical programming for in-depth analysis, pinpointing slow landing page speeds and suboptimal ad placements as bottlenecks hindering campaign success.</li>
-		<li>Provided strategic recommendations based on insights, resulting in a 2% reduction in overall marketing spend and time investment for the client.</li> 
-		<li>Demonstrated expertise in data-driven decision-making, digital marketing analytics, and delivering quantifiable process improvements.</li>
 	<ul>
 	  <li>Through a guided project written by Marynia Kolak, Moksha Menghaney, Qinyun Lin, and Angela Li, I learned how to perform geospatial analysis techniques such as: geocoding, buffer analysis, and nearest resource analysis. <a href = "https://github.com/JoyCuratoR/MethadoneClinicsGeospatialAnalysis" target ="_blank">GitHub Repo</a>.</li>
+	  <li>As the project lead and consultant, spearheaded data analysis of Facebook advertising campaigns to identify key performance metrics for ad copy, creatives, and success factors. Leveraged Canva for design and R statistical programming for in-depth analysis, pinpointing slow landing page
+		  speeds and suboptimal ad placements as bottlenecks hindering campaign success. Provided strategic recommendations based on insights, resulting in a 2% reduction in overall marketing spend and time investment for the client. Demonstrated expertise in data-driven
+		  decision-making, digital marketing analytics, and delivering quantifiable process improvements. | September 2022 - October 2022</li>
 	  <li>In part of completing the Google Data Analytics Certificate program, I created a custom capstone project that analyzed Greenhouse Gas Emissions data from the Environmental Protection Agency. Find the full report here: <a href="https://rpubs.com/joycuratoR/RadiantEnergy" target="_blank">RPubs</a></li>
       <li>The game Elden Ring exploded in popularity in 2022 and many Reddit users had negative and positive thoughts about its game mechanics. So using Reddit's API, I parsed and cleaned 150+ qualitative data to conduct sentiment analysis to discover the impact of Elden Ring's boss mechanics. Find the tutorial here: <a href="https://github.com/JoyCuratoR/Elden-Ring-Sentiment-Analysis-Guide" target="_blank">Elden Ring Sentiment Analysis Tutorial</a>.</li>
 	</ul>
