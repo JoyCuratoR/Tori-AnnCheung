@@ -59,11 +59,11 @@
 	
 	<section id="section-1">
 	<h2>Research & Reports</h2>
-	<p><b>Research</b></p>
+	<h3>Research</h3>
 	<ul>
 		<li>The Double-Edged Sword of AI: How Innovations of Machine Learning Are Revolutionizing Society While Heightening Vulnerabilities (<b>In Progress</b>)</li>
 	</ul>
-	<p><b>Reports</b></p>
+	<h3>Reports</h3>
 	<ul>
 		<li>SecureTheVillage Guide to Password Managers (<b>In Progress</b>)</li>
 		<li>Camplight Safety Sessions: Online Scams - Tips to Safeguard Kids and Parents Against Online Scams (See more in the <a href="#section-1">Cybersecurity Projects</a>) | See the <a href="../assets/other/ScamsAgainstKids.pdf" target="_blank">report</a></li>
@@ -122,18 +122,18 @@
 	
 	<section id="section-4">
 	<h2>Education</h2>
-	<p><b>Degrees</b></p>
+	<h3>Degrees</h3>
 	<ul>
 		<li>SANS Technology Institute Women’s Cyber Academy, Estimated completion: May 6th, 2024</li>
 		<li>B.A. History and Political Science | University of Maine at Presque Isle | Estimated completion: 2025</li>
 	</ul>
 	
-	<p><b>Certifications</b></p>
-	<h3>OSINT</h3>
+	<h3>Certifications</h3>
+	<h4>OSINT</h4>
 	<ul>
 		<li>OSINT Case "Betrayal" by Kase Scenarios | <a href="https://courses.kasescenarios.com/certificates/frrjyi6t6c" target="_blank">Verification</a></li>
 	</ul>
-	<h3>Information Security</h3>
+	<h4>Information Security</h4>
 	<ul>
 	  <li>GIAC Certified Incident Handler Certification | SANS Technology Institute Women's Cyber Academy | Estimated completion: May 6th, 2024
 	  <li>GIAC Security Essentials (GSEC) Certification | SANS Technology Institute Women's Cyber Academy | <a href="https://www.credly.com/badges/b26aba73-fd01-4e62-b306-f1a80d7b9120/public_url" target="_blank">Verification</a></li>
@@ -142,7 +142,7 @@
 	  <li>Google Information Technology Support Certificate | <a href="https://www.credly.com/badges/0cf7f981-5144-4235-8bf1-5fd0919c76c2/public_url" target="_blank">Verification</a></li>
 	  <li>Google Cybersecurity Certificate | <a href="https://www.credly.com/badges/3bec00f1-f32f-4793-9295-f484720ffc2f/public_url" target="_blank">Verification</a></li>
 	</ul>
-	<h3>Data Analytics</h3>
+	<h4>Data Analytics</h4>
 	<ul>
 	  <li>Google Data Analytics Certificate |  <a href="https://www.credly.com/badges/6f724d11-0444-4a99-9963-f6dd1a181fa2/public_url" target="_blank">Verification</a></li>
 	  <li>Sololearn SQL Certificate | <a href="https://www.sololearn.com/certificates/CT-W0SWZIK6" target="_blank">Verification</a>
@@ -162,7 +162,7 @@
 	<section id="section-6">
 	<h2>Volunteering</h2>
 	
-	<p><b>Online Content Moderator for <a href="https://www.careervillage.org/?next=" target="_blank">CareerVillage</a></b></p>
+	<h3> Online Content Moderator for <a href="https://www.careervillage.org/?next=" target="_blank">CareerVillage</a></h3>
 		<p>May 2023 - October 2023 </p>
 			<ul>
 				<li>Applied company policies, procedures and guidelines to review and moderate over 300 weekly content to determine if it needs to be flagged.</li>
