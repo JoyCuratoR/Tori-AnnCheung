@@ -76,12 +76,9 @@
 	<h2>Information Security</h2>
 	<p><b>Research Associate at SecureTheVillage.org</b> | April 2024 - Present</p>
 	<ul>
-		<li>Presented actionable reports by collecting, reviewing, and analyzing qualitative and quantitative data from various sources, ensuring cybersecurity products incite proactive decisions.</li>
-		<li>Translated technical jargon into cybersecurity products for non-technical audiences to promote awareness and therefore strengthening security posture for businesses in Greater Los Angeles.</li>
-		<li>Produced a prototype “Guide to Password Managers” by conducting root-problem analysis to determine business needs for customers to license a password manager.</li>
-		<li>Facilitated collaborative product visioning and design by synthesizing disparate stakeholder inputs into a cohesive prototype that aligned with the core mission.</li>
+		<li>Collaborated with senior research associates and customers to produce actionable reports and guides about protection from cybersecurity issues our customers located in the greater Los Angeles area are facing.</li>
 	</ul>
-	<p><b>Founder of Incubating Dino: Privacy & Security Education for kids & teens</b> | November 2023 - Present</p>
+	<p><b>Founder & CEO of Incubating Dino: Privacy & Security Education for kids & teens</b> | November 2023 - Present</p>
 	<ul>
 		<li>Developing an educational organization to teach the next generation essential online privacy and security practices to bolster a sustainable information security culture</li>
 	</ul>
@@ -114,6 +111,7 @@
 		<li>Configured an isolated network inside VirtualBox to connect a Kali Linux virtual machine to vulnerable virtual machines from Vulnerable Hub to safely and ethically practice exploitation skills.</li>
 	</ul>
 	
+	
 	<section id="section-3">
 	<h2>Data Analysis</h2>
 	<p><b>Data Analyst | AM Wedding Film Co. | September 2022 - October 2022</b></p>
@@ -135,8 +133,8 @@
 	<h2>Education</h2>
 	<p><b>Degrees</b></p>
 	<ul>
-		<li>B.A. History and Political Science | University of Maine at Presque Isle | Estimated September 2024</li>
-		<li>SANS Technology Institute Women’s Cybersecurity Immersion Academy | August 2023 - May 2024</li>
+		<li>B.A. History and Political Science | University of Maine at Presque Isle | Estimated completion: 2025</li>
+		<li>SANS Technology Institute Women’s Cyber Academy, Estimated completion: May 6th, 2024</li>
 	</ul>
 	
 	<p><b>Certifications</b></p>
@@ -146,6 +144,7 @@
 	</ul>
 	<h3><i>Information Security</i></h3>
 	<ul>
+	  <li>GIAC Certified Incident Handler Certification | SANS Technology Institute Women's Cyber Academy | Estimated completion: May 6th, 2024
 	  <li>GIAC Security Essentials (GSEC) Certification | SANS Technology Institute Women's Cyber Academy | <a href="https://www.credly.com/badges/b26aba73-fd01-4e62-b306-f1a80d7b9120/public_url" target="_blank">Verification</a></li>
 	  <li>GIAC Foundational Cybersecurity Technologies (GFACT) Certification | SANS Technology Institute Women's Cyber Academy | <a href="https://www.credly.com/badges/ee2784f4-2083-41ef-9c3b-6a5b1157add7/public_url" target="_blank">Verification</a></li> 
 	  <li>SANS Foundations Certificate | SANS Technology Institute Cyber Academy | <a href="https://api.badgr.io/public/assertions/yqLcKB6FTJqnFa8vv_ASuw?identity__email=torianncheung%40gmail.com" target="_blank">Verification</a></li>
@@ -154,7 +153,6 @@
 	</ul>
 	<h3><i>Data Analytics</i></h3>
 	<ul>
-	  <li>IBM Data Analysis with Excel and R Profesional Certificate | <a href="https://www.credly.com/badges/9db8c1b4-9a23-4cfa-bd5e-e79cc096a4c2/public_url" target="_blank">Verification</a></li>
 	  <li>Google Data Analytics Certificate |  <a href="https://www.credly.com/badges/6f724d11-0444-4a99-9963-f6dd1a181fa2/public_url" target="_blank">Verification</a></li>
 	  <li>Sololearn SQL Certificate | <a href="https://www.sololearn.com/certificates/CT-W0SWZIK6" target="_blank">Verification</a>
 	</ul>
@@ -176,9 +174,8 @@
 	<p><b>Online Content Moderator for <a href="https://www.careervillage.org/?next=" target="_blank">CareerVillage</a></b></p>
 		<p>May 2023 - October 2023 </p>
 			<ul>
-				<li>Applied company policies, procedures and guidelines to review and moderate over 300 content each week to determine if it needs to be flagged and reported.</li>
-				<li>Collaborated closely with senior moderators and staff, providing regular status updates and identifying/documenting any flagged content for resolution.</li>
-				<li>Supported development of moderation memos through consistent team communication.</li>
+				<li>Applied company policies, procedures and guidelines to review and moderate over 300 weekly content to determine if it needs to be flagged.</li>
+				<li>Collaborated with other staff and departments through Slack channels to ensure positive experiences for all CareerVillage users.</li>
 			</ul>
 		
 
