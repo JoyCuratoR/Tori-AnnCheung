@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="../../assets/css/article.css">
+  
+  <title>Hacktoria OSINT Challenge: Operation Warthog part 1 - Geolocation</title>
+  
+</head>
+<body>
+<!-- Add the navigation bar to the top of the page -->
+    <div class="navbar">
+		<a href="../../index.html" style="background-color: #439775;">Home</a>
+        <a href="../pages/cv.html" style="background-color: #439775;">CV</a>
+        <a href="../pages/blog.html" style="background-color: #439775;">Blog</a>
+    </div>
+	
+	
+  <div class="article-container">
+    <h1 class="article-title">Hacktoria OSINT Challenge: Operation Warthog part 1 - Geolocation</h1>
+
+    <p class="article-metadata">
+      Published on 13th June, 2024
+    </p>
+
+    <figure>
+		<img src="{Image URL}" class="article-image">
+		<figcaption>
+			{Caption Text} <a href="{Image Source URL}" target="_blank">({Image Source Website})</a>
+		</figcaption>
+	</figure>
+
+    <div class="article-tags">
+      <span class="article-tag">#osint</span>
+      <span class="article-tag">#project</span>
+      <span class="article-tag">#self-teaching</span>
+    </div>
+
+    <div class="article-content">
+<h2>Maksim Kotova Geolocation Challenge</h2>
+<h2>Open Source Investigation Report</h2>
+<h3>Date of start:</h3>
+<p>19th March, 2024</p>
+<h3>Date of end:</h3>
+<p>21st March, 2024</p>
+<h3>Analyst(s):</h3>
+<p>Tori-Ann Cheung</p>
+<h2>EXECUTIVE SUMMARY</h2>
+<p>This report details the open source investigation process undertaken to geolocate Maksim Kotova's favorite restaurant in Moscow, Russia. Through a combination of reverse image searching, online mapping tools, and careful analysis of visual details, the location of the restaurant was successfully identified.</p>
+<h2>Analysis:</h2>
+<p>The investigation began with searching for information on Maksim Kotova and his daughter Elena, but this approach yielded limited results. The focus then shifted to geolocating the provided image of Kotova's favorite restaurant.</p>
+<ol>
+    <li>
+        <h3>Observation:</h3>
+        <p>Initial attempts to geolocate the restaurant using GeoSpy and Google Images were unsuccessful, with GeoSpy incorrectly identifying the location as Istanbul, Turkey.</p>
+    </li>
+    <li>
+        <h3>Observation:</h3>
+        <p>Manual geolocation efforts using OpenStreetMap and searching for specific visual details like cobblestone sidewalks, two-story buildings, and vines climbing the exterior were also unfruitful.</p>
+    </li>
+    <li>
+        <h3>Observation:</h3>
+        <p>A breakthrough occurred when a cropped portion of the image featuring the assumed restaurant sign and sidewalk was reverse image searched on Yandex, yielding a match.</p>
+    </li>
+</ol>
+<p>The matching result pointed to a restaurant called "La Maree" located at Malaya Gruzinskaya Ulitsa, 23, str. 1, Moscow, Russia, 123557. This location was further verified by comparing the visual details from the challenge image with Google Maps street view imagery.</p>
+<h2>SUMMARY:</h2>
+<p>The successful geolocation of Maksim Kotova's favorite restaurant in Moscow corroborates the assumption that he resides in Moscow, and potentially, that the shipment mentioned in the challenge is also located there.</p>
+<h2>RECOMMENDATIONS:</h2>
+<ol>
+    <li><p>Continue investigating Maksim Kotova's activities and connections within Moscow, as the identified restaurant location suggests his primary area of operation.</p></li>
+    <li><p>Explore any potential links between the identified restaurant and the shipment mentioned in the challenge.</p></li>
+    <li><p>Leverage the visual details and techniques used in this investigation for future geolocation efforts involving challenging or obscured imagery.</p></li>
+</ol>
+
+
+    </div>
+
+    <div class="article-footer">
+      Published by Tori-Ann Cheung
+    </div>
+  </div>
+  
+  <!-- Scroll to top icon -->
+  <div class="scroll-to-top" onclick="scrollToTop()">
+    &#8593; <!-- Up arrow icon -->
+  </div>
+
+  <!-- Scroll to top function -->
+  <script>
+    function scrollToTop() {
+      window.scrollTo({ top: 0, behavior: 'smooth' });
+    }
+  </script>
+</body>
+</html>

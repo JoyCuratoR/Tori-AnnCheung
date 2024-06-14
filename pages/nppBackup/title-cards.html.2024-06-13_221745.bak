@@ -7,27 +7,6 @@
 
 
 <!-- Title Cards -->
-
-<div class="title-card" style="display: flex; align-items: center;">
-  <div style="flex: 3;">
-    <h2>Hacktoria OSINT Challenge: Operation Warthog Part 1 - Geolocation</h2>
-    <p>Thought process and writeup using the intelligence cycle for part 1 of my fifth OSINT challenge</p>
-    <p>Published: <span class="publish-date">13-06-2024</span></p>
-    <p><a href="articles/hactoria-operation-warthog-p1.html" target="_blank">Read More</a></p>
-    <div class="tags">
-      <span class="tag">#osint</span>
-	  <span class="tag">#project</span>
-	  <span class="tag">#self-teaching</span>
-      <!-- Add more tags as needed -->
-    </div>
-  </div>
-  <div style="flex: 1;">
-    <img src="https://images.pexels.com/photos/25477056/pexels-photo-25477056/free-photo-of-snow-leopard-lying-down.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" style="max-width: 400px; height: 300px;" alt="">
-  </div>
-</div>
-
-<hr class="separator"> <!-- Add a separator line here -->
-
 <div class="title-card" style="display: flex; align-items: center;">
   <div style="flex: 3;">
     <h2>How to Learn OSINT as a Beginner?</h2>
