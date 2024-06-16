@@ -28,7 +28,7 @@
     <figure>
 		<img src="https://images.pexels.com/photos/2157191/pexels-photo-2157191.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" class="article-image">
 		<figcaption>
-			Photo by Martin Lopez from Pexels:  <a href="https://images.pexels.com/photos/2157191/pexels-photo-2157191.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" target="_blank">https://images.pexels.com/photos/2157191/pexels-photo-2157191.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1</a>
+			Photo by Martin Lopez from Pexels:  <a href="https://images.pexels.com/photos/2157191/pexels-photo-2157191.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" target="_blank">(https://images.pexels.com/photos/2157191/pexels-photo-2157191.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1)</a>
 		</figcaption>
 	</figure>
 
