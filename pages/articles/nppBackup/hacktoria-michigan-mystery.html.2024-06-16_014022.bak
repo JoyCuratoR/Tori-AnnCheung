@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="../../assets/css/article.css">
+  
+  <title>Article Template</title>
+  
+</head>
+<body>
+<!-- Add the navigation bar to the top of the page -->
+    <div class="navbar">
+		<a href="../../index.html" style="background-color: #439775;">Home</a>
+        <a href="../pages/cv.html" style="background-color: #439775;">CV</a>
+        <a href="../pages/blog.html" style="background-color: #439775;">Blog</a>
+    </div>
+	
+	
+  <div class="article-container">
+    <h1 class="article-title">Article Title</h1>
+
+    <p class="article-metadata">
+      Published on June 20, 2023
+    </p>
+
+    <figure>
+		<img src="{Image URL}" class="article-image">
+		<figcaption>
+			{Caption Text} <a href="{Image Source URL}" target="_blank">({Image Source Website})</a>
+		</figcaption>
+	</figure>
+
+    <div class="article-tags">
+      <span class="article-tag">#technology</span>
+      <span class="article-tag">#programming</span>
+      <span class="article-tag">#webdev</span>
+    </div>
+
+    <div class="article-content">
+<h3>I. First Impressions</h3>
+<p>Description of the image provided</p>
+<ul>
+<li>The foreground contains a slightly curved, double-bar, black railing</li>
+<li>The camera/point of view seems to be taken on a higher platform compared to the middle ground</li>
+<li>The right-most of foreground has a stone railing with two rows of hollow circles stacked on top of each other</li>
+<li>The middle ground contains a stone, paved bridge on the left-most side of the image and a long and wide divot of rocks cutting through the entirety of the middle ground; it looks as if it could be a river, or perhaps manmade</li>
+<li>Additionally, the middle ground has a wooden, brown house with a red chimney surrounded by a scatter of green-leaved trees</li>
+<li>The background has red-orange rock formations</li>
+<li>The image is taken in the day-time</li>
+</ul>
+<p>Initial Observations and Impressions</p>
+<ul>
+<li>Points of References: the architecture found on the left-most and right-most side of the image (highlighted in blue), the wooden, brown house with a red chimney in the middle ground (highlighted in pink), and the wide divot of rocks cutting through the middle ground (highlighted in yellow)</li>
+<li>Although the rock formations and grass give an impression of the image's environment being dry, that's not entirely the case with evidence of trees</li>
+<li>While it is entirely a guess, the image makes me think that this photo is taken on an estate of some kind</li>
+</ul>
+<p>Prioritization of Initial Observations</p>
+<ul>
+<li>The architecture on the railing and the bridge (highlighted in blue) will take first priority because it is arguably the most unique point of reference that will yield better, accurate results in an image search than the other points of reference</li>
+<li>The divot of rocks (highlighted in yellow) will be secondary</li>
+<li>The wooden, brown house with the chimney (highlighted in pink) will be third</li>
+</ul>
+<h3>II. Working Hypotheses</h3>
+<p><strong>A. Hypothesis 1</strong>: The image might depict a location in Eastern Europe.</p>
+<p>Reasoning and Supporting Evidence:</p>
+<ul>
+<li>[Intuitive Hunch] The overall ambiance of the image, coupled by the little bit of architecture shown, reminds me of Turkey, although there is no supporting evidence that pinpoint specifics.</li>
+</ul>
+
+<p>Assumptions and Limitations:</p>
+<ul>
+<li>This hypothesis is based primarily on a gut feeling, not on identifiable facts or evidence</li>
+<li>My intuition may be influenced by past experiences or images I've seen, but I cannot recall specific details to validate this</li>
+<li>Thus this hunch should be treated as a very tentative lead until it is corroborated by factual evidence</li>
+</ul>
+
+<p><strong>B. Hypothesis 2</strong>: The image depicts a location in Colorado, United States.</p>
+<p>Reasoning and Supporting Evidence:</p>
+<ul>
+<li>A reverse image search tool suggested a potential match in Colorado.</li>
+</ul>
+<p>Assumptions and Limitations:</p>
+<ul>
+<li>Assuming the reverse image search tool is accurate and not returning false positives.</li>
+</ul>
+
+<h3>III. Research and Analysis</h3>
+<p><strong>Hypothesis 1</strong>: The image might depict a location in Eastern Europe.</p>
+<p>Research Steps Taken</p>
+<ol>
+<li>
+<p>TinEye Reverse Image Search</p>
+<ul>
+<li>Used TinEye reverse image search tool on the image provided</li>
+<li>Results: There were 0 matches returned.</li>
+<li>Action: Noted that other reverse image searches must be used to determine if reverse image searching is a dead end.</li>
+</ul>
+</li>
+<li>
+<p>Yandex Reverse Image Search</p>
+<ul>
+<li>Used the reverse image search tool via the camera icon on Yandex's search bar</li>
+<li>Results: The main text block says "Estes Park" a city in Colorado, USA is the most likely match. Multiple images and results return "Colorado" and "cabins" as the primary terms</li>
+<li>Action: Noted the possible locations and terms and continued using Yandex's reverse image search to narrow down specific points of references in the image for the search engine to find</li>
+<li>Results 2: Narrowing or limiting the search to one or a few points of references within the image failed to produce any other images that also have more than one of the same points of references</li>
+<li>Action 2: Stopped using Yandex for now.</li>
+</ul>
+</li>
+</ol>
+<p>Techniques, Tools, and Resources Used</p>
+<ul>
+<li>Reverse Image Search
+<ul>
+<li>TinEye</li>
+<li>Yandex</li>
+</ul>
+</li>
+</ul>
+<p>Findings (supporting or contradicting the hypothesis)</p>
+<ul>
+<li>The results from Yandex Reverse Image Search produced an alternative lead that points to Colorado.</li>
+<li>Analyzing the vegetation and geological similarities between Yandex Reverse Image Search results and the original image, the location could be in Colorado.</li>
+</ul>
+<p>Revised or Updated Hypothesis</p>
+<ul>
+<li>The image depicts a location in Colorado, United States.</li>
+</ul>
+<p><strong>Hypothesis 2</strong>: The image depicts a location in Colorado, United States.</p>
+<p>Research Steps Taken</p>
+<ol>
+<li>
+<p>GeoSpy.ai</p>
+<ul>
+<li>Uploaded the image to GeoSpy to either gain a second set of results that shows the image is in Colorado or if I will receive a different location</li>
+<li>Results: GeoSpy claims the image location is in Manitou Springs, Colorado, USA, specifically at the entrance to the Manitou Cliff Dwellings</li>
+<li>Action: Checked the Manitou Cliff Dwellings, and the image doesn't seem to match one-to-one to the location GeoSpy provided. While Manitou Springs matches the geological and vegetation environment, this location is not the only place that has red sand cliffs and rock formations and forests.</li>
+</ul>
+</li>
+<li>
+<p>Google Images</p>
+<ul>
+<li>Uploaded the provided image to Google Images</li>
+<li>Results: Google Images provided multiple angles of the original image, along with the location of Glen Eyrie.</li>
+<li>Action: Captured two screenshots, one showing a result from Google Image as well as a screenshot of Google Maps that confirms the original image is indeed in Glen Eyrie, specifically the Glen Eyrie Castle.</li>
+</ul>
+</li>
+</ol>
+<p>Techniques, Tools, and Resources Used</p>
+<ul>
+<li>Reverse Image Search
+<ul>
+<li>GeoSpy.ai</li>
+<li>Google Images</li>
+</ul>
+</li>
+</ul>
+<p>Findings (supporting or contradicting the hypothesis)</p>
+<ul>
+<li>Results from Google Images directly matches the original image</li>
+<li>Further inspection using Google Maps to locate the exact point of view the original image was taken also confirms the location</li>
+</ul>
+<h3>IV. Conclusion</h3>
+<p>Final hypothesis or location determination</p>
+<ul>
+<li>The location of the image is Glen Eyrie Castle. The address is: 3820 N 30th St, Colorado Springs, CO 80904</li>
+</ul>
+<p>Summary of supporting evidence</p>
+<ul>
+<li>The reverse image search on Google Images yielded direct matches to the original image. This initial result suggests that the image likely represents an actual location rather than being artificially generated or manipulated.</li>
+<li>Furthermore, using the clues from the matching Google Images results, the location was pinpointed on Google Maps by identifying the specific vantage point from which the original image was captured. The ability to corroborate the image details with the Google Maps satellite and street view data confirms that the location depicted is indeed in Colorado, United States.</li>
+<li>In summary, the combination of a successful reverse image search match and the ability to verify the precise location using Google Maps provides strong evidence supporting the hypothesis that the image represents a real-world location in the state of Colorado, United States.</li>
+</ul>
+<p>Limitations or caveats of the analysis</p>
+<ul>
+<li>While the analysis provides strong evidence that the image depicts Glen Eyrie Castle in Colorado Springs, Colorado, there are a few limitations and caveats to acknowledge:
+<ol>
+<li><strong>Reliance on third-party tools</strong>: The analysis relied heavily on reverse image search engines like Google Images and GeoSpy.ai. While these are powerful tools, they may have inherent biases, errors or blind spots in their algorithms and data sources that could impact accuracy.</li>
+<li><strong>Incomplete information on image provenance</strong>: Without knowing the original source and context of the provided image, there is always a small chance it could be digitally manipulated or composited, despite appearing authentic. More metadata would increase confidence.</li>
+<li><strong>Static information cutoff</strong>: The Google Maps image capture of Glen Eyrie Castle was conducted in September 2022. Any changes to the Glen Eyrie site after that date would not be reflected in the findings.</li>
+<li><strong>Specificity of location identification</strong>: While the analysis conclusively identified the overall location as Glen Eyrie Castle, and there is strong evidence pinpointing the exact vantage point the image was taken from, the data used is outdated. Thus, without additional on-site validation there is still room for error.</li>
+</ol>
+</li>
+</ul>
+	
+	</div>
+
+    <div class="article-footer">
+      Published by Tori-Ann Cheung
+    </div>
+  </div>
+  
+  <!-- Scroll to top icon -->
+  <div class="scroll-to-top" onclick="scrollToTop()">
+    &#8593; <!-- Up arrow icon -->
+  </div>
+
+  <!-- Scroll to top function -->
+  <script>
+    function scrollToTop() {
+      window.scrollTo({ top: 0, behavior: 'smooth' });
+    }
+  </script>
+</body>
+</html>

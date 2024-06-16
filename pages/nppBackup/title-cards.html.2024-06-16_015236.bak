@@ -10,28 +10,8 @@
 
 <div class="title-card" style="display: flex; align-items: center;">
   <div style="flex: 3;">
-    <h2>Hacktoria Contract: The Michigan Mystery</h2>
-    <p>Writeup and documentation of my process to solve this geolocation challenge and my sixth OSINT challenge</p>
-    <p>Published: <span class="publish-date">16-06-2024</span></p>
-    <p><a href="articles/hacktoria-michigan-mystery.html" target="_blank">Read More</a></p>
-    <div class="tags">
-      <span class="tag">#osint</span>
-	  <span class="tag">#project</span>
-	  <span class="tag">#self-teaching</span>
-      <!-- Add more tags as needed -->
-    </div>
-  </div>
-  <div style="flex: 1;">
-    <img src="https://images.pexels.com/photos/2157191/pexels-photo-2157191.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" style="max-width: 400px; height: 300px;" alt="">
-  </div>
-</div>
-
-<hr class="separator"> <!-- Add a separator line here -->
-
-<div class="title-card" style="display: flex; align-items: center;">
-  <div style="flex: 3;">
     <h2>Hacktoria Contract: Operation Warthog Part 1 - Geolocation</h2>
-    <p>Writeup and documentation of my process to solve part 1 of my fifth OSINT challenge</p>
+    <p>Thought process and writeup using the intelligence cycle for part 1 of my fifth OSINT challenge</p>
     <p>Published: <span class="publish-date">13-06-2024</span></p>
     <p><a href="articles/hacktoria-operation-warthog-p1.html" target="_blank">Read More</a></p>
     <div class="tags">
