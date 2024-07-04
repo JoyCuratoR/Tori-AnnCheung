@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="../../assets/css/article.css">
+  
+  <title>Kase Scenario Sinister Obssesion Case Write-up</title>
+  
+</head>
+<body>
+<!-- Add the navigation bar to the top of the page -->
+    <div class="navbar">
+		<a href="../../index.html" style="background-color: #439775;">Home</a>
+        <a href="../pages/cv.html" style="background-color: #439775;">CV</a>
+        <a href="../pages/blog.html" style="background-color: #439775;">Blog</a>
+    </div>
+	
+	
+  <div class="article-container">
+    <h1 class="article-title">Kase Scenario Sinister Obssesion Case Write-up</h1>
+
+    <p class="article-metadata">
+      Published on 30th June, 2024
+    </p>
+
+    <figure>
+		<img src="{Image URL}" class="article-image">
+		<figcaption>
+			{Caption Text} <a href="{Image Source URL}" target="_blank">({Image Source Website})</a>
+		</figcaption>
+	</figure>
+
+    <div class="article-tags">
+      <span class="article-tag">#osint</span>
+      <span class="article-tag">#project</span>
+      <span class="article-tag">#self-teaching</span>
+    </div>
+
+    <div class="article-content">
+	<h2>Table of Contents</h2>
+	<ul>
+		<li><a href="#executive-summary">Executive Summary & Key Findings</a></li>
+		<li><a href="#documentation">Documentation</a></li>
+    <ul>
+		<li><a href="#first-impressions">I. First Impressions</a></li>
+		<li><a href="#working-hypotheses">II. Working Hypotheses</a></li>
+		<li><a href="#research-and-analysis">III. Research and Analysis</a></li>
+		<li><a href="#conclusion">IV. Conclusion</a></li>
+    </ul>
+		<li><a href="#appendix">Appendix</a></li>
+	</ul>
+	
+	<p> A note before diving into the write-up. As part of the agreement of writing about and publishing their cases, Kase Scenario has asked not to publish the answers. So this write-up will only provide the research process and the tools used.</p>
+	
+	<h2 id="executive-summary">Executive Summary & Key Findings</h2>
+	<p>The Situation Report:</p>
+	<p>Sinister Obsession is a scenario of an escalated cyberstalking case of Sophia Blake a famous singer-songwriter. I've been tasked with a single lead to unmask the identity of this stalker.</p>
+	<p>Summary of key findings:</p>
+	<ul>
+		<li>Identified multiple online accounts associated with the suspect across various platforms.</li>
+		<li>Uncovered the suspect's real name and email address.</li>
+		<li>Established a timeline of the suspect's activities, including the creation of accounts and specific posts.</li>
+		<li>Determined multiple locations associated with the suspect, including cities in different countries.</li>
+		<li>Identified a vehicle make and model linked to the suspect.</li>
+		<li>Discovered a familial relationship that may be relevant to the investigation.</li>
+	</ul>
+	<p>Critical insights:</p>
+	<ul>
+		<li>The suspect appears to be technologically savvy, using multiple platforms and encrypted communication methods.</li>
+		<li>There's evidence of international travel or connections, suggesting a potentially complex case.</li>
+		<li>The suspect's activities span multiple months, indicating a persistent pattern of behavior.</li>
+		<li>The use of various usernames and platforms may indicate attempts to conceal identity or activities.</li>
+	</ul>
+
+    <h2>Process & Analysis</h2>
+	<p><b>Brief overview of the CTF:</b> Liam Kim is a veteran detective yet new to using OSINT methods. "Liam has been working on a stalker case where the famous singer-songwriter Sophia Blake has been experiencing Cyber harassment. After a recent escalation by the stalker Liam and his team put all their efforts into uncovering the identity of the unknown stalker and bring them in for charges."</p>
+    <p><b>Objectives:</b> Identify Sophia Blake's stalker.</p>
+    
+    <h2>Initial Task</h2>
+    <p><b>Description of the starting point:</b> The initial question was "What site does this profile account belong to?"</p>
+    <p>The National Crime Agency obtained a profile account that is connected to Sophia Blake's stalker case. This makes the profile account a starting lead to establishing who our person of interest is. Ms. Blake has informed our team that her stalker signs all his messages as "From I". Given how this account's name is "shadowark_ian" strongly correlates with the notion that this account is connected to this case.</p>
+    <p><b>Initial thoughts and approach:</b> The website design and layout has a distinctive style, so I saved it to a folder and uploaded it into Google Images. The results informed me that the layout likely matched Keybase.io. The results showcasing website links to "shadoark_ian (Ian C) - Keybase" also clued me in that this was the right website.</p>
+    
+       <div class="question">
+        <h3>1. When did this profile photo get added? This can establish our timeline of when the profile was created.</h3>
+        <p>Research process: Examining the Keybase profile photo I noticed a small discrepancy on the bottom left. Once enlarging the profile photo, a date was revealed.</p>
+        <p>Tools used: None.</p>
+        <p>Challenges encountered: None.</p>
+        <p>Conclusions drawn: [Answer hidden]</p>
+    </div>
+
+    <div class="question">
+        <h3>2. What device is associated with the account?</h3>
+        <p>Research process: The Keybase profile contains a section that shows what devices are associated with the account. I looked there to find my answer.</p>
+        <p>Tools used: None</p>
+        <p>Challenges encountered: None.</p>
+        <p>Conclusions drawn: [Answer hidden]</p>
+    </div>
+
+    <div class="question">
+        <h3>3. Is there any other account?</h3>
+        <p>Research process: Underneath the profile, there are two lists showing who is 'following' and 'followers'. And at the bottom there is a name that uses a similar name to shadowark_ian.</p>
+        <p>Tools used: None</p>
+        <p>Challenges encountered: None.</p>
+        <p>Conclusions drawn: [Answer hidden]</p>
+    </div>
+
+<div class="question">
+        <h3>4. What is the name associated with the public PGP key?</h3>
+        <p>Research process: Not understanding how a PGP works, only that it is part of OpenPGP. I Googled how to decrypt a public PGP key that's on Keybase. From this I learned that GPG is a tool that could decrypt a public PGP key and I used a virtual machine to do so.</p>
+        <p>Tools used: GPG</p>
+        <p>Challenges encountered:</p>
+		<ul>
+			<li>Lack of understanding how PGP encryption keys work.</li>
+			<li>Lack of understanding how to decrypt a public PGP key or what tools to use.</li>
+		</ul>
+        <p>Conclusions drawn: [Answer hidden]</p>
+    </div>
+
+    <div class="question">
+        <h3>5. Find more of Ian's online accounts.</h3>
+        <p>Research process: Going back to the two Keybase accounts that have already been confirmed to be connected to Ian Carlsk, I noticed a slashed out log that most likely indicated the information had been deleted.</p>
+        <p>Tools used: None</p>
+        <p>Challenges encountered: None</p>
+        <p>Conclusions drawn: [Answer hidden]</p>
+    </div>
+
+    <div class="question">
+        <h3>6. Where was this new username registered according to this log?</h3>
+        <p>Research process: The slashed out log says ''claimed ownership of github account shadow-arkwave"</p>
+        <p>Tools used: None</p>
+        <p>Challenges encountered: None</p>
+        <p>Conclusions drawn: [Answer hidden]</p>
+    </div>
+
+    <div class="question">
+        <h3>7. Using the GitHub profile name, discover the associated email address.</h3>
+        <p>Research process: A quick Google search of the name "shadow-arkwave" yield little useful results. The same result occured with an added dorking term "shadow-arkwave site: github.com". This led me to believe that the profile shadow-arkwave has been deleted, which could be recovered using the Wayback Machine. Using the URL format when viewing a GitHub profile I searched for "http://github.com/shadow-arkwave" but that yield zero results. To be thorough, inside of the Wayback Machine I also searched for "http://github.com/ianc_shadows" and "http://github.com/shadowark_ian" yet both yield zero results. After some time experiencing, I discovered that while a normal Google search of shadow-arkwave wouldn't yield any results, simply typing in github.com/shadow-arkwave in my browser's search bar led me directly to the account. So I concluded that there are other ways of obtaining a GitHub email that I am unaware of and thus, searched and found a tutorial that helped me.</p>
+        <p>Tools used:</p>
+		<ul>
+			<li>https://wizardsourcer.com/simple-way-to-find-github-user-emails/</li>
+			<li>GitHub</li>
+		</ul>
+        <p>Challenges encountered:</p>
+		<ul>
+			<li>Lack of understanding how to find an email address for a GitHub profile account.</li>
+		</ul>
+        <p>Conclusions drawn: [Answer hidden]</p>
+    </div>
+
+    <div class="question">
+        <h3>8. When was this email address created?</h3>
+        <p>Research process: Not knowing how to conduct OSINT on a Proton email address, I searched up 'Proton OSINT' for any tools or methods that would help me complete my task. I stumbled upon a tool called ProtOSINT on GitHub.</p>
+        <p>Tools used:</p>
+		<ul>
+			<li>ProtOSINT</li> 
+			<li>Python3</li>
+		</ul>
+        <p>Challenges encountered:</p>
+		<ul>
+			<li>Lack of understanding how to find the creation date of a Proton email address</li>
+		</ul>
+        <p>Conclusions drawn: [Answer hidden]</p>
+    </div>
+
+    <div class="question">
+        <h3>9. What city is the person of interest located at?</h3>
+        <p>Research process: I didn't understand how svg files and png/jpeg files different in how they stored data so I didn't have a good idea of how to reveal the blacked out information. However, I discovered that svg files can be opened with Notepadd++ because of how the metadata is structured. Then I found the code that illustrated the blacked out boxes, deleted it from the file, saved the file, and then reopened the svg file. After, the blacked out information was revealed.</p>
+        <p>Tools used:</p>
+		<ul>
+			<li>Notepadd++</li>
+		</ul>
+        <p>Challenges encountered:</p>
+		<ul>
+			<li>Lack of understanding how svg files are formatted</li>
+		</ul>
+        <p>Conclusions drawn: [Answer hidden]</p>
+    </div>
+
+    <div class="question">
+        <h3>10. Make a timeline of when the person of interest listed the NES for sale and posted about it on Tumblr. What is the date of the Tumblr post?</h3>
+        <p>Research process: Initially, I searched on Wayback Machine since it was an immediate thought to do so. However, that lead didn't produce any solid results. Looking back on the prompt, it asked me to look at "Tumblr archive" which I thought was oddly put until I realized that Tumblr had it's own archive feature. Then, I looked up how to access an account's archive and from there I was able to find a photo of the NES listing.</p>
+        <p>Tools used:</p>
+		<ul>
+			<li>Wayback Machine</li>
+		</ul>
+        <p>Challenges encountered:</p>
+		<ul>
+			<li>Lack of understanding Tumblr's features</li>
+		</ul>
+        <p>Conclusions drawn: [Answer hidden]</p>
+    </div>
+
+    <div class="question">
+        <h3>11. Who is the relationship between the person of interest and the Tumblr account who commented on the NES post?</h3>
+        <p>Research process: Noted earlier in my research, Ian Carlsk's Tumblr post of the listing of the NES gaming device, there was a comment made by the account named "ccartistry" that seemed like they had a close relationship with Ian Carlsk. Clicking on the account "ccartistry" brought my attention to post with two images that showed a text messaging conversation and a partial view of a car's navigation system. It was through this discovery that we know Ian Carlsk has a sister.</p>
+        <p>Tools used: None.</p>
+        <p>Challenges encountered: None.</p>
+        <p>Conclusions drawn: [Answer hidden]</p>
+    </div>
+
+    <div class="question">
+        <h3>12. What is the make and model that has this car interior?</h3>
+        <p>Research process: I initially searched for online tools that would help me identify cars by all I could find were tools that identified cars by their exterior. Examining the two photos captured earlier from the ccartistry's Tumblr post and using editing tools to enhance them, I spotted a partial logo on the steering wheel. Using reverse search image, Google Images informed me that the make and model matched Hyundai Kona. I examined a couple other results to try and corroborate this lead, though none of my results lead to a direct match.</p>
+        <p>Tools used:</p>
+		<ul>
+			<li>Google Images</li>
+		</ul>
+        <p>Challenges encountered:</p> 
+		<ul>
+			<li>Lack of understanding how to match the interior of a car to find the make and model</li>
+		</ul>
+        <p>Conclusions drawn: [Answer hidden]</p>
+    </div>
+
+    <div class="question">
+        <h3>13. From the navigation pictured in one of the photos captured from ccartistry's Tumblr post, what city is the car located?</h3>
+        <p>Research process: I began at the most obvious place and Googled "Altstadt" which I discovered is German for 'old town'. One of the Google results provided a few instances of Düsseldorf so that is where I searched first. Unironically, it lead me almost directly on top of where the dot in the navigation system is positioned.</p>
+        <p>Tools used: Google Maps</p>
+        <p>Challenges encountered: None.</p>
+        <p>Conclusions drawn: [Answer hidden]</p>
+    </div>
+
+    <div class="question">
+        <h3>14. Locate where this Pokemon Go Pokestop is. Answer format: street name house number, postnumber city, country.</h3>
+        <p>Research process: Using the provided high-resolution image of the bear covered in country flags, I uploaded it to Google Images and discovered it is called a buddy bear. Clicking on of the Google Images results showed me coordinates of the camera location of the buddy bear. Plugging in the coordinates and dropping down to street view on Google Maps, I find the exact place the buddy bear is positioned in the high-resolution image and Pokestop.</p>
+        <p>Tools used:</p>
+		<ul>
+			<li>Google Images</li>
+			<li>Google Maps</li>
+		</ul>
+        <p>Challenges encountered: At first, I didn't think to plug in the coordinates from the</p>
+        <p>Conclusions drawn: [Answer hidden]</p>
+    </div>
+    </div>
+	
+	<h2>Reflection</h2>
+	<p>
+
+    <div class="article-footer">
+      Published by Tori-Ann Cheung
+    </div>
+  </div>
+  
+  <!-- Scroll to top icon -->
+  <div class="scroll-to-top" onclick="scrollToTop()">
+    &#8593; <!-- Up arrow icon -->
+  </div>
+
+  <!-- Scroll to top function -->
+  <script>
+    function scrollToTop() {
+      window.scrollTo({ top: 0, behavior: 'smooth' });
+    }
+  </script>
+</body>
+</html>

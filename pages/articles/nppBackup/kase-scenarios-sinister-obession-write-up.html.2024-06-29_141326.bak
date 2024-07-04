@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="../../assets/css/article.css">
+  
+  <title>Kase Scenario Sinister Obssesion Case Write-up</title>
+  
+</head>
+<body>
+<!-- Add the navigation bar to the top of the page -->
+    <div class="navbar">
+		<a href="../../index.html" style="background-color: #439775;">Home</a>
+        <a href="../pages/cv.html" style="background-color: #439775;">CV</a>
+        <a href="../pages/blog.html" style="background-color: #439775;">Blog</a>
+    </div>
+	
+	
+  <div class="article-container">
+    <h1 class="article-title">Kase Scenario Sinister Obssesion Case Write-up</h1>
+
+    <p class="article-metadata">
+      Published on 30th June, 2024
+    </p>
+
+    <figure>
+		<img src="{Image URL}" class="article-image">
+		<figcaption>
+			{Caption Text} <a href="{Image Source URL}" target="_blank">({Image Source Website})</a>
+		</figcaption>
+	</figure>
+
+    <div class="article-tags">
+      <span class="article-tag">#osint</span>
+      <span class="article-tag">#project</span>
+      <span class="article-tag">#self-teaching</span>
+    </div>
+
+    <div class="article-content">
+    <h1>OSINT Investigation Process</h1>
+    
+    <h2>Introduction</h2>
+    <p>This document outlines the process of an OSINT investigation into a cyberstalking case involving a famous singer-songwriter.</p>
+    
+    <h2>Initial Task</h2>
+    <p>The investigation began with identifying the website associated with a specific profile account.</p>
+    
+    <h2>Guided Analysis</h2>
+    
+    <div class="step">
+        <h3>Step 1: Profile Photo Analysis</h3>
+        <p>Examined the profile photo for hidden details, focusing on potential metadata.</p>
+    </div>
+    
+    <div class="step">
+        <h3>Step 2: Associated Device Identification</h3>
+        <p>Analyzed the profile information to determine the operating system used.</p>
+    </div>
+    
+    <div class="step">
+        <h3>Step 3: Linked Accounts Discovery</h3>
+        <p>Investigated follower lists to identify potentially related accounts.</p>
+    </div>
+    
+    <div class="step">
+        <h3>Step 4: PGP Key Analysis</h3>
+        <p>Used GPG to decrypt a public PGP key associated with the account.</p>
+    </div>
+    
+    <div class="step">
+        <h3>Step 5: Additional Online Accounts</h3>
+        <p>Examined profile information for references to other online platforms.</p>
+    </div>
+    
+    <div class="step">
+        <h3>Step 6: Platform Registration Analysis</h3>
+        <p>Investigated logs to determine where a specific username was registered.</p>
+    </div>
+    
+    <div class="step">
+        <h3>Step 7: Email Discovery</h3>
+        <p>Used GitHub and specialized tools to uncover an email address associated with the suspect.</p>
+    </div>
+    
+    <div class="step">
+        <h3>Step 8: Email Creation Date</h3>
+        <p>Utilized ProtOSINT to determine when the suspect's email address was created.</p>
+    </div>
+    
+    <div class="step">
+        <h3>Step 9: Location Analysis</h3>
+        <p>Examined SVG files using Notepad++ to reveal hidden location information.</p>
+    </div>
+    
+    <div class="step">
+        <h3>Step 10: Timeline Construction</h3>
+        <p>Analyzed Tumblr archives to establish a timeline of the suspect's activities.</p>
+    </div>
+    
+    <div class="step">
+        <h3>Step 11: Relationship Mapping</h3>
+        <p>Investigated Tumblr interactions to determine relationships between accounts.</p>
+    </div>
+    
+    <div class="step">
+        <h3>Step 12: Vehicle Identification</h3>
+        <p>Used image analysis and reverse image search to identify a vehicle make and model.</p>
+    </div>
+    
+    <div class="step">
+        <h3>Step 13: Navigation System Analysis</h3>
+        <p>Examined navigation system images to determine a specific location.</p>
+    </div>
+    
+    <div class="step">
+        <h3>Step 14: Pokemon Go Pokestop Location</h3>
+        <p>Used image analysis and Google Maps to pinpoint a specific location based on a Pokestop image.</p>
+    </div>
+
+    </div>
+
+    <div class="article-footer">
+      Published by Tori-Ann Cheung
+    </div>
+  </div>
+  
+  <!-- Scroll to top icon -->
+  <div class="scroll-to-top" onclick="scrollToTop()">
+    &#8593; <!-- Up arrow icon -->
+  </div>
+
+  <!-- Scroll to top function -->
+  <script>
+    function scrollToTop() {
+      window.scrollTo({ top: 0, behavior: 'smooth' });
+    }
+  </script>
+</body>
+</html>

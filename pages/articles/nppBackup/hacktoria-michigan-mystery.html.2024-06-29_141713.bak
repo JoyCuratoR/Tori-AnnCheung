@@ -41,8 +41,8 @@
     <div class="article-content">
 <h2>Table of Contents</h2>
 <ul>
-  <li><a href="#executive-summary">Executive Summary & Key Findings</a></li>
-  <li><a href="#documentation">Documentation</a></li>
+  <li><a href="#executive-summary">Executive Summary/Bottom Line Up Front</a></li>
+  <li><a href="#documentation">Documentation</a>
     <ul>
       <li><a href="#first-impressions">I. First Impressions</a></li>
       <li><a href="#working-hypotheses">II. Working Hypotheses</a></li>
@@ -50,11 +50,11 @@
       <li><a href="#conclusion">IV. Conclusion</a></li>
     </ul>
 	<li><a href="#appendix">Appendix</a></li>
-
+  </li>
   
 </ul>
 
-<h2 id="executive-summary">Executive Summary & Key Findings</h2>
+<h2 id="executive-summary">Executive Summary/Bottom Line Up Front</h2>
 <p>Through a combination of reverse image search techniques and geolocation analysis leveraging tools like Google Images and Maps, this assessment has determined with high confidence that the image provided depicts the Glen Eyrie Castle located at 3820 N 30th St, Colorado Springs, CO 80904 in the United States.</p>
 <p>Key findings that support this determination include:</p>
 <ul>

@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="../../assets/css/article.css">
+  
+  <title>Kase Scenario Sinister Obssesion Case Write-up</title>
+  
+</head>
+<body>
+<!-- Add the navigation bar to the top of the page -->
+    <div class="navbar">
+		<a href="../../index.html" style="background-color: #439775;">Home</a>
+        <a href="../pages/cv.html" style="background-color: #439775;">CV</a>
+        <a href="../pages/blog.html" style="background-color: #439775;">Blog</a>
+    </div>
+	
+	
+  <div class="article-container">
+    <h1 class="article-title">Kase Scenario Sinister Obssesion Case Write-up</h1>
+
+    <p class="article-metadata">
+      Published on 30th June, 2024
+    </p>
+
+    <figure>
+		<img src="{Image URL}" class="article-image">
+		<figcaption>
+			{Caption Text} <a href="{Image Source URL}" target="_blank">({Image Source Website})</a>
+		</figcaption>
+	</figure>
+
+    <div class="article-tags">
+      <span class="article-tag">#osint</span>
+      <span class="article-tag">#project</span>
+      <span class="article-tag">#self-teaching</span>
+    </div>
+
+    <div class="article-content">
+	<h2>Table of Contents</h2>
+	<ul>
+		<li><a href="#executive-summary">Executive Summary & Key Findings</a></li>
+		<li><a href="#documentation">Documentation</a></li>
+    <ul>
+		<li><a href="#first-impressions">I. First Impressions</a></li>
+		<li><a href="#working-hypotheses">II. Working Hypotheses</a></li>
+		<li><a href="#research-and-analysis">III. Research and Analysis</a></li>
+		<li><a href="#conclusion">IV. Conclusion</a></li>
+    </ul>
+		<li><a href="#appendix">Appendix</a></li>
+	</ul>
+	
+	<h2 id="executive-summary">Executive Summary & Key Findings</h2>
+	<p>The Situation Report:</p>
+	<p>Sinister Obsession is a scenario of an escalated cyberstalking case of Sophia Blake a famous singer-songwriter. I've been tasked with a single lead to unmask the identity of this stalker.</p>
+	<p>Summary of key findings:</p>
+	<ul>
+		<li>Identified multiple online accounts associated with the suspect across various platforms.</li>
+		<li>Uncovered the suspect's real name and email address.</li>
+		<li>Established a timeline of the suspect's activities, including the creation of accounts and specific posts.</li>
+		<li>Determined multiple locations associated with the suspect, including cities in different countries.</li>
+		<li>Identified a vehicle make and model linked to the suspect.</li>
+		<li>Discovered a familial relationship that may be relevant to the investigation.</li>
+	</ul>
+	<p>Critical insights:</p>
+	<ul>
+		<li>The suspect appears to be technologically savvy, using multiple platforms and encrypted communication methods.</li>
+		<li>There's evidence of international travel or connections, suggesting a potentially complex case.</li>
+		<li>The suspect's activities span multiple months, indicating a persistent pattern of behavior.</li>
+		<li>The use of various usernames and platforms may indicate attempts to conceal identity or activities.</li>
+	</ul>
+
+    <h2>Process & Analysis</h2>
+	<p>Brief overview of the CTF: Liam Kim is a veteran detective yet new to using OSINT methods. "Liam has been working on a stalker case where the famous singer-songwriter Sophia Blake has been experiencing Cyber harassment. After a recent escalation by the stalker Liam and his team put all their efforts into uncovering the identity of the unknown stalker and bring them in for charges."</p>
+    <p>Objectives: Identify Sophia Blake's stalker.</p>
+    
+    <h2>Initial Task</h2>
+    <p>Description of the starting point: The initial question was: What site does this profile account belong to?</p>
+    <p>The National Crime Agency obtained a profile account that is connected to Sophia Blake's stalker case. This makes the profile account a starting lead to establishing who our person of interest is. Ms. Blake has informed our team that her stalker signs all his messages as "From I". Given how this account's name is "shadowark_ian" strongly correlates with the notion that this account is connected to this case.</p>
+    <p>Initial thoughts and approach: The website design and layout has a distinctive style, so I saved it to a folder and uploaded it into Google Images. The results informed me that the layout likely matched Keybase.io. The results showcasing website links to "shadoark_ian (Ian C) - Keybase" also clued me in that this was the right website.</p>
+    
+       <div class="question">
+        <h3>1. When did this profile photo get added? This can establish our timeline of when the profile was created.</h3>
+        <p>Research process: Examining the Keybase profile photo I noticed a small discrepancy on the bottom left. Once enlarging the profile photo, a date was revealed.</p>
+        <p>Tools used: None.</p>
+        <p>Challenges encountered: None.</p>
+        <p>Conclusions drawn: [Answer hidden]</p>
+    </div>
+
+    <div class="question">
+        <h3>2. What device is associated with the account?</h3>
+        <p>Research process: The Keybase profile contains a section that shows what devices are associated with the account. I looked there to find my answer.</p>
+        <p>Tools used: None</p>
+        <p>Challenges encountered: None.</p>
+        <p>Conclusions drawn: [Answer hidden]</p>
+    </div>
+
+    <div class="question">
+        <h3>3. Is there any other account?</h3>
+        <p>Research process: Underneath the profile, there are two lists showing who is 'following' and 'followers'. And at the bottom there is a name that uses a similar name to shadowark_ian.</p>
+        <p>Tools used: None</p>
+        <p>Challenges encountered: None.</p>
+        <p>Conclusions drawn: [Answer hidden]</p>
+    </div>
+
+    </div>
+
+    <div class="article-footer">
+      Published by Tori-Ann Cheung
+    </div>
+  </div>
+  
+  <!-- Scroll to top icon -->
+  <div class="scroll-to-top" onclick="scrollToTop()">
+    &#8593; <!-- Up arrow icon -->
+  </div>
+
+  <!-- Scroll to top function -->
+  <script>
+    function scrollToTop() {
+      window.scrollTo({ top: 0, behavior: 'smooth' });
+    }
+  </script>
+</body>
+</html>
