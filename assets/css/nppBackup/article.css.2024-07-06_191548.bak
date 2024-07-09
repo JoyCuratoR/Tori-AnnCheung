@@ -12,14 +12,12 @@
 	}
 	h4,
 	h5 {
-      font-size: 1.2em;
-	  font-family: 'League Spartan', sans-serif;
+      font-family: 'League Spartan', sans-serif;
     }
 
 
     p,
 	em,
-	ol li,
     ul li {
       font-family: 'Helvetica', 'Georgia';
       font-size: 26px; /* Adjust the font size as desired */

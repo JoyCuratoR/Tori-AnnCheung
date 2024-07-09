@@ -46,10 +46,12 @@
     <ul>
       <li><a href="#first-impressions">I. First Impressions</a></li>
       <li><a href="#working-hypotheses">II. Working Hypotheses</a></li>
-      <li><a href="#research-and-analysis">III. Research & Analysis</a></li>
+      <li><a href="#research-and-analysis">III. Research and Analysis</a></li>
       <li><a href="#conclusion">IV. Conclusion</a></li>
     </ul>
 	<li><a href="#appendix">Appendix</a></li>
+
+  
 </ul>
 
 <h2 id="executive-summary">Executive Summary & Key Findings</h2>
@@ -127,7 +129,7 @@
 <li>Assuming the reverse image search tool is accurate and not returning false positives.</li>
 </ul>
 
-<h3 id="research-and-analysis">III. Research & Analysis</h3>
+<h3 id="research-and-analysis">III. Research and Analysis</h3>
 <p><strong>Hypothesis 1</strong>: The image might depict a location in Eastern Europe.</p>
 <p>Research Steps Taken</p>
 <ol>

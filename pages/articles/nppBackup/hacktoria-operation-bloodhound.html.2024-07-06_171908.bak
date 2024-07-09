@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="../../assets/css/article.css">
+  
+  <title>Hacktoria Contract: Operation Bloodhound</title>
+  
+</head>
+<body>
+<!-- Add the navigation bar to the top of the page -->
+    <div class="navbar">
+		<a href="../../index.html" style="background-color: #439775;">Home</a>
+        <a href="../pages/cv.html" style="background-color: #439775;">CV</a>
+        <a href="../pages/blog.html" style="background-color: #439775;">Blog</a>
+    </div>
+	
+	
+  <div class="article-container">
+    <h1 class="article-title">Hacktoria Contract: Operation Bloodhound</h1>
+
+    <p class="article-metadata">
+      Published on 6th July, 2024
+    </p>
+
+    <figure>
+		<img src="{Image URL}" class="article-image">
+		<figcaption>
+			{Caption Text} <a href="{Image Source URL}" target="_blank">({Image Source Website})</a>
+		</figcaption>
+	</figure>
+
+    <div class="article-tags">
+      <span class="article-tag">#osint</span>
+      <span class="article-tag">#project</span>
+      <span class="article-tag">#self-teaching</span>
+    </div>
+
+    <div class="article-content">
+      <h1>Investigation Report: Maksim Kotova's Location</h1>
+	  <h2>Executive Summary & Findings</h2>
+	  <p><b>Mission:</b> Locate Maksim Kotova using provided photos to enable field agent Ricardo Alvarez (AKA the Bloodhound) to apprehend him.</p>
+	  <p><b>Findings:</b> Maksim Kotova is currently located at the Latanya Hotel in Ankara, Turkey, likely on the fifth floor. The investigation traced his journey from Berlin Brandenburg Airport to Ankara, with evidence suggesting multiple accommodations in the city. Key findings include the identification of specific landmarks in Ankara's skyline and a matched interior at Latanya Hotel.</p>
+	  <p>This intelligence should allow Agent Alvarez to proceed with the apprehension of Kotova. However, caution is advised due to limitations in the analysis. The investigation was impacted by investigator bias, particularly in misinterpreting an image of Ankara's airport as Berlin's, which led to gaps in understanding Kotova's complete travel timeline. This case underscores the importance of thorough verification and the impact of assumptions on intelligence gathering.</p>
+	  <p><b>Recommendation:</b> Proceed with the operation to apprehend Kotova at the Latanya Hotel in Ankara, but maintain situational awareness for potential inconsistencies due to analysis limitations. Additional on-ground intelligence gathering may be necessary to confirm Kotova's exact location within the hotel before engaging.</p>
+
+    <div class="section">
+        <h2>I. First Impressions</h2>
+        <h3>Description of the images provided</h3>
+        <ul>
+            <li><strong>Picture 1:</strong> Interior of an airport with a red architectural art design hanging from the ceiling.</li>
+            <li><strong>Picture 2:</strong> Interior of a building (presumably an airport) with a lounge and food area.</li>
+            <li><strong>Picture 3:</strong> Exterior of a hotel or apartment building with parking spaces and twin minarets in the distance.</li>
+            <li><strong>Picture 4:</strong> Interior of a room, presumably a hotel or apartment, with blue and green wallpaper.</li>
+            <li><strong>Picture 5:</strong> Exterior view of a city skyline from a balcony.</li>
+        </ul>
+        <h3>Initial Observations and Impressions</h3>
+        <ul>
+            <li>Initial hunch: Location might be Istanbul, Turkey.</li>
+            <li>Place of residence appears to be near an airport.</li>
+            <li>Picture 5 could be used with Google Earth/Maps to pinpoint location.</li>
+        </ul>
+    </div>
+
+    <div class="section">
+        <h2>II. Working Hypotheses</h2>
+        <h3>Hypothesis 1: Target's location is in Istanbul, Turkey and their place of residence is a hotel.</h3>
+        <h3>Hypothesis 2: Target's location is in Ankara, Turkey and their place of residence is a hotel.</h3>
+    </div>
+
+    <div class="section">
+        <h2>III. Research and Analysis</h2>
+        <h3>Findings</h3>
+        <ul>
+            <li>Airport identified as Berlin Brandenburg Airport in Germany.</li>
+            <li>Place of residence located in Ankara, Turkey.</li>
+            <li>Specific address found: Saray Osmangazi, Mah. Özal Boulevard No: 202/F, Pursaklar/Ankara.</li>
+            <li>Interior of Latanya Hotel Ankara matched with Picture 4.</li>
+            <li>Skyline analysis of Picture 5 identified key landmarks in Ankara.</li>
+        </ul>
+    </div>
+
+    <div class="section">
+        <h2>IV. Conclusion</h2>
+        <h3>Final Location Determination</h3>
+        <p>Maksim Kotova is located in Ankara, Turkey, specifically at the Latanya Hotel, possibly on the fifth floor.</p>
+        <h3>Limitations of the Analysis</h3>
+        <ul>
+            <li>Investigator bias led to misinterpretation of Picture 2, causing a gap in the travel timeline analysis.</li>
+            <li>Incomplete identification of some locations.</li>
+            <li>Potential for data gaps and coincidental visual matches.</li>
+        </ul>
+    </div>
+
+    </div>
+
+    <div class="article-footer">
+      Published by Tori-Ann Cheung
+    </div>
+  </div>
+  
+  <!-- Scroll to top icon -->
+  <div class="scroll-to-top" onclick="scrollToTop()">
+    &#8593; <!-- Up arrow icon -->
+  </div>
+
+  <!-- Scroll to top function -->
+  <script>
+    function scrollToTop() {
+      window.scrollTo({ top: 0, behavior: 'smooth' });
+    }
+  </script>
+</body>
+</html>

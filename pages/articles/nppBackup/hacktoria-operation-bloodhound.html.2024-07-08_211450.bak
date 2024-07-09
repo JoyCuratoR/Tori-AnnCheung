@@ -1,0 +1,719 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="../../assets/css/article.css">
+  
+  <title>Hacktoria Contract: Operation Bloodhound</title>
+  
+</head>
+<body>
+<!-- Add the navigation bar to the top of the page -->
+    <div class="navbar">
+		<a href="../../index.html" style="background-color: #439775;">Home</a>
+        <a href="../pages/cv.html" style="background-color: #439775;">CV</a>
+        <a href="../pages/blog.html" style="background-color: #439775;">Blog</a>
+    </div>
+	
+	
+  <div class="article-container">
+    <h1 class="article-title">Hacktoria Contract: Operation Bloodhound</h1>
+
+    <p class="article-metadata">
+      Published on 8th July, 2024
+    </p>
+
+    <figure>
+		<img src="https://images.pexels.com/photos/3536235/pexels-photo-3536235.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" class="article-image">
+		<figcaption>
+			Photo by Harrison Haines from Pexels: <a href="https://images.pexels.com/photos/3536235/pexels-photo-3536235.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" target="_blank">(https://images.pexels.com/photos/3536235/pexels-photo-3536235.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1)</a>
+		</figcaption>
+	</figure>
+
+    <div class="article-tags">
+      <span class="article-tag">#osint</span>
+      <span class="article-tag">#project</span>
+      <span class="article-tag">#self-teaching</span>
+    </div>
+
+    <div class="article-content">
+	<h1>Table of Contents</h1>
+	<ul>
+  <li><a href="#executive-summary">Executive Summary & Key Findings</a></li>
+    <ul>
+      <li><a href="#first-impressions">I. First Impressions</a></li>
+      <li><a href="#working-hypotheses">II. Working Hypotheses</a></li>
+      <li><a href="#research-and-analysis">III. Research & Analysis</a></li>
+		<ul>
+			<li><a href="#hypothesis-1">Hypothesis 1</a></li>
+			<li><a href="#hypothesis-2">Hypothesis 2</a></li>
+		</ul>
+      <li><a href="#conclusion">IV. Conclusion</a></li>
+    </ul>
+	<li><a href="#appendix">Appendix</a></li>
+</ul>
+
+
+      <h1>Investigation Report: Maksim Kotova's Location</h1>
+	  <h2 id="executive-summary">Executive Summary & Key Findings</h2>
+	  <p><b>Mission:</b> Locate Maksim Kotova using provided photos to enable field agent Ricardo Alvarez (AKA the Bloodhound) to apprehend him.</p>
+	  <p><b>Findings:</b> Maksim Kotova is currently located at the Latanya Hotel in Ankara, Turkey, likely on the fifth floor. The investigation traced his journey from Berlin Brandenburg Airport to Ankara, with evidence suggesting multiple accommodations in the city. Key findings include the identification of specific landmarks in Ankara's skyline and a matched interior at Latanya Hotel.</p>
+	  <p>This intelligence should allow Agent Alvarez to proceed with the apprehension of Kotova. However, caution is advised due to limitations in the analysis. The investigation was impacted by investigator bias, particularly in misinterpreting an image of Ankara's airport as Berlin's, which led to gaps in understanding Kotova's complete travel timeline. This case underscores the importance of thorough verification and the impact of assumptions on intelligence gathering.</p>
+	  <p><b>Recommendation:</b> Proceed with the operation to apprehend Kotova at the Latanya Hotel in Ankara, but maintain situational awareness for potential inconsistencies due to analysis limitations. Additional on-ground intelligence gathering may be necessary to confirm Kotova's exact location within the hotel before engaging.</p>
+
+    <div class="section">
+        <h2 id="first-impressions">I. First Impressions</h2>
+        <h3>Description of the images provided</h3>
+        <ul>
+            <li><strong>Picture 1</strong>
+                <ul>
+                    <li>The interior of an airport. On the left, there is a sign for directions to a specific airplane as well as check-in areas. The most prominent aspect in this photo is the red architectural art design hanging from the ceiling.</li>
+                </ul>
+            </li>
+			<img src="../../assets/images/osint-challenges/operation-bloodhound/picture-1.png" class="article-image">
+            <li><strong>Picture 2</strong>
+                <ul>
+                    <li>The interior of a building (presumably an airport) with a lounge and food area.</li>
+                </ul>
+            </li>
+			<img src="../../assets/images/osint-challenges/operation-bloodhound/picture-2.png" class="article-image">
+            <li><strong>Picture 3</strong>
+                <ul>
+                    <li>The exterior of a hotel or apartment building with some parking spaces. In the distance, there are twin minarets.</li>
+                </ul>
+            </li>
+			<img src="../../assets/images/osint-challenges/operation-bloodhound/picture-3.png" class="article-image">
+            <li><strong>Picture 4</strong>
+                <ul>
+                    <li>The interior of a room, presumably of a hotel or apartment room. On the right there is a blue-wallpapered hallway inside the room leading outside of the room to another hallway. On the right there is a lamp on the green-wallpapered wall and a mirror.</li>
+                </ul>
+            </li>
+			<img src="../../assets/images/osint-challenges/operation-bloodhound/picture-4.png" class="article-image">
+            <li><strong>Picture 5</strong>
+                <ul>
+                    <li>The exterior view of a city on top of what looks like a balcony.</li>
+                </ul>
+            </li>
+			<img src="../../assets/images/osint-challenges/operation-bloodhound/picture-5.png" class="article-image">
+        </ul>
+        <h3>Initial Observations and Impressions</h3>
+        <ul>
+            <li>Based on the minarets, my initial hunch is the location is Istanbul, Turkey.</li>
+            <li>Based on picture 1 and 2, my impression is that the place of residence is near an airport.</li>
+            <li>The picture 5 could be used in conjunction with Google Earth/Maps to pin point from above where that picture is taken based on the positions of the buildings and rooftops.</li>
+        </ul>
+        <h3>Prioritization of Initial Observations</h3>
+        <ul>
+            <li>I will try to identify the airport first before locating the place of residence.</li>
+        </ul>
+    </div>
+
+    <div class="section">
+        <h2 id="working-hypotheses">II. Working Hypotheses</h2>
+        <h3>A. Hypothesis 1: The target's location is in Istanbul, Turkey and their place of residence is a hotel.</h3>
+        <ol>
+            <li>Reasoning and Supporting Evidence
+                <ul>
+                    <li>While minarets aren't exclusive to Istanbul, the specific architecture of the twin minarets (see picture 3) is similar to minarets of Istanbul's Blue Mosque.</li>
+                </ul>
+            </li>
+			<img src="../../assets/images/osint-challenges/operation-bloodhound/picture-3.png" class="article-image">
+            <li>Assumptions and Limitations
+                <ul>
+                    <li>The distance of the minarets from the camera and lack of clarity of picture 3 makes it difficult to verify if the minarets are ones in Istanbul and not another city.</li>
+                </ul>
+            </li>
+        </ol>
+        <h3>B. Hypothesis 2: The target's location is in Ankara, Turkey and their place of residence is a hotel.</h3>
+        <ol>
+            <li>Reasoning and Supporting Evidence
+                <ul>
+                    <li>The results from GeoSpy while inaccurate with the specific coordinates/location it provides, the tool does have higher accuracy pinpointing the region an uploaded photo is located in. Coupled with that belief and trust in GeoSpy's results, spotting a pair of minarets while exploring Ankara in street view leads me to believe that the location of Kotova could be in Ankara, Turkey.</li>
+                </ul>
+            </li>
+			<img src="../../assets/images/osint-challenges/operation-bloodhound/picture-5-geospy-results.png" class="article-image">
+			<img src="../../assets/images/osint-challenges/operation-bloodhound/ankara-lead.png" class="article-image">
+			<img src="../../assets/images/osint-challenges/operation-bloodhound/ankara-mosque.png" class="article-image">
+            <li>Assumptions and Limitations
+                <ul>
+                    <li>The GeoSpy results could be completely inaccurate. As well, there is bias in believing that because GeoSpy has been accurate with it's region pinpointing for previous geolocation challenges, that it will stay accurate even as the machine learning algorithm changes. In short, there is too much reliance on a tool that has high potential for inconsistency and inaccuracy.</li>
+                </ul>
+            </li>
+        </ol>
+    </div>
+
+    <div class="section">
+        <h2 id="research-and-analysis">III. Research & Analysis</h2>
+		<h3 id="hypothesis-1">Hypothesis 1: The target's location is in Istanbul, Turkey and their place of residence is a hotel.</h3>
+        <h4>Research Steps Taken</h4>
+        <ol>
+            <li>Locating the airport - Picture 1
+                <ol type="a">
+                    <li>GeoSpy AI
+                        <ul>
+                            <li>Used GeoSpy on picture 1 to narrow down the approximate region</li>
+                            <li>Results: GeoSpy gave the location of Frankfurt, Germany</li>
+                            <li>Action: Sought to verify the location with another reverse image search tool</li>
+                        </ul>
+                    </li>
+					<img src="../../assets/images/osint-challenges/operation-bloodhound/airport-geospy-results.png" class="article-image">
+                    <li>Yandex Reverse Image Search
+                        <ul>
+                            <li>Used Yandex reverse image search on picture 1</li>
+                            <li>Results: Yandex produced multiple results of images showing the same red architectural design hanging from the ceiling - named the "The Magic Carpet". The airport is named Berlin Brandenburg Airport.</li>
+                            <li>Action: Searched on Google for Berlin Brandenburg Airport and found an Independent Co. article showcasing the image of The Magic Carpet at Berlin Brandenburg Airport.</li>
+                        </ul>
+                    </li>
+					<img src="../../assets/images/osint-challenges/operation-bloodhound/berlin-airport-yandex.png" class="article-image">
+					<img src="../../assets/images/osint-challenges/operation-bloodhound/berlin-airport-google-search.png" class="article-image">
+					<img src="../../assets/images/osint-challenges/operation-bloodhound/berlin-airport-independentco-site.png" class="article-image">
+					<img src="../../assets/images/osint-challenges/operation-bloodhound/picture-1-colored.png" class="article-image">
+                </ol>
+            </li>
+            <li>Locating place of residence - Picture 3 and 5
+                <ol type="a">
+                    <li>GeoSpy
+                        <ul>
+                            <li>Uploaded picture 3 and 5 into GeoSpy</li>
+                            <li>Results: For picture 3, the approximate location is Istanbul, Turkey, while for picture 5 the approximate location is Ankara, Turkey</li>
+                            <li>Action: Cropping up a new potential lead, I further researched Ankara, Turkey, momentarily halting the search in Istanbul</li>
+                        </ul>
+                    </li>
+					<img src="../../assets/images/osint-challenges/operation-bloodhound/picture-3-geospy-results.png" class="article-image">
+					<img src="../../assets/images/osint-challenges/operation-bloodhound/picture-5-geospy-results.png" class="article-image">
+                    <li>Google Maps
+                        <ul>
+                            <li>Using the provided coordinates GeoSpy gave for picture 5, I navigated into streetview</li>
+                            <li>Results: Spotted a pair of minarets in the distance while exploring in street view</li>
+                            <li>Action: Formed a new hypothesis that the location is in Ankara, Turkey because of the results in GeoSpy and the minarets that were seen when in Google Maps street view. This is significant because knowing that minarets are not unique to Istanbul, then that means the location of the place of residence can be elsewhere that also has minarets.</li>
+                        </ul>
+                    </li>
+					<img src="../../assets/images/osint-challenges/operation-bloodhound/ankara-lead.png" class="article-image">
+					<img src="../../assets/images/osint-challenges/operation-bloodhound/ankara-mosque.png" class="article-image">
+                </ol>
+            </li>
+        </ol>
+        <h4>Techniques, Tools, and Resources Used</h4>
+        <ul>
+		<li>Reverse Image Search Tools:
+			<ul>
+				<li>GeoSpy AI</li>
+				<li>Yandex Reverse Image Search</li>
+			</ul>
+		</li>
+		<li>Geolocation Tools:
+			<ul>
+				<li>Google Maps (including Street View)</li>
+			</ul>
+		</li>
+		<li>Image Analysis Techniques:
+			<ul>
+				<li>Landmark identification (e.g., "The Magic Carpet" in Berlin Brandenburg Airport)</li>
+			</ul>
+		</li>
+		<li>Online Resources:
+			<ul>
+				<li>News articles (e.g., Independent Co. article about Berlin Brandenburg Airport)</li>
+			</ul>
+		</li>
+		<li>Data Analysis Techniques:
+			<ul>
+				<li>Cross-referencing multiple data points</li>
+				<li>Hypothesis formation and testing</li>
+			</ul>
+		</li>
+		</ul>
+        <h4>Findings (supporting or contradicting the hypothesis)</h4>
+        <ul>
+            <li>The hypothesis that the target's location is in Istanbul, Turkey is partially contradicted by the research findings:
+                <ol>
+                    <li>Picture 1 analysis revealed that the airport in question is actually Berlin Brandenburg Airport in Germany, not an airport in Istanbul.</li>
+                    <li>While GeoSpy AI suggested Istanbul as a possible location for Picture 3, it also indicated Ankara, Turkey for Picture 5, introducing uncertainty about the exact city.</li>
+                </ol>
+            </li>
+            <li>The hypothesis that the target's place of residence is a hotel remains unconfirmed:
+                <ol>
+                    <li>No specific evidence was found to support or contradict the assumption that the target is staying in a hotel.</li>
+                    <li>The research focused primarily on identifying the general location rather than the type of accommodation.</li>
+                </ol>
+            </li>
+            <li>New information emerged that challenges the original hypothesis:
+                <ol>
+                    <li>The airport identified (Berlin Brandenburg) suggests the target may have connections to or travel through Germany, which was not part of the initial hypothesis.</li>
+                    <li>The possibility of Ankara being the target's location has been introduced, based on GeoSpy results for Picture 5 and the observation of minarets in Google Maps street view.</li>
+                </ol>
+            </li>
+            <li>The research findings highlight the need to revise the original hypothesis:
+                <ol>
+                    <li>The target's travel route may be more complex than initially assumed, potentially involving multiple cities or countries.</li>
+                    <li>Further investigation is needed to determine whether the target's final destination is Istanbul, Ankara, or another location entirely.</li>
+                </ol>
+            </li>
+        </ul>
+        <h4>Revised or Updated Hypothesis</h4>
+        <p>The target's location is in Ankara, Turkey and their place of residence is a hotel.</p>
+
+		<h3 id="hypothesis-2">Hypothesis 2: The target's location is in Ankara, Turkey and their place of residence is a hotel.</h3>
+        <h4>Research Steps Taken</h4>
+        <ol>
+            <li>Locating place of residence - Picture 3 and 5
+                <ol type="a">
+                    <li>Yandex Reverse Image
+                        <ul>
+                            <li>Uploaded a cropped image of picture 3</li>
+                            <li>Results: The cropped image was too blurry and Yandex couldn't parse any information from it</li>
+                            <li>Action: Abandoned using the cropped image</li>
+                        </ul>
+                    </li>
+					<img src="../../assets/images/osint-challenges/operation-bloodhound/picture-3-cropped.png" class="article-image">
+                    <li>Google Images
+                        <ul>
+                            <li>Uploaded picture 3 into Google Images</li>
+                            <li>Results: Found a matching image to picture 3</li>
+                            <li>Action: Confirmed that the matching image is the same as picture 3</li>
+                        </ul>
+                    </li>
+					<img src="../../assets/images/osint-challenges/operation-bloodhound/picture-3-google-images-results.png" class="article-image">
+                    <li>Google Search Engine
+                        <ul>
+                            <li>Clicked on the associated website of the matching image which brought me to a flat listing on Tapu.com</li>
+                            <li>Results: The listing says in Turkish "Pursaklar Saray Mahallesi'nde 3+1 Daire" (translated to English using Google Translate plugin), or "3+1 Flat in Pursaklar Saray District". Further translation of the address provided with the listing says it is located at "Saray Osmangazi, Mah. Özal Boulevard No: 202/F, Pursaklar/Ankara"</li>
+                            <li>Action: Confirmed address is relevant by entering into Google Maps "Özal Boulevard No: 202/F, Pursaklar/Ankara" and dropping down to street view and finding the twin minarets depicted in picture 3. Further confirmation is given when I find the apartment and angle of the minarets in street view the same way picture 3 is depicted.</li>
+                        </ul>
+                    </li>
+					<img src="../../assets/images/osint-challenges/operation-bloodhound/picture-3-confirmed.png" class="article-image">
+					<img src="../../assets/images/osint-challenges/operation-bloodhound/apartment-address.png" class="article-image">
+					<img src="../../assets/images/osint-challenges/operation-bloodhound/street-view-apartment-address.png" class="article-image">
+					<img src="../../assets/images/osint-challenges/operation-bloodhound/further-confirmation-picture-3-recreated.png" class="article-image">
+                </ol>
+            </li>
+            <li>Figuring out the name of the hotel/residence
+                <ol type="a">
+                    <li>Google Maps
+                        <ul>
+                            <li>Dropped back down to street view once I realized I hadn't found nor confirmed the name of the hotel/residence, to capture a screenshot at the hotel sign from a better angle. What I see is the letters "VIP rend" with a crown logo.</li>
+                            <li>Action: I Googled "vip rend Saray Osmangazi" and got possible results from reading the metadata of some sites such as a flat/apartment renting site and two Instagram accounts. One of the Instagram accounts that has the name VIP Trend Residence in the profile and seems to be a car dealer and the other Instagram account also has VIP Trend Residence in it's profile and an actual address: Saray Osmangazi Mahallesi Sarsılmaz Cad. Vip Trend Resıdance No: 2/3 Pursaklar / ANKARA, Ankara, Turkey 06145. Searching for this address leads me to a clothing store called VIP Trend which is located near the already confirmed location of picture 3. However, zooming in closer on Google Maps, I see the same Instagram account name NEPET A.S. listed as a location right next to the picture 3 building.</li>
+                            <li>Results: Noted down that while the physical location and address of the picture 3 building has been confirmed and verified, the name of the hotel cannot be. Also, took note that the picture 3 building may not have been Kotova's true destination. According to the additional evidence gathered, Kotova could have been there to rent a vehicle for transportation, given how there are a couple of car dealer/renter  businesses nearby (see: car-dealer.png and rent-car.png )</li>
+                        </ul>
+                    </li>
+					<img src="../../assets/images/osint-challenges/operation-bloodhound/name-of-hotel.png" class="article-image">
+					<img src="../../assets/images/osint-challenges/operation-bloodhound/hotel-name-google-results.png" class="article-image">
+					<img src="../../assets/images/osint-challenges/operation-bloodhound/instagram-hotel-name.png" class="article-image">
+					<img src="../../assets/images/osint-challenges/operation-bloodhound/car-dealer.png" class="article-image">
+					<img src="../../assets/images/osint-challenges/operation-bloodhound/car-dealer-street-view.png" class="article-image">
+					<img src="../../assets/images/osint-challenges/operation-bloodhound/rent-car.png" class="article-image">
+                </ol>
+            </li>
+            <li>But is the building in picture 3 the same as the interior captured in picture 4? Or the exterior balcony/skyline image of picture 5?
+                <ol type="a">
+                    <li>Google Images
+                        <ul>
+                            <li>Uploaded picture 5 into Google Images. Both the normal sized, and various cropped versions where I had each point of reference as the main subject didn't yield anything.</li>
+                            <li>Action: Decided to take a different route and instead search for images of Ankara's skyline.</li>
+                            <li>Results: Found some promising images that may help me pinpoint a smaller geographic search area.</li>
+                        </ul>
+                    </li>
+					<img src="../../assets/images/osint-challenges/operation-bloodhound/picture-5-points-of-reference.png" class="article-image">
+                    <li>Stock photos of Ankara's Skyline
+                        <ul>
+                            <li>Because of the high-rise building depicted on the left side of picture 5 as well as the ones scattered in the skyline, I Googled "Ankara skyline" and came away with few promising photos to examine</li>
+                            <li>Action: Comparing picture 5 with the stock photos I found, I recognized a common building between them. The tall white building with a black T-shaped design, I've highlighted in purple</li>
+                            <li>Results: I saved a couple of the stock photos of Ankara's skyline and uploaded to Google Images to search for that T-shaped building. I found out it is called "Gelir İdaresi Başkanlığı" and it's a government office located in Devlet, Merasim Sk. No:9 D:1, 06450 Çankaya/Ankara, Türkiye</li>
+                            <li>Action: Clicking on the photos of Gelir İdaresi Başkanlığı, I notice one of them had a suspiciously similar looking building as the one that's on the very left of picture 5 - with the same architecture. A slightly better photo reveals that the building may be a hospital instead.</li>
+                            <li>Results: I save the image as a photo to then upload it to Google Images</li>
+                        </ul>
+                    </li>
+					<img src="../../assets/images/osint-challenges/operation-bloodhound/Ankara_Skyline.jpg" class="article-image">
+					<img src="../../assets/images/osint-challenges/operation-bloodhound/picture-5-t-shaped-building.png" class="article-image">
+					<img src="../../assets/images/osint-challenges/operation-bloodhound/better-close-up-t-shaped-building.jpg" class="article-image">
+					<img src="../../assets/images/osint-challenges/operation-bloodhound/t-shaped-building-google-images-results.png" class="article-image">
+					<img src="../../assets/images/osint-challenges/operation-bloodhound/t-shaped-building-name.png" class="article-image">
+					<img src="../../assets/images/osint-challenges/operation-bloodhound/t-shaped-building-google-maps.png" class="article-image">
+					<img src="../../assets/images/osint-challenges/operation-bloodhound/picture-5-building-in-distance.png" class="article-image">
+					<img src="../../assets/images/osint-challenges/operation-bloodhound/hospital.png" class="article-image">
+                    <li>Google Imaging the Hospital building
+                        <ul>
+                            <li>I upload it to Google Images to see if I can find the location and name of the building.</li>
+							<li>Action: The results tell me that the building is called "Liv Hospital Ankara" and so I search for this name on Google Maps and it shows me where on the map it is. There is only one street view of the building, and the side that it shows doesn't confirm that it is the same as the one in picture 5, however, on the left side there is a Holiday Inn sign that looks very similar to the green sign depicted in picture 5 on the left. Moreover, an image of Liv Hospital on the website shows the side of the building that does match the one shown in picture 5.</li>
+                            <li>Results: Now, because of the angle that Liv Hospital shows up on picture 5 as well as how close in proximity to the camera it is, I'm thinking about searching all the nearby hotels in line of sigh to both the side of Liv Hospital and in sight of Gelir İdaresi Başkanlığı building in the distance. I bet I can find a photo in one of those hotels nearby that shows similar interior architecture as the one in picture 4.</li>
+                            <li>Action: Clicking on nearby hotels, I stumble upon one called Latanya Hotel Ankara. And scrolling through the images of the rooms, I find a light green room with white crown moulding and framing like the one shown in picture 4. Expedia has one image of this green room, so I see if other travel sites will have more images. On Agoda, I find an image that shows the hotel's hallways and it matches the carpeting shown picture 4. After some time, I realized that I was going about it wrong. I didn't need to find an angle of a green room that matches the interior of picture 4, I had already found the interior of picture 4 just with different decorations. Just to be sure, I found the same interior directly on the hotel's website: http://www.latanyaankara.com/odalar/deluxe-queen-ve-deluxe-iki-yatakli-oda</li>
+                            <li>Results: Found the same interior depicted in picture 4 which the hotel was geolocated due to points of references in picture 5. Additionally, the Lantanya Hotel's line of sight is in perfect alignment with the camera point of view in picture 5. This is further illustrated in line-of-sight.png</li>
+                        </ul>
+                    </li>
+					<img src="../../assets/images/osint-challenges/operation-bloodhound/liv-hospital.png" class="article-image">
+					<img src="../../assets/images/osint-challenges/operation-bloodhound/liv-hospital-google-maps.png" class="article-image">
+					<img src="../../assets/images/osint-challenges/operation-bloodhound/holiday-inn-sign.png" class="article-image">
+					<img src="../../assets/images/osint-challenges/operation-bloodhound/hospital-matching-sides.png" class="article-image">
+					<img src="../../assets/images/osint-challenges/operation-bloodhound/green-crown-moulding.png" class="article-image">
+					<img src="../../assets/images/osint-challenges/operation-bloodhound/deluxe-room-green-room.png" class="article-image">
+					<img src="../../assets/images/osint-challenges/operation-bloodhound/same-carpet.png" class="article-image">
+					<img src="../../assets/images/osint-challenges/operation-bloodhound/fifth-floor-room.png" class="article-image">
+					<img src="../../assets/images/osint-challenges/operation-bloodhound/same-interior-different-room.png" class="article-image">
+					<img src="../../assets/images/osint-challenges/operation-bloodhound/line-of-sight.png" class="article-image">
+						<figcaption>
+							line-of-sight.png | The Latanya Hotel Ankara (pink) has a matching line of sight (red arrow) that aligns with the camera's point of view in picture 5
+						</figcaption>
+					<img src="../../assets/images/osint-challenges/operation-bloodhound/picture-5-line-of-sight.png" class="article-image">
+						<figcaption>
+							Liv Hospital Anakra (green) is on the left side while Gelir İdaresi Başkanlığı (purple) is in the distance but still close enough to make out as shown in the provided screenshot above (line-of-sight.png) and in Google Maps
+						</figcaption>
+                </ol>
+            </li>
+        </ol>
+        <h4>Techniques, Tools, and Resources Used</h4>
+        <ul>
+		<li>Reverse Image Search Tools:
+			<ul>
+				<li>Google Images</li>
+				<li>Yandex Reverse Image Search</li>
+			</ul>
+		</li>
+		<li>Geolocation Tools:
+			<ul>
+				<li>Google Maps (including Street View)</li>
+			</ul>
+		</li>
+		<li>Image Analysis Techniques:
+			<ul>
+				<li>Landmark identification</li>
+				<li>Architectural feature comparison</li>
+				<li>Skyline analysis</li>
+			</ul>
+		</li>
+		<li>Language Tools:
+			<ul>
+				<li>Google Translate (for Turkish text)</li>
+			</ul>
+		</li>
+		<li>Online Resources:
+			<ul>
+				<li>Travel websites (e.g., Expedia, Agoda)</li>
+				<li>Hotel websites (e.g., Latanya Hotel Ankara)</li>
+				<li>Real estate listings (e.g., Tapu.com)</li>
+				<li>Stock photo websites for skyline comparisons</li>
+			</ul>
+		</li>
+		<li>Social Media Platforms:
+			<ul>
+				<li>Instagram (for business profiles and location data)</li>
+			</ul>
+		</li>
+		<li>Data Analysis Techniques:
+			<ul>
+				<li>Cross-referencing multiple data points</li>
+				<li>Hypothesis formation and testing</li>
+			</ul>
+		</li>
+		<li>Visual Aids:
+			<ul>
+				<li>Image cropping and manipulation for focused searches</li>
+				<li>Creation of comparison images (e.g., line-of-sight.png)</li>
+			</ul>
+		</li>
+		</ul>
+        <h4>Findings (supporting or contradicting the hypothesis)</h4>
+        <ul>
+            <li>The hypothesis that the target's location is in Ankara, Turkey is strongly supported by the research findings:
+                <ol>
+                    <li>Picture 3 was matched to a flat listing in Pursaklar, a district of Ankara, with the address "Saray Osmangazi, Mah. Özal Boulevard No: 202/F, Pursaklar/Ankara".</li>
+                    <li>The twin minarets visible in Picture 3 were confirmed in Google Street View at the given address.</li>
+                    <li>Picture 5's skyline analysis identified key landmarks in Ankara, including the Gelir İdaresi Başkanlığı building and Liv Hospital Ankara.</li>
+                </ol>
+            </li>
+            <li>The hypothesis that the target's place of residence is a hotel is partially supported, but with some contradictions:
+                <ol>
+                    <li>The initial research led to a flat listing, not a hotel, contradicting the hotel hypothesis.</li>
+                    <li>However, further investigation of Picture 4's interior matched with Latanya Hotel Ankara, supporting the hotel hypothesis.</li>
+                    <li>A sign with "VIP rend" and a crown logo was observed near the initial flat location, suggesting a possible upscale residence or hotel, but its exact nature couldn't be confirmed.</li>
+                </ol>
+            </li>
+            <li>Additional findings that refine the hypothesis:
+                <ol>
+                    <li>The target's movements may involve multiple locations within Ankara, including both a flat in Pursaklar and the Latanya Hotel.</li>
+                    <li>The research suggests a complex situation where the target might be associated with both a residential flat and a hotel stay.</li>
+                    <li>The precise chronology of the target's movements between these locations remains unclear.</li>
+                </ol>
+            </li>
+            <li>The research findings provide a more nuanced understanding of the target's location:
+                <ol>
+                    <li>While the general location in Ankara is confirmed, the specific type of residence (flat vs. hotel) and the possibility of multiple residences introduce complexity to the initial hypothesis.</li>
+                    <li>The connection between the flat in Pursaklar and the Latanya Hotel needs further investigation to fully understand the target's movements and residence patterns.</li>
+                </ol>
+            </li>
+        </ul>
+    </div>
+
+    <div class="section">
+        <h2 id="conclusion">IV. Conclusion</h2>
+        <h3>Final hypothesis or location determination</h3>
+        <p>The target Maksim Kotova is located in the city Ankara, Turkey. His specific place of residence is Latanya Hotel, possibly on the fifth floor, judging by the image evidence provided.</p>
+		<h3>Summary of supporting evidence</h3>
+        <ol>
+            <li>Location:
+                <ul>
+                    <li>The target's presence in Turkey is strongly supported by multiple pieces of evidence.</li>
+                    <li>Ankara has been identified as the primary location, contradicting the initial hypothesis of Istanbul.</li>
+                    <li>Key landmarks in Ankara (Gelir İdaresi Başkanlığı, Liv Hospital Ankara) were identified in the skyline analysis of Picture 5.</li>
+                    <li>A specific address in Pursaklar, Ankara was confirmed for Picture 3.</li>
+                </ul>
+            </li>
+            <li>Residence:
+                <ul>
+                    <li>Evidence suggests the target is associated with multiple types of accommodation:
+                        <ol type="a">
+                            <li>A flat listing in Pursaklar, Ankara (Picture 3)</li>
+                            <li>Latanya Hotel Ankara (interior matching Picture 4)</li>
+                        </ol>
+                    </li>
+                    <li>A sign with "VIP rend" and a crown logo was observed near the flat location, suggesting a possible upscale residence or hotel.</li>
+                </ul>
+            </li>
+            <li>Travel:
+                <ul>
+                    <li>The presence of Berlin Brandenburg Airport in Picture 1 indicates international travel, possibly as a transit point.</li>
+					<li>There is also evidence to suggest that the flat listing in Pursaklar, Ankara (Picture 3) is in fact not the true reason why Kotova was spotted there (acting as a red herring) and is instead pointing to the target attempting to find ground transportation.</li>
+                </ul>
+            </li>
+        </ol>
+        <h3>Limitations or caveats of the analysis</h3>
+        <ol>
+            <li>Investigator bias and assumption:
+                <ul>
+                    <li>Picture 2 was incorrectly assumed to be part of Berlin Brandenburg Airport without verification, when it actually depicts an airport in Ankara.</li>
+                    <li>This assumption could have led to a critical gap in the analysis, omitting a potentially crucial timeframe in the target's movements had establishing a chronological timeline been one of the challenge's tasks.</li>
+                    <li>Had Picture 2 been properly geolocated and analyzed, it would have provided a fuller timeline of the target's travels and activities.</li>
+                </ul>
+            </li>
+			<img src="../../assets/images/osint-challenges/operation-bloodhound/picture-2.png" class="article-image">
+            <li>Incomplete identification:
+                <ul>
+                    <li>The exact nature and name of the "VIP rend" location couldn't be fully confirmed.</li>
+					<li>Only an assumption could be made that the full name of the location is "VIP Trend Residence".</li>
+                </ul>
+            </li>
+            <li>Potential data gaps:
+                <ul>
+                    <li>The analysis may be missing crucial information not captured in the available images or open-source data.</li>
+                    <li>The oversight of Picture 2 highlights how easily important data can be missed or misinterpreted.</li>
+                </ul>
+            </li>
+            <li>Potential for coincidental matches:
+                <ul>
+                    <li>Some visual matches, especially in hotel interiors, could be coincidental due to similar designs in different locations.</li>
+                </ul>
+            </li>
+            <li>Impact of investigator assumptions:
+                <ul>
+                    <li>The case illustrates how investigator assumptions can significantly impact the outcome of an investigation, potentially leading to incomplete or inaccurate conclusions.</li>
+                </ul>
+            </li>
+        </ol>
+    </div>
+	<div class="section">
+	<h2 id="appendix">Appendix</h2>
+		<img src="../../assets/images/osint-challenges/operation-bloodhound/picture-1.png" class="article-image">
+		<figcaption>
+			1
+		</figcaption>
+		<img src="../../assets/images/osint-challenges/operation-bloodhound/picture-2.png" class="article-image">
+		<figcaption>
+			2
+		</figcaption>
+		<img src="../../assets/images/osint-challenges/operation-bloodhound/picture-3.png" class="article-image">
+		<figcaption>
+			3
+		</figcaption>
+		<img src="../../assets/images/osint-challenges/operation-bloodhound/picture-4.png" class="article-image">
+		<figcaption>
+			4
+		</figcaption>
+		<img src="../../assets/images/osint-challenges/operation-bloodhound/picture-5.png" class="article-image">
+		<figcaption>
+			5
+		</figcaption>
+		<img src="../../assets/images/osint-challenges/operation-bloodhound/picture-5-geospy-results.png" class="article-image">
+		<figcaption>
+			6
+		</figcaption>
+		<img src="../../assets/images/osint-challenges/operation-bloodhound/ankara-lead.png" class="article-image">
+		<figcaption>
+			7
+		</figcaption>
+		<img src="../../assets/images/osint-challenges/operation-bloodhound/airport-geospy-results.png" class="article-image">
+		<figcaption>
+			8
+		</figcaption>
+		<img src="../../assets/images/osint-challenges/operation-bloodhound/berlin-airport-yandex.png" class="article-image">
+		<figcaption>
+			9
+		</figcaption>
+		<img src="../../assets/images/osint-challenges/operation-bloodhound/berlin-airport-google-search.png" class="article-image">
+		<figcaption>
+			10
+		</figcaption>
+		<img src="../../assets/images/osint-challenges/operation-bloodhound/berlin-airport-independentco-site.png" class="article-image">
+		<figcaption>
+			11
+		</figcaption>
+		<img src="../../assets/images/osint-challenges/operation-bloodhound/picture-1-colored.png" class="article-image">
+		<figcaption>
+			12
+		</figcaption>
+		<img src="../../assets/images/osint-challenges/operation-bloodhound/picture-3-geospy-results.png" class="article-image">
+		<figcaption>
+			13
+		</figcaption>
+		<img src="../../assets/images/osint-challenges/operation-bloodhound/picture-5-geospy-results.png" class="article-image">
+		<figcaption>
+			14
+		</figcaption>
+		<img src="../../assets/images/osint-challenges/operation-bloodhound/picture-3-cropped.png" class="article-image">
+		<figcaption>
+			15
+		</figcaption>
+		<img src="../../assets/images/osint-challenges/operation-bloodhound/picture-3-google-images-results.png" class="article-image">
+		<figcaption>
+			16
+		</figcaption>
+		<img src="../../assets/images/osint-challenges/operation-bloodhound/picture-3-confirmed.png" class="article-image">
+		<figcaption>
+			17
+		</figcaption>
+		<img src="../../assets/images/osint-challenges/operation-bloodhound/apartment-address.png" class="article-image">
+		<figcaption>
+			18
+		</figcaption>
+		<img src="../../assets/images/osint-challenges/operation-bloodhound/street-view-apartment-address.png" class="article-image">
+		<figcaption>
+			19
+		</figcaption>
+		<img src="../../assets/images/osint-challenges/operation-bloodhound/further-confirmation-picture-3-recreated.png" class="article-image">
+		<figcaption>
+			20
+		</figcaption>
+		<img src="../../assets/images/osint-challenges/operation-bloodhound/name-of-hotel.png" class="article-image">
+		<figcaption>
+			21
+		</figcaption>
+		<img src="../../assets/images/osint-challenges/operation-bloodhound/hotel-name-google-results.png" class="article-image">
+		<figcaption>
+			22
+		</figcaption>
+		<img src="../../assets/images/osint-challenges/operation-bloodhound/instagram-hotel-name.png" class="article-image">
+		<figcaption>
+			23
+		</figcaption>
+		<img src="../../assets/images/osint-challenges/operation-bloodhound/car-dealer.png" class="article-image">
+		<figcaption>
+			24
+		</figcaption>
+		<img src="../../assets/images/osint-challenges/operation-bloodhound/car-dealer-street-view.png" class="article-image">
+		<figcaption>
+			25
+		</figcaption>
+		<img src="../../assets/images/osint-challenges/operation-bloodhound/rent-car.png" class="article-image">
+		<figcaption>
+			26
+		</figcaption>
+		<img src="../../assets/images/osint-challenges/operation-bloodhound/picture-5-points-of-reference.png" class="article-image">
+		<figcaption>
+			27
+		</figcaption>
+		<img src="../../assets/images/osint-challenges/operation-bloodhound/Ankara_Skyline.jpg" class="article-image">
+		<figcaption>
+			28
+		</figcaption>
+		<img src="../../assets/images/osint-challenges/operation-bloodhound/picture-5-t-shaped-building.png" class="article-image">
+		<figcaption>
+			29
+		</figcaption>
+		<img src="../../assets/images/osint-challenges/operation-bloodhound/better-close-up-t-shaped-building.jpg" class="article-image">
+		<figcaption>
+			30
+		</figcaption>
+		<img src="../../assets/images/osint-challenges/operation-bloodhound/t-shaped-building-google-images-results.png" class="article-image">
+		<figcaption>
+			31
+		</figcaption>
+		<img src="../../assets/images/osint-challenges/operation-bloodhound/t-shaped-building-name.png" class="article-image">
+		<figcaption>
+			32
+		</figcaption>
+		<img src="../../assets/images/osint-challenges/operation-bloodhound/t-shaped-building-google-maps.png" class="article-image">
+		<figcaption>
+			33
+		</figcaption>
+		<img src="../../assets/images/osint-challenges/operation-bloodhound/picture-5-building-in-distance.png" class="article-image">
+		<figcaption>
+			34
+		</figcaption>
+		<img src="../../assets/images/osint-challenges/operation-bloodhound/hospital.png" class="article-image">
+		<figcaption>
+			35
+		</figcaption>
+		<img src="../../assets/images/osint-challenges/operation-bloodhound/liv-hospital.png" class="article-image">
+		<figcaption>
+			36
+		</figcaption>
+		<img src="../../assets/images/osint-challenges/operation-bloodhound/liv-hospital-google-maps.png" class="article-image">
+		<figcaption>
+			37
+		</figcaption>
+		<img src="../../assets/images/osint-challenges/operation-bloodhound/holiday-inn-sign.png" class="article-image">
+		<figcaption>
+			38
+		</figcaption>
+		<img src="../../assets/images/osint-challenges/operation-bloodhound/hospital-matching-sides.png" class="article-image">
+		<figcaption>
+			39
+		</figcaption>
+		<img src="../../assets/images/osint-challenges/operation-bloodhound/green-crown-moulding.png" class="article-image">
+		<figcaption>
+			40
+		</figcaption>
+		<img src="../../assets/images/osint-challenges/operation-bloodhound/deluxe-room-green-room.png" class="article-image">
+		<figcaption>
+			41
+		</figcaption>
+		<img src="../../assets/images/osint-challenges/operation-bloodhound/same-carpet.png" class="article-image">
+		<figcaption>
+			42
+		</figcaption>
+		<img src="../../assets/images/osint-challenges/operation-bloodhound/fifth-floor-room.png" class="article-image">\
+		<figcaption>
+			43
+		</figcaption>
+		<img src="../../assets/images/osint-challenges/operation-bloodhound/same-interior-different-room.png" class="article-image">
+		<figcaption>
+			44
+		</figcaption>
+		<img src="../../assets/images/osint-challenges/operation-bloodhound/line-of-sight.png" class="article-image">
+		<figcaption>
+			45
+		</figcaption>
+		<img src="../../assets/images/osint-challenges/operation-bloodhound/picture-5-line-of-sight.png" class="article-image">
+		<figcaption>
+			46
+		</figcaption>
+    </div>
+
+    <div class="article-footer">
+      Published by Tori-Ann Cheung
+    </div>
+  </div>
+  
+  <!-- Scroll to top icon -->
+  <div class="scroll-to-top" onclick="scrollToTop()">
+    &#8593; <!-- Up arrow icon -->
+  </div>
+
+  <!-- Scroll to top function -->
+  <script>
+    function scrollToTop() {
+      window.scrollTo({ top: 0, behavior: 'smooth' });
+    }
+  </script>
+</body>
+</html>
