@@ -42,9 +42,9 @@
 	<section id="section-0">
 	<h2>OSINT</h2>
 	<ul>
-		<li>Geolocated and provided insights about an unidentifiable garden from the Smithsonian's Archives of American Gardens | Read the <a href="../assets/other/pdf/AAG_SG-FL041002_OSINTReport.pdf" target="_blank">Report (Opens up a PDF)</a></li>
-		<li>Hacktoria Contract: Operation Bloodhound | A geolocation challenge to locate the target Maksim Kotova in support of Agent Bloodhound's mission | Read the <a href="./articles/hacktoria-operation-bloodhound.html" target="_blank">Documentation</a></li>
-		<li>Kase Scenarios: Sinister Obssesion Case | A Open-Source Intelligence training module to identify and locate a celebrity's malicious stalker where they may be apprehended by authorities | Read the <a href="./articles/kase-scenarios-sinister-obsession-write-up.html" target="_blank">Documentation</a> | <a href="https://courses.kasescenarios.com/certificates/nbj5unkmlp" target="_blank">Verification</a></li>
+		<li>Geolocated and provided insights to an unidentifiable garden from the Smithsonian's Archives of American Gardens | Read the <a href="../assets/other/pdf/AAG_SG-FL041002_OSINTReport.pdf" target="_blank">Report (Opens up PDF)</a></li>
+		<li>Hacktoria Contract: Operation Bloodhound | A geolocation challenge to locate the target Maksim Kotova in support of Agent BLOODHOUND's mission | Read the <a href="./articles/hacktoria-operation-bloodhound.html" target="_blank">Documentation</a></li>
+		<li>Kase Scenarios: Sinister Obssesion Case | A Open-Source Intelligence training module to identify and locate a celebrity's malicious stalker where they may be apprehended by authorities | Read the <a href="./articles/kase-scenarios-sinister-obsession-write-up.html" target="_blank">Documentation</a></li>
 		<li>Hacktoria Contract: The Michigan Mystery | A geolocation challenge to locate where a client's missing daughter was taken to | Read the <a href="./articles/hacktoria-michigan-mystery.html" target="_blank">Documentation</a></li>
 		<li>Gained knowledge following Bellingcat’s real-time data collection and analysis of national and global events such as the 22nd March, 2024 Moscow concert hall terrorist attack carried out by the Islamic State group</li>
 		<li>Performed multidisciplinary research spanning architecture, foreign languages, vegetation, and infrastructure through participation in over 50 geospatial intelligence (GEOINT) challenges focused on image interpretation, terrain analysis, and location identification.</li>
@@ -68,7 +68,7 @@
 	</ul>
 	<p><b>Reports</b></p>
 	<ul>
-		<li>SecureTheVillage Guide to Password Managers for Families & Individuals (<b>Completeted but not Externally Published Yet</b>)</li>
+		<li>SecureTheVillage Guide to Password Managers for Families & Individuals (<b>Completeted but not externally Published Yet</b>)</li>
 		<li>SecureTheVillage Guide to Password Managers for Small Businesses & Non-profits (<b>In Progress</b>)</li>
 		<li>Camplight Safety Sessions: Online Scams - Tips to Safeguard Kids and Parents Against Online Scams | See the <a href="../assets/other/pdf/ScamsAgainstKids.pdf" target="_blank">report</a>.</li>
 	</ul>
