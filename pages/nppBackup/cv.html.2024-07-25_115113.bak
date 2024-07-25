@@ -1,0 +1,199 @@
+<html>
+  <head>
+
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="../assets/css/cv.css">
+
+    <title>CV</title>
+ 
+  </head>
+  
+  <!-- Main content for Home Page --> 
+  <body>
+  
+  <!-- Add the navigation bar to the top of the page -->
+    <div class="navbar">
+		<a href="../index.html" style="background-color: #439775;">Home</a>
+        <a href="cv.html" style="background-color: #439775;">CV</a>
+        <a href="blog.html" style="background-color: #439775;">Blog</a>
+    </div>
+  
+    <h1 style="text-align: center;">Tori-Ann Cheung</h1>
+	
+	<p>Contact me at <a href="mailto:tacheung@protonmail.com">tacheung@protonmail.com</a>, or find me at <a href = "https://www.linkedin.com/in/tori-ann-cheung/" target="_blank">LinkedIn</a>, <a href = "https://github.com/JoyCuratoR" target="_blank">GitHub</a>.</p>
+	
+	<!-- Table of contents -->
+<h1>Table of Contents</h1>
+<div style="margin-bottom: 10px;">
+  <p style="margin: 0;"><a href="#section-0">OSINT</a></p>
+  <p style="margin: 0;"><a href="#section-1">Research & Reports</a></p>
+  <p style="margin: 0;"><a href="#section-2">Information Security</a></p>
+  <p style="margin: 0;"><a href="#section-3">Data Analytics</a></p>
+  <p style="margin: 0;"><a href="#section-4">Education</a></p>
+  <p style="margin: 0;"><a href="#section-5">Programming, Scripts, and other code</a></p>
+  <p style="margin: 0;"><a href="#section-6">Volunteering</a></p>
+</div>
+
+<p><b>Information Last Updated: 14th May, 2024</b></p>
+	
+
+<!-- Content sections -->
+	<section id="section-0">
+	<h2>OSINT</h2>
+	<ul>
+		<li>Geolocated and provided insights to an unidentifiable garden from the Smithsonian's Archives of American Gardens | Read the <a href="./articles/hacktoria-where-is-klumgongyn.html" target="_blank">Report (Opens up PDF)</a></li>
+		<li>Hacktoria Contract: Operation Bloodhound | A geolocation challenge to locate the target Maksim Kotova in support of Agent BLOODHOUND's mission | Read the <a href="./articles/hacktoria-where-is-klumgongyn.html" target="_blank">Documentation</a></li>
+		<li>Kase Scenarios: Sinister Obssesion Case | A Open-Source Intelligence training module to identify and locate a celebrity's malicious stalker where they may be apprehended by authorities | Read the <a href="./articles/hacktoria-where-is-klumgongyn.html" target="_blank">Documentation</a></li>
+		<li>Hacktoria Contract: The Michigan Mystery | A geolocation challenge to locate where a client's missing daughter was taken to | Read the <a href="./articles/hacktoria-where-is-klumgongyn.html" target="_blank">Documentation</a></li>
+		<li>Gained knowledge following Bellingcat’s real-time data collection and analysis of national and global events such as the 22nd March, 2024 Moscow concert hall terrorist attack carried out by the Islamic State group</li>
+		<li>Performed multidisciplinary research spanning architecture, foreign languages, vegetation, and infrastructure through participation in over 50 geospatial intelligence (GEOINT) challenges focused on image interpretation, terrain analysis, and location identification.</li>
+		<li>Hacktoria's Contracts - Where's Klumgongyn? | A geolocation challenge to locate an SERPENT agent | Read the <a href="./articles/hacktoria-where-is-klumgongyn.html" target="_blank">Documentation</a></li>
+		<li>Sofia Santos OSINT Challenge #006 | A geolocation challenge to verify an image of a viral Twitter post; the results indicate misinformation or deliberate disinformation | Read the <a href="./articles/sofia-santos-osint-challenge006.html" target="_blank">Documentation</a></li>
+		<li>TryHackMe's OhSINT challenge room | A challenge with a series of questions that analyzed a photo of a generic WindowsXP photo; the results revealed a severe personal identifiable information leak | Read the <a href="./articles/tryhackme-ohsint-challenge.html" target="_blank">Documentation</a></li>
+		<li>Sofia Santos OSINT Challenge #001 | A geolocation challenge that required both terrain and chronology analysis to complete | Read the <a href="./articles/sofia-santos-osint-challenge001.html" target="_blank">Documentation</a></li>
+		<li>Received training from Kase Scenarios, founded by senior OSINT analysts, on open-source intelligence research methodologies, documentation practices, and reporting techniques. Kase Scenarios: Betrayal | Read the <a href="https://docs.google.com/document/d/1L73cawmL588q-w_2hQLVBkgBMQU3eV9fT2nWyT0_5mc/edit?usp=sharing" target="_blank">Submitted Report</a> | <a href="https://courses.kasescenarios.com/certificates/frrjyi6t6c" target="_blank">Verification</a></li>
+			<ul>
+				<li>Methodologies include searching through publicly available information (public records), handling sensitive and critical information, verifying sources for data integrity and evaluating reports for completeness and accuracy.
+				<li>Experienced in identifying and extracting information used to identify subjects and people.</li>
+			</ul>
+	</ul>
+	
+	
+	<section id="section-1">
+	<h2>Research & Reports</h2>
+	<p><b>Research</b></p>
+	<ul>
+		
+	</ul>
+	<p><b>Reports</b></p>
+	<ul>
+		<li>SecureTheVillage Guide to Password Managers for Families & Individuals (<b>Completeted but not Published Yet</b>)</li>
+		<li>SecureTheVillage Guide to Password Managers for Small Businesses & Non-profits (<b>In Progress</b>)</li>
+		<li>Camplight Safety Sessions: Online Scams - Tips to Safeguard Kids and Parents Against Online Scams | See the <a href="../assets/other/pdf/ScamsAgainstKids.pdf" target="_blank">report</a>.</li>
+	</ul>
+	
+	
+	  <section id="section-2">
+	<h2>Information Security</h2>
+	<p><b>Research Associate at SecureTheVillage.org</b> | April 2024 - Present</p>
+	<ul>
+		<li>Presented actionable reports by collecting, reviewing, and analyzing qualitative and quantitative data from various sources, ensuring cybersecurity products incite proactive decisions.</li>
+		<li>Translated technical jargon into cybersecurity products for non-technical audiences to promote awareness and therefore strengthening security posture for businesses in Greater Los Angeles.</li>
+		<li>Produced a prototype “Guide to Password Managers” by conducting root-problem analysis to determine business needs for customers to license a password manager.</li>
+		<li>Facilitated collaborative product visioning and design by synthesizing disparate stakeholder inputs into a cohesive prototype that aligned with the core mission.</li>
+	</ul>
+	<p><b>Founder of Incubating Dino: Privacy & Security Education for kids & teens</b> | November 2023 - Present</p>
+	<ul>
+		<li>Developing an educational organization to teach the next generation essential online privacy and security practices to bolster a sustainable information security culture</li>
+	</ul>
+	<p><b>Writer/Blogger at madebycuriosity.com Blog</b> | February 2023 - Present</p>
+	<ul>
+		<li>Author of the personal blog "MadeByCuriosity.com" which focuses on cybersecurity, privacy, and open-source intelligence topics.</li>
+		<li>Skilled in writing clear and engaging content that breaks down complex technical subjects for a general audience.</li>
+		<li>Responsibilities include content planning, writing, editing, as well as website management and optimization using HTML, CSS, and JavaScript.</li>
+	</ul>
+	<p><b>Safety Sessions Research Assistant at Camplight</b> | November 2023
+	<ul>
+		<li>Investigated the prevalence of online scams targeting children and compiled key statistics and data on common exploitation methods for Camplight Safety Sessions.</li>
+		<li>Results demonstrated an uptick of 1126% increase of children being affected by scams between the years 2017-2021.</li>
+		<li>Research found that scams can be enabled by technology, such as ridesharing applications, where proxy children are incentivized to move victims around for exploitation.</li>
+		<li>In this program, Camplight's Forest Bronzan and Omnistruct's George Usi discussed safeguarding strategies to protect both kids and parents from increasingly sophisticated scamming schemes. (See more in the <a href="#section-0">Research & Reports</a>)</li>
+	</ul>
+	<p><b>Information Security Administrator Intern at Cyber Proud</b> | April 2023 - July 2023</p>
+	<ul>
+		<li>Skilled in utilizing network monitoring tools and software, such as Wireshark, to ensure robust security measures.</li>
+		<li>Gained knowledge of network devices, including routers, switches, and firewalls, which enhances overall proficiency.</li>
+		<li>Installed, configured, and maintained PCs, mobile devices, and software for end-users, gaining hands-on experience in hardware and software deployment and maintenance.</li>
+		<li>Diagnosed, resolved, and documented hardware and software issues while adhering to proper safety protocols.</li>
+	</ul>
+	<p><b>Home Lab</b> | January 2023 - Present</p>
+	<ul>
+		<li>Participated in PWN the Shell, an innovative Discord-based platform with CTF style linux challenges where each challenge gives players access to a real linux shell which they control through the Discord chat and execute Linux commands to complete objectives. </li>
+		<li>Gained hands-on experience of Linux command-line and fundamental cybersecurity skills via <a href="https://www.worldofhaiku.com/?gclid=Cj0KCQjwmN2iBhCrARIsAG_G2i6vrtYjomb1El_CAmvS2sv48y2S1CHRW5INudjEqUm1dqWND7oD4eoaAtw8EALw_wcB" target ="_blank">World of Haiku</a>, an interactive, hands-on, game-based training developed by <a href="https://haikuinc.io" target="_blank">Haiku Inc.</a> </li>
+		<li>Learned essential cybersecurity skills and frameworks from <b>16 (and counting) </b><a href= "https://tryhackme.com/p/joycuratoR" target="_blank">TryHackMe rooms</a>. </li>
+		<li>Configured DNS records to link a domain to my portfolio website which is built from custom HTML, CSS, JavaScript code, and hosted on GitHub Pages with enforced security measures and rules.</li>
+		<li>Configured an isolated network inside VirtualBox to connect a Kali Linux virtual machine to vulnerable virtual machines from Vulnerable Hub to safely and ethically practice exploitation skills.</li>
+	</ul>
+	
+	<section id="section-3">
+	<h2>Data Analysis</h2>
+	<p><b>Data Analyst | AM Wedding Film Co. | September 2022 - October 2022</b></p>
+	<ul>
+		<li>As the project lead and consultant, spearheaded data analysis of Facebook advertising campaigns to identify key performance metrics for ad copy, creatives, and success factors.</li>
+		<li>Leveraged Canva for design and R statistical programming for in-depth analysis, pinpointing slow landing page speeds and suboptimal ad placements as bottlenecks hindering campaign success.</li>
+		<li>Provided strategic recommendations based on insights, resulting in a 2% reduction in overall marketing spend and time investment for the client.</li> 
+		<li>Demonstrated expertise in data-driven decision-making, digital marketing analytics, and delivering quantifiable process improvements.</li>
+	</ul>
+	<p><b>Other Projects</b></p>
+	<ul>
+	  <li>Through a guided project written by Marynia Kolak, Moksha Menghaney, Qinyun Lin, and Angela Li, I learned how to perform geospatial analysis techniques such as: geocoding, buffer analysis, and nearest resource analysis. <a href = "https://github.com/JoyCuratoR/MethadoneClinicsGeospatialAnalysis" target ="_blank">GitHub Repo</a>.</li>
+	  <li>In part of completing the Google Data Analytics Certificate program, I created a custom capstone project that analyzed Greenhouse Gas Emissions data from the Environmental Protection Agency. Find the full report here: <a href="https://rpubs.com/joycuratoR/RadiantEnergy" target="_blank">RPubs</a></li>
+      <li>The game Elden Ring exploded in popularity in 2022 and many Reddit users had negative and positive thoughts about its game mechanics. So using Reddit's API, I parsed and cleaned 150+ qualitative data to conduct sentiment analysis to discover the impact of Elden Ring's boss mechanics. Find the tutorial here: <a href="https://github.com/JoyCuratoR/Elden-Ring-Sentiment-Analysis-Guide" target="_blank">Elden Ring Sentiment Analysis Tutorial</a>.</li>
+	</ul>
+
+	
+	<section id="section-4">
+	<h2>Education</h2>
+	<p><b>Degrees</b></p>
+	<ul>
+		<li>B.A. History and Political Science | University of Maine at Presque Isle | Estimated September 2024</li>
+		<li>SANS Technology Institute Women’s Cybersecurity Immersion Academy | August 2023 - May 2024</li>
+	</ul>
+	
+	<p><b>Certifications</b></p>
+	<h3><i>OSINT</i></h3>
+	<ul>
+		<li>OSINT Case "Betrayal" by Kase Scenarios | <a href="https://courses.kasescenarios.com/certificates/frrjyi6t6c" target="_blank">Verification</a></li>
+	</ul>
+	<h3><i>Information Security</i></h3>
+	<ul>
+	  <li>GIAC Security Essentials (GSEC) Certification | SANS Technology Institute Women's Cyber Academy | <a href="https://www.credly.com/badges/b26aba73-fd01-4e62-b306-f1a80d7b9120/public_url" target="_blank">Verification</a></li>
+	  <li>GIAC Foundational Cybersecurity Technologies (GFACT) Certification | SANS Technology Institute Women's Cyber Academy | <a href="https://www.credly.com/badges/ee2784f4-2083-41ef-9c3b-6a5b1157add7/public_url" target="_blank">Verification</a></li> 
+	  <li>SANS Foundations Certificate | SANS Technology Institute Cyber Academy | <a href="https://api.badgr.io/public/assertions/yqLcKB6FTJqnFa8vv_ASuw?identity__email=torianncheung%40gmail.com" target="_blank">Verification</a></li>
+	  <li>Google Information Technology Support Certificate | <a href="https://www.credly.com/badges/0cf7f981-5144-4235-8bf1-5fd0919c76c2/public_url" target="_blank">Verification</a></li>
+	  <li>Google Cybersecurity Certificate | <a href="https://www.credly.com/badges/3bec00f1-f32f-4793-9295-f484720ffc2f/public_url" target="_blank">Verification</a></li>
+	</ul>
+	<h3><i>Data Analytics</i></h3>
+	<ul>
+	  <li>IBM Data Analytics with Excel and R Profesional Certificate | <a href="https://www.credly.com/badges/9db8c1b4-9a23-4cfa-bd5e-e79cc096a4c2/public_url" target="_blank">Verification</a></li>
+	  <li>Google Data Analytics Certificate |  <a href="https://www.credly.com/badges/6f724d11-0444-4a99-9963-f6dd1a181fa2/public_url" target="_blank">Verification</a></li>
+	  <li>Sololearn SQL Certificate | <a href="https://www.sololearn.com/certificates/CT-W0SWZIK6" target="_blank">Verification</a>
+	</ul>
+	
+	
+	
+	<section id="section-5">
+	<h2>Programming, Scripts and other code</h2>
+	<ul>
+	  <li>This current page and website was built to host my portfolio and act as a hands-on project while I learned HTML, Css, and JavaScript.</li>
+	  <li>I built a typewriter simulator which is a text editor where you can't use the backspace. Try it out here: <a href="https://joycurator.github.io/TypewriterSimulator/" target="_blank">Typewriter app</a>.</li>
+      <li>I created an automated Twitter account that requests Twitter's API to tweet daily inspirational quotes. Find the account here: <a href="https://twitter.com/SunshinecatLeo" target="_blank">@SunshinecatLeo</a> and build your own automated account with my <a href="https://github.com/JoyCuratoR/brainyquotebot" target="_blank">tutorial</a>.</li>
+	</ul>
+	
+	
+	<section id="section-6">
+	<h2>Volunteering</h2>
+	
+	<p><b>Online Content Moderator for <a href="https://www.careervillage.org/?next=" target="_blank">CareerVillage</a></b></p>
+		<p>May 2023 - October 2023 </p>
+			<ul>
+				<li>Applied company policies, procedures and guidelines to review and moderate over 300 content each week to determine if it needs to be flagged and reported.</li>
+				<li>Collaborated closely with senior moderators and staff, providing regular status updates and identifying/documenting any flagged content for resolution.</li>
+				<li>Supported development of moderation memos through consistent team communication.</li>
+			</ul>
+		
+
+
+
+<div class="scroll-to-top" onclick="scrollToTop()">
+    &#8593; <!-- Up arrow icon -->
+  </div>
+
+<script>
+  function scrollToTop() {
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+  }
+</script>
+
+</body>
