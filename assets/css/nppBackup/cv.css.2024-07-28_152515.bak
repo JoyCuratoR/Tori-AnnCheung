@@ -70,9 +70,7 @@
         }
 		
 		/* Media query for mobile devices */
-    @media (max-width: 800px) {
+    @media (max-width: 600px) {
       body {
         margin-left: 20px;
       }
-	  
-	  

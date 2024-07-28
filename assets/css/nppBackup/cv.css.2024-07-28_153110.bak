@@ -76,3 +76,9 @@
       }
 	  
 	  
+	.underlined-text {
+            display: inline-block;
+            border-bottom: 0.5px solid black;
+            padding-bottom: 0px;
+            line-height: 1;
+        }

@@ -27,7 +27,6 @@
 <h1>Table of Contents</h1>
 <div style="margin-bottom: 10px;">
   <p style="margin: 0;"><a href="#section-0">OSINT</a></p>
-  <p style="margin: 0;"><a href="#section-0.5">Records & Information Management</a></p>
   <p style="margin: 0;"><a href="#section-1">Research & Reports</a></p>
   <p style="margin: 0;"><a href="#section-2">Information Security</a></p>
   <p style="margin: 0;"><a href="#section-3">Data Analytics</a></p>
@@ -36,7 +35,7 @@
   <p style="margin: 0;"><a href="#section-6">Volunteering</a></p>
 </div>
 
-<p><b>Information Last Updated: 28th July, 2024</b></p>
+<p><b>Information Last Updated: 27 July, 2024</b></p>
 	
 
 <!-- Content sections -->
@@ -70,19 +69,6 @@
 			</ul>
 	</ul>
 	
-	<section id="section-0.5">
-	<h2>Records & Information Management</h2>
-	<p><b>Projects</b></p>
-	<p><b>madebycuriosity.com Website & Blog Digital Archive and Content Management System</b></p>
-	<ul>
-		<li>Managed and executed a digital asset management project using GitHub repositories and GitHub Pages, maintaining a repository of over 250 digital assets, showcasing skills in information organization, digital preservation, and large-scale content management.</li>
-		<li>Implemented a consistent metadata schema for blog posts, including keywords, dates, and authorship information, demonstrating skills in administration, data management and organizational and descriptive uniformity.</li>
-		<li>Implemented a tag-based classification system to enhance content discoverability, accessibility, and user navigation.</li>
-		<li>Managed digital workflows by using Git for version control, ensuring the preservation of content history.</li>
-		<li>Created a user-friendly interface to enhance information retrieval, demonstrating skills in user experience design and operational efficiency.</li>
-		<li>Maintained consistent naming conventions and file organization, demonstrating best practices in digital asset management.</li>
-		<li>Continuously refine and update digital preservation strategies, demonstrating commitment to long-term operational improvement and adaptability.</li>
-	</ul>
 	
 	<section id="section-1">
 	<h2>Research & Reports</h2>

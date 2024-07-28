@@ -76,3 +76,10 @@
       }
 	  
 	  
+	.underlined-heading {
+  display: inline-block;
+  border-bottom: 2px solid black; /* Increased thickness */
+  padding-bottom: 5px; /* Added some padding */
+  margin-bottom: 0;
+  line-height: 1.2; /* Slightly increased line height */
+}
