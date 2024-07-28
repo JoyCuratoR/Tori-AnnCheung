@@ -35,24 +35,18 @@
   <p style="margin: 0;"><a href="#section-6">Volunteering</a></p>
 </div>
 
-<p><b>Information Last Updated: 27 July, 2024</b></p>
+<p><b>Information Last Updated: 25 July, 2024</b></p>
 	
 
 <!-- Content sections -->
 	<section id="section-0">
 	<h2>OSINT</h2>
-	<p><b>Experience</b></p>
-	<p><b>Verification Analyst</b> (Volunteer), Smithsonian Gardens Archives of American Gardens | July 2024 - Present
 	<ul>
 		<li>Geolocated and generated key insights about an unidentifiable garden for the Smithsonian's Archives of American Gardens</li>
-		<li>Utilizing imagery analysis, terrain analysis and Google Maps/Earth, I produce 2 pieces of evidence that highly suggests that the garden’s location cataloged in Florida, USA was instead in Hiroshima, Japan</li>
-		<li>Synthesized findings into a comprehensive investigation report with an executive summary, a detailed write up about the verification and geolocation analysis and provided next step recommendations</li>
-		<ul>
-			<li>Read the <a href="../assets/other/pdf/AAG_SG-FL041002_OSINTReport.pdf" target="_blank">Report</a> <i>(Opens up a PDF)</i></li>
-		</ul>
-	</ul>
-	<p><b>Challenges, CTFs & Training Modules</b></p>
-	<ul>
+			<ul>
+				<li>Utilizing imagery analysis, terrain analysis and Google Maps/Earth, I produce 2 pieces of evidence that highly suggests that the garden’s location cataloged in Florida, USA was instead in Hiroshima, Japan</li>
+				<li>Synthesized findings into a comprehensive investigation report with an executive summary, a detailed write up about the verification and geolocation analysis and provided next step recommendations | Read the <a href="../assets/other/pdf/AAG_SG-FL041002_OSINTReport.pdf" target="_blank">Report (Opens up a PDF)</a></li>
+			</ul>
 		<li>Hacktoria Contract: Operation Bloodhound | A geolocation challenge to locate the target Maksim Kotova in support of Agent Bloodhound's mission | Read the <a href="./articles/hacktoria-operation-bloodhound.html" target="_blank">Documentation</a></li>
 		<li>Kase Scenarios: Sinister Obssesion Case | A Open-Source Intelligence training module to identify and locate a celebrity's malicious stalker where they may be apprehended by authorities | Read the <a href="./articles/kase-scenarios-sinister-obsession-write-up.html" target="_blank">Documentation</a> | <a href="https://courses.kasescenarios.com/certificates/nbj5unkmlp" target="_blank">Verification</a></li>
 		<li>Hacktoria Contract: The Michigan Mystery | A geolocation challenge to locate where a client's missing daughter was taken to | Read the <a href="./articles/hacktoria-michigan-mystery.html" target="_blank">Documentation</a></li>
@@ -73,15 +67,14 @@
 	<section id="section-1">
 	<h2>Research & Reports</h2>
 	<p><b>Research</b></p>
-	<p><i>Nothing yet</i></p>
 	<ul>
 		
 	</ul>
 	<p><b>Reports</b></p>
 	<ul>
-		<li>SecureTheVillage Guide to Password Managers for Families & Individuals (<b>Completeted but not externally published yet</b>)</li>
+		<li>SecureTheVillage Guide to Password Managers for Families & Individuals (<b>Completeted but not Externally Published Yet</b>)</li>
 		<li>SecureTheVillage Guide to Password Managers for Small Businesses & Non-profits (<b>In Progress</b>)</li>
-		<li>Camplight Safety Sessions: Online Scams - Tips to Safeguard Kids and Parents Against Online Scams | See the <a href="../assets/other/pdf/ScamsAgainstKids.pdf" target="_blank">Report</a><i> (Opens up a PDF)</i></li>
+		<li>Camplight Safety Sessions: Online Scams - Tips to Safeguard Kids and Parents Against Online Scams | See the <a href="../assets/other/pdf/ScamsAgainstKids.pdf" target="_blank">Report (Opens up a PDF)</a>.</li>
 	</ul>
 	
 	
