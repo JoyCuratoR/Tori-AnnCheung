@@ -72,31 +72,31 @@
                     <li>The interior of an airport. On the left, there is a sign for directions to a specific airplane as well as check-in areas. The most prominent aspect in this photo is the red architectural art design hanging from the ceiling.</li>
                 </ul>
             </li>
-			<img src="../../assets/images/osint-challenges/hacktoria/operation-bloodhound/picture-1.png" class="article-image">
+			<img src="../../assets/images/osint-challenges/operation-bloodhound/picture-1.png" class="article-image">
             <li><strong>Picture 2</strong>
                 <ul>
                     <li>The interior of a building (presumably an airport) with a lounge and food area.</li>
                 </ul>
             </li>
-			<img src="../../assets/images/osint-challenges/hacktoria/operation-bloodhound/picture-2.png" class="article-image">
+			<img src="../../assets/images/osint-challenges/operation-bloodhound/picture-2.png" class="article-image">
             <li><strong>Picture 3</strong>
                 <ul>
                     <li>The exterior of a hotel or apartment building with some parking spaces. In the distance, there are twin minarets.</li>
                 </ul>
             </li>
-			<img src="../../assets/images/osint-challenges/hacktoria/operation-bloodhound/picture-3.png" class="article-image">
+			<img src="../../assets/images/osint-challenges/operation-bloodhound/picture-3.png" class="article-image">
             <li><strong>Picture 4</strong>
                 <ul>
                     <li>The interior of a room, presumably of a hotel or apartment room. On the right there is a blue-wallpapered hallway inside the room leading outside of the room to another hallway. On the right there is a lamp on the green-wallpapered wall and a mirror.</li>
                 </ul>
             </li>
-			<img src="../../assets/images/osint-challenges/hacktoria/operation-bloodhound/picture-4.png" class="article-image">
+			<img src="../../assets/images/osint-challenges/operation-bloodhound/picture-4.png" class="article-image">
             <li><strong>Picture 5</strong>
                 <ul>
                     <li>The exterior view of a city on top of what looks like a balcony.</li>
                 </ul>
             </li>
-			<img src="../../assets/images/osint-challenges/hacktoria/operation-bloodhound/picture-5.png" class="article-image">
+			<img src="../../assets/images/osint-challenges/operation-bloodhound/picture-5.png" class="article-image">
         </ul>
         <h3>Initial Observations and Impressions</h3>
         <ul>
@@ -119,7 +119,7 @@
                     <li>While minarets aren't exclusive to Istanbul, the specific architecture of the twin minarets (see picture 3) is similar to minarets of Istanbul's Blue Mosque.</li>
                 </ul>
             </li>
-			<img src="../../assets/images/osint-challenges/hacktoria/operation-bloodhound/picture-3.png" class="article-image">
+			<img src="../../assets/images/osint-challenges/operation-bloodhound/picture-3.png" class="article-image">
             <li>Assumptions and Limitations
                 <ul>
                     <li>The distance of the minarets from the camera and lack of clarity of picture 3 makes it difficult to verify if the minarets are ones in Istanbul and not another city.</li>
@@ -133,9 +133,9 @@
                     <li>The results from GeoSpy while inaccurate with the specific coordinates/location it provides, the tool does have higher accuracy pinpointing the region an uploaded photo is located in. Coupled with that belief and trust in GeoSpy's results, spotting a pair of minarets while exploring Ankara in street view leads me to believe that the location of Kotova could be in Ankara, Turkey.</li>
                 </ul>
             </li>
-			<img src="../../assets/images/osint-challenges/hacktoria/operation-bloodhound/picture-5-geospy-results.png" class="article-image">
-			<img src="../../assets/images/osint-challenges/hacktoria/operation-bloodhound/ankara-lead.png" class="article-image">
-			<img src="../../assets/images/osint-challenges/hacktoria/operation-bloodhound/ankara-mosque.png" class="article-image">
+			<img src="../../assets/images/osint-challenges/operation-bloodhound/picture-5-geospy-results.png" class="article-image">
+			<img src="../../assets/images/osint-challenges/operation-bloodhound/ankara-lead.png" class="article-image">
+			<img src="../../assets/images/osint-challenges/operation-bloodhound/ankara-mosque.png" class="article-image">
             <li>Assumptions and Limitations
                 <ul>
                     <li>The GeoSpy results could be completely inaccurate. As well, there is bias in believing that because GeoSpy has been accurate with it's region pinpointing for previous geolocation challenges, that it will stay accurate even as the machine learning algorithm changes. In short, there is too much reliance on a tool that has high potential for inconsistency and inaccuracy.</li>
@@ -158,7 +158,7 @@
                             <li>Action: Sought to verify the location with another reverse image search tool</li>
                         </ul>
                     </li>
-					<img src="../../assets/images/osint-challenges/hacktoria/operation-bloodhound/airport-geospy-results.png" class="article-image">
+					<img src="../../assets/images/osint-challenges/operation-bloodhound/airport-geospy-results.png" class="article-image">
                     <li>Yandex Reverse Image Search
                         <ul>
                             <li>Used Yandex reverse image search on picture 1</li>
@@ -166,10 +166,10 @@
                             <li>Action: Searched on Google for Berlin Brandenburg Airport and found an Independent Co. article showcasing the image of The Magic Carpet at Berlin Brandenburg Airport.</li>
                         </ul>
                     </li>
-					<img src="../../assets/images/osint-challenges/hacktoria/operation-bloodhound/berlin-airport-yandex.png" class="article-image">
-					<img src="../../assets/images/osint-challenges/hacktoria/operation-bloodhound/berlin-airport-google-search.png" class="article-image">
-					<img src="../../assets/images/osint-challenges/hacktoria/operation-bloodhound/berlin-airport-independentco-site.png" class="article-image">
-					<img src="../../assets/images/osint-challenges/hacktoria/operation-bloodhound/picture-1-colored.png" class="article-image">
+					<img src="../../assets/images/osint-challenges/operation-bloodhound/berlin-airport-yandex.png" class="article-image">
+					<img src="../../assets/images/osint-challenges/operation-bloodhound/berlin-airport-google-search.png" class="article-image">
+					<img src="../../assets/images/osint-challenges/operation-bloodhound/berlin-airport-independentco-site.png" class="article-image">
+					<img src="../../assets/images/osint-challenges/operation-bloodhound/picture-1-colored.png" class="article-image">
                 </ol>
             </li>
             <li>Locating place of residence - Picture 3 and 5
@@ -181,8 +181,8 @@
                             <li>Action: Cropping up a new potential lead, I further researched Ankara, Turkey, momentarily halting the search in Istanbul</li>
                         </ul>
                     </li>
-					<img src="../../assets/images/osint-challenges/hacktoria/operation-bloodhound/picture-3-geospy-results.png" class="article-image">
-					<img src="../../assets/images/osint-challenges/hacktoria/operation-bloodhound/picture-5-geospy-results.png" class="article-image">
+					<img src="../../assets/images/osint-challenges/operation-bloodhound/picture-3-geospy-results.png" class="article-image">
+					<img src="../../assets/images/osint-challenges/operation-bloodhound/picture-5-geospy-results.png" class="article-image">
                     <li>Google Maps
                         <ul>
                             <li>Using the provided coordinates GeoSpy gave for picture 5, I navigated into streetview</li>
@@ -190,8 +190,8 @@
                             <li>Action: Formed a new hypothesis that the location is in Ankara, Turkey because of the results in GeoSpy and the minarets that were seen when in Google Maps street view. This is significant because knowing that minarets are not unique to Istanbul, then that means the location of the place of residence can be elsewhere that also has minarets.</li>
                         </ul>
                     </li>
-					<img src="../../assets/images/osint-challenges/hacktoria/operation-bloodhound/ankara-lead.png" class="article-image">
-					<img src="../../assets/images/osint-challenges/hacktoria/operation-bloodhound/ankara-mosque.png" class="article-image">
+					<img src="../../assets/images/osint-challenges/operation-bloodhound/ankara-lead.png" class="article-image">
+					<img src="../../assets/images/osint-challenges/operation-bloodhound/ankara-mosque.png" class="article-image">
                 </ol>
             </li>
         </ol>
@@ -267,7 +267,7 @@
                             <li>Action: Abandoned using the cropped image</li>
                         </ul>
                     </li>
-					<img src="../../assets/images/osint-challenges/hacktoria/operation-bloodhound/picture-3-cropped.png" class="article-image">
+					<img src="../../assets/images/osint-challenges/operation-bloodhound/picture-3-cropped.png" class="article-image">
                     <li>Google Images
                         <ul>
                             <li>Uploaded picture 3 into Google Images</li>
@@ -275,7 +275,7 @@
                             <li>Action: Confirmed that the matching image is the same as picture 3</li>
                         </ul>
                     </li>
-					<img src="../../assets/images/osint-challenges/hacktoria/operation-bloodhound/picture-3-google-images-results.png" class="article-image">
+					<img src="../../assets/images/osint-challenges/operation-bloodhound/picture-3-google-images-results.png" class="article-image">
                     <li>Google Search Engine
                         <ul>
                             <li>Clicked on the associated website of the matching image which brought me to a flat listing on Tapu.com</li>
@@ -283,10 +283,10 @@
                             <li>Action: Confirmed address is relevant by entering into Google Maps "Özal Boulevard No: 202/F, Pursaklar/Ankara" and dropping down to street view and finding the twin minarets depicted in picture 3. Further confirmation is given when I find the apartment and angle of the minarets in street view the same way picture 3 is depicted.</li>
                         </ul>
                     </li>
-					<img src="../../assets/images/osint-challenges/hacktoria/operation-bloodhound/picture-3-confirmed.png" class="article-image">
-					<img src="../../assets/images/osint-challenges/hacktoria/operation-bloodhound/apartment-address.png" class="article-image">
-					<img src="../../assets/images/osint-challenges/hacktoria/operation-bloodhound/street-view-apartment-address.png" class="article-image">
-					<img src="../../assets/images/osint-challenges/hacktoria/operation-bloodhound/further-confirmation-picture-3-recreated.png" class="article-image">
+					<img src="../../assets/images/osint-challenges/operation-bloodhound/picture-3-confirmed.png" class="article-image">
+					<img src="../../assets/images/osint-challenges/operation-bloodhound/apartment-address.png" class="article-image">
+					<img src="../../assets/images/osint-challenges/operation-bloodhound/street-view-apartment-address.png" class="article-image">
+					<img src="../../assets/images/osint-challenges/operation-bloodhound/further-confirmation-picture-3-recreated.png" class="article-image">
                 </ol>
             </li>
             <li>Figuring out the name of the hotel/residence
@@ -298,12 +298,12 @@
                             <li>Results: Noted down that while the physical location and address of the picture 3 building has been confirmed and verified, the name of the hotel cannot be. Also, took note that the picture 3 building may not have been Kotova's true destination. According to the additional evidence gathered, Kotova could have been there to rent a vehicle for transportation, given how there are a couple of car dealer/renter  businesses nearby (see: car-dealer.png and rent-car.png )</li>
                         </ul>
                     </li>
-					<img src="../../assets/images/osint-challenges/hacktoria/operation-bloodhound/name-of-hotel.png" class="article-image">
-					<img src="../../assets/images/osint-challenges/hacktoria/operation-bloodhound/hotel-name-google-results.png" class="article-image">
-					<img src="../../assets/images/osint-challenges/hacktoria/operation-bloodhound/instagram-hotel-name.png" class="article-image">
-					<img src="../../assets/images/osint-challenges/hacktoria/operation-bloodhound/car-dealer.png" class="article-image">
-					<img src="../../assets/images/osint-challenges/hacktoria/operation-bloodhound/car-dealer-street-view.png" class="article-image">
-					<img src="../../assets/images/osint-challenges/hacktoria/operation-bloodhound/rent-car.png" class="article-image">
+					<img src="../../assets/images/osint-challenges/operation-bloodhound/name-of-hotel.png" class="article-image">
+					<img src="../../assets/images/osint-challenges/operation-bloodhound/hotel-name-google-results.png" class="article-image">
+					<img src="../../assets/images/osint-challenges/operation-bloodhound/instagram-hotel-name.png" class="article-image">
+					<img src="../../assets/images/osint-challenges/operation-bloodhound/car-dealer.png" class="article-image">
+					<img src="../../assets/images/osint-challenges/operation-bloodhound/car-dealer-street-view.png" class="article-image">
+					<img src="../../assets/images/osint-challenges/operation-bloodhound/rent-car.png" class="article-image">
                 </ol>
             </li>
             <li>But is the building in picture 3 the same as the interior captured in picture 4? Or the exterior balcony/skyline image of picture 5?
@@ -315,7 +315,7 @@
                             <li>Results: Found some promising images that may help me pinpoint a smaller geographic search area.</li>
                         </ul>
                     </li>
-					<img src="../../assets/images/osint-challenges/hacktoria/operation-bloodhound/picture-5-points-of-reference.png" class="article-image">
+					<img src="../../assets/images/osint-challenges/operation-bloodhound/picture-5-points-of-reference.png" class="article-image">
                     <li>Stock photos of Ankara's Skyline
                         <ul>
                             <li>Because of the high-rise building depicted on the left side of picture 5 as well as the ones scattered in the skyline, I Googled "Ankara skyline" and came away with few promising photos to examine</li>
@@ -325,14 +325,14 @@
                             <li>Results: I save the image as a photo to then upload it to Google Images</li>
                         </ul>
                     </li>
-					<img src="../../assets/images/osint-challenges/hacktoria/operation-bloodhound/Ankara_Skyline.jpg" class="article-image">
-					<img src="../../assets/images/osint-challenges/hacktoria/operation-bloodhound/picture-5-t-shaped-building.png" class="article-image">
-					<img src="../../assets/images/osint-challenges/hacktoria/operation-bloodhound/better-close-up-t-shaped-building.jpg" class="article-image">
-					<img src="../../assets/images/osint-challenges/hacktoria/operation-bloodhound/t-shaped-building-google-images-results.png" class="article-image">
-					<img src="../../assets/images/osint-challenges/hacktoria/operation-bloodhound/t-shaped-building-name.png" class="article-image">
-					<img src="../../assets/images/osint-challenges/hacktoria/operation-bloodhound/t-shaped-building-google-maps.png" class="article-image">
-					<img src="../../assets/images/osint-challenges/hacktoria/operation-bloodhound/picture-5-building-in-distance.png" class="article-image">
-					<img src="../../assets/images/osint-challenges/hacktoria/operation-bloodhound/hospital.png" class="article-image">
+					<img src="../../assets/images/osint-challenges/operation-bloodhound/Ankara_Skyline.jpg" class="article-image">
+					<img src="../../assets/images/osint-challenges/operation-bloodhound/picture-5-t-shaped-building.png" class="article-image">
+					<img src="../../assets/images/osint-challenges/operation-bloodhound/better-close-up-t-shaped-building.jpg" class="article-image">
+					<img src="../../assets/images/osint-challenges/operation-bloodhound/t-shaped-building-google-images-results.png" class="article-image">
+					<img src="../../assets/images/osint-challenges/operation-bloodhound/t-shaped-building-name.png" class="article-image">
+					<img src="../../assets/images/osint-challenges/operation-bloodhound/t-shaped-building-google-maps.png" class="article-image">
+					<img src="../../assets/images/osint-challenges/operation-bloodhound/picture-5-building-in-distance.png" class="article-image">
+					<img src="../../assets/images/osint-challenges/operation-bloodhound/hospital.png" class="article-image">
                     <li>Google Imaging the Hospital building
                         <ul>
                             <li>I upload it to Google Images to see if I can find the location and name of the building.</li>
@@ -342,20 +342,20 @@
                             <li>Results: Found the same interior depicted in picture 4 which the hotel was geolocated due to points of references in picture 5. Additionally, the Lantanya Hotel's line of sight is in perfect alignment with the camera point of view in picture 5. This is further illustrated in line-of-sight.png</li>
                         </ul>
                     </li>
-					<img src="../../assets/images/osint-challenges/hacktoria/operation-bloodhound/liv-hospital.png" class="article-image">
-					<img src="../../assets/images/osint-challenges/hacktoria/operation-bloodhound/liv-hospital-google-maps.png" class="article-image">
-					<img src="../../assets/images/osint-challenges/hacktoria/operation-bloodhound/holiday-inn-sign.png" class="article-image">
-					<img src="../../assets/images/osint-challenges/hacktoria/operation-bloodhound/hospital-matching-sides.png" class="article-image">
-					<img src="../../assets/images/osint-challenges/hacktoria/operation-bloodhound/green-crown-moulding.png" class="article-image">
-					<img src="../../assets/images/osint-challenges/hacktoria/operation-bloodhound/deluxe-room-green-room.png" class="article-image">
-					<img src="../../assets/images/osint-challenges/hacktoria/operation-bloodhound/same-carpet.png" class="article-image">
-					<img src="../../assets/images/osint-challenges/hacktoria/operation-bloodhound/fifth-floor-room.png" class="article-image">
-					<img src="../../assets/images/osint-challenges/hacktoria/operation-bloodhound/same-interior-different-room.png" class="article-image">
-					<img src="../../assets/images/osint-challenges/hacktoria/operation-bloodhound/line-of-sight.png" class="article-image">
+					<img src="../../assets/images/osint-challenges/operation-bloodhound/liv-hospital.png" class="article-image">
+					<img src="../../assets/images/osint-challenges/operation-bloodhound/liv-hospital-google-maps.png" class="article-image">
+					<img src="../../assets/images/osint-challenges/operation-bloodhound/holiday-inn-sign.png" class="article-image">
+					<img src="../../assets/images/osint-challenges/operation-bloodhound/hospital-matching-sides.png" class="article-image">
+					<img src="../../assets/images/osint-challenges/operation-bloodhound/green-crown-moulding.png" class="article-image">
+					<img src="../../assets/images/osint-challenges/operation-bloodhound/deluxe-room-green-room.png" class="article-image">
+					<img src="../../assets/images/osint-challenges/operation-bloodhound/same-carpet.png" class="article-image">
+					<img src="../../assets/images/osint-challenges/operation-bloodhound/fifth-floor-room.png" class="article-image">
+					<img src="../../assets/images/osint-challenges/operation-bloodhound/same-interior-different-room.png" class="article-image">
+					<img src="../../assets/images/osint-challenges/operation-bloodhound/line-of-sight.png" class="article-image">
 						<figcaption>
 							line-of-sight.png | The Latanya Hotel Ankara (pink) has a matching line of sight (red arrow) that aligns with the camera's point of view in picture 5
 						</figcaption>
-					<img src="../../assets/images/osint-challenges/hacktoria/operation-bloodhound/picture-5-line-of-sight.png" class="article-image">
+					<img src="../../assets/images/osint-challenges/operation-bloodhound/picture-5-line-of-sight.png" class="article-image">
 						<figcaption>
 							Liv Hospital Anakra (green) is on the left side while Gelir İdaresi Başkanlığı (purple) is in the distance but still close enough to make out as shown in the provided screenshot above (line-of-sight.png) and in Google Maps
 						</figcaption>
@@ -486,7 +486,7 @@
                     <li>Had Picture 2 been properly geolocated and analyzed, it would have provided a fuller timeline of the target's travels and activities.</li>
                 </ul>
             </li>
-			<img src="../../assets/images/osint-challenges/hacktoria/operation-bloodhound/picture-2.png" class="article-image">
+			<img src="../../assets/images/osint-challenges/operation-bloodhound/picture-2.png" class="article-image">
             <li>Incomplete identification:
                 <ul>
                     <li>The exact nature and name of the "VIP rend" location couldn't be fully confirmed.</li>
@@ -513,191 +513,191 @@
     </div>
 	<div class="section">
 	<h2 id="appendix">Appendix</h2>
-		<img src="../../assets/images/osint-challenges/hacktoria/operation-bloodhound/picture-1.png" class="article-image">
+		<img src="../../assets/images/osint-challenges/operation-bloodhound/picture-1.png" class="article-image">
 		<figcaption>
 			1
 		</figcaption>
-		<img src="../../assets/images/osint-challenges/hacktoria/operation-bloodhound/picture-2.png" class="article-image">
+		<img src="../../assets/images/osint-challenges/operation-bloodhound/picture-2.png" class="article-image">
 		<figcaption>
 			2
 		</figcaption>
-		<img src="../../assets/images/osint-challenges/hacktoria/operation-bloodhound/picture-3.png" class="article-image">
+		<img src="../../assets/images/osint-challenges/operation-bloodhound/picture-3.png" class="article-image">
 		<figcaption>
 			3
 		</figcaption>
-		<img src="../../assets/images/osint-challenges/hacktoria/operation-bloodhound/picture-4.png" class="article-image">
+		<img src="../../assets/images/osint-challenges/operation-bloodhound/picture-4.png" class="article-image">
 		<figcaption>
 			4
 		</figcaption>
-		<img src="../../assets/images/osint-challenges/hacktoria/operation-bloodhound/picture-5.png" class="article-image">
+		<img src="../../assets/images/osint-challenges/operation-bloodhound/picture-5.png" class="article-image">
 		<figcaption>
 			5
 		</figcaption>
-		<img src="../../assets/images/osint-challenges/hacktoria/operation-bloodhound/picture-5-geospy-results.png" class="article-image">
+		<img src="../../assets/images/osint-challenges/operation-bloodhound/picture-5-geospy-results.png" class="article-image">
 		<figcaption>
 			6
 		</figcaption>
-		<img src="../../assets/images/osint-challenges/hacktoria/operation-bloodhound/ankara-lead.png" class="article-image">
+		<img src="../../assets/images/osint-challenges/operation-bloodhound/ankara-lead.png" class="article-image">
 		<figcaption>
 			7
 		</figcaption>
-		<img src="../../assets/images/osint-challenges/hacktoria/operation-bloodhound/airport-geospy-results.png" class="article-image">
+		<img src="../../assets/images/osint-challenges/operation-bloodhound/airport-geospy-results.png" class="article-image">
 		<figcaption>
 			8
 		</figcaption>
-		<img src="../../assets/images/osint-challenges/hacktoria/operation-bloodhound/berlin-airport-yandex.png" class="article-image">
+		<img src="../../assets/images/osint-challenges/operation-bloodhound/berlin-airport-yandex.png" class="article-image">
 		<figcaption>
 			9
 		</figcaption>
-		<img src="../../assets/images/osint-challenges/hacktoria/operation-bloodhound/berlin-airport-google-search.png" class="article-image">
+		<img src="../../assets/images/osint-challenges/operation-bloodhound/berlin-airport-google-search.png" class="article-image">
 		<figcaption>
 			10
 		</figcaption>
-		<img src="../../assets/images/osint-challenges/hacktoria/operation-bloodhound/berlin-airport-independentco-site.png" class="article-image">
+		<img src="../../assets/images/osint-challenges/operation-bloodhound/berlin-airport-independentco-site.png" class="article-image">
 		<figcaption>
 			11
 		</figcaption>
-		<img src="../../assets/images/osint-challenges/hacktoria/operation-bloodhound/picture-1-colored.png" class="article-image">
+		<img src="../../assets/images/osint-challenges/operation-bloodhound/picture-1-colored.png" class="article-image">
 		<figcaption>
 			12
 		</figcaption>
-		<img src="../../assets/images/osint-challenges/hacktoria/operation-bloodhound/picture-3-geospy-results.png" class="article-image">
+		<img src="../../assets/images/osint-challenges/operation-bloodhound/picture-3-geospy-results.png" class="article-image">
 		<figcaption>
 			13
 		</figcaption>
-		<img src="../../assets/images/osint-challenges/hacktoria/operation-bloodhound/picture-5-geospy-results.png" class="article-image">
+		<img src="../../assets/images/osint-challenges/operation-bloodhound/picture-5-geospy-results.png" class="article-image">
 		<figcaption>
 			14
 		</figcaption>
-		<img src="../../assets/images/osint-challenges/hacktoria/operation-bloodhound/picture-3-cropped.png" class="article-image">
+		<img src="../../assets/images/osint-challenges/operation-bloodhound/picture-3-cropped.png" class="article-image">
 		<figcaption>
 			15
 		</figcaption>
-		<img src="../../assets/images/osint-challenges/hacktoria/operation-bloodhound/picture-3-google-images-results.png" class="article-image">
+		<img src="../../assets/images/osint-challenges/operation-bloodhound/picture-3-google-images-results.png" class="article-image">
 		<figcaption>
 			16
 		</figcaption>
-		<img src="../../assets/images/osint-challenges/hacktoria/operation-bloodhound/picture-3-confirmed.png" class="article-image">
+		<img src="../../assets/images/osint-challenges/operation-bloodhound/picture-3-confirmed.png" class="article-image">
 		<figcaption>
 			17
 		</figcaption>
-		<img src="../../assets/images/osint-challenges/hacktoria/operation-bloodhound/apartment-address.png" class="article-image">
+		<img src="../../assets/images/osint-challenges/operation-bloodhound/apartment-address.png" class="article-image">
 		<figcaption>
 			18
 		</figcaption>
-		<img src="../../assets/images/osint-challenges/hacktoria/operation-bloodhound/street-view-apartment-address.png" class="article-image">
+		<img src="../../assets/images/osint-challenges/operation-bloodhound/street-view-apartment-address.png" class="article-image">
 		<figcaption>
 			19
 		</figcaption>
-		<img src="../../assets/images/osint-challenges/hacktoria/operation-bloodhound/further-confirmation-picture-3-recreated.png" class="article-image">
+		<img src="../../assets/images/osint-challenges/operation-bloodhound/further-confirmation-picture-3-recreated.png" class="article-image">
 		<figcaption>
 			20
 		</figcaption>
-		<img src="../../assets/images/osint-challenges/hacktoria/operation-bloodhound/name-of-hotel.png" class="article-image">
+		<img src="../../assets/images/osint-challenges/operation-bloodhound/name-of-hotel.png" class="article-image">
 		<figcaption>
 			21
 		</figcaption>
-		<img src="../../assets/images/osint-challenges/hacktoria/operation-bloodhound/hotel-name-google-results.png" class="article-image">
+		<img src="../../assets/images/osint-challenges/operation-bloodhound/hotel-name-google-results.png" class="article-image">
 		<figcaption>
 			22
 		</figcaption>
-		<img src="../../assets/images/osint-challenges/hacktoria/operation-bloodhound/instagram-hotel-name.png" class="article-image">
+		<img src="../../assets/images/osint-challenges/operation-bloodhound/instagram-hotel-name.png" class="article-image">
 		<figcaption>
 			23
 		</figcaption>
-		<img src="../../assets/images/osint-challenges/hacktoria/operation-bloodhound/car-dealer.png" class="article-image">
+		<img src="../../assets/images/osint-challenges/operation-bloodhound/car-dealer.png" class="article-image">
 		<figcaption>
 			24
 		</figcaption>
-		<img src="../../assets/images/osint-challenges/hacktoria/operation-bloodhound/car-dealer-street-view.png" class="article-image">
+		<img src="../../assets/images/osint-challenges/operation-bloodhound/car-dealer-street-view.png" class="article-image">
 		<figcaption>
 			25
 		</figcaption>
-		<img src="../../assets/images/osint-challenges/hacktoria/operation-bloodhound/rent-car.png" class="article-image">
+		<img src="../../assets/images/osint-challenges/operation-bloodhound/rent-car.png" class="article-image">
 		<figcaption>
 			26
 		</figcaption>
-		<img src="../../assets/images/osint-challenges/hacktoria/operation-bloodhound/picture-5-points-of-reference.png" class="article-image">
+		<img src="../../assets/images/osint-challenges/operation-bloodhound/picture-5-points-of-reference.png" class="article-image">
 		<figcaption>
 			27
 		</figcaption>
-		<img src="../../assets/images/osint-challenges/hacktoria/operation-bloodhound/Ankara_Skyline.jpg" class="article-image">
+		<img src="../../assets/images/osint-challenges/operation-bloodhound/Ankara_Skyline.jpg" class="article-image">
 		<figcaption>
 			28
 		</figcaption>
-		<img src="../../assets/images/osint-challenges/hacktoria/operation-bloodhound/picture-5-t-shaped-building.png" class="article-image">
+		<img src="../../assets/images/osint-challenges/operation-bloodhound/picture-5-t-shaped-building.png" class="article-image">
 		<figcaption>
 			29
 		</figcaption>
-		<img src="../../assets/images/osint-challenges/hacktoria/operation-bloodhound/better-close-up-t-shaped-building.jpg" class="article-image">
+		<img src="../../assets/images/osint-challenges/operation-bloodhound/better-close-up-t-shaped-building.jpg" class="article-image">
 		<figcaption>
 			30
 		</figcaption>
-		<img src="../../assets/images/osint-challenges/hacktoria/operation-bloodhound/t-shaped-building-google-images-results.png" class="article-image">
+		<img src="../../assets/images/osint-challenges/operation-bloodhound/t-shaped-building-google-images-results.png" class="article-image">
 		<figcaption>
 			31
 		</figcaption>
-		<img src="../../assets/images/osint-challenges/hacktoria/operation-bloodhound/t-shaped-building-name.png" class="article-image">
+		<img src="../../assets/images/osint-challenges/operation-bloodhound/t-shaped-building-name.png" class="article-image">
 		<figcaption>
 			32
 		</figcaption>
-		<img src="../../assets/images/osint-challenges/hacktoria/operation-bloodhound/t-shaped-building-google-maps.png" class="article-image">
+		<img src="../../assets/images/osint-challenges/operation-bloodhound/t-shaped-building-google-maps.png" class="article-image">
 		<figcaption>
 			33
 		</figcaption>
-		<img src="../../assets/images/osint-challenges/hacktoria/operation-bloodhound/picture-5-building-in-distance.png" class="article-image">
+		<img src="../../assets/images/osint-challenges/operation-bloodhound/picture-5-building-in-distance.png" class="article-image">
 		<figcaption>
 			34
 		</figcaption>
-		<img src="../../assets/images/osint-challenges/hacktoria/operation-bloodhound/hospital.png" class="article-image">
+		<img src="../../assets/images/osint-challenges/operation-bloodhound/hospital.png" class="article-image">
 		<figcaption>
 			35
 		</figcaption>
-		<img src="../../assets/images/osint-challenges/hacktoria/operation-bloodhound/liv-hospital.png" class="article-image">
+		<img src="../../assets/images/osint-challenges/operation-bloodhound/liv-hospital.png" class="article-image">
 		<figcaption>
 			36
 		</figcaption>
-		<img src="../../assets/images/osint-challenges/hacktoria/operation-bloodhound/liv-hospital-google-maps.png" class="article-image">
+		<img src="../../assets/images/osint-challenges/operation-bloodhound/liv-hospital-google-maps.png" class="article-image">
 		<figcaption>
 			37
 		</figcaption>
-		<img src="../../assets/images/osint-challenges/hacktoria/operation-bloodhound/holiday-inn-sign.png" class="article-image">
+		<img src="../../assets/images/osint-challenges/operation-bloodhound/holiday-inn-sign.png" class="article-image">
 		<figcaption>
 			38
 		</figcaption>
-		<img src="../../assets/images/osint-challenges/hacktoria/operation-bloodhound/hospital-matching-sides.png" class="article-image">
+		<img src="../../assets/images/osint-challenges/operation-bloodhound/hospital-matching-sides.png" class="article-image">
 		<figcaption>
 			39
 		</figcaption>
-		<img src="../../assets/images/osint-challenges/hacktoria/operation-bloodhound/green-crown-moulding.png" class="article-image">
+		<img src="../../assets/images/osint-challenges/operation-bloodhound/green-crown-moulding.png" class="article-image">
 		<figcaption>
 			40
 		</figcaption>
-		<img src="../../assets/images/osint-challenges/hacktoria/operation-bloodhound/deluxe-room-green-room.png" class="article-image">
+		<img src="../../assets/images/osint-challenges/operation-bloodhound/deluxe-room-green-room.png" class="article-image">
 		<figcaption>
 			41
 		</figcaption>
-		<img src="../../assets/images/osint-challenges/hacktoria/operation-bloodhound/same-carpet.png" class="article-image">
+		<img src="../../assets/images/osint-challenges/operation-bloodhound/same-carpet.png" class="article-image">
 		<figcaption>
 			42
 		</figcaption>
-		<img src="../../assets/images/osint-challenges/hacktoria/operation-bloodhound/fifth-floor-room.png" class="article-image">\
+		<img src="../../assets/images/osint-challenges/operation-bloodhound/fifth-floor-room.png" class="article-image">\
 		<figcaption>
 			43
 		</figcaption>
-		<img src="../../assets/images/osint-challenges/hacktoria/operation-bloodhound/same-interior-different-room.png" class="article-image">
+		<img src="../../assets/images/osint-challenges/operation-bloodhound/same-interior-different-room.png" class="article-image">
 		<figcaption>
 			44
 		</figcaption>
-		<img src="../../assets/images/osint-challenges/hacktoria/operation-bloodhound/line-of-sight.png" class="article-image">
+		<img src="../../assets/images/osint-challenges/operation-bloodhound/line-of-sight.png" class="article-image">
 		<figcaption>
 			45
 		</figcaption>
-		<img src="../../assets/images/osint-challenges/hacktoria/operation-bloodhound/picture-5-line-of-sight.png" class="article-image">
+		<img src="../../assets/images/osint-challenges/operation-bloodhound/picture-5-line-of-sight.png" class="article-image">
 		<figcaption>
 			46
 		</figcaption>
-		<img src="../../assets/images/osint-challenges/hacktoria/operation-bloodhound/ankara-mosque.png" class="article-image">
+		<img src="../../assets/images/osint-challenges/operation-bloodhound/ankara-mosque.png" class="article-image">
 		<figcaption>
 			47
 		</figcaption>
