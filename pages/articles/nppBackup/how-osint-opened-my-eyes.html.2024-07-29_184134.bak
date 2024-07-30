@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="../../assets/css/article.css">
+  <title>How OSINT Opened My Eyes to Cybersecurity Threats</title>
+  
+</head>
+<body>
+<!-- Add the navigation bar to the top of the page -->
+    <div class="navbar">
+		<a href="../../index.html" style="background-color: #439775;">Home</a>
+        <a href="../cv.html" style="background-color: #439775;">CV</a>
+        <a href="../blog.html" style="background-color: #439775;">Blog</a>
+    </div>
+
+  <div class="article-container">
+    <h1 class="article-title">How OSINT Opened My Eyes to Cybersecurity Threats</h1>
+
+    <p class="article-metadata">
+      Published on 8th June, 2023
+    </p>
+
+    <img src="https://images.pexels.com/photos/15793934/pexels-photo-15793934/free-photo-of-horse-in-sunlit-stable-window.jpeg" class="article-image" alt="Horse in Sunlit Stable Window">
+
+    <div class="article-tags">
+      <span class="article-tag">#technology</span>
+      <span class="article-tag">#osint</span>
+      <span class="article-tag">#cybersecurity</span>
+    </div>
+
+    <div class="article-content">
+      <p>
+	  There’s a lot of free, not-difficult-to-get information out there about you. From your address, to who your family members are, to where you frequent, and possibly even the last four digits of your social security number.
+
+And the kicker: it’s all legal to find and discover.</p>
+
+	<p> 
+Welcome to the world of open-source intelligence, or OSINT, where a wealth of tools and services allow us to delve into public information. There are many tools and services that you can use to get this information, some are so common you’d never think to use it such as Google search engine or Google maps.
+
+The more popular and useful OSINT tools are social media sites: Instagram, Facebook, Twitter, TikTok, etc. which are rife with data about your digital footprint. The bigger your digital footprint is the easier it is for bad actors (people with malicious intent) to leverage that information to say impersonate you in their social engineering plan.
+
+On the other side, there are many professionals that will use OSINT to conduct research, those professionals can include HR managers, private investigators, federal and local authorities, journalists, or lawyers.
+
+Learning about OSINT and how one can leverage metadata and dig around for personal information led me to learn how to best protect my data.
+	 </p>
+	 
+	<h2>Top 5 things I learned that anyone can do to protect their data right now: </h2>
+
+<p> <b>1. Strengthen Your Digital Fortress with Strong Passwords:</b> Use strong, unique passwords to protect your data. Avoid reusing passwords or using easily guessable combinations. Create robust passwords with a mix of letters, numbers, and special characters. Consider using a reliable password manager to generate and securely store complex passwords.
+</p>
+<p> <b>2. Leverage Two-Factor Authentication (2FA):</b> Enable 2FA to add an extra layer of security to your online accounts because even if your password is stolen, your data remains safe. It requires a second verification step beyond the password. Options include verification codes via text message, authenticator apps, or physical tokens.
+</p>
+<p> <b>3. Stay Updated and Secure Your Systems:</b> Regularly update your operating system, applications, and devices to benefit from the latest security patches and bug fixes. Cybercriminals often exploit vulnerabilities in outdated software. Prioritize updates promptly to minimize the risk of falling prey to known security loopholes.
+</p>
+<p> <b>4. Manage Privacy Settings and Permissions:</b> Review and adjust privacy settings on your online accounts to protect your data. Limit the personal information you publicly share and carefully consider the permissions you grant to apps and services.
+</p>
+<p> <b>5. Secure Network Connections:</b> Be mindful of the network connections you use. Public Wi-Fi networks are often unsecured and vulnerable to eavesdropping and data interception. Avoid doing sensitive activities or financial transactions over public Wi-Fi. Use secure network connections like virtual private networks (VPNs) or rely on encrypted mobile data networks instead.
+By being mindful of your online presence, securing your accounts with robust passwords and 2FA, keeping your software updated, and cultivating privacy-conscious habits, you take essential steps towards protecting your data from potential threats. Remember, in the digital age, awareness and proactive measures are vital to maintaining your privacy and security.
+</p>
+<p>
+Thanks for reading.
+	  </p>
+
+    </div>
+
+    <div class="article-footer">
+      Published by Tori-Ann Cheung
+    </div>
+  </div>
+</body>
+</html>

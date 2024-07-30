@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="../../assets/css/article.css">
+  <title>Turning My Fear of Cyber Threats into a Passion for Cybersecurity</title>
+  
+</head>
+<body>
+<!-- Add the navigation bar to the top of the page -->
+    <div class="navbar">
+		<a href="../../index.html" style="background-color: #439775;">Home</a>
+        <a href="../cv.html" style="background-color: #439775;">CV</a>
+        <a href="../blog.html" style="background-color: #439775;">Blog</a>
+    </div>
+
+  <div class="article-container">
+    <h1 class="article-title">Turning My Fear of Cyber Threats into a Passion for Cybersecurity</h1>
+
+    <p class="article-metadata">
+      Published on 21st April, 2023
+    </p>
+
+    <img src="https://images.pexels.com/photos/3196887/pexels-photo-3196887.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" class="article-image" alt="Siberian Husky Doing a Wink Expression
+">
+
+    <div class="article-tags">
+      <span class="article-tag">#cybersecurity</span>
+      <span class="article-tag">#OSINT</span>
+    </div>
+
+    <div class="article-content">
+      <p>A few years ago, I made the difficult decision to forgo a traditional college education. While personal and health reasons led me to that choice, it didn’t stop me from pursuing knowledge on my own terms. For the past year and a half, I immersed myself in the world of data analytics, discovering the joys of processing raw data and turning it into meaningful insights. However, my lack of a college degree made me feel like an imposter when it came to applying for jobs in the field.
+
+But I refused to give up on my newfound passion for data. That’s when I stumbled upon the world of cybersecurity and OSINT, or open-source intelligence. OSINT opened my eyes to the ease with which anyone can trace a person’s digital footprint and gather information legally. For instance, did you know that you can find the location of where someone took a photo at? Find out a person’s identity via their phone number and possibly where they live?
+
+And this realization of the need to protect my own information led me down a new path: cybersecurity.</p>
+
+<p>From childhood, I’ve always been fascinated by the thrill of an investigation, whether it was for lost items or solving puzzles. And now, as I delve into the world of cybersecurity, that same investigative mindset has taken on new meaning. With every lesson, I’m learning more about the fundamentals of different operating systems, how networks can be manipulated by hackers, and the crucial role of data in modern investigations. As I navigate this complex field, I’ve found that breaking down each case into categories of fact and speculation helps me to identify the gaps in my knowledge and gather the information I need to proceed. And just like in the childhood games I loved, sometimes the best strategy is to work backwards, pulling on one thread until the whole mystery unravels before my eyes.
+
+Recently, I was accepted into an IT/Cybersecurity internship program by Cyber Proud, an organization dedicated to fostering a new generation of cybersecurity professionals. With up to 200 hours of hands-on experience in troubleshooting hardware and software, as well as securing networks, I feel excited and grateful for this opportunity to grow and apply my knowledge.
+
+Pivoting from data analytics to cybersecurity may seem like a big leap, but I’m thrilled to embark on this new journey. Who knows what other passions and interests I’ll discover along the way?
+
+Thanks for reading.</p>
+
+    </div>
+
+    <div class="article-footer">
+      Published by Tori-Ann Cheung
+    </div>
+  </div>
+</body>
+</html>

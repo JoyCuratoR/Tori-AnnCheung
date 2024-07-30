@@ -1,0 +1,157 @@
+	h1 {
+	font-size: 2em;
+	font-family: 'League Spartan', sans-serif;
+	}
+    h2 {
+	font-size: 1.7em;
+	font-family: 'League Spartan', sans-serif;
+	}
+	h3 {
+	font-size: 1.4em;
+	font-family: 'League Spartan', sans-serif;
+	}
+	h4,
+	h5 {
+      font-size: 1.2em;
+	  font-family: 'League Spartan', sans-serif;
+    }
+
+
+    p,
+	em,
+	ol li,
+    ul li {
+      font-family: 'Helvetica', 'Georgia';
+      font-size: 26px; /* Adjust the font size as desired */
+    }
+
+    .blue {
+      color: blue;
+    }
+
+    .orange {
+      color: orange;
+    }
+  
+  
+  /* Add the CSS for the scroll to top arrow */
+    .scroll-to-top {
+      position: fixed;
+      bottom: 20px; /* Adjust the distance from the bottom as needed */
+      right: 20px; /* Adjust the distance from the right as needed */
+      width: 40px;
+      height: 40px;
+      background-color: #55a6a2;
+      color: white;
+      border-radius: 50%;
+      text-align: center;
+      line-height: 40px;
+      cursor: pointer;
+    }
+	
+	/* Nav bar */
+		.navbar {
+	  background-color: #439775;
+	  overflow: hidden;
+	  text-align: center; /* Center the navigation links */
+	  display: flex; /* Add flex display */
+	  justify-content: center; /* Center the items horizontally */
+	}
+
+	.navbar a {
+	  display: inline-block;
+	  color: black;
+	  text-align: center;
+	  padding: 14px 16px;
+	  text-decoration: none;
+	  font-weight: bold;
+	  transition: background-color 0.3s;
+	  font-family: "League Spartan", sans-serif;
+	}
+
+	.navbar a:hover {
+	  background-color: #55a6a2;
+	  color: white;
+	}
+	
+	
+	
+	/* Media query for mobile devices */
+    @media (max-width: 600px) {
+      body {
+        margin-left: 20px;
+		background-color: #FFFFFF;
+      }
+    }
+	
+    /* Reset default margins and paddings */
+    body {
+      margin: 0;
+      padding: 0;
+    }
+
+    /* Container for the article content */
+    .article-container {
+      max-width: 800px;
+      margin: 0 auto;
+      padding: 40px;
+      font-family: Helvetica, sans-serif;
+    }
+
+    /* Article title style */
+    .article-title {
+      font-size: 32px;
+      font-weight: bold;
+      margin-bottom: 20px;
+    }
+
+    /* Article metadata style */
+    .article-date {
+      color: #888;
+      margin-bottom: 20px;
+    }
+
+    /* Article content style */
+    .article-content {
+      line-height: 1.6;
+      margin-bottom: 40px;
+    }
+
+    /* Article image style */
+    .article-image {
+      max-width: 100%;
+      height: auto;
+      margin-bottom: 20px;
+    }
+
+    /* Article tags style */
+    .article-tags {
+      margin-bottom: 20px;
+    }
+
+    /* Article tag style */
+    .article-tag {
+      display: inline-block;
+      margin-right: 10px;
+      background-color: #f0f0f0;
+      padding: 4px 8px;
+      font-size: 14px;
+      color: #666;
+    }
+
+    /* Article footer style */
+    .article-footer {
+      color: #888;
+      font-size: 14px;
+    }
+	
+	/* Caption Styling for Photo */
+	figcaption {
+  font-size: 0.8em;
+  font-style: italic;
+  text-align: left;
+}
+
+img[class="article-image"] {
+  border: 1px solid blue; 
+}

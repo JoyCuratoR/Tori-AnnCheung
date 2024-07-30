@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="../../assets/css/article.css">
+  <title>Treating an OSINT Challenge as if it is a Real Case - Practicing the Intelligence Cycle</title>
+  
+</head>
+<body>
+<!-- Add the navigation bar to the top of the page -->
+    <div class="navbar">
+		<a href="../../index.html" style="background-color: #439775;">Home</a>
+        <a href="../cv.html" style="background-color: #439775;">CV</a>
+        <a href="../blog.html" style="background-color: #439775;">Blog</a>
+    </div>
+	
+	
+  <div class="article-container">
+    <h1 class="article-title">Treating an OSINT Challenge as if it is a Real Case - Practicing the Intelligence Cycle</h1>
+
+    <p class="article-metadata">
+      Published on 26th January, 2024
+    </p>
+
+    <figure>
+		<img src="https://images.pexels.com/photos/10850828/pexels-photo-10850828.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" class="article-image">
+		<figcaption>
+			Photo by TakeN Neto from Pexels: <a href="https://images.pexels.com/photos/10850828/pexels-photo-10850828.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" target="_blank">https://images.pexels.com/photos/10850828/pexels-photo-10850828.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1</a>
+		</figcaption>
+	</figure>
+
+    <div class="article-tags">
+      <span class="article-tag">#OSINT</span>
+      <span class="article-tag">#Commentary</span>
+      <span class="article-tag">#Self-teaching</span>
+	  <span class="article-tag">#Resources</span>
+    </div>
+
+    <div class="article-content">
+<p>My first two OSINT challenges were purely for documenting my thought process as I went along doing the challenge. The benefit was to visualize my thoughts and understand where they tend to veer. And although two instances is not substantial data to accurately determine any statistics, I did notice that I was very 'boxed in' to a certain way of thinking. Because it was an OSINT challenge, the questions and answers were predetermined and that had influenced my mindset into thinking 'Oh, there's one way to complete this'.</p>
+
+<p>Falling into this trap stifled chances for diffuse and creative and critical thinking that is essential in real investigations. Not only having practice and experience can greatly ease the ambiguity of where you can start, but having a good system, a good plan to guide you is also essential.</p>
+
+<p>So, instead of documenting my stream of consciousness, I'm going to implement the intelligence cycle to help with solving these challenges.</p>
+
+<p>I'll be using Secjuice's intelligence cycle guides written by Sinwindie as a reference:</p>
+
+<ul>
+<li><a href="https://www.secjuice.com/the-osint-intelligence-cycle-part-i-planning-and-direction/" target="_blank">Part 1: Planning and Direction</a></li>
+<li><a href="https://www.secjuice.com/osint-and-the-intelligence-cycle-part-ii-collection/" target="_blank">Part 2: Collection</a></li> 
+<li><a href="https://www.secjuice.com/osint-the-intelligence-cycle-part-iii-processing-raw-intelligence/" target="_blank">Part 3: Processing</a></li>
+<li><a href="https://www.secjuice.com/osint-the-intelligence-cycle-part-iv-processing-raw-intelligence/" target="_blank">Part 4: Analyzing and Production</a></li>  
+<li><a href="https://www.secjuice.com/osint-the-intelligence-cycle-part-v-dissemination/" target="_blank">Part 5: Dissemination</a></li>
+</ul>
+
+<p>Secondly, I'll be keeping these questions, provided by the DutchOSINTGuy's blog post "<a href="https://www.dutchosintguy.com/post/osint-is-a-state-of-mind" target="_blank">OSINT is a State of Mind</a>" to practice questioning and verifying everything I do to be as objective as possible:</p>
+
+<ul>
+<li>What was the initial research question?</li>
+<li>What were you trying to answer?</li>
+<li>What sources did you pick to answer that question</li>
+<li>Are those sources reliable?</li>
+<li>Whats gaps are there left behind from choosing those sources?</li>
+<li>What keywords did you formulate to try and answer that question?</li>
+<li>Why those specific keywords?</li>
+<li>Why did you use that tool or script?</li>  
+</ul>
+
+<p>Additionally, I'll be keeping in mind Gary Ruddell's advice of <a href="https://www.youtube.com/watch?v=j0jwfZxtak8" target="_blank">what makes a good intelligence report</a>. My takeaway is that it's best to put the bottom line up front, then the overview of what's happened and then go into why it matters for your specific audience.</p>
+
+<p>Here's my write up on <a href="sofia-santos-osint-challenge006.html" target="_blank">Sofia Santos OSINT Challenge 006</a> demonstrating how I implemented the intelligence cycle.</p>
+
+    </div>
+
+    <div class="article-footer">
+      Published by Tori-Ann Cheung
+    </div>
+  </div>
+  
+  <!-- Scroll to top icon -->
+  <div class="scroll-to-top" onclick="scrollToTop()">
+    &#8593; <!-- Up arrow icon -->
+  </div>
+
+  <!-- Scroll to top function -->
+  <script>
+    function scrollToTop() {
+      window.scrollTo({ top: 0, behavior: 'smooth' });
+    }
+  </script>
+</body>
+</html>

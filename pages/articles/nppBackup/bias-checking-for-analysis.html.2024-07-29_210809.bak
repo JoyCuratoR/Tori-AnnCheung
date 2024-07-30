@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="../../assets/css/article.css">
+  
+  <link rel="schema.DC" href="http://purl.org/dc/elements/1.1/">
+  
+  <meta name="DC.title" content="Checking Your Analysis for Bias: Advice from Spies, Lies, and Algorithms">
+  <meta name="DC.creator" content="Tori-Ann Cheung">
+  <meta name="DC.subject" content="bias, analysis, intelligence, open-source, OSINT, self-teaching, psychology, ">
+  <meta name="DC.description" content="A brief description of your resource">
+  <meta name="DC.publisher" content="madebycuriosity">
+  <meta name="DC.date" content="2024-01-20">
+  <meta name="DC.type" content="Text">
+  <meta name="DC.format" content="text/html">
+  <meta name="DC.source" content="Parts of this article's text is taken from the book Spies, Lies, and Algorithms: The History and Future of American Intelligence by Amy B. Zegart">
+  <meta name="DC.language" content="en">
+  <meta name="DC.rights" content="Copyright © 2024 by madebycuriosity">
+  
+  
+  <title>Checking Your Analysis for Bias: Advice from Spies, Lies, and Algorithms</title>
+  
+</head>
+<body>
+<!-- Add the navigation bar to the top of the page -->
+    <div class="navbar">
+		<a href="../../index.html" style="background-color: #439775;">Home</a>
+        <a href="../cv.html" style="background-color: #439775;">CV</a>
+        <a href="../blog.html" style="background-color: #439775;">Blog</a>
+    </div>
+	
+	
+  <div class="article-container">
+    <h1 class="article-title">Checking Your Analysis for Bias: Advice from Spies, Lies, and Algorithms</h1>
+
+    <p class="publish-date">
+      Published on 20th January, 2024
+    </p>
+
+    <figure>
+		<img src="https://images.pexels.com/photos/9162803/pexels-photo-9162803.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" class="article-image">
+		<figcaption>
+			Photo by Kristina Bauer from Pexels: <a href="https://images.pexels.com/photos/9162803/pexels-photo-9162803.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" target="_blank">https://images.pexels.com/photos/9162803/pexels-photo-9162803.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1</a>
+		</figcaption>
+	</figure>
+
+    <div class="article-tags">
+      <span class="article-tag">#OSINT</span>
+      <span class="article-tag">#self-teaching</span>
+      <span class="article-tag">#resources</span>
+    </div>
+
+    <div class="article-content">
+
+<p>Coincidentally, the day I decided to truly dive into the field of OSINT, I found on a random shelf the book <em>Spies, Lies, and Algorithms: The History and Future of American Intelligence</em> by Amy B. Zegart and thought 'eh, why not?'. </p>
+
+<p>I picked it up because I thought it would be a fun read seeing how I was starting to learn OSINT. Plus, reading about a history is always a ride. What I didn't expect this book was answering a long-standing question: how to check your analysis for bias? </p>
+
+<p><em>Chapter 5: Why Analysis is so Hard?</em> was a gem to read. Specifically, being pointed to external sources in the Notes/Bibliography section.</p>
+
+<p>According to the book, there 7  common types of biases intelligence analyst fall into.</p>
+
+<h3>1. Confirmation Bias</h3>
+<p>This is the bias that often crops up in everyone. Zegart states in the book that "humans are not objective, no matter how hard they try to be" because we all have different beliefs and perspectives (Chapter 5, pg. 118). Confirmation bias is the act of latching on to information that only confirms your beliefs, even in the face of contrary evidence.</p>
+
+<h3> 2. Optimism Bias</h3>
+<p>Wishful thinking. Optimism bias is overestimating positive events and underestimating negative events.</p>
+
+<h3> 3. Availability Bias</h3>
+<p>Believing in information that jumps out at you because it's easier to remember. Like the probability of "dying in a shark attack than a car crash, even through fatal car accidents are about sixty thousand times more likely" (Chapter 5, pg. 122). Zegart also says, "What you predict depnds on what you've experienced" (Chapter 5, pg. 123).</p>
+
+<h3> 4. Fundamental Attribution Error</h3>
+<p>Thinking others behave badly because it's their personality and thinking you behave badly because of uncontrollable circumstances. For example, thinking that homeless people are only homeless because they didn't work hard enough or are addicts and that's why they're out on the streets.</p>
+
+<h3> 5. Mirror Imaging</h3>
+<p>When individuals project their own beliefs, perspectives, and motives onto another. Like starting a sentence off with, "Well if I were them, I would...." without considering other cultural and socioeconomic factors. </p>
+
+<h3> 6. Framing Bias</h3>
+<p>Which one sounds better? </p>
+
+<p>You take a pill that is 99.9 percent safe or you take a pill that has a 1-in-1,000 risk of death? </p>
+
+<p>They're actually the same thing. But 99.9 percent sounds a lot better than 1-in-1,000 risk of death, because the former is more positive and it paints a vaguer picture. You can better picture 1,000 people in a very large room and one of them dies from taking a pill.</p>
+
+<h3> 7. Groupthink</h3>
+<p>Turns out, it's not actually all that great for a group to completely agree and not have conflict. To clarify, groupthink is when people don't want to rock the boat when they have opposing views and they follow what the majority of the group thinks - promoting conformity for the sake of harmony. </p>
+
+<h1> Methods to Check for Bias</h1>
+<p>The book mentions a few methods that are used to check for bias and leaves references for further research.</p>
+
+<p>Here's the three the book mentions:</p>
+<h3> Scenario Planning</h3>
+<p>In the book, scenario planning is defined as "a systematic process that envisions three or four stories of alternative future worlds, each carefully researched to draw on diverse perspectives from a wide range of sources" (Chapter 5, pg. 132).</p>
+
+<p>This works to get analysts out of their preconceived notions or ruts.</p>
+
+<h3> Red Team Analysis</h3>
+<p>In cybersecurity the red team are the pentesters and vulnerability accessors. Their job is to make the blue team better. </p>
+
+<p>It's the same with analysts - they have a devil's advocate group to challenge and test perspectives and evidence.</p>
+
+<h3> Structured Analytic Techniques (SATs)</h3>
+<p>Techniques can include "everything from simple checklists, designed to surface and validate implicit assumptions, to alternative competing hypotheses, a process that arrays each piece of evidence and every reasonable hypothesis in a matrix so that analysts can see whether pieces of information could be consistent (or inconsistent) with multiple hypotheses" (Chapter 5, pg. 133).</p>
+
+<h4>Expanding on SATs</h4>
+<p>In the chapter 5 Notes section, Zegart references publicly available documents which talks more about SATs and methods to check for bias. </p>
+
+<p>The two that I mention below are: </p>
+<ol>
+<li><a href="https://www.cia.gov/static/Tradecraft-Primer-apr09.pdf" target="_blank">A Tradecraft Primer - April 2009 </a>by the CIA</li>
+<li><a href="https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwi8z_3fsO2DAxVaFFkFHXMXD7YQFnoECA8QAQ&url=https%3A%2F%2Fwww.hsdl.org%2F%3Fview%26did%3D804875&usg=AOvVaw3B2K0BT-t9iiv7s-cB2xgX&cshid=1705802495581314&opi=89978449" target="_blank">Restructuring Structured Analytic Techniques in Intelligence </a> by Welton Chang and Elissabeth Berdini</li>
+</ol>
+
+<p>And according to these sources, there are three categories of structured analytic techniques - diagnostic, contrarian, and imaginative thinking.</p>
+
+<h4>Diagnostic Techniques</h4>
+<li>Key Assumption check</li>
+<li>Quality of Information check</li>
+<li>Indicators or Signposts of Change</li>
+<li>Analysis of Competing Hypotheses (ACH)</li>
+<figure>
+<img src="../../assets/images/articles/bias-checking-for-analysis/diagnosticbiases.png" class="article-image">
+	<figcaption>
+		From "Restructuring Structured Analytic Techniques in Intelligence"
+	</figcaption>
+</figure>
+<h4> Contrarian Techniques</h4>
+<li>Devil's advocacy</li>
+<li>Team A/Team B</li>
+<li>High-Impact/Low-Probability Analysis</li>
+<li>"What if?" Analysis</li>
+<figure>
+<img src="../../assets/images/articles/bias-checking-for-analysis/contrarianbiases.png" class="article-image">
+	<figcaption>
+		From "Restructuring Structured Analytic Techniques in Intelligence"
+	</figcaption>
+</figure>
+<h4> Imaginative Thinking Techniques</h4>
+<li>Brainstorming</li>
+<li>Outside-In Thinking</li>
+<li>Red Team Analysis</li>
+<li>Alternative Futures Analysis</li>
+<figure>
+<img src="../../assets/images/articles/bias-checking-for-analysis/imaginativebiases.png" class="article-image">
+	<figcaption>
+		From "Restructuring Structured Analytic Techniques in Intelligence"
+	</figcaption>
+</figure>
+
+<h3> However...</h3>
+<p>In "Restructuring Structured Analytic Techniques in Intelligence" by Welton Chang and Elissabeth Berdini, claim that SATs have two root problems: </p>
+<ol>
+<li>"SATs treat bipolar biases as unipolar"</li>
+<li>"SATs tacitly assume that problem decomposition is a
+sound means of reducing noise in assessments"</li>
+</ol>
+<p>(Chang, Berdini, pg. 2)</p>
+
+<p>In short, SATs have not been tested thoroughly enough to assert whether they are "helping or harming the cause of delivering accurate assessments" (Chang, Berdini, pg. 2). Thus, the benefits of SATs - improved judgement, better organization of complex evidence, and increased transparent and logically sound thought process - is greatly diminished.</p>
+
+<p>Cognitive biases have a balancing act like a scale does. For instance, reducing a bias like overconfidence, can "amplify its opposing bias, under confidence" (Chang, Berdini, pg. 9). And, noise reduction which simplifies complex evaluation by breaking it down into different sections, can become noise neglect. </p>
+
+<p>The research uses imagery of hitting a target which, personally, did not lend a hand to understanding noise neglect. So following their target example, here's my interpretation: </p>
+
+<p>You are an archer wanting to improve your accuracy and consistency of hitting a bullseye. You take the first shot, the arrow lands in the white.</p>
+<a href="https://images.pexels.com/photos/6620413/pexels-photo-6620413.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" target="_blank"></a>
+
+<p>Using the data gathered from the first shot, you micro-adjust your stance and aim just a bit higher; your next shot lands in the blue.</p>
+
+<p>Again, you take the data gathered from the second shot (which was compounded from the data of the first shot), you micro-adjust, and your next shot lands in the yellow.</p>
+
+<p>Now imagine trying to improve while ignoring all the data you get from each of your shots. Meaning after your first shot, you completely ignored the possible fact that the reason the shot didn't land on the bullseye was because your stance was off and that you aimed too low; and then took a second shot.</p>
+
+<p>You probably would have a hard time improving.</p>
+
+<p>Each shot provides information and feedback that you take in to help adjust and improve your next shot. So if you try to simplify the process by removing information or noise (decreasing the feedback you get), you can hinder your ability to get better accuracy and consistency. </p>
+
+<p>Noise and variability contain data that helps guide improvements for the next stage. Noise reduction can backfire when neglecting the compounding impact of stripping away smaller learning signals.</p>
+
+<h2>Continuous Feedback and Improvement</h2>
+
+<p>Like with anything else, "Restructuring Structured Analytic Techniques in Intelligence" claims to make SATs better there must be continuous testing, feedback and adjustments.</p>
+
+<p>There are three areas of improvement suggested: </p>
+<ol>
+<li>Ensure that SATs begin from a strong theoretical framework</li>
+<li>Better integrate logical and probabilistic reasoning </li>
+<li>Evaluate SATs on their result of accurate judgements and higher quality explanations</li>
+</ol>
+<p>(Chang, Berdini, pg. 23)</p>
+
+<h1>Closing Thoughts</h1>
+
+<p>This is not comprehensive in any way and it isn't meant to. There are other sources talking about checking for cognitive biases and how to go about sanitizing data and analysis. I hope that this was helpful and informative in some way. </p>
+
+<p>Thanks for reading.</p>
+
+
+    </div>
+
+    <div class="article-footer">
+      Published by Tori-Ann Cheung
+    </div>
+  </div>
+  
+  <!-- Scroll to top icon -->
+  <div class="scroll-to-top" onclick="scrollToTop()">
+    &#8593; <!-- Up arrow icon -->
+  </div>
+
+  <!-- Scroll to top function -->
+  <script>
+    function scrollToTop() {
+      window.scrollTo({ top: 0, behavior: 'smooth' });
+    }
+  </script>
+</body>
+</html>

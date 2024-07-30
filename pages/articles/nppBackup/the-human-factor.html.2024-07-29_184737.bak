@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+<head>
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="../../assets/css/article.css">
+  <title>The Human Factor - Collaborative Ways to Build a Strong Cybersecurity Culture and Strengthen Security Posture</title>
+  
+</head>
+<body>
+<!-- Add the navigation bar to the top of the page -->
+    <div class="navbar">
+		<a href="../../index.html" style="background-color: #439775;">Home</a>
+        <a href="../cv.html" style="background-color: #439775;">CV</a>
+        <a href="../blog.html" style="background-color: #439775;">Blog</a>
+    </div>
+
+
+  <div class="article-container">
+    <h1 class="article-title">The Human Factor - Collaborative Ways to Build a Strong Cybersecurity Culture and Strengthen Security Posture</h1>
+
+    <p class="article-date">
+      Published on 7th July, 2023
+    </p>
+
+    <img src="https://images.pexels.com/photos/16954314/pexels-photo-16954314/free-photo-of-young-woman-standing-in-the-meadow.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" class="article-image" alt="Young Woman Standing in the Meadow">
+
+    <div class="article-tags">
+      <span class="article-tag">#cybersecurity</span>
+      <span class="article-tag">#tutorial</span>
+      <span class="article-tag">#commentary</span>
+    </div>
+
+    <div class="article-content">
+      <p>Let's be up front: security would much easier if there were no users.</p>
+<p>
+This is one thing I agree with in Security Intelligence's article <a href= "https://securityintelligence.com/articles/how-to-boost-cybersecurity-through-better-communication/" target="_blank">"How to Boost Cybersecurity through Communication".</a>
+</p>
+<p>
+There's a gap that needs to be bridged between the seemingly isolated cybersecurity department versus everyone else. The crucial question to bridging this divide is: "In what ways can cybersecurity contribute to the  objectives of other departments, like sales or human resources?
+</p>
+<p>
+Amidst the massive boom and growing adoption of AI technology, it is all too easy to overlook the crucial role that humans play in upholding security measures. However, it is equally important to acknowledge that humans also bear significant responsibility when it comes to security risks.
+</p>
+<p>
+While the security threats you see in the news are revolved around technical attacks like ransomware, typically these attacks are pre-dated by another kind of attack. Social engineering is a type of attack that uses psychological manipulation to exploit people's trust. So whether it's a phishing email disguised as a legitimate request from someone you know, or a convincing voice on the other end of a phone call, attackers prey on our willingness to disclose sensitive information or unknowingly provide unauthorized access. 
+</p>
+<p>
+To combat this, organizations protecting sensitive data must adopt a multifaceted approach that creates a culture of cybersecurity awareness and collaboration. The best way to foster this culture is when people feel supported and their vigilance is valued because that's when team members transform from obstacles to being an integral part of security defense.
+</p>
+
+<h1>1. Providing Continuing Education</h1>
+<p>
+Education is the foundation upon which a strong security posture is built.
+</p>
+<p>
+Employees need to be equipped with knowledge about various social engineering attacks. From phishing and pretexting to baiting and tailgating, knowing these tactics empowers individuals to recognize and thwart potential threats before they become serious breaches.
+</p>
+<p>
+Optimally, regular training should be fun, interactive, and at best, gamified so that complex concepts are broken down into digestible and engaging content that's easier to retain.
+</p>
+
+<h1>2. Align Goals</h1>
+<p>Teamwork makes the dream work - but only if both parties are aligned with one goal. Different departments may not understand how cybersecurity helps them complete goals specific to their team. It's not to say that they don't know how cybersecurity is beneficial, but rather there may be a confusion of how it integrates to their specific workflow. How can cybersecurity practices assist each team in achieving their goals, rather than it simply being another task on top of loaded plates?</p>
+<p>For instance, if the HR department implements a robust identity access management system, that would help the cybersecurity team but how does it help HR's goals of, for example, recruiting and employee retention?</p>
+<p>This may not be the best example because I do not have an answer as of now, but it illustrates where the gap is, and will hopefully incite action to provide answers to address these questions.</p>
+
+<h1>3. Implement Effective Communication and Reporting</h1>
+<p>Clear and effective communication is crucial for maintaining strong cybersecurity within an organization. It's not enough for the cybersecurity department to work diligently behind the scenes; they need to effectively communicate their efforts, findings, and recommendations to the rest of the organization.</p>
+<p>Fostering an open and non-punitive reporting culture is essential.</p>
+<p>Employees should feel encouraged and supported to report any incidents or concerns they come across. This can help identify and address issues early on, preventing them from escalating into major breaches and potentially halting business operations.</p>
+<p>Establish clear channels for reporting and guidance on incident reporting, along with a centralized platform like Feedly, to provide concise, timely, and relevant news on the latest threats and best practices.</p>
+
+<h1>4. Integrate Security into Workflows</h1>
+<p>To truly bridge the gap between cybersecurity and other departments, security considerations need to be integrated into the workflows and processes of each department. Cybersecurity should not be an afterthought or an additional workload but rather an inherent part of how work is done.</p>
+<p>This can be achieved by involving the cybersecurity team from the early stages of project planning and development. By considering security requirements and risks from the beginning, departments can proactively implement security measures that align with their goals. For example, if the sales team is developing a new customer relationship management system, involving the cybersecurity team ensures that appropriate security controls are built into the system to safeguard customer data.</p>
+
+<h1>5. Give Recognition and Incentives</h1>
+<p>Recognizing and rewarding employees for their contributions to cybersecurity can go a long way in creating a culture of security awareness. Incentives can motivate employees to actively participate in security initiatives and take ownership of their role in maintaining a secure environment.</p>
+<p>Acknowledging individuals or teams that demonstrate exceptional vigilance, report potential threats, or implement effective security practices can create a sense of pride and encourage others to follow suit. This recognition can be done through internal communications, newsletters, or even small rewards and incentives.</p>
+<p>Moreover, engaging healthy competition through friendly security-related challenges or simulations can help reinforce the importance of cybersecurity while encouraging skill development and knowledge sharing among employees. By making security a visible and valued aspect of the organization, employees will be more inclined to prioritize security in their daily activities.</p>
+
+<p>In conclusion, bridging the gap between cybersecurity and other departments requires a holistic approach that encompasses education, establishing aligned goals, effective communication and reporting, workflow integration, and recognition. By promoting a culture of cybersecurity awareness and collaboration, organizations can leverage the collective strength of their employees to defend against security threats effectively. Remember, security is not just the responsibility of the cybersecurity department; it is a shared responsibility across the entire organization.</p>
+
+<p>Thanks for reading.</p>
+
+    </div>
+
+    <div class="article-footer">
+      Published by Tori-Ann Cheung
+    </div>
+  </div>
+  
+  <!-- Scroll to top icon -->
+  <div class="scroll-to-top" onclick="scrollToTop()">
+    &#8593; <!-- Up arrow icon -->
+  </div>
+
+  <!-- Scroll to top function -->
+  <script>
+    function scrollToTop() {
+      window.scrollTo({ top: 0, behavior: 'smooth' });
+    }
+  </script>
+</body>
+</html>
