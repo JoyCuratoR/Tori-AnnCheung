@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="../../assets/css/article.css">
+  
+  <link rel="schema.DC" href="http://purl.org/dc/elements/1.1/">
+  
+  <meta name="DC.title" content="Checking Your Analysis for Bias: Advice from Spies, Lies, and Algorithms">
+  <meta name="DC.creator" content="Tori-Ann Cheung">
+  <meta name="DC.subject" content="bias, analysis, intelligence, open-source, OSINT, self-teaching, psychology, ">
+  <meta name="DC.description" content="Use these strategies and methods to think about your thinking and avoid biases that taint your investigation">
+  <meta name="DC.publisher" content="madebycuriosity">
+  <meta name="DC.date" content="2024-01-20">
+  <meta name="DC.type" content="Text">
+  <meta name="DC.format" content="text/html">
+  <meta name="DC.source" content="Parts of this article's text is taken from the book Spies, Lies, and Algorithms: The History and Future of American Intelligence by Amy B. Zegart">
+  <meta name="DC.language" content="en">
+  <meta name="DC.rights" content="Copyright © 2024 by madebycuriosity">
+  
+  <title>Article Template</title>
+  
+</head>
+<body>
+<!-- Add the navigation bar to the top of the page -->
+    <div class="navbar">
+		<a href="../../index.html" style="background-color: #439775;">Home</a>
+        <a href="../pages/cv.html" style="background-color: #439775;">CV</a>
+        <a href="../pages/blog.html" style="background-color: #439775;">Blog</a>
+    </div>
+	
+	
+  <div class="article-container">
+    <h1 class="article-title">Article Title</h1>
+
+    <p class="publish-date">
+      Published on 30th June, 2024
+    </p>
+
+    <figure>
+		<img src="{Image URL}" class="article-image">
+		<figcaption>
+			{Caption Text} <a href="{Image Source URL}" target="_blank">({Image Source Website})</a>
+		</figcaption>
+	</figure>
+
+    <div class="article-tags">
+      <span class="article-tag">#technology</span>
+      <span class="article-tag">#programming</span>
+      <span class="article-tag">#webdev</span>
+    </div>
+
+    <div class="article-content">
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce feugiat nibh eget turpis consequat volutpat. Nam tempus eros et nunc luctus, at auctor risus posuere. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Phasellus id mauris ac enim faucibus fringilla. Nullam sodales placerat orci, eget scelerisque sem fermentum ac. Nulla malesuada est quis nunc convallis bibendum. Aliquam nec congue mi.</p>
+
+      <p>Phasellus faucibus massa non justo placerat sagittis. Donec scelerisque magna eget urna cursus, a sollicitudin quam aliquam. In hac habitasse platea dictumst. Nunc ultricies metus et diam facilisis, eget tincidunt mi semper. Curabitur eu fringilla arcu. Pellentesque pharetra diam vel luctus congue. Etiam sit amet congue dui. Morbi eu eleifend turpis. Nullam venenatis mauris sit amet gravida eleifend.</p>
+      
+      <!-- Insert your article content here -->
+
+    </div>
+
+    <div class="article-footer">
+      Published by Your Name
+    </div>
+  </div>
+  
+  <!-- Scroll to top icon -->
+  <div class="scroll-to-top" onclick="scrollToTop()">
+    &#8593; <!-- Up arrow icon -->
+  </div>
+
+  <!-- Scroll to top function -->
+  <script>
+    function scrollToTop() {
+      window.scrollTo({ top: 0, behavior: 'smooth' });
+    }
+  </script>
+</body>
+</html>

@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="../../assets/css/article.css">
+  <title>Forget About Setting Goals. Focus on This Secret to Success Instead.</title>
+  
+</head>
+<body>
+<!-- Add the navigation bar to the top of the page -->
+    <div class="navbar">
+		<a href="../../index.html" style="background-color: #439775;">Home</a>
+        <a href="../cv.html" style="background-color: #439775;">CV</a>
+        <a href="../blog.html" style="background-color: #439775;">Blog</a>
+    </div>
+	
+	
+  <div class="article-container">
+    <h1 class="article-title">Forget About Setting Goals. Focus on This Secret to Success Instead.</h1>
+
+    <p class="publish-date">
+      Published on 3rd August, 2023
+    </p>
+
+    <img src="https://images.pexels.com/photos/17718120/pexels-photo-17718120/free-photo-of-sunflower-on-field.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" class="article-image" alt="Sunflower on Field
+">
+
+    <div class="article-tags">
+      <span class="article-tag">#commentary</span>
+      <span class="article-tag">#self-teaching</span>
+      <span class="article-tag">#resources</span>
+    </div>
+
+    <div class="article-content">
+	
+<p>We've all been there: setting goals that we're excited about for a few days or weeks, only to lose motivation and give up altogether.</p>
+
+<p>It's a common problem, and one that can be frustrating and demotivating. But what if I told you that the secret to success isn't setting goals at all? What if I told you that creating systems is the key to achieving your dreams and ambitions?</p>
+
+<p>It may sound counterintuitive, but the truth is that focusing on systems rather than goals can make all the difference. Now goals aren't completely obsolete, they are still important because they give you direction for the steps you'll take. However, creating systems is what will help you consistently take those steps towards achieving your goals.</p>
+
+<p>So, what exactly is a system?</p>
+
+<p>A system is a set of processes or routines that you put in place to help you achieve a specific outcome. It's a way of organizing your time, energy, and resources to make progress towards your goals. And the best part is that creating a system is entirely within your control, unlike external factors that can influence whether or not you achieve your goals.</p>
+
+<p>Here's an example: let's say your goal is to become a successful writer.</p>
+
+<p>Instead of just setting a goal to write a book, create a system around writing. This could include setting a daily word count goal, scheduling writing time into your calendar, and surrounding yourself with supportive people who encourage your writing. By creating a system that supports your goal, you're more likely to make consistent progress and achieve success in the long run.</p>
+
+<p>The key to creating a successful system is to make it sustainable and enjoyable. If you hate waking up early to write, don't force yourself to do it. Instead, find a time that works best for you and make it a part of your routine. If you're not sure where to start, experiment with different routines and processes until you find what works best for you.</p>
+
+<p>Another benefit of creating systems is that they allow you to focus on the process rather than just the outcome. When you focus too much on the end result, it can be easy to get discouraged and give up if things don't go as planned. But when you focus on the process and the small steps you're taking towards your goal, it's easier to stay motivated and keep going.</p>
+
+<h4>Some tips for creating effective systems</h4> 
+<ul> <li>Start small. Don’t try to build an elaborate system from the start. Begin with a simple routine that supports your goal, like journaling for 10 minutes each morning.</li> <li>Make it easy and automatic. The system should not require much thought or effort. Integrate it seamlessly into your daily life.</li> <li>Schedule systems into your calendar. Block off time for system activities just like you would a meeting. Protect this time.</li> <li>Create accountability. Share your system plans with a friend or join an accountability group. Social support helps motivation.</li> <li>Analyze and refine. Review your system weekly. Identify what’s working and what’s not. Make tweaks and improvements.</li> <li>Make it enjoyable. A positive emotional association strengthens habits. Find ways to make your system fun and rewarding.</li> <li>Celebrate small wins. Recognize milestones along the journey. This boosts motivation to keep going.</li> </ul> 
+<p>The key is persistence. It takes time for systems to become ingrained habits. With consistency over time though, systems allow you to make steady progress and ultimately achieve your biggest goals.</p> <p>Focus on building the systems, not just setting the goals. Systems drive the consistent actions that lead to remarkable results. Start small, stick with it, and success will soon follow.</p> <p>So, start thinking about the systems you can put in place to support your goals, and don’t be afraid to experiment until you find what works best for you. With a little patience and perseverance, you can achieve anything you set your mind to.</p> 
+<p>Thanks for reading.</p>
+
+    </div>
+
+    <div class="article-footer">
+      Published by Tori-Ann Cheung
+    </div>
+  </div>
+  
+  <!-- Scroll to top icon -->
+  <div class="scroll-to-top" onclick="scrollToTop()">
+    &#8593; <!-- Up arrow icon -->
+  </div>
+
+  <!-- Scroll to top function -->
+  <script>
+    function scrollToTop() {
+      window.scrollTo({ top: 0, behavior: 'smooth' });
+    }
+  </script>
+</body>
+</html>
