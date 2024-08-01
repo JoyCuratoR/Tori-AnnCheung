@@ -6,21 +6,6 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="../../assets/css/article.css">
   
-  <link rel="schema.DC" href="http://purl.org/dc/elements/1.1/">
-  
-  <meta name="DC.title" content="Hacktoria OSINT Challenge: Operation Warthog Part 1 - Geolocation">
-  <meta name="DC.creator" content="Tori-Ann Cheung">
-  <meta name="DC.subject" content="OSINT, geolocation, open-source intelligence, CTF, Hacktoria, self-teaching, investigation, project">
-  <meta name="DC.description" content="Writeup and documentation of my process to solve part 1 of my fifth OSINT challenge">
-  <meta name="DC.publisher" content="madebycuriosity">
-  <meta name="DC.date" content="2024-06-13">
-  <meta name="DC.type" content="Text">
-  <meta name="DC.format" content="text/html">
-  <meta name="DC.source" content="OSINT and geolocation challenge by Hacktoria">
-  <meta name="DC.language" content="en">
-  <meta name="DC.rights" content="Copyright © 2024 by madebycuriosity">
-
-  
   <title>Hacktoria OSINT Challenge: Operation Warthog Part 1 - Geolocation</title>
   
 </head>
