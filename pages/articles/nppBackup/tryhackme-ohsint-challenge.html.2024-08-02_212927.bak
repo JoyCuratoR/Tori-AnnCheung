@@ -5,22 +5,6 @@
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="../../assets/css/article.css">
-  
-  <link rel="schema.DC" href="http://purl.org/dc/elements/1.1/">
-  
-  <meta name="DC.title" content="Documenting my Thought Process for TryHackMe's OhSINT challenge">
-  <meta name="DC.creator" content="Tori-Ann Cheung">
-  <meta name="DC.subject" content="OSINT, geolocation, open-source intelligence, CTF, tryhackme, self-teaching, investigation, project, cybersecurity, information security">
-  <meta name="DC.description" content="Documenting my Thought Process for TryHackMe's OhSINT challenge">
-  <meta name="DC.publisher" content="madebycuriosity">
-  <meta name="DC.date" content="2024-01-06">
-  <meta name="DC.type" content="Text">
-  <meta name="DC.format" content="text/html">
-  <meta name="DC.source" content="OSINT Challenge is found on Tryhackme.com">
-  <meta name="DC.language" content="en">
-  <meta name="DC.rights" content="Copyright © 2024 by madebycuriosity">
-
-  
   <title>Documenting my Thought Process for TryHackMe's OhSINT challenge</title>
   
 </style>

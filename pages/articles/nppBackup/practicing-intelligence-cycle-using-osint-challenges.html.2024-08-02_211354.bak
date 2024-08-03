@@ -5,21 +5,6 @@
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="../../assets/css/article.css">
-  
-  <link rel="schema.DC" href="http://purl.org/dc/elements/1.1/">
-  
-  <meta name="DC.title" content="Treating an OSINT Challenge as if it is a Real Case - Practicing the Intelligence Cycle">
-  <meta name="DC.creator" content="Tori-Ann Cheung">
-  <meta name="DC.subject" content="OSINT, challenge, investigation, intelligence cycle, CTF, cybersecurity, information security, self-teaching">
-  <meta name="DC.description" content="How can you gain practicle experience using the Intelligence Cycle as a Beginner at Home?">
-  <meta name="DC.publisher" content="madeycuriosity">
-  <meta name="DC.date" content="2024-01-26">
-  <meta name="DC.type" content="Text">
-  <meta name="DC.format" content="text/html">
-  <meta name="DC.language" content="en">
-  <meta name="DC.rights" content="Copyright © 2024 by madebycuriosity">
-
-  
   <title>Treating an OSINT Challenge as if it is a Real Case - Practicing the Intelligence Cycle</title>
   
 </head>
