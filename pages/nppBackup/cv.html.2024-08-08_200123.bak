@@ -231,10 +231,7 @@
 		</ul>
 		
 
-  <!-- Nav bar at bottom page -->
-  <div class="navbar">
-    <p> Made with love. Copyright © 2024 by madebycuriosity</p>
-  </div>
+
 
 <div class="scroll-to-top" onclick="scrollToTop()">
     &#8593; <!-- Up arrow icon -->

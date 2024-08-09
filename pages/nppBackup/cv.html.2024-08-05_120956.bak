@@ -56,13 +56,13 @@
 	<p><b>Challenges, CTFs & Training Modules</b></p>
 	<ul>
 		<li>Hacktoria Contract: Operation Bloodhound | A geolocation challenge to locate the target Maksim Kotova in support of Agent Bloodhound's mission | Read the <a href="./articles/2024/07/hacktoria-operation-bloodhound.html" target="_blank">Documentation</a></li>
-		<li>Kase Scenarios: Sinister Obssesion Case | A Open-Source Intelligence training module to identify and locate a celebrity's malicious stalker where they may be apprehended by authorities | Read the <a href="articles/2024/06/kase-scenarios-sinister-obession-write-up.html" target="_blank">Documentation</a> | <a href="https://courses.kasescenarios.com/certificates/nbj5unkmlp" target="_blank">Verification</a></li>
+		<li>Kase Scenarios: Sinister Obssesion Case | A Open-Source Intelligence training module to identify and locate a celebrity's malicious stalker where they may be apprehended by authorities | Read the <a href="./articles/2024/06/kase-scenarios-sinister-obsession-write-up.html" target="_blank">Documentation</a> | <a href="https://courses.kasescenarios.com/certificates/nbj5unkmlp" target="_blank">Verification</a></li>
 		<li>Hacktoria Contract: The Michigan Mystery | A geolocation challenge to locate where a client's missing daughter was taken to | Read the <a href="./articles/2024/06/hacktoria-michigan-mystery.html" target="_blank">Documentation</a></li>
 		<li>Gained knowledge following Bellingcat’s real-time data collection and analysis of national and global events such as the 22nd March, 2024 Moscow concert hall terrorist attack carried out by the Islamic State group</li>
 		<li>Performed multidisciplinary research spanning architecture, foreign languages, vegetation, and infrastructure through participation in over 50 geospatial intelligence (GEOINT) challenges focused on image interpretation, terrain analysis, and location identification.</li>
 		<li>Hacktoria's Contracts - Where's Klumgongyn? | A geolocation challenge to locate an SERPENT agent | Read the <a href="./articles/2024/03/hacktoria-where-is-klumgongyn.html" target="_blank">Documentation</a></li>
 		<li>Sofia Santos OSINT Challenge #006 | A geolocation challenge to verify an image of a viral Twitter post; the results indicate misinformation or deliberate disinformation | Read the <a href="./articles/2024/01/sofia-santos-osint-challenge006.html" target="_blank">Documentation</a></li>
-		<li>TryHackMe's OhSINT challenge room | A challenge with a series of questions that analyzed a photo of a generic WindowsXP photo; the results revealed a severe personal identifiable information leak | Read the <a href="./articles/2024/01/tryhackme-ohsint-challenge.html" target="_blank">Documentation</a></li>
+		<li>TryHackMe's OhSINT challenge room | A challenge with a series of questions that analyzed a photo of a generic WindowsXP photo; the results revealed a severe personal identifiable information leak | Read the <a href="./articles/tryhackme-ohsint-challenge.html" target="_blank">Documentation</a></li>
 		<li>Sofia Santos OSINT Challenge #001 | A geolocation challenge that required both terrain and chronology analysis to complete | Read the <a href="./articles/2024/01/sofia-santos-osint-challenge001.html" target="_blank">Documentation</a></li>
 		<li>Received training from Kase Scenarios, founded by senior OSINT analysts, on open-source intelligence research methodologies, documentation practices, and reporting techniques. Kase Scenarios: Betrayal | Read the <a href="https://docs.google.com/document/d/1L73cawmL588q-w_2hQLVBkgBMQU3eV9fT2nWyT0_5mc/edit?usp=sharing" target="_blank">Submitted Report</a> | <a href="https://courses.kasescenarios.com/certificates/frrjyi6t6c" target="_blank">Verification</a></li>
 			<ul>
@@ -231,10 +231,7 @@
 		</ul>
 		
 
-  <!-- Nav bar at bottom page -->
-  <div class="navbar">
-    <p> Made with love. Copyright © 2024 by madebycuriosity</p>
-  </div>
+
 
 <div class="scroll-to-top" onclick="scrollToTop()">
     &#8593; <!-- Up arrow icon -->
