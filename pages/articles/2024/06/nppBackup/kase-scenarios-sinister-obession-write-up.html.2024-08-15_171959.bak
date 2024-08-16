@@ -85,13 +85,13 @@
 	<p><b>Brief overview of the CTF:</b> Liam Kim is a veteran detective yet new to using OSINT methods. "Liam has been working on a stalker case where the famous singer-songwriter Sophia Blake has been experiencing Cyber harassment. After a recent escalation by the stalker Liam and his team put all their efforts into uncovering the identity of the unknown stalker and bring them in for charges."</p>
     <p><b>Objectives:</b> Identify Sophia Blake's stalker.</p>
 	
-	<img src="../../../../assets/images/osint-challenges/kase-scenarios/sinister-obsession//synopsis.png" class="article-image">
+	<img src="../../assets/images/osint-challenges/kase-scenarios/sinister-obsession//synopsis.png" class="article-image">
 	<figcaption>
 		The backstory and objective
 	</figcaption>
     
     <h2>Initial Task</h2>
-	<img src="../../../../assets/images/osint-challenges/kase-scenarios/sinister-obsession//stalker-profile.png" class="article-image">
+	<img src="../../assets/images/osint-challenges/kase-scenarios/sinister-obsession//stalker-profile.png" class="article-image">
 	<figcaption>
 		The backstory and objective
 	</figcaption>
@@ -99,8 +99,8 @@
     <p>The National Crime Agency obtained a profile account that is connected to Sophia Blake's stalker case. This makes the profile account a starting lead to establishing who our person of interest is. Ms. Blake has informed our team that her stalker signs all his messages as "From I". Given how this account's name is "shadowark_ian" strongly correlates with the notion that this account is connected to this case.</p>
     <p><b>Initial thoughts and approach:</b> The website design and layout has a distinctive style, so I saved it to a folder and uploaded it into Google Images. The results informed me that the layout likely matched Keybase.io. The results showcasing website links to "shadoark_ian (Ian C) - Keybase" also clued me in that this was the right website.</p>
     
-	<img src="../../../../assets/images/osint-challenges/kase-scenarios/sinister-obsession//stalker-profile-google-images-results.png" class="article-image">
-	<img src="../../../../assets/images/osint-challenges/kase-scenarios/sinister-obsession//stalker-profile-verified.png" class="article-image">
+	<img src="../../assets/images/osint-challenges/kase-scenarios/sinister-obsession//stalker-profile-google-images-results.png" class="article-image">
+	<img src="../../assets/images/osint-challenges/kase-scenarios/sinister-obsession//stalker-profile-verified.png" class="article-image">
 	<figcaption>
 		Profile account verified
 	</figcaption>
@@ -112,11 +112,11 @@
         <p>Challenges encountered: None.</p>
         <p>Conclusions drawn: The date 03/07/2022 is the day the Keybase account was created.</p>
     </div>
-	<img src="../../../../assets/images/osint-challenges/kase-scenarios/sinister-obsession//suspicious-profile-picture.png" class="article-image">
+	<img src="../../assets/images/osint-challenges/kase-scenarios/sinister-obsession//suspicious-profile-picture.png" class="article-image">
 		<figcaption>
 			Examining the profile picture
 		</figcaption>
-	<img src="../../../../assets/images/osint-challenges/kase-scenarios/sinister-obsession//profile-picture-date-confirmed.png" class="article-image">
+	<img src="../../assets/images/osint-challenges/kase-scenarios/sinister-obsession//profile-picture-date-confirmed.png" class="article-image">
 		<figcaption>
 			Date verified
 		</figcaption>
@@ -129,7 +129,7 @@
         <p>Challenges encountered: None.</p>
         <p>Conclusions drawn: shadowark_ian uses a Debian OS.</p>
     </div>
-	<img src="../../../../assets/images/osint-challenges/kase-scenarios/sinister-obsession//associated-devices.png" class="article-image">
+	<img src="../../assets/images/osint-challenges/kase-scenarios/sinister-obsession//associated-devices.png" class="article-image">
 		<figcaption>
 			Associated devices
 		</figcaption>
@@ -142,7 +142,7 @@
         <p>Conclusions drawn: Due to the similarity, is is pressumed that ianc_shadows belongs to shadowark_ian, seeing how shadowark_ian has claimed that their old account was banned.</p>
     </div>
 	<div class="zoom-container">
-	<img id="zoomable-image" src="../../../../assets/images/osint-challenges/kase-scenarios/sinister-obsession//associated-profiles.png" class="article-image">
+	<img id="zoomable-image" src="../../assets/images/osint-challenges/kase-scenarios/sinister-obsession//associated-profiles.png" class="article-image">
 	<div class="zoom-controls">
 		<button id="zoom-in">+</button>
 		<button id="zoom-out">-</button>
@@ -152,7 +152,7 @@
 			List of followers and following accounts
 		</figcaption>
 	
-	<img src="../../../../assets/images/osint-challenges/kase-scenarios/sinister-obsession//old-profile.png" class="article-image">
+	<img src="../../assets/images/osint-challenges/kase-scenarios/sinister-obsession//old-profile.png" class="article-image">
 		<figcaption>
 			Old profile account
 		</figcaption>
@@ -169,19 +169,19 @@
 		</ul>
         <p>Conclusions drawn: From the information found by decrypting public PGP key, we can finally put a name behind the face of the profiles 'shadowark_ian' and 'ianc_shadows': Ian Carlsk.</p>
     </div>
-	<img src="../../../../assets/images/osint-challenges/kase-scenarios/sinister-obsession//full-gpg-fingerprint.png" class="article-image">
+	<img src="../../assets/images/osint-challenges/kase-scenarios/sinister-obsession//full-gpg-fingerprint.png" class="article-image">
 		<figcaption>
 			GPG fingerprint
 		</figcaption>
-	<img src="../../../../assets/images/osint-challenges/kase-scenarios/sinister-obsession//encrypted-message.png" class="article-image">
+	<img src="../../assets/images/osint-challenges/kase-scenarios/sinister-obsession//encrypted-message.png" class="article-image">
 		<figcaption>
 			Encrypted message
 		</figcaption>
-	<img src="../../../../assets/images/osint-challenges/kase-scenarios/sinister-obsession//public-gpg.png" class="article-image">
+	<img src="../../assets/images/osint-challenges/kase-scenarios/sinister-obsession//public-gpg.png" class="article-image">
 		<figcaption>
 			Public GPG
 		</figcaption>
-	<img src="../../../../assets/images/osint-challenges/kase-scenarios/sinister-obsession//associated-name.png" class="article-image">
+	<img src="../../assets/images/osint-challenges/kase-scenarios/sinister-obsession//associated-name.png" class="article-image">
 		<figcaption>
 			Associated name
 		</figcaption>
@@ -193,7 +193,7 @@
         <p>Challenges encountered: None</p>
         <p>Conclusions drawn: Ian Carlsk also goes by the username of shadow-arkwave.</p>
     </div>
-	<img src="../../../../assets/images/osint-challenges/kase-scenarios/sinister-obsession//another-username.png" class="article-image">
+	<img src="../../assets/images/osint-challenges/kase-scenarios/sinister-obsession//another-username.png" class="article-image">
 		<figcaption>
 			Another username found
 		</figcaption>
@@ -205,7 +205,7 @@
         <p>Challenges encountered: None</p>
         <p>Conclusions drawn: It can be assumed that Ian Carlsk has or once possessed a GitHub account named shadow-arkwave</p>
     </div>
-	<img src="../../../../assets/images/osint-challenges/kase-scenarios/sinister-obsession//github-account.png" class="article-image">
+	<img src="../../assets/images/osint-challenges/kase-scenarios/sinister-obsession//github-account.png" class="article-image">
 		<figcaption>
 			GitHub account
 		</figcaption>
@@ -224,15 +224,15 @@
 		</ul>
         <p>Conclusions drawn: Ian Carlsk's email address is shadowark7@proton.me</p>
     </div>
-	<img src="../../../../assets/images/osint-challenges/kase-scenarios/sinister-obsession//github-email-osint.png" class="article-image">
+	<img src="../../assets/images/osint-challenges/kase-scenarios/sinister-obsession//github-email-osint.png" class="article-image">
 		<figcaption>
 			Steps to find an associated email on a GitHub profile
 		</figcaption>
-	<img src="../../../../assets/images/osint-challenges/kase-scenarios/sinister-obsession//github-email.png" class="article-image">
+	<img src="../../assets/images/osint-challenges/kase-scenarios/sinister-obsession//github-email.png" class="article-image">
 		<figcaption>
 			A masked GitHub email
 		</figcaption>
-	<img src="../../../../assets/images/osint-challenges/kase-scenarios/sinister-obsession//real-email.png" class="article-image">
+	<img src="../../assets/images/osint-challenges/kase-scenarios/sinister-obsession//real-email.png" class="article-image">
 		<figcaption>
 			A real email
 		</figcaption>
@@ -251,7 +251,7 @@
 		</ul>
         <p>Conclusions drawn: Ian Carlsk's Proton email address shadowark7@proton.me was created on the 16th of October, 2022</p>
     </div>
-	<img src="../../../../assets/images/osint-challenges/kase-scenarios/sinister-obsession//email-address-creation.png" class="article-image">
+	<img src="../../assets/images/osint-challenges/kase-scenarios/sinister-obsession//email-address-creation.png" class="article-image">
 		<figcaption>
 			The results of ProtOSINT
 		</figcaption>
@@ -269,11 +269,11 @@
 		</ul>
         <p>Conclusions drawn:  Ian Carlsk lives in a city named Ashford</p>
     </div>
-	<img src="../../../../assets/images/osint-challenges/kase-scenarios/sinister-obsession//tumblr-account-name.png" class="article-image">
+	<img src="../../assets/images/osint-challenges/kase-scenarios/sinister-obsession//tumblr-account-name.png" class="article-image">
 		<figcaption>
 			Tumblr account found on the GitHub profile
 		</figcaption>
-	<img src="../../../../assets/images/osint-challenges/kase-scenarios/sinister-obsession//nes-tumblr.png" class="article-image">
+	<img src="../../assets/images/osint-challenges/kase-scenarios/sinister-obsession//nes-tumblr.png" class="article-image">
 		<figcaption>
 			The listing of the NES device with the possible location blacked out
 		</figcaption>
@@ -299,15 +299,15 @@
         <p>Challenges encountered: None.</p>
         <p>Conclusions drawn: Ian Carlsk has a sister.</p>
     </div>
-	<img src="../../../../assets/images/osint-challenges/kase-scenarios/sinister-obsession//conversation-in-the-comments.png" class="article-image">
+	<img src="../../assets/images/osint-challenges/kase-scenarios/sinister-obsession//conversation-in-the-comments.png" class="article-image">
 		<figcaption>
 			There seems to be someone who knows the person of interest
 		</figcaption>
-	<img src="../../../../assets/images/osint-challenges/kase-scenarios/sinister-obsession//family-relation.png" class="article-image">
+	<img src="../../assets/images/osint-challenges/kase-scenarios/sinister-obsession//family-relation.png" class="article-image">
 		<figcaption>
 			The relationship between the person of interest and the second Tumblr account
 		</figcaption>
-	<img src="../../../../assets/images/osint-challenges/kase-scenarios/sinister-obsession//ccartistry-post-date.png" class="article-image">
+	<img src="../../assets/images/osint-challenges/kase-scenarios/sinister-obsession//ccartistry-post-date.png" class="article-image">
 		<figcaption>
 			Date of the post about the two photos of the interior a car
 		</figcaption> 
@@ -325,27 +325,27 @@
 		</ul>
         <p>Conclusions drawn: Ian Carlsk was driving a Hyundai Kona</p>
     </div>
-	<img src="../../../../assets/images/osint-challenges/kase-scenarios/sinister-obsession//ccartistry-post.png" class="article-image">
+	<img src="../../assets/images/osint-challenges/kase-scenarios/sinister-obsession//ccartistry-post.png" class="article-image">
 		<figcaption>
 			Two photos of the interior of a car
 		</figcaption>
-	<img src="../../../../assets/images/osint-challenges/kase-scenarios/sinister-obsession//zoomed-enhanced-car1.png" class="article-image">
+	<img src="../../assets/images/osint-challenges/kase-scenarios/sinister-obsession//zoomed-enhanced-car1.png" class="article-image">
 		<figcaption>
 			Cropped and enhanced copy of the first interior photo
 		</figcaption>
-	<img src="../../../../assets/images/osint-challenges/kase-scenarios/sinister-obsession//zoomed-car2.png" class="article-image">
+	<img src="../../assets/images/osint-challenges/kase-scenarios/sinister-obsession//zoomed-car2.png" class="article-image">
 		<figcaption>
 			Zoomed copy of the second interior photo
 		</figcaption>
-	<img src="../../../../assets/images/osint-challenges/kase-scenarios/sinister-obsession//car1-google-images-results.png" class="article-image">
+	<img src="../../assets/images/osint-challenges/kase-scenarios/sinister-obsession//car1-google-images-results.png" class="article-image">
 		<figcaption>
 			Google Images results
 		</figcaption>
-	<img src="../../../../assets/images/osint-challenges/kase-scenarios/sinister-obsession//not-exact-match.png" class="article-image">
+	<img src="../../assets/images/osint-challenges/kase-scenarios/sinister-obsession//not-exact-match.png" class="article-image">
 		<figcaption>
 			A close match, but nothing conclusive to confirm if this make and model is the correct one
 		</figcaption>
-	<img src="../../../../assets/images/osint-challenges/kase-scenarios/sinister-obsession//closer-match.png" class="article-image">
+	<img src="../../assets/images/osint-challenges/kase-scenarios/sinister-obsession//closer-match.png" class="article-image">
 		<figcaption>
 			This one is a closer match
 		</figcaption>
@@ -358,11 +358,11 @@
         <p>Challenges encountered: None.</p>
         <p>Conclusions drawn: Ian Carlsk is pressumably staying in the Düsseldorf, Germany</p>
     </div>
-	<img src="../../../../assets/images/osint-challenges/kase-scenarios/sinister-obsession//points-of-reference-zoomed-car2.png" class="article-image">
+	<img src="../../assets/images/osint-challenges/kase-scenarios/sinister-obsession//points-of-reference-zoomed-car2.png" class="article-image">
 		<figcaption>
 			Zooming into the second photo of the interior of the car, you can see points of references to help pinpoint what city the car is located at
 		</figcaption>
-	<img src="../../../../assets/images/osint-challenges/kase-scenarios/sinister-obsession//points-of-reference-google-maps.png" class="article-image">
+	<img src="../../assets/images/osint-challenges/kase-scenarios/sinister-obsession//points-of-reference-google-maps.png" class="article-image">
 		<figcaption>
 			Matching up the points of references on Google Maps
 		</figcaption>
@@ -378,27 +378,27 @@
         <p>Challenges encountered: At first, I didn't think to plug in the coordinates from the</p>
         <p>Conclusions drawn: Ian Carlsk is located at An d. Urania 16-18, 10787 Berlin, Germany. <b>Got you, Ian Carlsk.</b></p>
     </div>
-	<img src="../../../../assets/images/osint-challenges/kase-scenarios/sinister-obsession//poke-stop.png" class="article-image">
+	<img src="../../assets/images/osint-challenges/kase-scenarios/sinister-obsession//poke-stop.png" class="article-image">
 		<figcaption>
 			New situation provided from the National Crime Agency
 		</figcaption>
-	<img src="../../../../assets/images/osint-challenges/kase-scenarios/sinister-obsession//high-res-poke-stop.png" class="article-image">
+	<img src="../../assets/images/osint-challenges/kase-scenarios/sinister-obsession//high-res-poke-stop.png" class="article-image">
 		<figcaption>
 			Better resolution of the Pokemon Go poke-stop image
 		</figcaption>
-	<img src="../../../../assets/images/osint-challenges/kase-scenarios/sinister-obsession//buddy-bear-google-images-results.png" class="article-image">
+	<img src="../../assets/images/osint-challenges/kase-scenarios/sinister-obsession//buddy-bear-google-images-results.png" class="article-image">
 		<figcaption>
 			Google Images results
 		</figcaption>
-	<img src="../../../../assets/images/osint-challenges/kase-scenarios/sinister-obsession//buddy-bear-coordinates.png" class="article-image">
+	<img src="../../assets/images/osint-challenges/kase-scenarios/sinister-obsession//buddy-bear-coordinates.png" class="article-image">
 		<figcaption>
 			The coordinates to where the buddy bear was originally
 		</figcaption>
-	<img src="../../../../assets/images/osint-challenges/kase-scenarios/sinister-obsession//address.png" class="article-image">
+	<img src="../../assets/images/osint-challenges/kase-scenarios/sinister-obsession//address.png" class="article-image">
 		<figcaption>
 			Street address of the buddy bear coordinates
 		</figcaption>
-	<img src="../../../../assets/images/osint-challenges/kase-scenarios/sinister-obsession//buddy-bear-placement-google-maps.png" class="article-image">
+	<img src="../../assets/images/osint-challenges/kase-scenarios/sinister-obsession//buddy-bear-placement-google-maps.png" class="article-image">
 		<figcaption>
 			Street view perspective of where the buddy bear in the image of above was placed
 		</figcaption>

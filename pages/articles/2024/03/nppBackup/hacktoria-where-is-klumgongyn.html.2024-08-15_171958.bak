@@ -127,10 +127,10 @@
 <ul>
   <li>Woohoo! Another geolocation challenge &#x1F601;</li>
   <li>As always, TinEye for reverse image search</li>
-  <img src="../../../../assets/images/osint-challenges/hacktoria/where-is-klumgongyn/reverse-search-tineye.com.png" class="article-image">
+  <img src="../../assets/images/osint-challenges/hacktoria/where-is-klumgongyn/reverse-search-tineye.com.png" class="article-image">
   <li>0 results returned, unsurprising since it would make this challenge too easy</li>
   <li>I save the image as an image file to make zooming in easier</li>
-  <img src="../../../../assets/images/osint-challenges/hacktoria/where-is-klumgongyn/where-is-klumgongyn.png" class="article-image">
+  <img src="../../assets/images/osint-challenges/hacktoria/where-is-klumgongyn/where-is-klumgongyn.png" class="article-image">
   <li>Just brainstorming some assumptions:
     <ul>
       <li>Based on the vegetation, it looks kind of tropical-ish? Thinking South America? Maybe even Florida</li>
@@ -142,11 +142,11 @@
   <li>But really the first thing that drew my eye is the written words and numbers on the building</li>
   <li>The photo itself is blurry so I search for online tools to enhance a blurry photo and use Image Enhancer to sharpen the overall image</li>
   <li>Which does little to clarify the part I need to see but it's to no fault of the tool, and it does clear up some of the noise surrounding the words and what looks to be numbers: 555 2122</li>
-  <img src="../../../../assets/images/osint-challenges/hacktoria/where-is-klumgongyn/enhanced-image.png" class="article-image">
+  <img src="../../assets/images/osint-challenges/hacktoria/where-is-klumgongyn/enhanced-image.png" class="article-image">
   <li>I remember a short while ago I stumbled upon two instances mentioning an extremely useful geolocation tool that lets you input some details and it'll give you options of where you might be looking at</li>
   <li>But currently, I can't for the life of me remember what that tool is called nor the sources from which I first learned about it</li>
   <li>Aha! Bellingcat OpenStreetMap search, that's the one. Unironically, I just searched up "best geolocation tool for osint"</li>
-  <img src="../../../../assets/images/osint-challenges/hacktoria/where-is-klumgongyn/best-geolocation-tool.png" class="article-image">
+  <img src="../../assets/images/osint-challenges/hacktoria/where-is-klumgongyn/best-geolocation-tool.png" class="article-image">
   <li>Getting some general input, I analyze the photo to match some of the 'Feature presets' from the Bellingcat OSM tool
     <ul>
       <li>Road</li>
@@ -160,7 +160,7 @@
   <li>And just going with my assumption of the Bahamas, I enter that into the search bar under 'Find location' of the map</li>
   <li>OSM Search tells me my search query is too large so I narrow it down to Nassau, Bahamas and instantly get a handful of options</li>
   <li>I check them out by clicking on the coordinates provided by OSM Search and then using the 'Browse Street View Images' I drop into the street view</li>
-  <img src="../../../../assets/images/osint-challenges/hacktoria/where-is-klumgongyn/browse-street-view-images.png" class="article-image">
+  <img src="../../assets/images/osint-challenges/hacktoria/where-is-klumgongyn/browse-street-view-images.png" class="article-image">
   <li>However, none of them really look any where near the image I have, likely because my search query was too vague with the features and I randomly chose a city</li>
   <li>Hm okay, time to take a step back from the assumption that the photo is somewhere tropical but I'm not going to discard it just yet</li>
   <li>I want to see if I can unblur the words and numbers on the building again</li>
@@ -174,24 +174,24 @@
 <ul>
   <li>Google Images, that might help</li>
   <li>I upload image I downloaded from Hacktoria and it gives me some promising leads</li>
-  <img src="../../../../assets/images/osint-challenges/hacktoria/where-is-klumgongyn/google-images-search.png" class="article-image">
+  <img src="../../assets/images/osint-challenges/hacktoria/where-is-klumgongyn/google-images-search.png" class="article-image">
   <li>Astutely, I avoid the Medium blog article of the exact challenge (I'll return to it later after I know I've gotten the correct answer)</li>
   <li>The photo next to the Medium blog article is one that catches my eye because of the vegetation (yes, because of the palm trees)</li>
-  <img src="../../../../assets/images/osint-challenges/hacktoria/where-is-klumgongyn/the-first-image.png" class="article-image">
+  <img src="../../assets/images/osint-challenges/hacktoria/where-is-klumgongyn/the-first-image.png" class="article-image">
   <li>Clicking on the link, it brings me to a site about where to park in downtown Akumal and Akumal bay</li>
   <li>Scrolling further down, I see the image referenced in Google Images and to check the metadata, I open the image in a new tab</li>
-  <img src="../../../../assets/images/osint-challenges/hacktoria/where-is-klumgongyn/first-image-in-original-source.png" class="article-image">
+  <img src="../../assets/images/osint-challenges/hacktoria/where-is-klumgongyn/first-image-in-original-source.png" class="article-image">
   <li>Here's the full image address: https://www.i-akumal.com/sites/default/files/blog-teaser/san_francisco_3.png</li>
   <li>Having a solid location to begin, I search up 'san francisco akumal bay' and head to Google Maps to find more images to help validate the location of the challenge's image</li>
   <li>But unexpectedly, Google Maps points me to another location, in Quintana Roo</li>
   <li>Curious and sidetracked from my original purpose, I drop down into street view in Quintana Roo</li>
-  <img src="../../../../assets/images/osint-challenges/hacktoria/where-is-klumgongyn/akumal-quintano-roo-street-view.png" class="article-image">
+  <img src="../../assets/images/osint-challenges/hacktoria/where-is-klumgongyn/akumal-quintano-roo-street-view.png" class="article-image">
   <li>Some of the vegetation looks similar to the first image from Google Images I clicked on, so I wonder if there are other mentioned instances of Akumal, Quintana Roo from my results</li>
   <li>Yes there are, however, that doesn't confirm anything since vegetation is similar in the challenge photo and what's in Quintana Roo which could be why it showed up in the Google Images results</li>
-  <img src="../../../../assets/images/osint-challenges/hacktoria/where-is-klumgongyn/second-instance-of-quintana-roo.png" class="article-image">
+  <img src="../../assets/images/osint-challenges/hacktoria/where-is-klumgongyn/second-instance-of-quintana-roo.png" class="article-image">
   <li>Even though it may be a waste of time, I'm still going to look around via street view since it's a relatively small area</li>
   <li>What I'm going to try to search for in street view is the tall round yellow sign - I assume it's a sign - maybe for a gas station or a market?</li> 
-  <img src="../../../../assets/images/osint-challenges/hacktoria/where-is-klumgongyn/yellow-rounded-object.png" class="article-image">
+  <img src="../../assets/images/osint-challenges/hacktoria/where-is-klumgongyn/yellow-rounded-object.png" class="article-image">
 </ul>
 </p>
 
@@ -199,7 +199,7 @@
 <ul>
   <li>Coming back to this, I remember that I can search for the "My Taxi" words found on the side of the building in Google Maps</li>
   <li>So I query "taxi" in google maps while looking over Akumal Quintana Roo and I get a few points of interest</li>
-  <img src="../../../../assets/images/osint-challenges/hacktoria/where-is-klumgongyn/taxi-points-of-interest.png" class="article-image">
+  <img src="../../assets/images/osint-challenges/hacktoria/where-is-klumgongyn/taxi-points-of-interest.png" class="article-image">
   <li>But none of them lead me anywhere</li>
   <li>Returning to Open Street Map search, this time I query with Akumal Quintana Roo as the place just as a last ditch idea before moving on</li>
   <li>There are no results returned</li>
@@ -210,11 +210,11 @@
   <li>For instance, the location of a few images were located in the Maldives and there is a company called My Taxi in Addu City but, using street view there was nothing there at the pin</li>
   <li>Using this <a href="https://www.bellingcat.com/resources/how-tos/2023/05/08/finding-geolocation-leads-with-bellingcats-openstreetmap-search-tool/" target="_blank">OSM guide by Bellingcat</a> I know how to add custom tags which can really help narrow down my search</li>
   <li>As per the guide's suggestion, I use the OSM wiki to find the appropriate tags</li>
-  <img src="../../../../assets/images/osint-challenges/hacktoria/where-is-klumgongyn/osm-street-light-tag.png" class="article-image">
+  <img src="../../assets/images/osint-challenges/hacktoria/where-is-klumgongyn/osm-street-light-tag.png" class="article-image">
   <li>My first tag is taxi which I know is labeled as an amenity</li>
-  <img src="../../../../assets/images/osint-challenges/hacktoria/where-is-klumgongyn/osm-taxi-tag.png" class="article-image">
+  <img src="../../assets/images/osint-challenges/hacktoria/where-is-klumgongyn/osm-taxi-tag.png" class="article-image">
   <li>And this is how I put it into OSM search</li>
-  <img src="../../../../assets/images/osint-challenges/hacktoria/where-is-klumgongyn/taxi-tag-query.png" class="article-image">
+  <img src="../../assets/images/osint-challenges/hacktoria/where-is-klumgongyn/taxi-tag-query.png" class="article-image">
   <li>Next on the wiki, I search for street light since there is one far right in the challenge photo and thanks to one of Gralhix's OSINT challenges, I learned that street lamps are a great landmark to use as they are rarely moved - unlike parked vehicles</li>
   <li>Although again, the problem still is not having a narrowed down area to search for in OSM</li>
 </ul>  
@@ -225,14 +225,14 @@
  <li>In between the time spent doing this challenge, I've been reading up on the latest OSINT news and tools</li>
  <li>Notably, from The OSINT Newsletter - Issue #44 by Jake Creps on Substack, I learned of a new tool called GeoSpyAI</li>
  <li>Here's the results from plugging in the challenge photo:</li>
- <img src="../../../../assets/images/osint-challenges/hacktoria/where-is-klumgongyn/geo-spy-results-p1.png" class="article-image">
- <img src="../../../../assets/images/osint-challenges/hacktoria/where-is-klumgongyn/geo-spy-results-p2.png" class="article-image">
- <img src="../../../../assets/images/osint-challenges/hacktoria/where-is-klumgongyn/geo-spy-results-p3.png" class="article-image">
+ <img src="../../assets/images/osint-challenges/hacktoria/where-is-klumgongyn/geo-spy-results-p1.png" class="article-image">
+ <img src="../../assets/images/osint-challenges/hacktoria/where-is-klumgongyn/geo-spy-results-p2.png" class="article-image">
+ <img src="../../assets/images/osint-challenges/hacktoria/where-is-klumgongyn/geo-spy-results-p3.png" class="article-image">
  <li>The estimated coordinates it gave me didn't match the area that the photo seemed to be in, though the tool seems to believe the photo is in the Maldives which is similar to some of the results of Google Lens</li> 
  <li>But once again, I'm unsure how to confirm any of this information</li>
  <li>I think returning to the obvious, the blurred text and digits on the side of the building would be where I'll refocus my efforts</li>
  <li>At first I Googled "My Taxi 555 2122" and didn't return any results and then I Googled just "My Taxi 2122" and got some results along with a Medium blog post, so maybe I'm on the right track</li>
- <img src="../../../../assets/images/osint-challenges/hacktoria/where-is-klumgongyn/my-taxi-2122-search.png" class="article-image">
+ <img src="../../assets/images/osint-challenges/hacktoria/where-is-klumgongyn/my-taxi-2122-search.png" class="article-image">
  <li>And in the metadata of the Facebook link, I already see a familiar street and city that I saw in the results of Google Lens</li>
 </ul>
 </p>
@@ -240,22 +240,22 @@
 <p>27th February, 2024</p>
 <ul>
   <li>The Facebook page and post lets me see the whole string of numbers that is blurred out in the challenge photo: 688 2122</li>
-  <img src="../../../../assets/images/osint-challenges/hacktoria/where-is-klumgongyn/my-taxi-facebook.png" class="article-image">
+  <img src="../../assets/images/osint-challenges/hacktoria/where-is-klumgongyn/my-taxi-facebook.png" class="article-image">
   <li>But more importantly, that Facebook post shows me the logo of the company which matches exactly to the "My Taxi" pin that I dropped down to street view yet couldn't visually confirm it to connect to the challenge photo</li>
-  <img src="../../../../assets/images/osint-challenges/hacktoria/where-is-klumgongyn/same-car-logo.png" class="article-image">
+  <img src="../../assets/images/osint-challenges/hacktoria/where-is-klumgongyn/same-car-logo.png" class="article-image">
   <li>So now, a previous lead is directly linked to the challenge photo via the same logo that's shown in the Google Maps business page and in the Facebook account which I found by searching for "My Taxi 2122" based on what I saw from the challenge photo</li>
   <li>However, besides the matching red roofs in Google street view and the challenge photo, nothing about this so far leads to confirmation that the street name S.Hithadhoo is correct</li>
-  <img src="../../../../assets/images/osint-challenges/hacktoria/where-is-klumgongyn/matching-red-roofs.png" class="article-image">
+  <img src="../../assets/images/osint-challenges/hacktoria/where-is-klumgongyn/matching-red-roofs.png" class="article-image">
   <li>Scrolling further down the Facebook account, I find another post with the name Hithadhoo along with a hashtag in English that tells me it's a promotional post</li>
   <li>What are the chances this taxi service is in more than one place? What if some of these words are actually other branches located in different areas?</li>
-  <img src="../../../../assets/images/osint-challenges/hacktoria/where-is-klumgongyn/different-islands-neighborhoods.png" class="article-image">
+  <img src="../../assets/images/osint-challenges/hacktoria/where-is-klumgongyn/different-islands-neighborhoods.png" class="article-image">
   <li>Lo and behold, when I Google "in maradhoo" I get shown the island underneath Hithadhoo</li>
-  <img src="../../../../assets/images/osint-challenges/hacktoria/where-is-klumgongyn/islands-neighborhoods.png" class="article-image">
+  <img src="../../assets/images/osint-challenges/hacktoria/where-is-klumgongyn/islands-neighborhoods.png" class="article-image">
   <li>Randomly going into street view and clicking around, I do know I'm in the right country and possibly getting warmer when I spot the same green wooden planter</li>
-  <img src="../../../../assets/images/osint-challenges/hacktoria/where-is-klumgongyn/same-wooden-planter.png" class="article-image">
+  <img src="../../assets/images/osint-challenges/hacktoria/where-is-klumgongyn/same-wooden-planter.png" class="article-image">
   <li>On Google Maps I go to the satellite view to look out for the yellow sign/tower object in the distance, as well as the small red roof next to the street lamp and continue searching like that in street view mode</li>
   <li>Wow, okay. I did not think I'd find the yellow sign/tower object but by some random chance, after many, many minutes, and fed up with manually clicking up and down street view, I exit street view and then dropped back down to street view and immediately found it</li>
-  <img src="../../../../assets/images/osint-challenges/hacktoria/where-is-klumgongyn/golden-tower.png" class="article-image">
+  <img src="../../assets/images/osint-challenges/hacktoria/where-is-klumgongyn/golden-tower.png" class="article-image">
   <li>To explain how I narrowed down the search area, I used the fact that TinEye returned no results as well as examining the challenge photo, specifically the positioning and angle of how the photo was taken, and came to the conclusion that the challenge photo is most likely a screenshot of a location viewed in street view mode and was purposefully blurred to make it harder to identify</li>
   <li>Thus, when I narrowed down the country, I only searched the roads that have a street view to drop down in</li>
   <li>Initially, I searched the other islands/neighborhoods but returned  to Hithadhoo because of the Facebook account which links the island to the challenge photo</li>
@@ -263,11 +263,11 @@
   <li>Dropping down into Link Road, you can clearly see that it doesn't have paved sidewalks and it's too close to the shoreline</li>
   <li>So left with one other road, I searched until I found a tower-like structure that had a golden tip and it triggered the alarms in my head that were telling me I found the location</li>
   <li>And so to confirm it, from facing the golden tower, I turned around in street view and as I went down that direction, more and more "incriminating" evidence came to light, until I was looking at the very same angle as the challenge photo</li> 
-  <img src="../../../../assets/images/osint-challenges/hacktoria/where-is-klumgongyn/blue-strip-building.png" class="article-image">
-  <img src="../../../../assets/images/osint-challenges/hacktoria/where-is-klumgongyn/incriminating-evidence.png" class="article-image">
-  <img src="../../../../assets/images/osint-challenges/hacktoria/where-is-klumgongyn/x-marks-the-spot.png" class="article-image">
+  <img src="../../assets/images/osint-challenges/hacktoria/where-is-klumgongyn/blue-strip-building.png" class="article-image">
+  <img src="../../assets/images/osint-challenges/hacktoria/where-is-klumgongyn/incriminating-evidence.png" class="article-image">
+  <img src="../../assets/images/osint-challenges/hacktoria/where-is-klumgongyn/x-marks-the-spot.png" class="article-image">
   <li>Mission Accomplished. One resident shape-shifter successfully located</li>
-  <img src="../../../../assets/images/osint-challenges/hacktoria/where-is-klumgongyn/badge-wheres-klumgongyn.png" class="article-image">
+  <img src="../../assets/images/osint-challenges/hacktoria/where-is-klumgongyn/badge-wheres-klumgongyn.png" class="article-image">
 </ul>
 </p>
 <section id="section-4">

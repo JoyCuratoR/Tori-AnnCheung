@@ -66,7 +66,7 @@
 <p>This report details the open source investigation process undertaken to geolocate Maksim Kotova's favorite restaurant in Moscow, Russia. Through a combination of reverse image searching, online mapping tools, and careful analysis of visual details, the location of the restaurant was successfully identified.</p>
 <h2>Analysis:</h2>
 <p>The investigation began with searching for information on Maksim Kotova and his daughter Elena, but this approach yielded limited results. The focus then shifted to geolocating the provided image of Kotova's favorite restaurant.</p>
-	<img src="../../../../assets/images/osint-challenges/hacktoria/operation-warthog/zoomed-second-challenge-img.png" class="article-image">
+	<img src="../../assets/images/osint-challenges/hacktoria/operation-warthog/zoomed-second-challenge-img.png" class="article-image">
 	<figcaption>
 		One out of two of the images provided
 	</figcaption>
@@ -75,7 +75,7 @@
         <p><b>1.1 Observation:</b></p>
         <p>Initial attempts to geolocate the restaurant using TinEye, GeoSpy and Google Images were unsuccessful, with GeoSpy incorrectly identifying the location as Istanbul, Turkey.</p>
     </li>
-	<img src="../../../../assets/images/osint-challenges/hacktoria/operation-warthog/geospy-results.png" class="article-image">
+	<img src="../../assets/images/osint-challenges/hacktoria/operation-warthog/geospy-results.png" class="article-image">
 	<figcaption>
 		GeoSpy results
 	</figcaption>
@@ -87,32 +87,32 @@
         <p><b>1.3 Observation:</b></p>
         <p>A breakthrough occurred when a cropped portion of the image featuring the assumed restaurant sign and sidewalk was reverse image searched on Yandex, yielding a match.</p>
     </li>
-	<img src="../../../../assets/images/osint-challenges/hacktoria/operation-warthog/cropped-no-window.png" class="article-image">
+	<img src="../../assets/images/osint-challenges/hacktoria/operation-warthog/cropped-no-window.png" class="article-image">
 	<figcaption>
 		Cropped image to put into Yandex reverse image search tool
 	</figcaption>
 	<br></br>
-	<img src="../../../../assets/images/osint-challenges/hacktoria/operation-warthog/found-the-restaurant.png" class="article-image">
+	<img src="../../assets/images/osint-challenges/hacktoria/operation-warthog/found-the-restaurant.png" class="article-image">
 	<figcaption>
 		Found a matching image from Yandex
 	</figcaption>
 	<br></br>
-	<img src="../../../../assets/images/osint-challenges/hacktoria/operation-warthog/restaurant-confirmation.png" class="article-image">
+	<img src="../../assets/images/osint-challenges/hacktoria/operation-warthog/restaurant-confirmation.png" class="article-image">
 	<figcaption>
 		Enlarged matching image from Yandex for better visual confirmation
 	</figcaption>
 	<br></br>
-	<img src="../../../../assets/images/osint-challenges/hacktoria/operation-warthog/la-maree.png" class="article-image">
+	<img src="../../assets/images/osint-challenges/hacktoria/operation-warthog/la-maree.png" class="article-image">
 	<figcaption>
 		Google search result
 	</figcaption>
 	<br></br>
-	<img src="../../../../assets/images/osint-challenges/hacktoria/operation-warthog/la-maree-verification.png" class="article-image">
+	<img src="../../assets/images/osint-challenges/hacktoria/operation-warthog/la-maree-verification.png" class="article-image">
 	<figcaption>
 		First angle of the restaurant in Google Maps to visually confirm the evidence
 	</figcaption>
 	<br></br>
-	<img src="../../../../assets/images/osint-challenges/hacktoria/operation-warthog/la-maree-verification-2.png" class="article-image">
+	<img src="../../assets/images/osint-challenges/hacktoria/operation-warthog/la-maree-verification-2.png" class="article-image">
 	<figcaption>
 		Second angle of the restaurant in Google Maps to visually confirm the evidence. Highlighted in pink are the points of reference found in the original image.
 	</figcaption>

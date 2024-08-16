@@ -71,7 +71,7 @@
   </ul>
   <li>The coordinates just lead back to Hawes, so I focus on the social handle</li>
   <li>A Google Search tells me that OWoodflint (does it stand for Oliver Wood and Marcus Flint? Harry Potter fans, anyone?) has a Twitter/X account, a GitHub account and also appears on various blog posts that ties back to this challenge (no spoilers, please)</li>
-  <img src="../../../../assets/images/osint-challenges/tryhackme/OWoodflintSearch.png" class="article-image">
+  <img src="../../assets/images/osint-challenges/tryhackme/OWoodflintSearch.png" class="article-image">
   <li>I open both the Twitter account and GitHub account</li>
   <li>On Twitter I see there's a post about an BSSID B4:5D:50:AA:86:41, now having looked at the two hints provided in the challenge room, I know that the BSSID is important</li>
   <li>On GitHub, in the sole repository I find the email and the answer to "What is his personal email address?" and "What site did you find his email address on?"</li>
@@ -115,7 +115,7 @@
   <li>In Google I search "what class or tag would a password in an html file have?" and find the answer '<code>&lt;input type="password"&gt;</code>'</li>
   <li>Back to the page source, I hit CTR + F and type in '<code>&lt;input type="p &gt;</code>' which gives me no matches and then I try just '<code>&lt;input type=" &gt;</code>' but that just gives me four instances on the same line</li>
   <li>And after many minutes of careful scrolling and reading through a lot of web.archive.org links and other bits and bobs, I just happened upon the possibility to the answer of the last question</li>
-  <img src="../../../../assets/images/osint-challenges/tryhackme/OWoodflintSiteSource.png" class="article-image">
+  <img src="../../assets/images/osint-challenges/tryhackme/OWoodflintSiteSource.png" class="article-image">
   <li>Because TryHackMe let's me know that there is a period punctuation in the password.... <i>pennYDr0pper.!</i> seems rather suspicious (and correct!)</li> 
 </ul>
 
