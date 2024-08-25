@@ -1,16 +1,17 @@
 	
-	
+
+
 	body {
-        max-width: 1300px;
-        margin: 0 auto;
-        font-family: sans-serif;
-        color: black;
-        background-color: #FFFFFF;
-        padding-right: 20px; /* Add padding on the right side */
-    }
+		margin: 0; 
+		padding: 0;
+	}
 
-
-    h1,
+	img {
+		isplay: block; 
+		width: 100%;
+	}
+	
+	h1,
     h2,
 	h3,
 	h4,
@@ -19,7 +20,7 @@
     }
 
     p {
-        font-family: 'Helvetica', 'Georgia';
+        font-family: 'Georgia', serif;
     }
 
     .blue {
