@@ -17,7 +17,6 @@
 		<a href="../index.html" style="background-color: #439775;">Home</a>
         <a href="cv.html" style="background-color: #439775;">CV</a>
         <a href="blog.html" style="background-color: #439775;">Blog</a>
-		<a href="collections.html" style="background-color: #439775;">Collections</a>
     </div>
   
     <h1 style="text-align: center;">Tori-Ann Cheung</h1>
@@ -102,7 +101,7 @@
 	</ul>
 	<p><b>Reports</b></p>
 	<ul>
-		<li>SecureTheVillage Guide to Password Managers for Families & Individuals</li>
+		<li>SecureTheVillage Guide to Password Managers for Families & Individuals (<b>Completed but not externally available yet</b>)</li>
 		<li>SecureTheVillage Guide to Password Managers for Small Businesses & Non-profits (<b>In Progress</b>)</li>
 		<li>Camplight Safety Sessions: Online Scams - Tips to Safeguard Kids and Parents Against Online Scams | See the <a href="../assets/other/pdf/ScamsAgainstKids.pdf" target="_blank">Report</a><i> (Opens up a PDF)</i></li>
 	</ul>

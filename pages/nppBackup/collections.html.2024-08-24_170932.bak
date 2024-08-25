@@ -1,0 +1,119 @@
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="../assets/css/collections.css">
+</head>
+
+
+<!-- Title Cards -->
+
+<body>
+    <div class="collections-container">
+        <div class="collection">
+            <h2>Collection 1</h2>
+			<p>Description of the Collection</p>
+			<button class="view-all" data-subpage="collection1-subpage.html">View All</button>
+            <div class="slideshow">
+                <button class="arrow left">&lt;</button>
+                <div class="slides">
+                    <img src="../assets/images/osint-challenges/AAG/SG-FL041002/first-evidence/japanese-bridge-google-images-results.png" alt="Image 1">
+                    <img src="../assets/images/osint-challenges/AAG/SG-FL041002/first-evidence/full-details-hpmmuseum-japan.png" alt="Image 2">
+                    <img src="../assets/images/osint-challenges/AAG/SG-FL041002/first-evidence/google-results-hpmmuseum.png" alt="Image 3">
+					<img src="../assets/images/osint-challenges/AAG/SG-FL041002/first-evidence/hpmmuseum-japan.png" alt="Image 4">
+					<img src="../assets/images/osint-challenges/AAG/SG-FL041002/first-evidence/hpmmuseum-japan-points-of-reference.png" alt="Image 5">
+					<img src="../assets/images/osint-challenges/AAG/SG-FL041002/second-evidence/second-image-google-results.png" alt="Image 6">
+					<img src="../assets/images/osint-challenges/AAG/SG-FL041002/second-evidence/second-image.png" alt="Image 7">
+					<img src="../assets/images/osint-challenges/AAG/SG-FL041002/second-evidence/second-confirmation-points-of-reference.png" alt="Image 8">
+					<img src="../assets/images/osint-challenges/AAG/SG-FL041002/second-evidence/mainichi-newspaper.png" alt="Image 9">
+					<img src="../assets/images/osint-challenges/AAG/SG-FL041002/second-evidence/mainichi-newspaper2.png" alt="Image 10">
+					<img src="../assets/images/osint-challenges/AAG/SG-FL041002/other-images/original-image-points-of-reference.png" alt="Image 11">
+					<img src="../assets/images/osint-challenges/AAG/SG-FL041002/other-images/SG-FL041002.jpg" alt="Image 12">
+					<img src="../assets/images/osint-challenges/AAG/SG-FL041002/other-images/no-indexed-webpage.png" alt="Image 13">
+                </div>
+                <button class="arrow right">&gt;</button>
+            </div>
+        </div>
+        <!-- Repeat the above structure for Collection 2 and Collection 3 -->
+		
+<hr class="separator"> <!-- Add a separator line here -->
+
+<div class="collections-container">
+        <div class="collection">
+            <h2>Collection 2</h2>
+			<p>Description of the Collection</p>
+            <div class="slideshow">
+                <button class="arrow left">&lt;</button>
+                <div class="slides">
+                    <img src="image1.jpg" alt="Image 1">
+                    <img src="image2.jpg" alt="Image 2">
+                    <img src="image3.jpg" alt="Image 3">
+                </div>
+                <button class="arrow right">&gt;</button>
+            </div>
+            <button class="view-all" data-subpage="collection2-subpage.html">View All</button>
+        </div>
+		
+<hr class="separator"> <!-- Add a separator line here -->
+
+<div class="collections-container">
+        <div class="collection">
+            <h2>Collection 3</h2>
+			<p>Description of the Collection</p>
+            <div class="slideshow">
+                <button class="arrow left">&lt;</button>
+                <div class="slides">
+                    <img src="image1.jpg" alt="Image 1">
+                    <img src="image2.jpg" alt="Image 2">
+                    <img src="image3.jpg" alt="Image 3">
+                </div>
+                <button class="arrow right">&gt;</button>
+            </div>
+            <button class="view-all" data-subpage="collection3-subpage.html">View All</button>
+        </div>
+		
+		
+    </div>
+ 
+ <script>
+ document.querySelectorAll('.collection').forEach(collection => {
+    const slides = collection.querySelector('.slides');
+    const leftArrow = collection.querySelector('.left');
+    const rightArrow = collection.querySelector('.right');
+    const viewAll = collection.querySelector('.view-all');
+    let currentIndex = 0;
+
+    function updateSlidePosition() {
+        slides.style.transform = `translateX(-${currentIndex * 100}%)`;
+    }
+
+    leftArrow.addEventListener('click', () => {
+        if (currentIndex > 0) {
+            currentIndex--;
+            updateSlidePosition();
+        }
+    });
+
+    rightArrow.addEventListener('click', () => {
+        if (currentIndex < slides.children.length - 1) {
+            currentIndex++;
+            updateSlidePosition();
+        }
+    });
+
+    
+    viewAll.addEventListener('click', () => {
+        const subpageUrl = viewAll.getAttribute('data-subpage');
+        window.location.href = subpageUrl;
+    });
+});
+ 
+ </script>
+ 
+ 
+</body>
+
+
+
+
+

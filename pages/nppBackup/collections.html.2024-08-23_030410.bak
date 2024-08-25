@@ -1,0 +1,105 @@
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="../assets/css/collections.css">
+</head>
+
+
+<!-- Title Cards -->
+
+<body>
+    <div class="collections-container">
+        <div class="collection">
+            <h2>Collection 1</h2>
+            <div class="slideshow">
+                <button class="arrow left">&lt;</button>
+                <div class="slides">
+                    <img src="../assets/images/osint-challenges/sofia-santos/001/osint-exercise-001-big-picture.jpeg" alt="Image 1">
+                    <img src="../assets/images/osint-challenges/sofia-santos/001/osint-exercise-001-big-picture-markedup.jpeg" alt="Image 2">
+                    <img src="image3.jpg" alt="Image 3">
+                </div>
+                <button class="arrow right">&gt;</button>
+            </div>
+            <button class="view-all">View All</button>
+        </div>
+        <!-- Repeat the above structure for Collection 2 and Collection 3 -->
+		
+<hr class="separator"> <!-- Add a separator line here -->
+
+<div class="collections-container">
+        <div class="collection">
+            <h2>Collection 2</h2>
+            <div class="slideshow">
+                <button class="arrow left">&lt;</button>
+                <div class="slides">
+                    <img src="image1.jpg" alt="Image 1">
+                    <img src="image2.jpg" alt="Image 2">
+                    <img src="image3.jpg" alt="Image 3">
+                </div>
+                <button class="arrow right">&gt;</button>
+            </div>
+            <button class="view-all">View All</button>
+        </div>
+		
+<hr class="separator"> <!-- Add a separator line here -->
+
+<div class="collections-container">
+        <div class="collection">
+            <h2>Collection 3</h2>
+            <div class="slideshow">
+                <button class="arrow left">&lt;</button>
+                <div class="slides">
+                    <img src="image1.jpg" alt="Image 1">
+                    <img src="image2.jpg" alt="Image 2">
+                    <img src="image3.jpg" alt="Image 3">
+                </div>
+                <button class="arrow right">&gt;</button>
+            </div>
+            <button class="view-all">View All</button>
+        </div>
+		
+		
+    </div>
+ 
+ <script>
+ document.querySelectorAll('.collection').forEach(collection => {
+    const slides = collection.querySelector('.slides');
+    const leftArrow = collection.querySelector('.left');
+    const rightArrow = collection.querySelector('.right');
+    const viewAll = collection.querySelector('.view-all');
+    let currentIndex = 0;
+
+    function updateSlidePosition() {
+        slides.style.transform = `translateX(-${currentIndex * 100}%)`;
+    }
+
+    leftArrow.addEventListener('click', () => {
+        if (currentIndex > 0) {
+            currentIndex--;
+            updateSlidePosition();
+        }
+    });
+
+    rightArrow.addEventListener('click', () => {
+        if (currentIndex < slides.children.length - 1) {
+            currentIndex++;
+            updateSlidePosition();
+        }
+    });
+
+    viewAll.addEventListener('click', () => {
+        // Replace with your actual subpage URL
+        window.location.href = 'collection-subpage.html';
+    });
+});
+ 
+ </script>
+ 
+ 
+</body>
+
+
+
+
+

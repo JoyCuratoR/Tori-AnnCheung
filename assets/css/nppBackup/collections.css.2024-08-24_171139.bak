@@ -1,0 +1,54 @@
+.collections-container {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.collection {
+    margin-bottom: 40px;
+}
+
+.slideshow {
+    position: relative;
+    overflow: hidden;
+}
+
+.slides {
+    display: flex;
+    transition: transform 0.3s ease;
+}
+
+.slides img {
+    width: 100%;
+
+    object-fit: contain;
+    flex: 0 0 100%;
+}
+
+.arrow {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background: rgba(0, 0, 0, 0.5);
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.left {
+    left: 10px;
+}
+
+.right {
+    right: 10px;
+}
+
+.view-all {
+    display: block;
+    margin: 20px auto;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
